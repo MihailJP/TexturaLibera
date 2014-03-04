@@ -19,8 +19,8 @@ FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1393943070
-ModificationTime: 1393943070
+CreationTime: 1393943979
+ModificationTime: 1393944447
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -51,7 +51,7 @@ KernClass2: 25 9 "Kerning-1"
  7 h m n p
  7 b o v w
  5 c d e
- 5 i j l
+ 23 i j l dotlessi dotlessj
  1 s
  8 rrotunda
  3 A Y
@@ -72,7 +72,7 @@ KernClass2: 25 9 "Kerning-1"
  15 a c d e g o q x
  3 t z
  1 s
- 3 i j
+ 21 i j dotlessi dotlessj
  1 l
  13 b f h k longs
  15 m n p r u v w y

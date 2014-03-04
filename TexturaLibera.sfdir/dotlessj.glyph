@@ -1,0 +1,34 @@
+StartChar: dotlessj
+Encoding: 567 567 98
+Width: 200
+Flags: W
+HStem: -196 21G<5 45> 426 20G<80 120> 426 20G<80 120>
+VStem: 54 92<-75 350>
+LayerCount: 2
+Back
+SplineSet
+125 350 m 29
+ 75 400 l 29
+ 25 350 l 1053
+100 375 m 5
+ 100 -100 l 13
+ 50 -150 l 1053
+EndSplineSet
+Fore
+SplineSet
+146 400 m 1xd0
+ 171 375 l 1
+ 146 350 l 1
+ 146 -75 l 1
+ 25 -196 l 1
+ 4 -175 l 1
+ 54 -125 l 1
+ 54 350 l 1
+ 50 354 l 1
+ 0 304 l 1
+ -21 325 l 1
+ 100 446 l 1
+ 125 421 l 1
+ 146 400 l 1xd0
+EndSplineSet
+EndChar
