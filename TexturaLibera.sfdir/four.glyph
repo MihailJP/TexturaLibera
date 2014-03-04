@@ -16,7 +16,7 @@ SplineSet
  100 300 l 1
  100 0 l 1
  100 0 122 25 150 25 c 3
- 268 25 350 0 350.2 0 c 1025
+ 268 25 350 0 350.4 0 c 1025
 EndSplineSet
 Fore
 SplineSet
