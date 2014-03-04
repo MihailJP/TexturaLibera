@@ -3,13 +3,13 @@ Encoding: 40 40 8
 Width: 250
 Flags: W
 HStem: -196 21G<167 195>
-VStem: 4 92<118.24 429.402>
+VStem: 4 92<118 429>
 LayerCount: 2
 Back
 SplineSet
 200 700 m 21
  200 700 50 575 50 275 c 4
- 50 -25 200 -150 200.6 -150 c 1037
+ 50 -25 200 -150 200 -150 c 1037
 EndSplineSet
 Fore
 SplineSet
