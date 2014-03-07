@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1394195707
-ModificationTime: 1394196348
+ModificationTime: 1394197691
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -51,14 +51,14 @@ KernClass2: 26 9 "Kerning-1"
  5 longs
  20 h m n p ntilde thorn
  57 b o v w ograve oacute ocircumflex otilde odieresis oslash
- 51 c e ccedilla egrave eacute ecircumflex edieresis oe
+ 54 c e ae ccedilla egrave eacute ecircumflex edieresis oe
  9 d g q eth
  59 i j l igrave iacute icircumflex idieresis dotlessi dotlessj
  1 s
  8 rrotunda
- 74 A Y Agrave Aacute Acircumflex Atilde Adieresis Yacute Ydieresis Germandbls
+ 80 A Y Agrave Aacute Acircumflex Atilde Adieresis Aring Yacute Ydieresis Germandbls
  13 B D Eth Thorn
- 51 C E Ccedilla Egrave Eacute Ecircumflex Edieresis OE
+ 54 C E AE Ccedilla Egrave Eacute Ecircumflex Edieresis OE
  53 F O Ograve Oacute Ocircumflex Otilde Odieresis Oslash
  5 G H R
  41 I J L Igrave Iacute Icircumflex Idieresis
@@ -71,7 +71,7 @@ KernClass2: 26 9 "Kerning-1"
  37 U Ugrave Uacute Ucircumflex Udieresis
  5 V W X
  1 Z
- 160 a c d e g o q x agrave aacute acircumflex atilde adieresis ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash oe
+ 169 a c d e g o q x agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash oe
  3 t z
  1 s
  57 i j igrave iacute icircumflex idieresis dotlessi dotlessj
@@ -81,13 +81,12 @@ KernClass2: 26 9 "Kerning-1"
  8 rrotunda
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -100 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -50 {} -50 {} -100 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -100 {} -100 {} -100 {} 0 {} 0 {} -25 {} -100 {} -75 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} 25 {} 25 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -100 {} -25 {} 0 {} -50 {} -50 {} -50 {} 0 {} 0 {} -50 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -50 {} -50 {} 0 {} -25 {} -25 {} -25 {} -25 {} 0 {} -50 {} -100 {} -150 {} -75 {} -50 {} -50 {} -50 {} -50 {} 0 {} -100 {} -75 {} -150 {} -50 {} -50 {} -50 {} -75 {} -75 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -25 {} -50 {} 0 {} -50 {} -50 {} -75 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -75 {} 0 {} -50 {} -75 {} -75 {} -50 {} -50 {} -50 {} -50 {} -25 {} 0 {} -100 {} -50 {} -150 {} -25 {} -25 {} -50 {} -75 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -50 {} -25 {} -75 {} 0 {} -25 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -100 {} -100 {} -150 {} -75 {} -75 {} -100 {} -100 {} -100 {} 0 {} -25 {} -25 {} -25 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -75 {} -50 {} -75 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -75 {} -125 {} -50 {} -50 {} -50 {} -50 {} -75 {}
 Encoding: UnicodeBmp
-Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 32 16 4
+WinInfo: 64 16 4
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "abvmark"  "Mark positioning-1" 
