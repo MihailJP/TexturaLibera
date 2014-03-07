@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1394191488
-ModificationTime: 1394192411
+ModificationTime: 1394194231
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -49,21 +49,21 @@ KernClass2: 26 9 "Kerning-1"
  3 f r
  1 t
  5 longs
- 7 h m n p
- 43 b o v w ograve oacute ocircumflex odieresis
+ 14 h m n p ntilde
+ 50 b o v w ograve oacute ocircumflex otilde odieresis
  51 c e ccedilla egrave eacute ecircumflex edieresis oe
  5 d g q
  59 i j l igrave iacute icircumflex idieresis dotlessi dotlessj
  1 s
  8 rrotunda
- 57 A Y Agrave Aacute Acircumflex Adieresis Yacute Germandbls
+ 64 A Y Agrave Aacute Acircumflex Atilde Adieresis Yacute Germandbls
  3 B D
  51 C E Ccedilla Egrave Eacute Ecircumflex Edieresis OE
- 25 F O Ocircumflex Odieresis
+ 46 F O Ograve Oacute Ocircumflex Otilde Odieresis
  5 G H R
  41 I J L Igrave Iacute Icircumflex Idieresis
  1 K
- 3 M N
+ 10 M N Ntilde
  1 P
  1 Q
  1 S
@@ -71,13 +71,13 @@ KernClass2: 26 9 "Kerning-1"
  37 U Ugrave Uacute Ucircumflex Udieresis
  5 V W X
  1 Z
- 135 a c d e g o q x agrave aacute acircumflex adieresis ccedilla egrave eacute ecircumflex edieresis ograve oacute ocircumflex odieresis oe
+ 149 a c d e g o q x agrave aacute acircumflex atilde adieresis ccedilla egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis oe
  3 t z
  1 s
  57 i j igrave iacute icircumflex idieresis dotlessi dotlessj
  1 l
  24 b f h k germandbls longs
- 58 m n p r u v w y ugrave uacute ucircumflex udieresis yacute
+ 65 m n p r u v w y ntilde ugrave uacute ucircumflex udieresis yacute
  8 rrotunda
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -100 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -50 {} -50 {} -100 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -100 {} -100 {} -100 {} 0 {} 0 {} -25 {} -100 {} -75 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} 25 {} 25 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -100 {} -25 {} 0 {} -50 {} -50 {} -50 {} 0 {} 0 {} -50 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -50 {} -50 {} 0 {} -25 {} -25 {} -25 {} -25 {} 0 {} -50 {} -100 {} -150 {} -75 {} -50 {} -50 {} -50 {} -50 {} 0 {} -100 {} -75 {} -150 {} -50 {} -50 {} -50 {} -75 {} -75 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -25 {} -50 {} 0 {} -50 {} -50 {} -75 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -75 {} 0 {} -50 {} -75 {} -75 {} -50 {} -50 {} -50 {} -50 {} -25 {} 0 {} -100 {} -50 {} -150 {} -25 {} -25 {} -50 {} -75 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -50 {} -25 {} -75 {} 0 {} -25 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -100 {} -100 {} -150 {} -75 {} -75 {} -100 {} -100 {} -100 {} 0 {} -25 {} -25 {} -25 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -75 {} -50 {} -75 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -75 {} -125 {} -50 {} -50 {} -50 {} -50 {} -75 {}
 Encoding: UnicodeBmp
