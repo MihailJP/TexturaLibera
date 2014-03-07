@@ -1,0 +1,10 @@
+StartChar: oacute
+Encoding: 243 243 165
+Width: 400
+HStem: -46 21<155 195> 426 20<205 245 205 245> 479 267
+VStem: 54 92<85.195 275> 104 217 254 92<125 314.805>
+LayerCount: 2
+Fore
+Refer: 138 769 N 1 0 0 1 400 0 2
+Refer: 79 111 N 1 0 0 1 0 0 3
+EndChar
