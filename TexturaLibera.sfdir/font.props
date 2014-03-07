@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1394185310
-ModificationTime: 1394186884
+ModificationTime: 1394187709
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -55,7 +55,7 @@ KernClass2: 26 9 "Kerning-1"
  45 i j l icircumflex idieresis dotlessi dotlessj
  1 s
  8 rrotunda
- 32 A Y Agrave Acircumflex Adieresis
+ 43 A Y Agrave Acircumflex Adieresis Germandbls
  3 B D
  51 C E Ccedilla Egrave Eacute Ecircumflex Edieresis OE
  25 F O Ocircumflex Odieresis
