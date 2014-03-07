@@ -1,0 +1,12 @@
+StartChar: mcmb
+Encoding: 875 875 149
+Width: 0
+Flags: W
+HStem: 477 10.5<-310 -290 -210 -190 -110 -90> 713 10<-310 -290 -310 -290 -235 -215 -235 -215 -135 -115 -135 -115>
+VStem: -323 46<525 650 671 675> -223 46<525 650> -123 46<525 665.75>
+CounterMasks: 1 38
+AnchorPoint: "abvmark" -200 500 mark 0
+LayerCount: 2
+Fore
+Refer: 77 109 N 0.5 0 0 0.5 -350 500 2
+EndChar
