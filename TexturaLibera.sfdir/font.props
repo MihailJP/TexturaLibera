@@ -19,8 +19,8 @@ FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1394185310
-ModificationTime: 1394187709
+CreationTime: 1394189680
+ModificationTime: 1394190893
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -41,6 +41,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 260 0 0 "Mark positioning"  {"Mark positioning-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "Kerning"  {"Kerning-1" [100,15,4] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -89,4 +90,5 @@ FitToEm: 1
 WinInfo: 32 16 4
 BeginPrivate: 0
 EndPrivate
+AnchorClass2: "abvmark"  "Mark positioning-1" 
 EndSplineFont

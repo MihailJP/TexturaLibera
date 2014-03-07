@@ -2,7 +2,8 @@ StartChar: s
 Encoding: 115 115 83
 Width: 400
 Flags: W
-HStem: -46 21G<5 38 163 195> 4 92<90 161> 304 92<238 310> 426 20G<205 245 366 395> 426 20G<205 245 366 395>
+HStem: -46 21G<5 38 163 195> 4 92<90 161.5> 304 92<238 310> 426 20G<205 245 366 395> 426 20G<205 245 366 395>
+AnchorPoint: "abvmark" 200 500 basechar 0
 LayerCount: 2
 Back
 SplineSet

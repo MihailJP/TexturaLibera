@@ -2,8 +2,9 @@ StartChar: z
 Encoding: 122 122 90
 Width: 350
 Flags: W
-HStem: -246 92<154 193> -196 92<42 115> 304 92<88 160> 426 20G<55 95 216 245> 426 20G<55 95 216 245>
+HStem: -246 92<154.444 193.347> -196 92<42.5 115.5> 304 92<88.5 160.5> 426 20G<55 95 216 245> 426 20G<55 95 216 245>
 VStem: 204 92<-125 68>
+AnchorPoint: "abvmark" 150 500 basechar 0
 LayerCount: 2
 Back
 SplineSet
