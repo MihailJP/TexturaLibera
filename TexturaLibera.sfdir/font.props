@@ -19,8 +19,8 @@ FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1393947129
-ModificationTime: 1394185272
+CreationTime: 1394185310
+ModificationTime: 1394185701
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -49,31 +49,31 @@ KernClass2: 26 9 "Kerning-1"
  1 t
  5 longs
  7 h m n p
- 7 b o v w
- 6 c e oe
+ 19 b o v w ocircumflex
+ 15 c e ccedilla oe
  5 d g q
- 23 i j l dotlessi dotlessj
+ 45 i j l icircumflex idieresis dotlessi dotlessj
  1 s
  8 rrotunda
- 3 A Y
+ 22 A Y Agrave Acircumflex
  3 B D
- 6 C E OE
- 3 F O
+ 51 C E Ccedilla Egrave Eacute Ecircumflex Edieresis OE
+ 15 F O Ocircumflex
  5 G H R
- 5 I J L
+ 27 I J L Icircumflex Idieresis
  1 K
  3 M N
  1 P
  1 Q
  1 S
  1 T
- 1 U
+ 30 U Ugrave Ucircumflex Udieresis
  5 V W X
  1 Z
- 85 a c d e g o q x agrave acircumflex egrave eacute ecircumflex edieresis ocircumflex oe
+ 94 a c d e g o q x agrave acircumflex ccedilla egrave eacute ecircumflex edieresis ocircumflex oe
  3 t z
  1 s
- 34 i j icircumflex idieresis dotlessj
+ 43 i j icircumflex idieresis dotlessi dotlessj
  1 l
  13 b f h k longs
  44 m n p r u v w y ugrave ucircumflex udieresis
