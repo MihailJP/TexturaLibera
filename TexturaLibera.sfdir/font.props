@@ -19,8 +19,8 @@ FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1394191488
-ModificationTime: 1394195704
+CreationTime: 1394195707
+ModificationTime: 1394196348
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -50,7 +50,7 @@ KernClass2: 26 9 "Kerning-1"
  1 t
  5 longs
  20 h m n p ntilde thorn
- 50 b o v w ograve oacute ocircumflex otilde odieresis
+ 57 b o v w ograve oacute ocircumflex otilde odieresis oslash
  51 c e ccedilla egrave eacute ecircumflex edieresis oe
  9 d g q eth
  59 i j l igrave iacute icircumflex idieresis dotlessi dotlessj
@@ -59,7 +59,7 @@ KernClass2: 26 9 "Kerning-1"
  74 A Y Agrave Aacute Acircumflex Atilde Adieresis Yacute Ydieresis Germandbls
  13 B D Eth Thorn
  51 C E Ccedilla Egrave Eacute Ecircumflex Edieresis OE
- 46 F O Ograve Oacute Ocircumflex Otilde Odieresis
+ 53 F O Ograve Oacute Ocircumflex Otilde Odieresis Oslash
  5 G H R
  41 I J L Igrave Iacute Icircumflex Idieresis
  1 K
@@ -71,7 +71,7 @@ KernClass2: 26 9 "Kerning-1"
  37 U Ugrave Uacute Ucircumflex Udieresis
  5 V W X
  1 Z
- 153 a c d e g o q x agrave aacute acircumflex atilde adieresis ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oe
+ 160 a c d e g o q x agrave aacute acircumflex atilde adieresis ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash oe
  3 t z
  1 s
  57 i j igrave iacute icircumflex idieresis dotlessi dotlessj
