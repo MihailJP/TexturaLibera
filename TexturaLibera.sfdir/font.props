@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1394185310
-ModificationTime: 1394185701
+ModificationTime: 1394186884
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -49,16 +49,16 @@ KernClass2: 26 9 "Kerning-1"
  1 t
  5 longs
  7 h m n p
- 19 b o v w ocircumflex
+ 29 b o v w ocircumflex odieresis
  15 c e ccedilla oe
  5 d g q
  45 i j l icircumflex idieresis dotlessi dotlessj
  1 s
  8 rrotunda
- 22 A Y Agrave Acircumflex
+ 32 A Y Agrave Acircumflex Adieresis
  3 B D
  51 C E Ccedilla Egrave Eacute Ecircumflex Edieresis OE
- 15 F O Ocircumflex
+ 25 F O Ocircumflex Odieresis
  5 G H R
  27 I J L Icircumflex Idieresis
  1 K
@@ -70,12 +70,12 @@ KernClass2: 26 9 "Kerning-1"
  30 U Ugrave Ucircumflex Udieresis
  5 V W X
  1 Z
- 94 a c d e g o q x agrave acircumflex ccedilla egrave eacute ecircumflex edieresis ocircumflex oe
+ 114 a c d e g o q x agrave acircumflex adieresis ccedilla egrave eacute ecircumflex edieresis ocircumflex odieresis oe
  3 t z
  1 s
  43 i j icircumflex idieresis dotlessi dotlessj
  1 l
- 13 b f h k longs
+ 24 b f h k germandbls longs
  44 m n p r u v w y ugrave ucircumflex udieresis
  8 rrotunda
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -100 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -50 {} -50 {} -100 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -100 {} -100 {} -100 {} 0 {} 0 {} -25 {} -100 {} -75 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} 25 {} 25 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -100 {} -25 {} 0 {} -50 {} -50 {} -50 {} 0 {} 0 {} -50 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -50 {} -50 {} 0 {} -25 {} -25 {} -25 {} -25 {} 0 {} -50 {} -100 {} -150 {} -75 {} -50 {} -50 {} -50 {} -50 {} 0 {} -100 {} -75 {} -150 {} -50 {} -50 {} -50 {} -75 {} -75 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -25 {} -50 {} 0 {} -50 {} -50 {} -75 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -75 {} 0 {} -50 {} -75 {} -75 {} -50 {} -50 {} -50 {} -50 {} -25 {} 0 {} -100 {} -50 {} -150 {} -25 {} -25 {} -50 {} -75 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -50 {} -25 {} -75 {} 0 {} -25 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -100 {} -100 {} -150 {} -75 {} -75 {} -100 {} -100 {} -100 {} 0 {} -25 {} -25 {} -25 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -75 {} -50 {} -75 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -75 {} -125 {} -50 {} -50 {} -50 {} -50 {} -75 {}
