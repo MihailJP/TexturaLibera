@@ -41,6 +41,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 4 0 0 "Glyph composition"  {"Glyph composition-1"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "Ligatures"  {"Ligatures-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Historic ligatures"  {"Historic ligatures-1"  } ['hlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 5 0 0 "Remove dot from i and j"  {"Remove dot from i and j-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
