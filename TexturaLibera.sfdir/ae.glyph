@@ -1,9 +1,10 @@
 StartChar: ae
 Encoding: 230 230 189
-Width: 600
+Width: 550
 Flags: W
 HStem: -46 21G<130 170 355.177 395> 426 20G<180 300 405 445> 426 20G<180 300 405 445>
 VStem: 54 92<100 150> 254 92<167 179 272 325>
+AnchorPoint: "blwmark" 300 0 basechar 0
 AnchorPoint: "abvmark" 300 500 basechar 0
 LayerCount: 2
 Back
