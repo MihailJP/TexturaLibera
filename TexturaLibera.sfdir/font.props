@@ -19,8 +19,8 @@ FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1394252412
-ModificationTime: 1394257662
+CreationTime: 1394257808
+ModificationTime: 1394259295
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -41,8 +41,10 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 5 0 0 "Remove dot from i and j"  {"Remove dot from i and j-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "Dotless forms"  {"Dotless forms-1"  } []
 Lookup: 260 0 0 "Mark positioning"  {"Mark positioning-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "Kerning"  {"Kerning-1" [100,15,4] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 8 0 "Kerning"  {"Kerning-1" [100,15,4] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 27 9 "Kerning-1" 
@@ -81,6 +83,23 @@ KernClass2: 27 9 "Kerning-1"
  129 m n p r u v w y racute nacute ncaron rcaron uring uacute uhungarumlaut udieresis yacute ugrave ucircumflex ntilde ydieresis thorn
  8 rrotunda
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -100 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -50 {} -50 {} -100 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -100 {} -100 {} -100 {} 0 {} 0 {} -25 {} -100 {} -75 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} 25 {} 25 {} 0 {} 0 {} 0 {} 0 {} -100 {} -50 {} -100 {} -25 {} -25 {} -50 {} -100 {} -100 {} 0 {} -50 {} -25 {} -100 {} -25 {} 0 {} -50 {} -50 {} -50 {} 0 {} 0 {} -50 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -50 {} -50 {} 0 {} -25 {} -25 {} -25 {} -25 {} 0 {} -50 {} -100 {} -150 {} -75 {} -50 {} -50 {} -50 {} -50 {} 0 {} -100 {} -75 {} -150 {} -50 {} -50 {} -50 {} -75 {} -75 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -25 {} -50 {} 0 {} -50 {} -50 {} -75 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -75 {} 0 {} -50 {} -75 {} -75 {} -50 {} -50 {} -50 {} -50 {} -25 {} 0 {} -100 {} -50 {} -150 {} -25 {} -25 {} -50 {} -75 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -50 {} -25 {} -75 {} 0 {} -25 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -100 {} -100 {} -150 {} -75 {} -75 {} -100 {} -100 {} -100 {} 0 {} -25 {} -25 {} -25 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -75 {} -50 {} -75 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -75 {} -125 {} -50 {} -50 {} -50 {} -50 {} -75 {}
+ContextSub2: class "Remove dot from i and j-1"  3 3 3 1
+  Class: 3 i j
+  Class: 183 gravecmb acutecmb circumflexcmb tildecomb macroncmb brevecmb dotaccentcmb dieresiscmb ringcmb hungarumlautcmb caroncmb acmb ecmb icmb ocmb ucmb ccmb dcmb hcmb mcmb rcmb tcmb vcmb xcmb
+  BClass: 3 i j
+  BClass: 183 gravecmb acutecmb circumflexcmb tildecomb macroncmb brevecmb dotaccentcmb dieresiscmb ringcmb hungarumlautcmb caroncmb acmb ecmb icmb ocmb ucmb ccmb dcmb hcmb mcmb rcmb tcmb vcmb xcmb
+  FClass: 3 i j
+  FClass: 183 gravecmb acutecmb circumflexcmb tildecomb macroncmb brevecmb dotaccentcmb dieresiscmb ringcmb hungarumlautcmb caroncmb acmb ecmb icmb ocmb ucmb ccmb dcmb hcmb mcmb rcmb tcmb vcmb xcmb
+ 2 0 0
+  ClsList: 1 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Dotless forms" 
+  ClassNames: "All_Others"  "i_j"  "accents"  
+  BClassNames: "All_Others"  "i_j"  "accents"  
+  FClassNames: "All_Others"  "i_j"  "accents"  
+EndFPST
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
