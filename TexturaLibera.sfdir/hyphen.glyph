@@ -2,22 +2,22 @@ StartChar: hyphen
 Encoding: 45 45 13
 Width: 300
 Flags: W
-HStem: 254 117
+HStem: 154 117
 VStem: 54 192
 LayerCount: 2
 Back
 SplineSet
-100 300 m 25
- 200 325 l 1053
+100 200 m 29
+ 200 225 l 1053
 EndSplineSet
 Fore
 SplineSet
-54 275 m 1
- 125 346 l 1
- 225 371 l 1
- 246 350 l 1
- 175 279 l 1
- 75 254 l 1
- 54 275 l 1
+54 175 m 1
+ 125 246 l 1
+ 225 271 l 1
+ 246 250 l 1
+ 175 179 l 1
+ 75 154 l 1
+ 54 175 l 1
 EndSplineSet
 EndChar
