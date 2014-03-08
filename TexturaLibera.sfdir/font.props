@@ -19,8 +19,8 @@ FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1394257808
-ModificationTime: 1394259295
+CreationTime: 1394263969
+ModificationTime: 1394263969
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -41,6 +41,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 4 0 1 "Ligatures"  {"Ligatures-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 5 0 0 "Remove dot from i and j"  {"Remove dot from i and j-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Dotless forms"  {"Dotless forms-1"  } []
 Lookup: 260 0 0 "Mark positioning"  {"Mark positioning-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -48,14 +49,14 @@ Lookup: 258 8 0 "Kerning"  {"Kerning-1" [100,15,4] } ['kern' ('DFLT' <'dflt' > '
 MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 27 9 "Kerning-1" 
- 17 f r racute rcaron
- 10 t tcedilla
- 5 longs
+ 21 f_f f r racute rcaron
+ 30 f_t longs_t s_t c_t t tcedilla
+ 17 longs_longs longs
  34 h m n p nacute ncaron ntilde thorn
  71 b o v w oacute ocircumflex ohungarumlaut odieresis ograve otilde oslash
  83 c e cacute ccedilla ccaron eacute eogonek edieresis ecaron egrave ecircumflex oe ae
  16 d g q dcroat eth
- 73 i j l lslash lacute iacute icircumflex dotlessi dotlessj idieresis igrave
+ 149 f_i f_j f_l f_f_i f_f_l longs_i longs_j longs_l longs_longs_i longs_longs_l i j l igrave iacute icircumflex idieresis dotlessi lacute lslash dotlessj
  20 lcaron tcaron dcaron
  24 s sacute scaron scedilla
  8 rrotunda
@@ -74,12 +75,12 @@ KernClass2: 27 9 "Kerning-1"
  57 U Uring Uacute Uhungarumlaut Udieresis Ugrave Ucircumflex
  5 V W X
  26 Z Zacute Zcaron Zdotaccent
- 241 a c d e g o q x aogonek aacute acircumflex abreve adieresis cacute ccedilla ccaron eacute eogonek edieresis ecaron dcaron dcroat oacute ocircumflex ohungarumlaut odieresis agrave egrave ecircumflex oe ograve atilde otilde eth oslash aring ae
+ 245 c_t a c d e g o q x agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash abreve aogonek cacute ccaron dcaron dcroat eogonek ecaron ohungarumlaut oe
  44 t z tcaron zacute zcaron zdotaccent tcedilla
- 24 s sacute scaron scedilla
+ 28 s_t s sacute scedilla scaron
  57 i j igrave iacute icircumflex idieresis dotlessi dotlessj
  22 l lslash lcaron lacute
- 24 b f h k germandbls longs
+ 128 f_f f_i f_j f_l f_f_i f_f_l f_t longs_longs longs_i longs_j longs_l longs_longs_i longs_longs_l longs_t b f h k germandbls longs
  129 m n p r u v w y racute nacute ncaron rcaron uring uacute uhungarumlaut udieresis yacute ugrave ucircumflex ntilde ydieresis thorn
  8 rrotunda
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -100 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -50 {} -50 {} -100 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -100 {} -100 {} -100 {} 0 {} 0 {} -25 {} -100 {} -75 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} 25 {} 25 {} 0 {} 0 {} 0 {} 0 {} -100 {} -50 {} -100 {} -25 {} -25 {} -50 {} -100 {} -100 {} 0 {} -50 {} -25 {} -100 {} -25 {} 0 {} -50 {} -50 {} -50 {} 0 {} 0 {} -50 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -50 {} -50 {} 0 {} -25 {} -25 {} -25 {} -25 {} 0 {} -50 {} -100 {} -150 {} -75 {} -50 {} -50 {} -50 {} -50 {} 0 {} -100 {} -75 {} -150 {} -50 {} -50 {} -50 {} -75 {} -75 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -25 {} -50 {} 0 {} -50 {} -50 {} -75 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -75 {} 0 {} -50 {} -75 {} -75 {} -50 {} -50 {} -50 {} -50 {} -25 {} 0 {} -100 {} -50 {} -150 {} -25 {} -25 {} -50 {} -75 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -50 {} -25 {} -75 {} 0 {} -25 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -100 {} -100 {} -150 {} -75 {} -75 {} -100 {} -100 {} -100 {} 0 {} -25 {} -25 {} -25 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -75 {} -50 {} -75 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -75 {} -125 {} -50 {} -50 {} -50 {} -50 {} -75 {}
@@ -111,5 +112,5 @@ WidthSeparation: 150
 WinInfo: 32 16 4
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "abvmark"  "Mark positioning-1" 
+AnchorClass2: "test1"  "" "abvmark"  "Mark positioning-1" 
 EndSplineFont
