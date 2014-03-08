@@ -5,6 +5,8 @@ Flags: W
 HStem: -46 21G<130 170 355.177 395> 426 20G<180 300 405 445> 426 20G<180 300 405 445>
 VStem: 54 92<100 150> 254 92<100 179 272 325> 454 92<125 314.805>
 CounterMasks: 1 1c
+AnchorPoint: "blwmark" 300 0 basechar 0
+AnchorPoint: "abvmark" 300 500 basechar 0
 LayerCount: 2
 Back
 SplineSet

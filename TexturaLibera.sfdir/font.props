@@ -19,8 +19,8 @@ FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1394290055
-ModificationTime: 1394290945
+CreationTime: 1394291080
+ModificationTime: 1394292315
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -55,7 +55,7 @@ KernClass2: 27 9 "Kerning-1"
  30 t tcedilla c_t f_t longs_t s_t
  17 longs longs_longs
  50 h m n p ntilde thorn nacute ncaron a_n a_p a_thorn
- 83 b o v w ograve oacute ocircumflex otilde odieresis oslash ohungarumlaut a_o a_v b_b
+ 149 b o v w ograve oacute ocircumflex otilde odieresis oslash ohungarumlaut a_o a_v aohungarumlaut avhungarumlaut b_b aoacute avacute aodotbelow avogonek
  204 c e ae ccedilla egrave eacute ecircumflex edieresis cacute ccaron eogonek ecaron oe aemacron aeacute aemacronacute aemacronbreve aebreve aeogonek aehungarumlaut aedieresis aedotaccent aering aeogonekacute
  24 d g q eth dcroat b_g a_g
  153 i j l igrave iacute icircumflex idieresis dotlessi lacute lslash dotlessj longs_i longs_l longs_longs_i longs_longs_l f_j a_l longs_j f_i f_l f_f_i f_f_l
@@ -77,7 +77,7 @@ KernClass2: 27 9 "Kerning-1"
  57 U Ugrave Uacute Ucircumflex Udieresis Uring Uhungarumlaut
  5 V W X
  26 Z Zacute Zdotaccent Zcaron
- 669 a c d e g o q x agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash amacron abreve aogonek cacute ccaron dcaron dcroat eogonek ecaron ohungarumlaut oe aemacron aeacute adotaccent ascript adotbelow ahookabove abreveacute aedotbelow a_a a_o a_u a_v a_y aogonekacute amacronacute amacronbreve adieresiscircumflex adotbelowdieresis aringcircumflex ahungarumlaut aemacronacute aemacronbreve aebreve aeogonek aehungarumlaut aedieresis aedotaccent aering aeogonekacute adotaccentacute c_t a_f a_g a_l a_n a_p a_r a_thorn aaacute aahungarumlaut aadotaccent aadotbelow aadieresis
+ 777 a c d e g o q x agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash amacron abreve aogonek cacute ccaron dcaron dcroat eogonek ecaron ohungarumlaut oe aemacron aeacute adotaccent ascript adotbelow ahookabove abreveacute aedotbelow a_a a_o a_u a_v a_y aogonekacute amacronacute amacronbreve adieresiscircumflex adotbelowdieresis aringcircumflex ahungarumlaut aemacronacute aemacronbreve aebreve aeogonek aehungarumlaut aedieresis aedotaccent aering aeogonekacute aohungarumlaut avhungarumlaut adotaccentacute c_t a_f a_g a_l a_n a_p a_r a_thorn aaacute aoacute auacute avacute aahungarumlaut aadotaccent aydotaccent aadotbelow aodotbelow audotbelow avogonek aydotbelow aadieresis
  44 t z tcedilla tcaron zacute zdotaccent zcaron
  28 s sacute scedilla scaron s_t
  57 i j igrave iacute icircumflex idieresis dotlessi dotlessj
