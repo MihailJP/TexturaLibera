@@ -19,8 +19,8 @@ FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1394268621
-ModificationTime: 1394268824
+CreationTime: 1394268842
+ModificationTime: 1394269642
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -50,39 +50,39 @@ Lookup: 258 8 0 "Kerning"  {"Kerning-1" [100,15,4] } ['kern' ('DFLT' <'dflt' > '
 MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 27 9 "Kerning-1" 
- 29 a_f a_r f r racute rcaron f_f
- 30 f_t longs_t s_t c_t t tcedilla
- 17 longs_longs longs
- 50 a_n a_p a_thorn h m n p ntilde thorn nacute ncaron
- 79 a_o a_v b o v w ograve oacute ocircumflex otilde odieresis oslash ohungarumlaut
- 83 c e cacute ccedilla ccaron eacute eogonek edieresis ecaron egrave ecircumflex oe ae
- 20 a_g d g q eth dcroat
- 153 a_l i j l igrave iacute icircumflex idieresis dotlessi lacute lslash dotlessj longs_i longs_l longs_longs_i longs_longs_l f_j longs_j f_i f_l f_f_i f_f_l
- 20 lcaron tcaron dcaron
- 24 s sacute scaron scedilla
+ 29 f r racute rcaron a_f a_r f_f
+ 30 t tcedilla c_t f_t longs_t s_t
+ 17 longs longs_longs
+ 50 h m n p ntilde thorn nacute ncaron a_n a_p a_thorn
+ 83 b o v w ograve oacute ocircumflex otilde odieresis oslash ohungarumlaut a_o a_v b_b
+ 83 c e ae ccedilla egrave eacute ecircumflex edieresis cacute ccaron eogonek ecaron oe
+ 24 d g q eth dcroat b_g a_g
+ 153 i j l igrave iacute icircumflex idieresis dotlessi lacute lslash dotlessj longs_i longs_l longs_longs_i longs_longs_l f_j a_l longs_j f_i f_l f_f_i f_f_l
+ 20 dcaron lcaron tcaron
+ 24 s sacute scedilla scaron
  8 rrotunda
- 95 A Y Aogonek Aacute Acircumflex Abreve Adieresis Yacute Agrave Germandbls Atilde Ydieresis Aring
- 27 B D Dcaron Dcroat Thorn Eth
- 83 C E Cacute Ccedilla Ccaron Eacute Eogonek Edieresis Ecaron OE Egrave Ecircumflex AE
- 67 F O Oacute Ocircumflex Ohungarumlaut Odieresis Ograve Otilde Oslash
+ 95 A Y Agrave Aacute Acircumflex Atilde Adieresis Aring Yacute Abreve Aogonek Ydieresis Germandbls
+ 27 B D Eth Thorn Dcaron Dcroat
+ 83 C E AE Ccedilla Egrave Eacute Ecircumflex Edieresis Cacute Ccaron Eogonek Ecaron OE
+ 67 F O Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ohungarumlaut
  19 G H R Racute Rcaron
- 62 I J L Lslash Lcaron Lacute Iacute Icircumflex Idieresis Igrave
+ 62 I J L Igrave Iacute Icircumflex Idieresis Lacute Lcaron Lslash
  1 K
- 24 M N Nacute Ncaron Ntilde
+ 24 M N Ntilde Nacute Ncaron
  1 P
  1 Q
- 24 S Sacute Scaron Scedilla
- 17 T Tcaron Tcedilla
- 57 U Uring Uacute Uhungarumlaut Udieresis Ugrave Ucircumflex
+ 24 S Sacute Scedilla Scaron
+ 17 T Tcedilla Tcaron
+ 57 U Ugrave Uacute Ucircumflex Udieresis Uring Uhungarumlaut
  5 V W X
- 26 Z Zacute Zcaron Zdotaccent
- 297 a_a a_f a_g a_l a_n a_o a_p a_r a_u a_v a_y a_thorn a c d e g o q x agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash abreve aogonek cacute ccaron dcaron dcroat eogonek ecaron ohungarumlaut oe c_t
- 44 t z tcaron zacute zcaron zdotaccent tcedilla
- 28 s_t s sacute scedilla scaron
+ 26 Z Zacute Zdotaccent Zcaron
+ 297 a c d e g o q x agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash abreve aogonek cacute ccaron dcaron dcroat eogonek ecaron ohungarumlaut oe a_a a_o a_u a_v a_y c_t a_f a_g a_l a_n a_p a_r a_thorn
+ 44 t z tcedilla tcaron zacute zdotaccent zcaron
+ 28 s sacute scedilla scaron s_t
  57 i j igrave iacute icircumflex idieresis dotlessi dotlessj
- 22 l lslash lcaron lacute
- 128 f_f f_i f_j f_l f_f_i f_f_l f_t longs_longs longs_i longs_j longs_l longs_longs_i longs_longs_l longs_t b f h k germandbls longs
- 129 m n p r u v w y racute nacute ncaron rcaron uring uacute uhungarumlaut udieresis yacute ugrave ucircumflex ntilde ydieresis thorn
+ 22 l lacute lcaron lslash
+ 128 b f h k germandbls longs longs_i longs_l longs_longs longs_longs_i longs_longs_l f_j f_t longs_j f_f f_i f_l f_f_i f_f_l longs_t
+ 129 m n p r u v w y ntilde ugrave uacute ucircumflex udieresis yacute thorn ydieresis nacute ncaron racute rcaron uring uhungarumlaut
  8 rrotunda
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -100 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -50 {} -50 {} -100 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -100 {} -100 {} -100 {} 0 {} 0 {} -25 {} -100 {} -75 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} 25 {} 25 {} 0 {} 0 {} 0 {} 0 {} -100 {} -50 {} -100 {} -25 {} -25 {} -50 {} -100 {} -100 {} 0 {} -50 {} -25 {} -100 {} -25 {} 0 {} -50 {} -50 {} -50 {} 0 {} 0 {} -50 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -50 {} -50 {} 0 {} -25 {} -25 {} -25 {} -25 {} 0 {} -50 {} -100 {} -150 {} -75 {} -50 {} -50 {} -50 {} -50 {} 0 {} -100 {} -75 {} -150 {} -50 {} -50 {} -50 {} -75 {} -75 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -25 {} -50 {} 0 {} -50 {} -50 {} -75 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -75 {} 0 {} -50 {} -75 {} -75 {} -50 {} -50 {} -50 {} -50 {} -25 {} 0 {} -100 {} -50 {} -150 {} -25 {} -25 {} -50 {} -75 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -50 {} -25 {} -75 {} 0 {} -25 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -100 {} -100 {} -150 {} -75 {} -75 {} -100 {} -100 {} -100 {} 0 {} -25 {} -25 {} -25 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -75 {} -50 {} -75 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -75 {} -125 {} -50 {} -50 {} -50 {} -50 {} -75 {}
 ContextSub2: class "Remove dot from i and j-1"  3 3 3 1
@@ -103,14 +103,13 @@ ContextSub2: class "Remove dot from i and j-1"  3 3 3 1
   FClassNames: "All_Others"  "i_j"  "accents"  
 EndFPST
 Encoding: UnicodeBmp
-Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 150
-WinInfo: 32 16 4
+WinInfo: 64 16 4
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "test1"  "" "abvmark"  "Mark positioning-1" 
