@@ -19,8 +19,8 @@ FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1394208449
-ModificationTime: 1394249744
+CreationTime: 1394252412
+ModificationTime: 1394257662
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -45,41 +45,42 @@ Lookup: 260 0 0 "Mark positioning"  {"Mark positioning-1"  } ['mark' ('DFLT' <'d
 Lookup: 258 0 0 "Kerning"  {"Kerning-1" [100,15,4] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 26 9 "Kerning-1" 
- 3 f r
- 1 t
+KernClass2: 27 9 "Kerning-1" 
+ 17 f r racute rcaron
+ 10 t tcedilla
  5 longs
- 20 h m n p ntilde thorn
- 57 b o v w ograve oacute ocircumflex otilde odieresis oslash
- 54 c e ae ccedilla egrave eacute ecircumflex edieresis oe
- 9 d g q eth
- 59 i j l igrave iacute icircumflex idieresis dotlessi dotlessj
- 8 s scaron
+ 34 h m n p nacute ncaron ntilde thorn
+ 71 b o v w oacute ocircumflex ohungarumlaut odieresis ograve otilde oslash
+ 83 c e cacute ccedilla ccaron eacute eogonek edieresis ecaron egrave ecircumflex oe ae
+ 16 d g q dcroat eth
+ 73 i j l lslash lacute iacute icircumflex dotlessi dotlessj idieresis igrave
+ 20 lcaron tcaron dcaron
+ 24 s sacute scaron scedilla
  8 rrotunda
- 80 A Y Agrave Aacute Acircumflex Atilde Adieresis Aring Yacute Ydieresis Germandbls
- 13 B D Eth Thorn
- 54 C E AE Ccedilla Egrave Eacute Ecircumflex Edieresis OE
- 53 F O Ograve Oacute Ocircumflex Otilde Odieresis Oslash
- 5 G H R
- 41 I J L Igrave Iacute Icircumflex Idieresis
+ 95 A Y Aogonek Aacute Acircumflex Abreve Adieresis Yacute Agrave Germandbls Atilde Ydieresis Aring
+ 27 B D Dcaron Dcroat Thorn Eth
+ 83 C E Cacute Ccedilla Ccaron Eacute Eogonek Edieresis Ecaron OE Egrave Ecircumflex AE
+ 67 F O Oacute Ocircumflex Ohungarumlaut Odieresis Ograve Otilde Oslash
+ 19 G H R Racute Rcaron
+ 62 I J L Lslash Lcaron Lacute Iacute Icircumflex Idieresis Igrave
  1 K
- 10 M N Ntilde
+ 24 M N Nacute Ncaron Ntilde
  1 P
  1 Q
- 8 S Scaron
- 1 T
- 37 U Ugrave Uacute Ucircumflex Udieresis
+ 24 S Sacute Scaron Scedilla
+ 17 T Tcaron Tcedilla
+ 57 U Uring Uacute Uhungarumlaut Udieresis Ugrave Ucircumflex
  5 V W X
- 8 Z Zcaron
- 169 a c d e g o q x agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash oe
- 10 t z zcaron
- 8 s scaron
+ 26 Z Zacute Zcaron Zdotaccent
+ 241 a c d e g o q x aogonek aacute acircumflex abreve adieresis cacute ccedilla ccaron eacute eogonek edieresis ecaron dcaron dcroat oacute ocircumflex ohungarumlaut odieresis agrave egrave ecircumflex oe ograve atilde otilde eth oslash aring ae
+ 44 t z tcaron zacute zcaron zdotaccent tcedilla
+ 24 s sacute scaron scedilla
  57 i j igrave iacute icircumflex idieresis dotlessi dotlessj
- 1 l
+ 22 l lslash lcaron lacute
  24 b f h k germandbls longs
- 81 m n p r u v w y ntilde ugrave uacute ucircumflex udieresis yacute thorn ydieresis
+ 129 m n p r u v w y racute nacute ncaron rcaron uring uacute uhungarumlaut udieresis yacute ugrave ucircumflex ntilde ydieresis thorn
  8 rrotunda
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -100 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -50 {} -50 {} -100 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -100 {} -100 {} -100 {} 0 {} 0 {} -25 {} -100 {} -75 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} 25 {} 25 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -100 {} -25 {} 0 {} -50 {} -50 {} -50 {} 0 {} 0 {} -50 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -50 {} -50 {} 0 {} -25 {} -25 {} -25 {} -25 {} 0 {} -50 {} -100 {} -150 {} -75 {} -50 {} -50 {} -50 {} -50 {} 0 {} -100 {} -75 {} -150 {} -50 {} -50 {} -50 {} -75 {} -75 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -25 {} -50 {} 0 {} -50 {} -50 {} -75 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -75 {} 0 {} -50 {} -75 {} -75 {} -50 {} -50 {} -50 {} -50 {} -25 {} 0 {} -100 {} -50 {} -150 {} -25 {} -25 {} -50 {} -75 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -50 {} -25 {} -75 {} 0 {} -25 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -100 {} -100 {} -150 {} -75 {} -75 {} -100 {} -100 {} -100 {} 0 {} -25 {} -25 {} -25 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -75 {} -50 {} -75 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -75 {} -125 {} -50 {} -50 {} -50 {} -50 {} -75 {}
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -100 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -50 {} -50 {} -100 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -100 {} -100 {} -100 {} 0 {} 0 {} -25 {} -100 {} -75 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} 25 {} 25 {} 0 {} 0 {} 0 {} 0 {} -100 {} -50 {} -100 {} -25 {} -25 {} -50 {} -100 {} -100 {} 0 {} -50 {} -25 {} -100 {} -25 {} 0 {} -50 {} -50 {} -50 {} 0 {} 0 {} -50 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -50 {} -50 {} 0 {} -25 {} -25 {} -25 {} -25 {} 0 {} -50 {} -100 {} -150 {} -75 {} -50 {} -50 {} -50 {} -50 {} 0 {} -100 {} -75 {} -150 {} -50 {} -50 {} -50 {} -75 {} -75 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -25 {} -50 {} 0 {} -50 {} -50 {} -75 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -75 {} 0 {} -50 {} -75 {} -75 {} -50 {} -50 {} -50 {} -50 {} -25 {} 0 {} -100 {} -50 {} -150 {} -25 {} -25 {} -50 {} -75 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -50 {} -25 {} -75 {} 0 {} -25 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -100 {} -100 {} -150 {} -75 {} -75 {} -100 {} -100 {} -100 {} 0 {} -25 {} -25 {} -25 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -75 {} -50 {} -75 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -75 {} -125 {} -50 {} -50 {} -50 {} -50 {} -75 {}
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none

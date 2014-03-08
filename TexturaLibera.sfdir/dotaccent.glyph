@@ -1,0 +1,21 @@
+StartChar: dotaccent
+Encoding: 729 729 269
+Width: 400
+Flags: W
+HStem: 504 142
+VStem: 129 142
+LayerCount: 2
+Back
+SplineSet
+175 600 m 25
+ 225 550 l 1049
+EndSplineSet
+Fore
+SplineSet
+129 575 m 1
+ 200 646 l 1
+ 271 575 l 1
+ 200 504 l 1
+ 129 575 l 1
+EndSplineSet
+EndChar
