@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1394263969
-ModificationTime: 1394263969
+ModificationTime: 1394265921
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -42,6 +42,7 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 4 0 1 "Ligatures"  {"Ligatures-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "Historic ligatures"  {"Historic ligatures-1"  } ['hlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 5 0 0 "Remove dot from i and j"  {"Remove dot from i and j-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Dotless forms"  {"Dotless forms-1"  } []
 Lookup: 260 0 0 "Mark positioning"  {"Mark positioning-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -49,14 +50,14 @@ Lookup: 258 8 0 "Kerning"  {"Kerning-1" [100,15,4] } ['kern' ('DFLT' <'dflt' > '
 MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 27 9 "Kerning-1" 
- 21 f_f f r racute rcaron
+ 29 a_f a_r f r racute rcaron f_f
  30 f_t longs_t s_t c_t t tcedilla
  17 longs_longs longs
- 34 h m n p nacute ncaron ntilde thorn
- 71 b o v w oacute ocircumflex ohungarumlaut odieresis ograve otilde oslash
+ 50 a_n a_p a_thorn h m n p ntilde thorn nacute ncaron
+ 79 a_o a_v b o v w ograve oacute ocircumflex otilde odieresis oslash ohungarumlaut
  83 c e cacute ccedilla ccaron eacute eogonek edieresis ecaron egrave ecircumflex oe ae
- 16 d g q dcroat eth
- 149 f_i f_j f_l f_f_i f_f_l longs_i longs_j longs_l longs_longs_i longs_longs_l i j l igrave iacute icircumflex idieresis dotlessi lacute lslash dotlessj
+ 20 a_g d g q eth dcroat
+ 153 a_l i j l igrave iacute icircumflex idieresis dotlessi lacute lslash dotlessj longs_i longs_l longs_longs_i longs_longs_l f_j longs_j f_i f_l f_f_i f_f_l
  20 lcaron tcaron dcaron
  24 s sacute scaron scedilla
  8 rrotunda
@@ -75,7 +76,7 @@ KernClass2: 27 9 "Kerning-1"
  57 U Uring Uacute Uhungarumlaut Udieresis Ugrave Ucircumflex
  5 V W X
  26 Z Zacute Zcaron Zdotaccent
- 245 c_t a c d e g o q x agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash abreve aogonek cacute ccaron dcaron dcroat eogonek ecaron ohungarumlaut oe
+ 297 a_a a_f a_g a_l a_n a_o a_p a_r a_u a_v a_y a_thorn a c d e g o q x agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash abreve aogonek cacute ccaron dcaron dcroat eogonek ecaron ohungarumlaut oe c_t
  44 t z tcaron zacute zcaron zdotaccent tcedilla
  28 s_t s sacute scedilla scaron
  57 i j igrave iacute icircumflex idieresis dotlessi dotlessj
