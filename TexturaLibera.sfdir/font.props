@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1394293017
-ModificationTime: 1394293209
+ModificationTime: 1394293813
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -55,7 +55,7 @@ KernClass2: 27 9 "Kerning-1"
  30 t tcedilla c_t f_t longs_t s_t
  17 longs longs_longs
  50 h m n p ntilde thorn nacute ncaron a_n a_p a_thorn
- 157 b o v w ograve oacute ocircumflex otilde odieresis oslash omacron ohungarumlaut a_o a_v aohungarumlaut avhungarumlaut b_b aoacute avacute aodotbelow avogonek
+ 185 b o v w ograve oacute ocircumflex otilde odieresis oslash omacron ohungarumlaut bdotaccent bdotbelow a_o a_v bacute aohungarumlaut avhungarumlaut b_b aoacute avacute aodotbelow avogonek
  212 c e ae ccedilla egrave eacute ecircumflex edieresis cacute ccaron emacron eogonek ecaron oe aemacron aeacute aemacronacute aemacronbreve aebreve aeogonek aehungarumlaut aedieresis aedotaccent aering aeogonekacute
  24 d g q eth dcroat b_g a_g
  161 i j l igrave iacute icircumflex idieresis imacron dotlessi lacute lslash dotlessj longs_i longs_l longs_longs_i longs_longs_l f_j a_l longs_j f_i f_l f_f_i f_f_l
@@ -63,7 +63,7 @@ KernClass2: 27 9 "Kerning-1"
  24 s sacute scedilla scaron
  8 rrotunda
  222 A Y Agrave Aacute Acircumflex Atilde Adieresis Aring Yacute Amacron Abreve Aogonek Ydieresis Adotaccent Germandbls Adotbelow Ahookabove Abreveacute Aogonekacute Amacronacute Amacronbreve Ahungarumlaut Aecmb Adotaccentacute
- 27 B D Eth Thorn Dcaron Dcroat
+ 55 B D Eth Thorn Dcaron Dcroat Bdotaccent Bdotbelow Bacute
  202 C E AE Ccedilla Egrave Eacute Ecircumflex Edieresis Cacute Ccaron Emacron Eogonek Ecaron OE AEmacron AEacute AEdotbelow AEmacronacute AEmacronbreve AEbreve AEogonek AEhungarumlaut AEdieresis AEdotaccent
  67 F O Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ohungarumlaut
  19 G H R Racute Rcaron
@@ -82,7 +82,7 @@ KernClass2: 27 9 "Kerning-1"
  28 s sacute scedilla scaron s_t
  65 i j igrave iacute icircumflex idieresis imacron dotlessi dotlessj
  22 l lacute lcaron lslash
- 128 b f h k germandbls longs longs_i longs_l longs_longs longs_longs_i longs_longs_l f_j f_t longs_j f_f f_i f_l f_f_i f_f_l longs_t
+ 156 b f h k germandbls longs bdotaccent bdotbelow bacute longs_i longs_l longs_longs longs_longs_i longs_longs_l f_j f_t longs_j f_f f_i f_l f_f_i f_f_l longs_t
  137 m n p r u v w y ntilde ugrave uacute ucircumflex udieresis yacute thorn ydieresis nacute ncaron racute rcaron umacron uring uhungarumlaut
  8 rrotunda
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -100 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -50 {} -50 {} -100 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -100 {} -100 {} -100 {} 0 {} 0 {} -25 {} -100 {} -75 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} 25 {} 25 {} 0 {} 0 {} 0 {} 0 {} -100 {} -50 {} -100 {} -25 {} -25 {} -50 {} -100 {} -100 {} 0 {} -50 {} -25 {} -100 {} -25 {} 0 {} -50 {} -50 {} -50 {} 0 {} 0 {} -50 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -50 {} -50 {} 0 {} -25 {} -25 {} -25 {} -25 {} 0 {} -50 {} -100 {} -150 {} -75 {} -50 {} -50 {} -50 {} -50 {} 0 {} -100 {} -75 {} -150 {} -50 {} -50 {} -50 {} -75 {} -75 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -25 {} -50 {} 0 {} -50 {} -50 {} -75 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -75 {} 0 {} -50 {} -75 {} -75 {} -50 {} -50 {} -50 {} -50 {} -25 {} 0 {} -100 {} -50 {} -150 {} -25 {} -25 {} -50 {} -75 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -50 {} -25 {} -75 {} 0 {} -25 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -100 {} -100 {} -150 {} -75 {} -75 {} -100 {} -100 {} -100 {} 0 {} -25 {} -25 {} -25 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -75 {} -50 {} -75 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -75 {} -125 {} -50 {} -50 {} -50 {} -50 {} -75 {}
