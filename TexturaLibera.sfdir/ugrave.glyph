@@ -8,4 +8,5 @@ LayerCount: 2
 Fore
 Refer: 64 96 N 1 0 0 1 0 0 2
 Refer: 85 117 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" u gravecmb
 EndChar
