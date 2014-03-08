@@ -1,0 +1,28 @@
+StartChar: quotesinglbase
+Encoding: 8218 8218 256
+Width: 300
+VWidth: 450
+Flags: W
+HStem: -171 267
+VStem: 54 167
+LayerCount: 2
+Back
+SplineSet
+125 50 m 29
+ 175 0 l 5
+ 175 -50 l 29
+ 100 -125 l 1053
+EndSplineSet
+Fore
+SplineSet
+79 25 m 1
+ 150 96 l 1
+ 221 25 l 1
+ 221 -25 l 1
+ 75 -171 l 1
+ 54 -150 l 1
+ 129 -75 l 1
+ 129 -25 l 1
+ 79 25 l 1
+EndSplineSet
+EndChar

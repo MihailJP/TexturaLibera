@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1394208449
-ModificationTime: 1394243356
+ModificationTime: 1394249744
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -54,7 +54,7 @@ KernClass2: 26 9 "Kerning-1"
  54 c e ae ccedilla egrave eacute ecircumflex edieresis oe
  9 d g q eth
  59 i j l igrave iacute icircumflex idieresis dotlessi dotlessj
- 1 s
+ 8 s scaron
  8 rrotunda
  80 A Y Agrave Aacute Acircumflex Atilde Adieresis Aring Yacute Ydieresis Germandbls
  13 B D Eth Thorn
@@ -66,14 +66,14 @@ KernClass2: 26 9 "Kerning-1"
  10 M N Ntilde
  1 P
  1 Q
- 1 S
+ 8 S Scaron
  1 T
  37 U Ugrave Uacute Ucircumflex Udieresis
  5 V W X
- 1 Z
+ 8 Z Zcaron
  169 a c d e g o q x agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash oe
- 3 t z
- 1 s
+ 10 t z zcaron
+ 8 s scaron
  57 i j igrave iacute icircumflex idieresis dotlessi dotlessj
  1 l
  24 b f h k germandbls longs
