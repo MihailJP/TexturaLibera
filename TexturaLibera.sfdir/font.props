@@ -19,8 +19,8 @@ FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1394271415
-ModificationTime: 1394271415
+CreationTime: 1394281195
+ModificationTime: 1394281195
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -61,7 +61,7 @@ KernClass2: 27 9 "Kerning-1"
  20 dcaron lcaron tcaron
  24 s sacute scedilla scaron
  8 rrotunda
- 95 A Y Agrave Aacute Acircumflex Atilde Adieresis Aring Yacute Abreve Aogonek Ydieresis Germandbls
+ 216 A Y Agrave Aacute Acircumflex Atilde Adieresis Aring Yacute Amacron Abreve Aogonek Ydieresis Adotaccent Germandbls Adotbelow Ahookabove Abreveacute Aogonekacute Amacronacute Amacronbreve Ahungarumlaut Adotaccentacute
  27 B D Eth Thorn Dcaron Dcroat
  83 C E AE Ccedilla Egrave Eacute Ecircumflex Edieresis Cacute Ccaron Eogonek Ecaron OE
  67 F O Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ohungarumlaut
@@ -76,7 +76,7 @@ KernClass2: 27 9 "Kerning-1"
  57 U Ugrave Uacute Ucircumflex Udieresis Uring Uhungarumlaut
  5 V W X
  26 Z Zacute Zdotaccent Zcaron
- 297 a c d e g o q x agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash abreve aogonek cacute ccaron dcaron dcroat eogonek ecaron ohungarumlaut oe a_a a_o a_u a_v a_y c_t a_f a_g a_l a_n a_p a_r a_thorn
+ 472 a c d e g o q x agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash amacron abreve aogonek cacute ccaron dcaron dcroat eogonek ecaron ohungarumlaut oe adotaccent adotbelow ahookabove abreveacute a_a a_o a_u a_v a_y aogonekacute amacronacute amacronbreve adieresiscircumflex adotbelowdieresis aringcircumflex ahungarumlaut adotaccentacute c_t a_f a_g a_l a_n a_p a_r a_thorn
  44 t z tcedilla tcaron zacute zdotaccent zcaron
  28 s sacute scedilla scaron s_t
  57 i j igrave iacute icircumflex idieresis dotlessi dotlessj
@@ -102,6 +102,7 @@ ContextSub2: class "Remove dot from i and j-1"  3 3 3 1
   BClassNames: "All_Others"  "i_j"  "accents"  
   FClassNames: "All_Others"  "i_j"  "accents"  
 EndFPST
+LangName: 1033 
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -113,5 +114,5 @@ WidthSeparation: 150
 WinInfo: 32 16 4
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "test1"  "" "abvmark"  "Mark positioning-1" 
+AnchorClass2: "blwmark"  "Mark positioning-1" "abvmark"  "Mark positioning-1" 
 EndSplineFont

@@ -4,6 +4,7 @@ Width: 400
 Flags: W
 HStem: -46 21G<80 120 280 320> 451 20G<280 320> 651 20G<80 120>
 VStem: 54 92<50 207 262 575> 254 92<50 170>
+AnchorPoint: "blwmark" 200 0 basechar 0
 AnchorPoint: "abvmark" 200 750 basechar 0
 LayerCount: 2
 Back
