@@ -22,14 +22,7 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-54 625 m 1x98
- 125 696 l 1
- 196 625 l 1
- 75 504 l 1
- 54 525 l 1
- 104 575 l 1
- 54 625 l 1x98
-146 400 m 1
+146 400 m 1xd8
  171 375 l 1
  146 350 l 1
  146 50 l 1
@@ -43,9 +36,16 @@ SplineSet
  50 354 l 1
  0 304 l 1
  -21 325 l 1
- 100 446 l 1xd8
+ 100 446 l 1
  125 421 l 1
- 146 400 l 1
+ 146 400 l 1xd8
+54 625 m 1
+ 125 696 l 1
+ 196 625 l 1
+ 75 504 l 1
+ 54 525 l 1
+ 104 575 l 1
+ 54 625 l 1
 EndSplineSet
 Substitution2: "Dotless forms-1" dotlessi
 EndChar

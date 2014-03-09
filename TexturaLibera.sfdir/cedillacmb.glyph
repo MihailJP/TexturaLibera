@@ -2,7 +2,7 @@ StartChar: cedillacmb
 Encoding: 807 807 358
 Width: 0
 Flags: W
-HStem: -221 92<-322 -207>
+HStem: -221 92<-321.546 -206.613>
 AnchorPoint: "blwmark" -200 0 mark 0
 LayerCount: 2
 Fore

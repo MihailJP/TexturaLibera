@@ -2,8 +2,8 @@ StartChar: three
 Encoding: 51 51 19
 Width: 400
 Flags: W
-HStem: -196 92<117 186> 426 20G<155 255> 426 20G<155 255>
-VStem: 229 92<275 318> 254 92<-125 106>
+HStem: -196 92<117 186.259> 426 20G<155 255> 426 20G<155 255>
+VStem: 229 92<275 318> 254 92<-125 106.5>
 LayerCount: 2
 Back
 SplineSet

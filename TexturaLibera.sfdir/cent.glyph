@@ -18,6 +18,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
+204 333 m 1
+ 182 311 150 279 146 275 c 1
+ 146 132 l 1
+ 204 93 l 1
+ 204 333 l 1
 446 325 m 1
  375 254 l 1
  296 307 l 1
@@ -40,10 +45,5 @@ SplineSet
  296 432 l 1
  425 346 l 1
  446 325 l 1
-204 333 m 1
- 182 311 150 279 146 275 c 1
- 146 132 l 1
- 204 93 l 1
- 204 333 l 1
 EndSplineSet
 EndChar
