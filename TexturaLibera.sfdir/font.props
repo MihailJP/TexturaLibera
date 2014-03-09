@@ -19,8 +19,8 @@ FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1394340950
-ModificationTime: 1394358243
+CreationTime: 1394358646
+ModificationTime: 1394359199
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -58,7 +58,7 @@ KernClass2: 27 9 "Kerning-1"
  192 b o v w ograve oacute ocircumflex otilde odieresis oslash omacron ohungarumlaut hv bdotaccent bdotbelow a_o a_v bacute aohungarumlaut avhungarumlaut b_b g_o aoacute avacute aodotbelow avogonek
  524 c e ae ccedilla egrave eacute ecircumflex edieresis cacute ccircumflex cdotaccent ccaron emacron ebreve edotaccent eogonek ecaron oe aemacron aeacute emacronacute edotbelow aemacronacute aemacronbreve aebreve aeogonek aehungarumlaut aedieresis aedotaccent cdotbelow cogonek edotbelowacute eogonekacute eogonekcircumflex emacronbreve eogonekmacron evcmb edotaccentacute edieresismacron ering ehungarumlaut eacmb eicmb eogonekdotbelow eogonekhungarumlaut eogonekdotaccent eogonekdotaccentacute aering aeogonekacute eecmb eocmb
  108 d g q eth dcroat gcircumflex gdotaccent gacute ddotaccent ddotbelow dacute ethdotbelow b_g g_g g_d g_eth a_g
- 365 i j l igrave iacute icircumflex idieresis imacron ibreve iogonek dotlessi ij lacute lslash dotlessj ihookabove idotbelow imacronacute imacronbreve ihungarumlaut ibreveinvertedbelow iecmb ivcmb iacmb iocmb iucmb longs_i longs_l longs_longs_i longs_longs_l idotaccentacute f_j a_l longs_j f_i f_l f_f_i f_f_l dotlessiogonek dotlessidotbelow dotlessibreveinvertedbelow
+ 449 i j l igrave iacute icircumflex idieresis imacron ibreve iogonek dotlessi ij jcircumflex lacute lslash dotlessj ihookabove idotbelow imacronacute imacronbreve ihungarumlaut ibreveinvertedbelow iecmb ivcmb jdotbelow jacute jmacron jhungarumlaut iacmb iocmb iucmb jecmb longs_i longs_l longs_longs_i longs_longs_l jdieresis idotaccentacute f_j a_l longs_j f_i f_l f_f_i f_f_l dotlessiogonek dotlessidotbelow dotlessibreveinvertedbelow dotlessjdotbelow
  20 dcaron lcaron tcaron
  24 s sacute scedilla scaron
  8 rrotunda
@@ -67,7 +67,7 @@ KernClass2: 27 9 "Kerning-1"
  435 C E AE Ccedilla Egrave Eacute Ecircumflex Edieresis Cacute Ccircumflex Cdotaccent Ccaron Emacron Ebreve Edotaccent Eogonek Ecaron OE AEmacron AEacute Emacronacute Edotbelow AEdotbelow AEmacronacute AEmacronbreve AEbreve AEogonek AEhungarumlaut AEdieresis AEdotaccent Cdotbelow Cogonek Eogonekacute Emacronbreve Eogonekmacron Edotaccentacute Ehungarumlaut Eacmb Eogonekdotbelow Eogonekhungarumlaut Eogonekdotaccent Eogonekdotaccentacute
  95 F O Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ohungarumlaut Fdotaccent Fdotbelow Facute
  99 G H R Gcircumflex Gdotaccent Hcircumflex Racute Rcaron Gacute Hdotaccent Hdotbelow Gdotbelow Hacute
- 168 I J L Igrave Iacute Icircumflex Idieresis Ibreve Iogonek Idotaccent IJ Lacute Lcaron Lslash Ihookabove Idotbelow Imacronacute Imacronbreve Ihungarumlaut Idotaccentacute
+ 240 I J L Igrave Iacute Icircumflex Idieresis Ibreve Iogonek Idotaccent IJ Jcircumflex Lacute Lcaron Lslash Ihookabove Idotbelow Imacronacute Imacronbreve Ihungarumlaut Jdotbelow Jacute Jmacron Jdotaccent Jhungarumlaut Jdieresis Idotaccentacute
  1 K
  24 M N Ntilde Nacute Ncaron
  1 P
@@ -80,18 +80,18 @@ KernClass2: 27 9 "Kerning-1"
  1249 a c d e g o q x agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash amacron abreve aogonek cacute ccircumflex cdotaccent ccaron dcaron dcroat emacron ebreve edotaccent eogonek ecaron gcircumflex gdotaccent omacron ohungarumlaut oe aemacron gacute aeacute adotaccent ascript ddotaccent ddotbelow emacronacute adotbelow ahookabove abreveacute edotbelow aedotbelow a_a a_o a_u a_v a_y dum aogonekacute amacronacute amacronbreve adieresiscircumflex adotbelowdieresis aringcircumflex ahungarumlaut aecmb aocmb avcmb aemacronacute aemacronbreve aebreve aeogonek aehungarumlaut aedieresis aedotaccent cdotbelow cogonek dacute ethdotbelow edotbelowacute eogonekacute eogonekcircumflex emacronbreve eogonekmacron evcmb edotaccentacute edieresismacron ering ehungarumlaut eacmb eicmb eogonekdotbelow eogonekhungarumlaut eogonekdotaccent eogonekdotaccentacute gdotbelow aering aeogonekacute aicmb aucmb eecmb eocmb g_r g_p aohungarumlaut avhungarumlaut adotaccentacute c_k c_t g_g g_d g_eth g_o a_f a_g a_l a_n a_p a_r a_thorn aaacute aoacute auacute avacute aahungarumlaut aadotaccent aydotaccent aadotbelow aodotbelow audotbelow avogonek aydotbelow aadieresis
  44 t z tcedilla tcaron zacute zdotaccent zcaron
  28 s sacute scedilla scaron s_t
- 269 i j igrave iacute icircumflex idieresis imacron ibreve iogonek dotlessi ij dotlessj ihookabove idotbelow imacronacute imacronbreve ihungarumlaut ibreveinvertedbelow iecmb ivcmb iacmb iocmb iucmb idotaccentacute dotlessiogonek dotlessidotbelow dotlessibreveinvertedbelow
+ 353 i j igrave iacute icircumflex idieresis imacron ibreve iogonek dotlessi ij jcircumflex dotlessj ihookabove idotbelow imacronacute imacronbreve ihungarumlaut ibreveinvertedbelow iecmb ivcmb jdotbelow jacute jmacron jhungarumlaut iacmb iocmb iucmb jecmb jdieresis idotaccentacute dotlessiogonek dotlessidotbelow dotlessibreveinvertedbelow dotlessjdotbelow
  22 l lacute lcaron lslash
  235 b f h k germandbls hcircumflex longs hv bdotaccent bdotbelow fdotaccent hdotaccent hdotbelow bacute fdotbelow facute hacute longs_i longs_l longs_longs longs_longs_i longs_longs_l h_longs f_j f_t longs_j f_f f_i f_l f_f_i f_f_l longs_t
  137 m n p r u v w y ntilde ugrave uacute ucircumflex udieresis yacute thorn ydieresis nacute ncaron racute rcaron umacron uring uhungarumlaut
  8 rrotunda
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -100 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -50 {} -50 {} -100 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -100 {} -100 {} -100 {} 0 {} 0 {} -25 {} -100 {} -75 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -25 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} 0 {} 0 {} 0 {} 25 {} 25 {} 0 {} 0 {} 0 {} 0 {} -100 {} -50 {} -100 {} -25 {} -25 {} -50 {} -100 {} -100 {} 0 {} -50 {} -25 {} -100 {} -25 {} 0 {} -50 {} -50 {} -50 {} 0 {} 0 {} -50 {} -50 {} 0 {} 0 {} -25 {} -25 {} -50 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -50 {} -50 {} 0 {} -25 {} -25 {} -25 {} -25 {} 0 {} -50 {} -100 {} -150 {} -75 {} -50 {} -50 {} -50 {} -50 {} 0 {} -100 {} -75 {} -150 {} -50 {} -50 {} -50 {} -75 {} -75 {} 0 {} -50 {} -50 {} -50 {} -25 {} -25 {} -50 {} -25 {} -50 {} 0 {} -50 {} -50 {} -75 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -75 {} 0 {} -50 {} -75 {} -75 {} -50 {} -50 {} -50 {} -50 {} -25 {} 0 {} -100 {} -50 {} -150 {} -25 {} -25 {} -50 {} -75 {} -50 {} 0 {} -50 {} -75 {} -50 {} -25 {} -25 {} -50 {} -25 {} -75 {} 0 {} -25 {} -75 {} -50 {} -25 {} -25 {} -25 {} -25 {} -50 {} 0 {} -100 {} -100 {} -150 {} -75 {} -75 {} -100 {} -100 {} -100 {} 0 {} -25 {} -25 {} -25 {} 0 {} 0 {} -25 {} -25 {} -25 {} 0 {} -75 {} -50 {} -75 {} -25 {} -25 {} -50 {} -50 {} -50 {} 0 {} -50 {} -75 {} -125 {} -50 {} -50 {} -50 {} -50 {} -75 {}
 ContextSub2: class "Remove dot from i and j-1"  3 3 3 1
-  Class: 41 i j iogonek idotbelow ibreveinvertedbelow
+  Class: 51 i j iogonek idotbelow ibreveinvertedbelow jdotbelow
   Class: 190 gravecmb acutecmb circumflexcmb tildecmb macroncmb brevecmb dotaccentcmb dieresiscmb hookcmb ringcmb hungarumlautcmb caroncmb acmb ecmb icmb ocmb ucmb ccmb dcmb hcmb mcmb rcmb tcmb vcmb xcmb
-  BClass: 41 i j iogonek idotbelow ibreveinvertedbelow
+  BClass: 51 i j iogonek idotbelow ibreveinvertedbelow jdotbelow
   BClass: 190 gravecmb acutecmb circumflexcmb tildecmb macroncmb brevecmb dotaccentcmb dieresiscmb hookcmb ringcmb hungarumlautcmb caroncmb acmb ecmb icmb ocmb ucmb ccmb dcmb hcmb mcmb rcmb tcmb vcmb xcmb
-  FClass: 41 i j iogonek idotbelow ibreveinvertedbelow
+  FClass: 51 i j iogonek idotbelow ibreveinvertedbelow jdotbelow
   FClass: 190 gravecmb acutecmb circumflexcmb tildecmb macroncmb brevecmb dotaccentcmb dieresiscmb hookcmb ringcmb hungarumlautcmb caroncmb acmb ecmb icmb ocmb ucmb ccmb dcmb hcmb mcmb rcmb tcmb vcmb xcmb
  2 0 0
   ClsList: 1 2
