@@ -1,0 +1,13 @@
+StartChar: Emacronacute
+Encoding: 7702 7702 477
+Width: 750
+Flags: W
+HStem: -46 92<316.767 459.483> 446 21<255 285 255 285> 504 92<516 576.367> 526 20<430 470> 554 92<422.727 491> 704 92<350 550> 829 267
+VStem: 79 92<197.891 383.038> 285 30<80 456 529 564> 354 217 379 92<125 304 366 475>
+LayerCount: 2
+Fore
+Refer: 99 180 S 1 0 0 1 250 350 2
+Refer: 232 274 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" E macroncmb acutecmb
+Ligature2: "Glyph composition-1" Emacron acutecmb
+EndChar
