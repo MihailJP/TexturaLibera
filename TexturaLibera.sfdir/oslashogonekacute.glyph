@@ -1,0 +1,13 @@
+StartChar: oslashogonekacute
+Encoding: 58967 58967 627
+Width: 400
+Flags: W
+HStem: -246 292 -46 21<5 45 155.263 195> 426 20<205 244.737 205 244.737 355 395 355 395> 479 267
+VStem: 54 92<164 275> 79 242 104 217 254 92<125 236>
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 0 0 2
+Refer: 604 58965 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" oslash ogonekcmb acutecmb
+Ligature2: "Glyph composition-1" oslashogonek acutecmb
+EndChar

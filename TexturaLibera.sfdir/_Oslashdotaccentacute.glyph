@@ -1,0 +1,14 @@
+StartChar: Oslashdotaccentacute
+Encoding: 60412 60412 632
+Width: 800
+Flags: W
+HStem: -46 92<316.767 458.94> 446 21<255 285 255 285> 626 20<301.735 345 453.5 498.5 704.773 745> 679 267 704 142
+VStem: 79 92<198.058 383.038> 279 142 285 30<80 164 236 456 540 564> 380 92<125 259 301 351 393 525> 454 217 607 92<215.141 430.975>
+LayerCount: 2
+Fore
+Refer: 99 180 S 1 0 0 1 350 200 2
+Refer: 269 729 S 1 0 0 1 150 200 2
+Refer: 182 216 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" Oslash dotaccentcmb acutecmb
+Ligature2: "Glyph composition-1" Oslashdotaccent acutecmb
+EndChar
