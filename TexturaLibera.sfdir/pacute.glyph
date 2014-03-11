@@ -1,0 +1,12 @@
+StartChar: pacute
+Encoding: 7765 7765 687
+Width: 400
+Flags: W
+HStem: -196 21<55 95> -46 21<5 38 163 195> 426 20<80 120 80 120 205 245 205 245> 479 267
+VStem: 54 92<-125 -19 96 325> 104 217 254 92<125 314.805>
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 0 0 2
+Refer: 80 112 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" p acutecmb
+EndChar
