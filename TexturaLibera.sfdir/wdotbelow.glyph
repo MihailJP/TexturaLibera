@@ -1,0 +1,13 @@
+StartChar: wdotbelow
+Encoding: 7817 7817 786
+Width: 600
+Flags: W
+HStem: -196 142 -46 21<155 195 355 395> 426 20<80 120 80 120 280 320 280 320 505 549>
+VStem: 54 92<85.195 350> 229 142 254 92<85.195 350> 404 92<435.817 503.5> 454 92<125 350>
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 500 0 2
+Refer: 87 119 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" w dotbelowcmb
+Substitution2: "Dotless forms-1" wdotbelow.alt
+EndChar

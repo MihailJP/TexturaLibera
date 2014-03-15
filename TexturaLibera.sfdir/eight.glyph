@@ -3,7 +3,7 @@ Encoding: 56 56 24
 Width: 400
 Flags: W
 HStem: -46 21G<155 195> 626 20G<205 245>
-VStem: 54 92<85 200 410 475> 254 92<125 240 450 514>
+VStem: 54 92<85.195 200 410 475> 254 92<125 240 450 514.805>
 LayerCount: 2
 Back
 SplineSet
@@ -24,13 +24,13 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-175 554 m 1
- 146 525 l 1
- 146 410 l 1
- 225 371 l 2
- 225 371 251 397 254 400 c 2
- 254 475 l 2
- 254 517 198 531 175 554 c 1
+175 279 m 1
+ 146 250 l 1
+ 146 125 l 2
+ 146 83 202 69 225 46 c 1
+ 254 75 l 1
+ 254 240 l 1
+ 175 279 l 1
 54 475 m 1
  225 646 l 1
  346 525 l 1
@@ -46,12 +46,14 @@ SplineSet
  75 329 l 1
  54 350 l 1
  54 475 l 1
-175 279 m 1
- 146 250 l 1
- 146 125 l 2
- 146 83 202 69 225 46 c 1
- 254 75 l 1
- 254 240 l 1
- 175 279 l 1
+175 554 m 1
+ 146 525 l 1
+ 146 410 l 1
+ 225 371 l 1
+ 225 371 251 397 254 400 c 2
+ 254 475 l 2
+ 254 517 198 531 175 554 c 1
 EndSplineSet
+Substitution2: "Subscript forms-1" eight.inferior
+Substitution2: "Superscript forms-1" eight.superior
 EndChar

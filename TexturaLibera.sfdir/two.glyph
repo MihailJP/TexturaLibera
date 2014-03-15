@@ -2,7 +2,7 @@ StartChar: two
 Encoding: 50 50 18
 Width: 400
 Flags: W
-HStem: -46 21G<55 135 280 320> 4 92<174 286> 426 20G<155 265> 426 20G<155 265>
+HStem: -46 21G<55 135 280 320> 4 92<174.745 286> 426 20G<155 265> 426 20G<155 265>
 VStem: 54 317
 LayerCount: 2
 Back
@@ -33,7 +33,7 @@ SplineSet
  357 40 l 2
  365 32 371 25 371 25 c 1
  300 -46 l 1
- 279 -25 l 2
+ 279 -25 l 1
  279 -25 278 -24 276 -21 c 0
  262 -9 242 4 225 4 c 0
  138 4 75 -46 75 -46 c 1
@@ -45,4 +45,6 @@ SplineSet
  125 354 l 1
  75 304 l 1xe8
 EndSplineSet
+Substitution2: "Subscript forms-1" two.inferior
+Substitution2: "Superscript forms-1" two.superior
 EndChar

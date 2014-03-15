@@ -1,0 +1,12 @@
+StartChar: thornacute
+Encoding: 59191 59191 842
+Width: 400
+Flags: W
+HStem: -196 21<55 95> -46 21<5 38 163 195> 426 20<205 245 205 245> 651 20<80 120> 679 267
+VStem: 54 92<-125 -19 96 325 367 575> 104 217 254 92<125 314.805>
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 0 200 2
+Refer: 179 254 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" thorn acutecmb
+EndChar

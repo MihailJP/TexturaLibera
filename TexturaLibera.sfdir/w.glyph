@@ -4,7 +4,7 @@ Width: 600
 Flags: W
 HStem: -46 21G<155 195 355 395> 426 20G<80 120 280 320> 426 20G<80 120 280 320 505 549>
 VStem: 54 92<85.195 350> 254 92<85.195 350> 404 92<435.817 503.5> 454 92<125 350>
-AnchorPoint: "abvmark" 300 500 basechar 0
+AnchorPoint: "blwmark" 300 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -64,4 +64,5 @@ SplineSet
  125 421 l 1
  146 400 l 1xda
 EndSplineSet
+Substitution2: "Dotless forms-1" w.alt
 EndChar

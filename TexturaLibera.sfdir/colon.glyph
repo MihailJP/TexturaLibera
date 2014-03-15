@@ -14,15 +14,15 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-79 25 m 1
- 150 96 l 1
- 221 25 l 1
- 150 -46 l 1
- 79 25 l 1
 79 325 m 1
  150 396 l 1
  221 325 l 1
  150 254 l 1
  79 325 l 1
+79 25 m 1
+ 150 96 l 1
+ 221 25 l 1
+ 150 -46 l 1
+ 79 25 l 1
 EndSplineSet
 EndChar

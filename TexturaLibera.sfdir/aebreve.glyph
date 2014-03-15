@@ -1,0 +1,12 @@
+StartChar: aebreve
+Encoding: 58431 58431 402
+Width: 550
+Flags: W
+HStem: -46 21<130 170 355.177 395> 426 20<180 300 180 300 405 445 405 445> 479 92<264.506 356.5> 626 20<205 245 429.661 470>
+VStem: 54 92<100 150> 154 317 254 92<167 179 272 325>
+LayerCount: 2
+Fore
+Refer: 265 728 N 1 0 0 1 100 0 2
+Refer: 189 230 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" ae brevecmb
+EndChar

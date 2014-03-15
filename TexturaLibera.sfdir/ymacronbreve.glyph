@@ -1,0 +1,13 @@
+StartChar: ymacronbreve
+Encoding: 59253 59253 830
+Width: 400
+Flags: W
+HStem: -246 92<204.444 243.347> -196 92<92.5 165.5> -46 21<155 195> 426 20<80 120 80 120 280 320 280 320> 504 92<100 300> 629 92<164.506 256.5> 776 20<105 145 329.661 370>
+VStem: 54 92<125 350> 54 317 254 92<-125 33 75 350>
+LayerCount: 2
+Fore
+Refer: 265 728 N 1 0 0 1 0 150 2
+Refer: 828 563 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" ymacron brevecmb
+Ligature2: "Glyph composition-1" y macroncmb brevecmb
+EndChar

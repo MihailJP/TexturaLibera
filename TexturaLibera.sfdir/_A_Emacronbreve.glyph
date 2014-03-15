@@ -1,0 +1,13 @@
+StartChar: AEmacronbreve
+Encoding: 57405 57405 405
+Width: 1150
+Flags: W
+HStem: -46 92<716.767 859.293> 4 92<102.5 180.301> 304 57<237 267.753> 446 21<655 685> 504 92<916 977.56> 526 20<830 870> 529 21<180 218 655 685> 554 92<243 309.5 822.727 891> 704 92<500 700> 829 92<564.506 656.5> 976 20<505 545 729.661 770>
+VStem: 304 92<394.22 509> 454 317 685 30<80 456 529 564> 779 92<125 304 366 475>
+LayerCount: 2
+Fore
+Refer: 265 728 S 1 0 0 1 400 350 2
+Refer: 403 482 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" AE macroncmb brevecmb
+Ligature2: "Glyph composition-1" AEmacron brevecmb
+EndChar

@@ -1,0 +1,12 @@
+StartChar: Tacute
+Encoding: 58082 58082 726
+Width: 700
+Flags: W
+HStem: -46 92<291.611 409.51> 454 21<55 95> 480 20<260 290> 554 92<211.102 283.361> 679 267
+VStem: 79 92<151.207 305.755> 260 30<72 439 481 500> 304 217 354 92<125 425>
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 200 200 2
+Refer: 52 84 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" T acutecmb
+EndChar

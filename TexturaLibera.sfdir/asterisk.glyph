@@ -2,7 +2,7 @@ StartChar: asterisk
 Encoding: 42 42 10
 Width: 500
 Flags: W
-HStem: 526 20G<105 164 384 445> 626 20G<255 295>
+HStem: 526 20G<105 164.5 384.688 445> 626 20G<255 295>
 VStem: 204 92<275 344 506 575>
 LayerCount: 2
 Back

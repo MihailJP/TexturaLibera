@@ -3,7 +3,7 @@ Encoding: 41 41 9
 Width: 250
 Flags: W
 HStem: -196 21G<5 34>
-VStem: 154 92<120 431>
+VStem: 154 92<120.598 431.717>
 LayerCount: 2
 Back
 SplineSet
@@ -24,7 +24,7 @@ SplineSet
  4 -175 l 1
  22 -157 l 2
  62 -113 154 14 154 250 c 0
- 154 486 62 614 22 658 c 2
+ 154 486 62 614 22 658 c 1
  4 675 l 1
 EndSplineSet
 EndChar

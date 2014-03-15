@@ -1,0 +1,12 @@
+StartChar: oring
+Encoding: 58935 58935 640
+Width: 400
+Flags: W
+HStem: -46 21<155 195> 426 20<205 245 205 245> 488 74<169.375 262> 688 74<138 230.625>
+VStem: 54 92<85.195 275> 63 74<594.375 687> 254 92<125 314.805> 263 74<563 655.625>
+LayerCount: 2
+Fore
+Refer: 184 730 N 1 0 0 1 0 0 2
+Refer: 79 111 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" o ringcmb
+EndChar

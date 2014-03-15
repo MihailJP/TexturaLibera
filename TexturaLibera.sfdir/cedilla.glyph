@@ -2,7 +2,7 @@ StartChar: cedilla
 Encoding: 184 184 102
 Width: 400
 Flags: W
-HStem: -221 92<78 193>
+HStem: -221 92<78.4541 193.387>
 LayerCount: 2
 Back
 SplineSet
@@ -25,7 +25,7 @@ SplineSet
  175 -246 149 -221 100 -221 c 0
  62 -221 41 -232 32 -239 c 2
  25 -246 l 1
- 4 -225 l 2
+ 4 -225 l 1
  4 -225 5 -223 7 -221 c 2
  78 -151 l 2
  85 -144 105 -129 150 -129 c 0

@@ -32,11 +32,13 @@ SplineSet
  246 350 l 1
  246 50 l 1
  245 48 l 1
- 250 46 l 2
+ 250 46 l 1
  250 46 295 91 300 96 c 1
  321 75 l 1
  200 -46 l 1
  100 4 l 1
  79 25 l 1xd0
 EndSplineSet
+Substitution2: "Subscript forms-1" one.inferior
+Substitution2: "Superscript forms-1" one.superior
 EndChar
