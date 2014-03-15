@@ -19,8 +19,8 @@ FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1394857178
-ModificationTime: 1394857178
+CreationTime: 1394864365
+ModificationTime: 1394866172
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -106,7 +106,7 @@ ContextSub2: class "Remove dot from i and j-1"  3 3 3 1
   BClassNames: "All_Others"  "i_j"  "accents"  
   FClassNames: "All_Others"  "i_j"  "accents"  
 EndFPST
-LangName: 1033 
+LangName: 1033 "" "" "" "" "" "" "" "" "" "" "Free Textura blackletter font" "" "" "This font is a free software.+AAoA-Unlimited permission is granted to use, copy, and distribute it, with+AAoA-or without modification, either commercially and noncommercially.+AAoA-THIS FONT IS PROVIDED +ACIA-AS IS+ACIA WITHOUT WARRANTY.+AAoA" 
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
