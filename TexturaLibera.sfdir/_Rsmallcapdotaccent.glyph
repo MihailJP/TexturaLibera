@@ -1,0 +1,12 @@
+StartChar: Rsmallcapdotaccent
+Encoding: 61218 61218 855
+Width: 450
+Flags: W
+HStem: -46 21<80 120 305 345> 426 20<80 120 80 120 205 255 205 255> 504 142
+VStem: 54 92<50 325> 129 142
+LayerCount: 2
+Fore
+Refer: 269 729 N 1 0 0 1 0 0 2
+Refer: 854 640 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" Rsmallcap dotaccentcmb
+EndChar
