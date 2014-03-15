@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1394852338
-ModificationTime: 1394856090
+ModificationTime: 1394856454
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -47,6 +47,8 @@ Lookup: 4 0 0 "Historic ligatures"  {"Historic ligatures-1"  } ['hlig' ('DFLT' <
 Lookup: 5 0 0 "Remove dot from i and j"  {"Remove dot from i and j-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Dotless forms"  {"Dotless forms-1"  } []
 Lookup: 1 0 0 "Stylistic alternates"  {"Stylistic alternates-1"  } ['salt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "Superscript forms"  {"Superscript forms-1" ("superior" ) } ['sups' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "Subscript forms"  {"Subscript forms-1" ("inferior" ) } ['subs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "Mark positioning"  {"Mark positioning-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 8 0 "Kerning"  {"Kerning-1" [100,15,4] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1

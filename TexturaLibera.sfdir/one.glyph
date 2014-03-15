@@ -39,4 +39,6 @@ SplineSet
  100 4 l 1
  79 25 l 1xd0
 EndSplineSet
+Substitution2: "Subscript forms-1" one.inferior
+Substitution2: "Superscript forms-1" one.superior
 EndChar

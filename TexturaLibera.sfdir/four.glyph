@@ -56,4 +56,6 @@ SplineSet
  225 331 220 329 215 329 c 0
  210 329 205 331 200 334 c 1
 EndSplineSet
+Substitution2: "Subscript forms-1" four.inferior
+Substitution2: "Superscript forms-1" four.superior
 EndChar

@@ -54,4 +54,6 @@ SplineSet
  254 475 l 2
  254 517 198 531 175 554 c 1
 EndSplineSet
+Substitution2: "Subscript forms-1" eight.inferior
+Substitution2: "Superscript forms-1" eight.superior
 EndChar

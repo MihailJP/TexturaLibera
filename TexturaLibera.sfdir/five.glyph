@@ -53,4 +53,6 @@ SplineSet
  270 396 300 422 316 437 c 2
  325 446 l 1xec
 EndSplineSet
+Substitution2: "Subscript forms-1" five.inferior
+Substitution2: "Superscript forms-1" five.superior
 EndChar

@@ -46,4 +46,6 @@ SplineSet
  175 354 l 1
  146 325 l 1
 EndSplineSet
+Substitution2: "Subscript forms-1" six.inferior
+Substitution2: "Superscript forms-1" six.superior
 EndChar
