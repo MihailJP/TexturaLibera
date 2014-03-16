@@ -1,0 +1,41 @@
+StartChar: lozengedot
+Encoding: 8280 8280 899
+Width: 600
+Flags: W
+HStem: -46 21G<280 320>
+LayerCount: 2
+Back
+SplineSet
+425 200 m 25
+ 475 150 l 1049
+275 50 m 25
+ 325 0 l 1049
+275 350 m 25
+ 325 300 l 1049
+125 200 m 25
+ 175 150 l 1049
+EndSplineSet
+Fore
+SplineSet
+79 175 m 1
+ 150 246 l 1
+ 221 175 l 1
+ 150 104 l 1
+ 79 175 l 1
+229 325 m 1
+ 300 396 l 1
+ 371 325 l 1
+ 300 254 l 1
+ 229 325 l 1
+229 25 m 1
+ 300 96 l 1
+ 371 25 l 1
+ 300 -46 l 1
+ 229 25 l 1
+379 175 m 1
+ 450 246 l 1
+ 521 175 l 1
+ 450 104 l 1
+ 379 175 l 1
+EndSplineSet
+EndChar
