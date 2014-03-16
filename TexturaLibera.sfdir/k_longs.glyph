@@ -83,6 +83,6 @@ SplineSet
  279 375 l 1
  254 400 l 1xbf
 EndSplineSet
-LCarets2: 1 200 
+LCarets2: 1 225 
 Ligature2: "Historic ligatures-1" k longs
 EndChar
