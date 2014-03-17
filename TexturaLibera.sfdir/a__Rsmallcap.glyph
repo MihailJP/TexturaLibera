@@ -92,6 +92,6 @@ SplineSet
  254 100 l 1
  254 179 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 300 
 Ligature2: "Historic ligatures-1" a Rsmallcap
 EndChar

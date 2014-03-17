@@ -90,6 +90,6 @@ SplineSet
  276 -154 277 -154 279 -154 c 2xbe
  279 511 l 1
 EndSplineSet
-LCarets2: 2 300 600 
+LCarets2: 2 300 500 
 Ligature2: "Ligatures-1" longs longs t
 EndChar
