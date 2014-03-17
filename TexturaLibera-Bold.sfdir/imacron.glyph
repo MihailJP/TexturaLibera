@@ -1,0 +1,11 @@
+StartChar: imacron
+Encoding: 299 299 235
+Width: 200
+HStem: 444 20<80 120 80 120> 486 128<10 190>
+VStem: 36 128<70 330>
+LayerCount: 2
+Fore
+Refer: 227 175 N 1 0 0 1 -100 0 2
+Refer: 97 305 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" i macroncmb
+EndChar

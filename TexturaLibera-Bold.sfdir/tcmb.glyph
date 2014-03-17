@@ -1,0 +1,11 @@
+StartChar: tcmb
+Encoding: 877 877 151
+Width: 0
+Flags: W
+HStem: 797 10<-205 -185 -205 -185>
+VStem: -244.5 64<532.14 668 732 757.5>
+AnchorPoint: "abvmark" -200 500 mark 0
+LayerCount: 2
+Fore
+Refer: 84 116 N 0.5 0 0 0.5 -275 500 2
+EndChar

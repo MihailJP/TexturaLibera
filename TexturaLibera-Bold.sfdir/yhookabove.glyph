@@ -1,0 +1,12 @@
+StartChar: yhookabove
+Encoding: 7927 7927 824
+Width: 400
+Flags: W
+HStem: -214 128<82.5 177.5> 436 328 444 20<80 120 80 120 280 320 280 320> 511 21<70 110>
+VStem: 36 128<135 330> 36 328 236 128<-130 7 65 330>
+LayerCount: 2
+Fore
+Refer: 381 777 N 1 0 0 1 400 0 2
+Refer: 89 121 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" y hookcmb
+EndChar

@@ -1,0 +1,12 @@
+StartChar: ncircumflex
+Encoding: 58839 58839 593
+Width: 400
+Flags: W
+HStem: 444 20<80 120 80 120 240 280 240 280> 461 303
+VStem: 36 128<70 310> 36 328 236 128<70 319.643>
+LayerCount: 2
+Fore
+Refer: 100 710 N 1 0 0 1 0 0 2
+Refer: 78 110 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" n circumflexcmb
+EndChar

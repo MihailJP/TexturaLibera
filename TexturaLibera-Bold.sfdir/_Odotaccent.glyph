@@ -1,0 +1,12 @@
+StartChar: Odotaccent
+Encoding: 558 558 609
+Width: 800
+Flags: W
+HStem: -64 21<324 392> 644 20<311.364 355 463.5 508.5> 676 198
+VStem: 61 128<206.161 371.162> 280 40<108 443> 351 198 361 128<135 515> 589 128<225.552 418.931>
+LayerCount: 2
+Fore
+Refer: 269 729 N 1 0 0 1 250 200 2
+Refer: 47 79 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" O dotaccentcmb
+EndChar

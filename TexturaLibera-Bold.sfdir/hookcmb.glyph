@@ -1,0 +1,44 @@
+StartChar: hookcmb
+Encoding: 777 777 381
+Width: 0
+Flags: W
+HStem: 436 328 511 21G<-330 -290>
+VStem: -364 328
+AnchorPoint: "abvmark" -200 500 mark 0
+LayerCount: 2
+Back
+SplineSet
+-225 454 m 1xa0
+ -246 475 l 1
+ -146 575 l 1
+ -146 633 l 1
+ -250 654 l 1
+ -250 654 -253 651 -254 650 c 2
+ -229 600 l 1
+ -300 529 l 1
+ -321 550 l 1x60
+ -346 600 l 1
+ -200 746 l 1
+ -75 721 l 1
+ -54 700 l 1
+ -54 625 l 1
+ -225 454 l 1xa0
+EndSplineSet
+Fore
+SplineSet
+-235 436 m 1xa0
+ -264 465 l 1
+ -164 565 l 1
+ -164 617 l 1
+ -220 628 l 1
+ -211 610 l 1
+ -310 511 l 1x60
+ -339 540 l 1
+ -364 590 l 1
+ -190 764 l 1
+ -65 739 l 1
+ -36 710 l 1
+ -36 635 l 1
+ -235 436 l 1xa0
+EndSplineSet
+EndChar

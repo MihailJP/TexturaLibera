@@ -1,0 +1,31 @@
+StartChar: barquillright
+Encoding: 11809 11809 921
+Width: 300
+Flags: W
+HStem: -214 21G<145 185>
+VStem: 136 128<-115 236 364 665>
+LayerCount: 2
+Back
+SplineSet
+50 300 m 25
+ 200 300 l 1049
+200 700 m 25
+ 200 -150 l 1049
+EndSplineSet
+Fore
+SplineSet
+235 764 m 1
+ 264 735 l 1
+ 264 335 l 1
+ 264 -115 l 1
+ 165 -214 l 1
+ 136 -185 l 1
+ 136 236 l 1
+ 15 236 l 1
+ -14 265 l 1
+ 85 364 l 1
+ 136 364 l 1
+ 136 665 l 1
+ 235 764 l 1
+EndSplineSet
+EndChar

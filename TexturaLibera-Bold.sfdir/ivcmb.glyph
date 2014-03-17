@@ -1,0 +1,12 @@
+StartChar: ivcmb
+Encoding: 58699 58699 544
+Width: 200
+Flags: W
+HStem: 444 20<80 120 80 120> 722 10<40 60> 732 65<40 60 159.5 180> 797 10<159.5 180>
+VStem: 18 64<549.08 665> 36 128<70 330> 93 64<706.25 756.75> 118 64<567.5 685.365>
+LayerCount: 2
+Fore
+Refer: 152 878 N 1 0 0 1 300 0 2
+Refer: 97 305 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" i vcmb
+EndChar

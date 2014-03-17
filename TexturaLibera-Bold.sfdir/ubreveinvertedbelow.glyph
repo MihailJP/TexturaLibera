@@ -1,0 +1,13 @@
+StartChar: ubreveinvertedbelow
+Encoding: 59175 59175 737
+Width: 400
+Flags: W
+HStem: -189 128<158.5 249.091> 444 20<80 120 80 120 280 320 280 320>
+VStem: 36 128<80.3567 330> 236 128<90 330>
+AnchorPoint: "abvmark" 200 500 basechar 0
+LayerCount: 2
+Fore
+Refer: 537 815 N 1 0 0 1 400 0 2
+Refer: 85 117 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" u breveinvertedbelowcmb
+EndChar

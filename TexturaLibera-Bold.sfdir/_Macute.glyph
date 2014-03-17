@@ -1,0 +1,12 @@
+StartChar: Macute
+Encoding: 7742 7742 581
+Width: 900
+Flags: W
+HStem: -64 21<-5 35 220 260 495 535 720 760> -14 126<110.546 179.559> 486 21<-5 35> 536 128<82.5 177> 661 303
+VStem: 180 40<114 513> 261 128<101 487> 386 253 436 128<85 469.525> 661 128<88 484.342>
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 300 200 2
+Refer: 45 77 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" M acutecmb
+EndChar
