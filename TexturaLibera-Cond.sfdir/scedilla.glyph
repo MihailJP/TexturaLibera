@@ -1,0 +1,12 @@
+StartChar: scedilla
+Encoding: 351 351 297
+Width: 320
+Flags: W
+HStem: -221 92<66.7305 154.255> -6 92<68.5 134> 314 92<186 251.5> 426 20<165 205 165 205 285 325 285 325>
+VStem: -6 292 -6 332
+LayerCount: 2
+Fore
+Refer: 102 184 N 1 0 0 1 0 0 2
+Refer: 83 115 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" s cedillacmb
+EndChar

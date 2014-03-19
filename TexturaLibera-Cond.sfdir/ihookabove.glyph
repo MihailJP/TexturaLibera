@@ -1,0 +1,12 @@
+StartChar: ihookabove
+Encoding: 7881 7881 530
+Width: 160
+Flags: W
+HStem: -46 21<55 95> 426 20<65 105 65 105> 454 292 554 21<-25 15>
+VStem: -46 252 34 92<47 353>
+LayerCount: 2
+Fore
+Refer: 381 777 N 1 0 0 1 240 0 2
+Refer: 97 305 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" i hookcmb
+EndChar
