@@ -1,0 +1,12 @@
+StartChar: Ehungarumlaut
+Encoding: 57553 57553 461
+Width: 900
+Flags: W
+HStem: -46 92<377.463 554.02> 446 21<315 345 315 345> 504 92<622.5 698.437> 526 20<515 555> 554 92<503.601 573.054> 679 267
+VStem: 104 92<207.533 373.047> 345 30<76 455 528 564> 464 92<125 303.999 363 475>
+LayerCount: 2
+Fore
+Refer: 267 733 S 1 0 0 1 300 200 2
+Refer: 37 69 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" E hungarumlautcmb
+EndChar

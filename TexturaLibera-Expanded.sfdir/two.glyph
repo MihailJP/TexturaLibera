@@ -1,0 +1,49 @@
+StartChar: two
+Encoding: 50 50 18
+Width: 480
+Flags: W
+HStem: -46 21G<75 167 365.5 386> 4 92<205.576 330.899> 426 20G<181 313> 426 20G<181 313>
+LayerCount: 2
+Back
+SplineSet
+120 350 m 1
+ 180 400 l 1
+ 240 400 l 1
+ 360 350 l 1
+ 360 275 l 1
+ 120 75 l 25
+ 120 0 l 1
+ 120 0 196 50 300 50 c 3
+ 342 50 390 0 391 0 c 1025
+EndSplineSet
+Fore
+SplineSet
+74 325 m 1xe0
+ 145 396 l 1
+ 205 446 l 1
+ 265 446 l 1
+ 385 396 l 1
+ 406 375 l 1
+ 406 300 l 1
+ 335 229 l 1
+ 166 88 l 1
+ 166 58 l 1
+ 196 73 254 96 325 96 c 0
+ 367 96 415 46 416 46 c 2
+ 437 25 l 1
+ 366 -46 l 2
+ 365 -46 317 4 275 4 c 0
+ 171 4 95 -46 95 -46 c 1
+ 74 -25 l 1
+ 74 50 l 1
+ 145 121 l 1
+ 314 262 l 1
+ 314 313 l 1
+ 215 354 l 1
+ 155 354 l 1
+ 95 304 l 1
+ 74 325 l 1xe0
+EndSplineSet
+Substitution2: "Subscript forms-1" two.inferior
+Substitution2: "Superscript forms-1" two.superior
+EndChar

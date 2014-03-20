@@ -1,0 +1,11 @@
+StartChar: vcmb
+Encoding: 878 878 152
+Width: 0
+Flags: W
+HStem: 477 10.5<-262.5 -242.5> 713 10<-312.5 -292.5> 723 65<-312.5 -292.5 -164.75 -154.5>
+VStem: -323 46<549.79 667.5> -233 46<719.255 749.75> -203 46<572.5 672.5>
+AnchorPoint: "abvmark" -240 500 mark 0
+LayerCount: 2
+Fore
+Refer: 86 118 N 0.5 0 0 0.5 -360 500 2
+EndChar

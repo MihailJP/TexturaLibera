@@ -1,0 +1,12 @@
+StartChar: qdotaccent
+Encoding: 59010 59010 694
+Width: 480
+Flags: W
+HStem: -196 21<315 355> -46 21<195 235> 426 20<245 285 245 285 364.556 405 364.556 405> 504 152
+VStem: 74 92<145 255> 194 152 314 92<-125 53 95 325>
+LayerCount: 2
+Fore
+Refer: 269 729 N 1 0 0 1 30 0 2
+Refer: 81 113 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" q dotaccentcmb
+EndChar

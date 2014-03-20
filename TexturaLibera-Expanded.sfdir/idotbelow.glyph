@@ -1,0 +1,13 @@
+StartChar: idotbelow
+Encoding: 7883 7883 521
+Width: 240
+Flags: W
+HStem: -196 152 -46 21<105 145> 426 20<95 135 95 135> 494 21<75 115>
+VStem: 44 152 74 92<65 335>
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 360 0 2
+Refer: 73 105 N 1 0 0 1 0 0 2
+Substitution2: "Dotless forms-1" dotlessidotbelow
+Ligature2: "Glyph composition-1" i dotbelowcmb
+EndChar

@@ -1,0 +1,12 @@
+StartChar: dacute
+Encoding: 58487 58487 445
+Width: 480
+Flags: W
+HStem: -46 21<195 235> 426 20<245 285 245 285> 504 92<170.136 286.407> 679 267
+VStem: 74 92<99.5798 255> 194 242 314 92<145 255 397 474.342>
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 60 200 2
+Refer: 68 100 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" d acutecmb
+EndChar

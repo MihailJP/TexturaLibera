@@ -1,0 +1,14 @@
+StartChar: edotaccentacute
+Encoding: 58568 58568 464
+Width: 420
+Flags: W
+HStem: -46 21<185 235> 426 20<245 295 245 295> 479 267 504 152
+VStem: 44 152 74 92<147 255> 254 242
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 120 0 2
+Refer: 269 729 N 1 0 0 1 -120 0 2
+Refer: 69 101 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" e dotaccentcmb acutecmb
+Ligature2: "Glyph composition-1" edotaccent acutecmb
+EndChar

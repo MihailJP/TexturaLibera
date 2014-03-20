@@ -1,0 +1,14 @@
+StartChar: Udotbelow
+Encoding: 7908 7908 735
+Width: 840
+Flags: W
+HStem: -196 152 -46 92<347.149 497> 504 21<15 54> 535 86<306 315 346.222 438> 554 92<115.988 256.051> 651 20<695 735>
+VStem: 104 92<160.99 356.155> 315 30<68 532> 344 152 434 92<125 525> 674 92<65 84 124.008 173 177 560>
+AnchorPoint: "abvmark" 540 700 basechar 0
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 660 0 2
+Refer: 357 803 N 1 0 0 1 660 0 2
+Refer: 53 85 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" U dotbelowcmb
+EndChar
