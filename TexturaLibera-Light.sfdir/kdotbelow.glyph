@@ -1,0 +1,14 @@
+StartChar: kdotbelow
+Encoding: 7731 7731 563
+Width: 400
+Flags: W
+HStem: -182 114 437 20<280 320> 637 20<80 120>
+VStem: 63 74<45 206 249 580> 143 114 263 74<45 176 370 380>
+CounterMasks: 1 1c
+AnchorPoint: "abvmark" 200 700 basechar 0
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 400 0 2
+Refer: 75 107 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" k dotbelowcmb
+EndChar

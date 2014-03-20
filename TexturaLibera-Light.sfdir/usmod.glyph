@@ -1,0 +1,10 @@
+StartChar: usmod
+Encoding: 42864 42864 891
+Width: 300
+Flags: W
+HStem: 259.75 15.75<159.75 187.5> 712.75 15<150 180 150 180>
+VStem: 47.25 55.5<460 610> 197.25 55.5<340 640>
+LayerCount: 2
+Fore
+Refer: 890 42863 N 0.75 0 0 0.75 0 400 2
+EndChar

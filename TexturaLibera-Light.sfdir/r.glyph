@@ -1,0 +1,47 @@
+StartChar: r
+Encoding: 114 114 82
+Width: 300
+Flags: W
+HStem: 417 20G<80 120 200 240> 417 20G<80 120 200 240>
+VStem: 63 74<40 320 354 360>
+AnchorPoint: "blwmark" 150 0 basechar 0
+AnchorPoint: "abvmark" 150 500 basechar 0
+LayerCount: 2
+Back
+SplineSet
+250 350 m 25
+ 200 400 l 25
+ 100 300 l 1049
+80 40 m 25
+ 120 0 l 1049
+80 400 m 25
+ 120 360 l 1049
+100 380 m 9
+ 100 20 l 1025
+EndSplineSet
+Fore
+SplineSet
+43 380 m 1xa0
+ 100 437 l 1
+ 120 417 l 1
+ 137 400 l 1
+ 157 380 l 1
+ 137 360 l 1
+ 137 354 l 1
+ 220 437 l 1
+ 287 370 l 1
+ 230 313 l 1
+ 180 363 l 1
+ 137 320 l 1
+ 137 40 l 1
+ 157 20 l 1
+ 100 -37 l 1
+ 80 -17 l 1
+ 63 0 l 1
+ 43 20 l 1
+ 63 40 l 1
+ 63 280 l 1
+ 63 360 l 1
+ 43 380 l 1xa0
+EndSplineSet
+EndChar

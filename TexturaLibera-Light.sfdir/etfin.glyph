@@ -1,0 +1,41 @@
+StartChar: etfin
+Encoding: 42859 42859 959
+Width: 350
+Flags: W
+HStem: 417 20G<125 170> 417 20G<125 170>
+VStem: 213 74<20 69>
+LayerCount: 2
+Back
+SplineSet
+50 325 m 25
+ 125 400 l 1
+ 250 300 l 1
+ 100 150 l 1
+ 250 100 l 1
+ 250 0 l 1
+ 0 -200 l 1025
+EndSplineSet
+Fore
+SplineSet
+30 288 m 1xa0
+ 13 305 l 1
+ 145 437 l 1
+ 270 337 l 1
+ 287 320 l 1
+ 145 178 l 1
+ 270 137 l 1
+ 287 120 l 1
+ 287 20 l 1
+ 230 -37 l 1
+ -20 -237 l 1
+ -37 -220 l 1
+ 20 -163 l 1
+ 213 -8 l 1
+ 213 69 l 1
+ 80 113 l 1
+ 63 130 l 1
+ 211 278 l 1
+ 105 363 l 1
+ 30 288 l 1xa0
+EndSplineSet
+EndChar

@@ -1,0 +1,39 @@
+StartChar: quotedblleft
+Encoding: 8220 8220 251
+Width: 500
+Flags: W
+HStem: 398 214
+LayerCount: 2
+Back
+SplineSet
+172.5 435 m 25
+ 132.5 475 l 1
+ 132.5 515 l 25
+ 192.5 575 l 1049
+372.5 435 m 25
+ 332.5 475 l 1
+ 332.5 515 l 25
+ 392.5 575 l 1049
+EndSplineSet
+Fore
+SplineSet
+409 455 m 1
+ 353 398 l 1
+ 296 455 l 1
+ 296 495 l 1
+ 412 612 l 1
+ 429 595 l 1
+ 369 535 l 1
+ 369 495 l 1
+ 409 455 l 1
+209 455 m 1
+ 153 398 l 1
+ 96 455 l 1
+ 96 495 l 1
+ 212 612 l 1
+ 229 595 l 1
+ 169 535 l 1
+ 169 495 l 1
+ 209 455 l 1
+EndSplineSet
+EndChar

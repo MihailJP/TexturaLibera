@@ -1,0 +1,12 @@
+StartChar: odieresis
+Encoding: 246 246 135
+Width: 400
+Flags: W
+HStem: 417 20<200 240 200 240> 518 114
+VStem: 43 314 63 74<80 280> 263 74<120 320>
+LayerCount: 2
+Fore
+Refer: 101 168 S 1 0 0 1 0 0 2
+Refer: 79 111 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" o dieresiscmb
+EndChar

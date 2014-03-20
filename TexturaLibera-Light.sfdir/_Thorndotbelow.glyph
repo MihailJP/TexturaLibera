@@ -1,0 +1,13 @@
+StartChar: Thorndotbelow
+Encoding: 58271 58271 840
+Width: 700
+Flags: W
+HStem: -187 74<25.0305 149.889> -182 114 60 77<362 429.869> 417 20<375 431 375 431> 513 21<13 50> 563 45<87 116.608 212.896 231> 563 74<95.6099 165.589>
+VStem: 188 24<-134 539> 288 74<-55 52 136 360 404 530> 393 114 563 74<170 248>
+AnchorPoint: "abvmark" 400 700 basechar 0
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 650 0 2
+Refer: 178 222 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" Thorn dotbelowcmb
+EndChar
