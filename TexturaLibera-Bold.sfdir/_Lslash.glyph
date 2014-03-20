@@ -4,6 +4,8 @@ Width: 700
 Flags: W
 HStem: -64 21G<-5 35 325 485> -14 128<113.505 180 220 264.342> 486 21G<-5 35> 494 20G<457.174 505> 536 128<82.5 177>
 VStem: 180 40<114 218 325 513> 261 128<185 276 354 367 445 515> 486 128<181.654 268>
+AnchorPoint: "abvmark" 400 700 basechar 0
+AnchorPoint: "blwmark" 350 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
