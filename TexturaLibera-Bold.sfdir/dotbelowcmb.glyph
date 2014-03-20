@@ -9,11 +9,8 @@ AnchorPoint: "blwmark" -200 0 mark 0
 LayerCount: 2
 Back
 SplineSet
--271 -125 m 1
- -200 -54 l 1
- -129 -125 l 1
- -200 -196 l 1
- -271 -125 l 1
+-235 -90 m 25
+ -165 -160 l 1049
 EndSplineSet
 Fore
 SplineSet
