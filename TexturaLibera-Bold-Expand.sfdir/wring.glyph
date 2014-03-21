@@ -1,0 +1,13 @@
+StartChar: wring
+Encoding: 7832 7832 799
+Width: 720
+Flags: W
+HStem: 444 20<95 135 95 135 335 375 335 375 535 575 535 575> 461 128<334.457 413.544> 661 128<306.456 385.543>
+VStem: 56 128<111.793 315> 296 128<111.793 315> 536 128<155 316.389>
+CounterMasks: 1 1c
+LayerCount: 2
+Fore
+Refer: 184 730 N 1 0 0 1 120 0 2
+Refer: 784 -1 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" w ringcmb
+EndChar

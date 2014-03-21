@@ -1,0 +1,12 @@
+StartChar: ccircumflex
+Encoding: 265 265 438
+Width: 420
+Flags: W
+HStem: 444 20<255 295 255 295> 461 303
+VStem: 56 128<111.793 245>
+LayerCount: 2
+Fore
+Refer: 100 710 N 1 0 0 1 0 0 2
+Refer: 67 99 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" c circumflexcmb
+EndChar

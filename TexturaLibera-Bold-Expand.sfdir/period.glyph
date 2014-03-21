@@ -1,0 +1,21 @@
+StartChar: period
+Encoding: 46 46 14
+Width: 360
+Flags: W
+HStem: -64 208
+VStem: 76 208
+LayerCount: 2
+Back
+SplineSet
+140 80 m 25
+ 220 0 l 1049
+EndSplineSet
+Fore
+SplineSet
+76 45 m 1
+ 175 144 l 1
+ 284 35 l 1
+ 185 -64 l 1
+ 76 45 l 1
+EndSplineSet
+EndChar

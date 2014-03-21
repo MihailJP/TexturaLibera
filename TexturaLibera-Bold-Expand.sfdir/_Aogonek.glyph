@@ -1,0 +1,13 @@
+StartChar: Aogonek
+Encoding: 260 260 271
+Width: 840
+Flags: W
+HStem: -264 328 -14 128<130.592 230.54> 511 21<215 249> 644 20<350 378 575 615>
+VStem: 566 308
+AnchorPoint: "abvmark" 540 700 basechar 0
+LayerCount: 2
+Fore
+Refer: 283 731 N 1 0 0 1 480 0 2
+Refer: 33 65 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" A ogonekcmb
+EndChar

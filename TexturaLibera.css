@@ -49,11 +49,20 @@
 	font-weight: 500;
 	font-style: normal;
 }
+
 @font-face {
 	font-family: 'Textura Libera';
 	src: url('TexturaLibera-Expanded.woff');
 	font-variant: normal;
 	font-stretch: expanded;
 	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Textura Libera';
+	src: url('TexturaLibera-Bold-Expanded.woff');
+	font-variant: normal;
+	font-stretch: expanded;
+	font-weight: 700;
 	font-style: normal;
 }

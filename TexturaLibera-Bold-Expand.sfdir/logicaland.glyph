@@ -1,0 +1,27 @@
+StartChar: logicaland
+Encoding: 8743 8743 952
+Width: 720
+Flags: W
+HStem: 444 20G<375 415> 444 20G<375 415>
+LayerCount: 2
+Back
+SplineSet
+120 0 m 25
+ 360 400 l 25
+ 600 0 l 1049
+EndSplineSet
+Fore
+SplineSet
+85 -64 m 1x80
+ 56 -35 l 1
+ 296 365 l 1
+ 395 464 l 1
+ 424 435 l 1
+ 664 35 l 1
+ 565 -64 l 1
+ 536 -35 l 1
+ 339 293 l 1
+ 184 35 l 1
+ 85 -64 l 1x80
+EndSplineSet
+EndChar
