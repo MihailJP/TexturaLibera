@@ -2,8 +2,8 @@ StartChar: ibreveinvertedbelow
 Encoding: 58696 58696 523
 Width: 200
 Flags: W
-HStem: -112 74<24.3465 150.622> 417 20<80 120 80 120> 523 21<68 105>
-VStem: 63 74<40 360>
+HStem: -162 74<70.6478 165.263> 417 20<80 120 80 120> 523 21<68 105>
+VStem: -37 299 63 74<40 360>
 LayerCount: 2
 Fore
 Refer: 537 815 N 1 0 0 1 300 0 2
