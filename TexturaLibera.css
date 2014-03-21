@@ -1,0 +1,18 @@
+/* This is the @font-face definition file for Textura Libera web font. */
+
+/*
+ * Usage:
+ * 
+ * 1. Put this stylesheet into an HTML directory of your server
+ *    together with the woff file.
+ * 2. Link this stylesheet from your hypertext or @import to your stylesheet.
+ */
+
+@font-face {
+	font-family: 'Textura Libera';
+	src: url('TexturaLibera.woff');
+	font-variant: normal;
+	font-stretch: normal;
+	font-weight: 500;
+	font-style: normal;
+}
