@@ -1,0 +1,14 @@
+StartChar: ndotbelow
+Encoding: 7751 7751 590
+Width: 480
+Flags: W
+HStem: -167 94 407 20<96 136 96 136 266 306 266 306>
+VStem: 93 54<44 266 288 356> 193 94 333 54<44 326>
+CounterMasks: 1 38
+AnchorPoint: "abvmark" 240 500 basechar 0
+LayerCount: 2
+Fore
+Refer: 357 803 S 1 0 0 1 480 0 2
+Refer: 78 110 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" n dotbelowcmb
+EndChar

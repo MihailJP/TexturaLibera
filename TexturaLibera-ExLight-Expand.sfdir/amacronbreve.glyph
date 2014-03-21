@@ -1,0 +1,13 @@
+StartChar: amacronbreve
+Encoding: 58384 58384 376
+Width: 480
+Flags: W
+HStem: 198 54<228.375 333> 407 20<206 346 206 346> 523 54<136 404> 648 54<214.424 342.142> 757 20<146 177 416 447>
+VStem: 93 54<106 144> 123 324 333 54<27.2798 112 134 198 252 350>
+LayerCount: 2
+Fore
+Refer: 265 728 S 1 0 0 1 30 150 2
+Refer: 231 257 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" a macroncmb brevecmb
+Ligature2: "Glyph composition-1" amacron brevecmb
+EndChar

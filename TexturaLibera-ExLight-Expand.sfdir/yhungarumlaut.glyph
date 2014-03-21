@@ -1,0 +1,12 @@
+StartChar: yhungarumlaut
+Encoding: 59260 59260 815
+Width: 480
+Flags: W
+HStem: -227 54<232.501 300.472> -177 54<107.874 185.576> 407 20<96 136 96 136 336 375.231 336 375.231> 498 229
+VStem: 93 54<136 356> 213 54<649.608 684> 333 54<-134 82 104 356> 393 54<649.608 684>
+LayerCount: 2
+Fore
+Refer: 267 733 N 1 0 0 1 0 0 2
+Refer: 89 121 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" y hungarumlautcmb
+EndChar

@@ -1,0 +1,12 @@
+StartChar: vdotbelow
+Encoding: 7807 7807 768
+Width: 480
+Flags: W
+HStem: -167 94 407 20<96 136> 427 130<96 136 381 393>
+VStem: 93 54<104 356> 193 94 273 54<427.753 506.849> 333 54<136 346>
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 480 0 2
+Refer: 86 118 N 1 0 0 1 0 0 2
+Substitution2: "Dotless forms-1" vdotbelow.alt
+EndChar

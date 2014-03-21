@@ -1,0 +1,12 @@
+StartChar: ddotaccent
+Encoding: 7691 7691 443
+Width: 480
+Flags: W
+HStem: 407 20<236 275.744 236 275.744> 523 54<154.093 295.263> 623 21<149 173> 733 94
+VStem: 93 54<104 264 577.5 622.999> 253 94 333 54<136 264 349 489.293>
+LayerCount: 2
+Fore
+Refer: 269 729 N 1 0 0 1 60 200 2
+Refer: 68 100 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" d dotaccentcmb
+EndChar

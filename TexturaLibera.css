@@ -74,3 +74,11 @@
 	font-weight: 300;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Textura Libera';
+	src: url('TexturaLibera-ExLight-Expanded.woff');
+	font-variant: normal;
+	font-stretch: expanded;
+	font-weight: 200;
+	font-style: normal;
+}
