@@ -1,0 +1,12 @@
+StartChar: ppdieresis
+Encoding: 60391 60391 690
+Width: 600
+Flags: W
+HStem: -187 21<63 100 263 300> 417 20<80 120 80 120 200 240 200 240 400 440 400 440> 518 114
+VStem: 63 74<-130 -7 86 320 354 360> 143 314 263 74<-130 -4 77.2793 280> 463 74<120 280>
+LayerCount: 2
+Fore
+Refer: 101 168 N 1 0 0 1 100 0 2
+Refer: 689 61142 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" p_p dieresiscmb
+EndChar

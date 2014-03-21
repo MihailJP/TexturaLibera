@@ -1,0 +1,13 @@
+StartChar: dotlessjdotbelow
+Encoding: 65539 -1 550
+Width: 200
+Flags: W
+HStem: -374 198 444 20<80 120 80 120>
+VStem: 1 198 36 128<-65 330>
+AnchorPoint: "abvmark" 100 500 basechar 0
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 300 -150 2
+Refer: 98 567 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" dotlessj dotbelowcmb
+EndChar

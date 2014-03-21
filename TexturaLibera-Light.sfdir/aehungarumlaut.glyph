@@ -1,0 +1,12 @@
+StartChar: aehungarumlaut
+Encoding: 58433 58433 399
+Width: 550
+Flags: W
+HStem: 188 74<199.383 263> 417 20<175 295 175 295 400 440 400 440> 488 249
+VStem: 63 74<95 155> 263 74<154 188 262 320 648.402 680> 413 74<648.402 680>
+LayerCount: 2
+Fore
+Refer: 189 230 N 1 0 0 1 0 0 2
+Refer: 267 733 N 1 0 0 1 100 0 2
+Ligature2: "Glyph composition-1" ae hungarumlautcmb
+EndChar

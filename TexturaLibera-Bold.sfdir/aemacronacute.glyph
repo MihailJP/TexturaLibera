@@ -1,0 +1,13 @@
+StartChar: aemacronacute
+Encoding: 58426 58426 408
+Width: 550
+Flags: W
+HStem: 444 20<190 310 190 310 415 455 415 455> 486 128<210 390> 611 303
+VStem: 186 253
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 100 150 2
+Refer: 404 483 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" a macroncmb acutecmb
+Ligature2: "Glyph composition-1" aemacron acutecmb
+EndChar

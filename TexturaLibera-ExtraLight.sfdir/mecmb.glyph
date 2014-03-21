@@ -1,0 +1,12 @@
+StartChar: mecmb
+Encoding: 59624 59624 586
+Width: 600
+Flags: W
+HStem: 407 20<81 116 81 116 221 261 221 261 421 461 421 461> 703.5 10<298 318 298 318>
+VStem: 73 54<31 291 313 369> 236.5 27<569 642> 273 54<31 291 313 341> 473 54<31 341>
+LayerCount: 2
+Fore
+Refer: 142 868 N 1 0 0 1 500 0 2
+Refer: 77 109 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" m ecmb
+EndChar

@@ -1,0 +1,11 @@
+StartChar: ringbelowcmb
+Encoding: 805 805 576
+Width: 0
+Flags: W
+HStem: -302 54<-234.721 -128.531> -102 54<-271.469 -165.279>
+VStem: -327 54<-209.354 -103.509> -127 54<-246.491 -140.646>
+AnchorPoint: "blwmark" -200 0 mark 0
+LayerCount: 2
+Fore
+Refer: 886 755 N 1 0 0 1 -400 0 2
+EndChar

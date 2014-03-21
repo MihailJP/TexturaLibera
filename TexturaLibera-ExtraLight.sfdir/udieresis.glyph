@@ -1,0 +1,12 @@
+StartChar: udieresis
+Encoding: 252 252 114
+Width: 400
+Flags: W
+HStem: 407 20<81 116 81 116 281 316 281 316> 533 84
+VStem: 58 284 73 54<59 369> 273 54<41 87 109 369>
+LayerCount: 2
+Fore
+Refer: 101 168 N 1 0 0 1 0 0 2
+Refer: 85 117 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" u dieresiscmb
+EndChar

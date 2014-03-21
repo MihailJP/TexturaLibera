@@ -1,0 +1,12 @@
+StartChar: Tcedilla
+Encoding: 354 354 316
+Width: 700
+Flags: W
+HStem: -212 74<222.126 344.387> -37 74<263.512 413.215> 463 21<63 100> 470 20<263 287> 617 20<576 613>
+VStem: 88 74<146.632 310.241> 163 324 263 24<60 446 470.912 490> 363 74<120 430>
+LayerCount: 2
+Fore
+Refer: 102 184 N 1 0 0 1 150 0 2
+Refer: 52 84 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" T cedillacmb
+EndChar

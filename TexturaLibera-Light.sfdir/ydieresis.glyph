@@ -1,0 +1,11 @@
+StartChar: ydieresis
+Encoding: 255 255 177
+Width: 400
+HStem: -237 74<199.69 247.239> -187 74<97.4456 148.765> 417 20<80 120 80 120 280 320 280 320> 518 114
+VStem: 43 314 63 74<120 360> 263 74<-130 46 80 360>
+LayerCount: 2
+Fore
+Refer: 101 168 N 1 0 0 1 0 0 2
+Refer: 89 121 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" y dieresiscmb
+EndChar

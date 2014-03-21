@@ -1,0 +1,13 @@
+StartChar: aydotaccent
+Encoding: 61425 61425 418
+Width: 600
+Flags: W
+HStem: -227 54<395.673 449.903> -177 22<281 293.61> 198 54<194.062 273> 407 20<171 291 171 291 481 516 481 516> 533 84
+VStem: 73 54<91 159> 273 54<116 198 252 350> 308 84 473 54<-134 62 84 369>
+LayerCount: 2
+Fore
+Refer: 269 729 N 1 0 0 1 150 0 2
+Refer: 346 42813 N 1 0 0 1 0 0 3
+LCarets2: 1 0 
+Ligature2: "Glyph composition-1" a_y dotaccentcmb
+EndChar

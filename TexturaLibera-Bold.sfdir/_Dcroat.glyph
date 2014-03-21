@@ -1,0 +1,11 @@
+StartChar: Dcroat
+Encoding: 272 272 318
+Width: 700
+Flags: W
+HStem: -64 21<-5 35 358.043 485> -14 128<113.505 179.472> 486 21<-5 35> 536 128<82.5 177>
+VStem: 180 40<114 252 389 513> 261 128<185 248.234 385 509> 536 128<136 427>
+AnchorPoint: "abvmark" 400 700 basechar 0
+LayerCount: 2
+Fore
+Refer: 180 208 N 1 0 0 1 0 0 2
+EndChar

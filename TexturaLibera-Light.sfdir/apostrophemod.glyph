@@ -1,0 +1,10 @@
+StartChar: apostrophemod
+Encoding: 700 700 961
+Width: 300
+Flags: W
+HStem: 413 214
+VStem: 71 133
+LayerCount: 2
+Fore
+Refer: 255 8217 N 1 0 0 1 0 0 2
+EndChar

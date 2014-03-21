@@ -1,0 +1,12 @@
+StartChar: rringbelow
+Encoding: 59043 59043 700
+Width: 300
+Flags: W
+HStem: -312 74<119.089 212.843> -112 74<87.157 180.911> 417 20<80 120 80 120 200 240 200 240>
+VStem: 13 74<-205.907 -112.157> 63 74<40 320 354 360> 213 74<-237.843 -144.093>
+LayerCount: 2
+Fore
+Refer: 576 805 N 1 0 0 1 350 0 2
+Refer: 82 114 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" r ringbelowcmb
+EndChar

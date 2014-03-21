@@ -1,0 +1,12 @@
+StartChar: Gdotbelow
+Encoding: 57601 57601 491
+Width: 750
+Flags: W
+HStem: -224 198 -64 128<418 475.316> 300 128<531 618.5> 486 128<509 592> 644 20<311.364 355 469 501 641 681>
+VStem: 61 128<206.161 371.668> 280 40<108 442 543 551> 301 198 361 128<135 293.804 346 465> 586 128<152.625 293.872>
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 600 0 2
+Refer: 39 71 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" G dotbelowcmb
+EndChar

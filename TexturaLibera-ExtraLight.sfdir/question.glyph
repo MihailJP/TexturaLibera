@@ -1,0 +1,48 @@
+StartChar: question
+Encoding: 63 63 31
+Width: 400
+Flags: W
+VStem: 73 54<466 509> 173 54<206 334> 273 54<416 528>
+CounterMasks: 1 e0
+LayerCount: 2
+Back
+SplineSet
+100 450 m 25
+ 100 525 l 25
+ 175 600 l 25
+ 300 550 l 25
+ 300 400 l 25
+ 200 350 l 25
+ 200 190 l 1049
+185 30 m 25
+ 215 0 l 1049
+EndSplineSet
+Fore
+SplineSet
+158 14 m 1
+ 201 57 l 1
+ 242 16 l 1
+ 199 -27 l 1
+ 158 14 l 1
+84 423 m 1
+ 73 434 l 1
+ 73 509 l 1
+ 191 627 l 1
+ 316 577 l 1
+ 327 566 l 1
+ 327 416 l 1
+ 284 373 l 1
+ 227 344 l 1
+ 227 206 l 1
+ 184 163 l 1
+ 173 174 l 1
+ 173 334 l 1
+ 216 377 l 1
+ 273 406 l 1
+ 273 528 l 1
+ 159 573 l 1
+ 127 541 l 1
+ 127 466 l 1
+ 84 423 l 1
+EndSplineSet
+EndChar

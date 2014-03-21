@@ -1,0 +1,13 @@
+StartChar: Odieresiscircumflex
+Encoding: 57901 57901 636
+Width: 800
+Flags: W
+HStem: -37 74<305.149 464.23> 455 21<263 288> 617 20<296.735 337 448.5 493.5> 718 114 888 249
+VStem: 88 74<193.29 386.603> 288 24<66 463 533 571> 293 314 388 74<120 530> 413 74<1039.02 1080> 616 74<210.48 431.971>
+LayerCount: 2
+Fore
+Refer: 100 710 N 1 0 0 1 250 400 2
+Refer: 133 214 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" O dieresiscmb circumflexcmb
+Ligature2: "Glyph composition-1" Odieresis circumflexcmb
+EndChar

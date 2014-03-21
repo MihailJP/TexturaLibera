@@ -1,0 +1,12 @@
+StartChar: agrave
+Encoding: 224 224 104
+Width: 400
+Flags: W
+HStem: 188 74<199.383 263> 417 20<175 295 175 295> 513 224
+VStem: 63 74<95 155> 113 74<656.863 680> 263 74<37.0945 71 105 188 262 342>
+LayerCount: 2
+Fore
+Refer: 64 96 S 1 0 0 1 25 0 2
+Refer: 65 97 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" a gravecmb
+EndChar

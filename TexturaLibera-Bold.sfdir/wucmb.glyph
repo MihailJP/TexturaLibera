@@ -1,0 +1,12 @@
+StartChar: wucmb
+Encoding: 59634 59634 807
+Width: 600
+Flags: W
+HStem: 444 20<80 120 80 120 280 320 280 320 445 485 445 485> 722 10<240 260 240 260 340 360 340 360>
+VStem: 36 128<98.1606 330> 218 64<540.178 665> 236 128<98.1606 330> 318 64<545 665> 436 128<135 323.034>
+LayerCount: 2
+Fore
+Refer: 145 871 N 1 0 0 1 500 0 2
+Refer: 784 -1 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" w ucmb
+EndChar

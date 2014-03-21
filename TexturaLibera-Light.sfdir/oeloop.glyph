@@ -1,0 +1,46 @@
+StartChar: oeloop
+Encoding: 42829 42829 867
+Width: 550
+Flags: W
+HStem: 417 20G<200 240 400 440> 417 20G<200 240 400 440>
+VStem: 63 74<120 280> 263 74<154 280>
+AnchorPoint: "abvmark" 300 500 basechar 0
+AnchorPoint: "blwmark" 300 0 basechar 0
+LayerCount: 2
+Back
+SplineSet
+300 100 m 25
+ 300 300 l 25
+ 400 400 l 25
+ 500 300 l 1
+ 300 100 l 25
+ 200 0 l 1
+ 100 100 l 25
+ 100 300 l 25
+ 200 400 l 25
+ 300 300 l 1041
+EndSplineSet
+Fore
+SplineSet
+320 337 m 1xb0
+ 420 437 l 1
+ 537 320 l 1
+ 180 -37 l 1
+ 63 80 l 1
+ 63 280 l 1
+ 220 437 l 1
+ 320 337 l 1xb0
+337 154 m 1
+ 463 280 l 1
+ 380 363 l 1
+ 337 320 l 1
+ 337 154 l 1
+263 280 m 1
+ 180 363 l 1
+ 137 320 l 1
+ 137 120 l 1
+ 220 37 l 1
+ 263 80 l 1
+ 263 280 l 1
+EndSplineSet
+EndChar

@@ -1,0 +1,12 @@
+StartChar: eicmb
+Encoding: 58594 58594 482
+Width: 350
+Flags: W
+HStem: 407 20<196 236 196 236> 703.5 10<190.5 208 190.5 208> 771.5 10.5<191.5 207>
+VStem: 73 54<138 284> 186.5 27<515.5 684.5>
+LayerCount: 2
+Fore
+Refer: 143 869 N 1 0 0 1 400 0 2
+Refer: 69 101 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" e icmb
+EndChar

@@ -1,0 +1,12 @@
+StartChar: kacute
+Encoding: 7729 7729 565
+Width: 400
+Flags: W
+HStem: 437 20<280 320> 637 20<80 120> 688 249
+VStem: 63 74<45 206 249 580> 238 74<848.402 880> 263 74<45 176 370 380>
+LayerCount: 2
+Fore
+Refer: 99 180 S 1 0 0 1 0 200 2
+Refer: 75 107 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" k acutecmb
+EndChar

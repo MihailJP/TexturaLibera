@@ -1,0 +1,12 @@
+StartChar: qbartilde
+Encoding: 59019 59019 880
+Width: 400
+Flags: W
+HStem: -214 21<245 285> -64 21<145 185> 444 20<215 255 215 255 315 355 315 355> 486 128<220.416 343> 511 128<107 229.584> 644 20<390 430>
+VStem: 36 128<135 265> 236 128<-11 7 63 303>
+LayerCount: 2
+Fore
+Refer: 168 732 N 1 0 0 1 25 0 2
+Refer: 871 42839 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" qbar tildecmb
+EndChar

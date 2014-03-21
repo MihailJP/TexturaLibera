@@ -1,0 +1,23 @@
+StartChar: llslst
+Encoding: 11805 11805 905
+Width: 300
+Flags: W
+HStem: -177 304
+VStem: 23 254
+LayerCount: 2
+Back
+SplineSet
+50 -150 m 25
+ 250 100 l 1049
+EndSplineSet
+Fore
+SplineSet
+34 -177 m 1
+ 23 -166 l 1
+ 223 84 l 1
+ 266 127 l 1
+ 277 116 l 1
+ 77 -134 l 1
+ 34 -177 l 1
+EndSplineSet
+EndChar

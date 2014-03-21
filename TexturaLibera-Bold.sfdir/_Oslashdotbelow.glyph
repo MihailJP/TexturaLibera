@@ -1,0 +1,13 @@
+StartChar: Oslashdotbelow
+Encoding: 60384 60384 607
+Width: 800
+Flags: W
+HStem: -224 198 -64 21<45 85 324 392> 644 20<311.364 355 463.5 508.5 715 755>
+VStem: 61 128<208.449 371.162> 280 40<108 151 249 443> 301 198 362 128<135 233 291 361 419 515> 589 128<225.552 417.836>
+AnchorPoint: "abvmark" 450 700 basechar 0
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 600 0 2
+Refer: 182 216 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" Oslash dotbelowcmb
+EndChar

@@ -1,0 +1,13 @@
+StartChar: oslashogonek
+Encoding: 58965 58965 604
+Width: 400
+Flags: W
+HStem: -227 254 407 20<196 235.75 196 235.75 346 377 346 377>
+VStem: 73 54<123 284> 98 54<-129 -91> 273 54<116 277>
+AnchorPoint: "abvmark" 200 500 basechar 0
+LayerCount: 2
+Fore
+Refer: 283 731 N 1 0 0 1 0 0 2
+Refer: 183 248 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" oslash ogonekcmb
+EndChar

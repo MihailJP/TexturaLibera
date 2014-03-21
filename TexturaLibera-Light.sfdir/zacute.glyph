@@ -1,0 +1,12 @@
+StartChar: zacute
+Encoding: 378 378 300
+Width: 350
+Flags: W
+HStem: -237 74<149.194 198.72> -187 74<47.1397 99.6054> 313 74<95.4264 148.692> 417 20<50 87 50 87 211 240 211 240> 488 249
+VStem: 188 74<648.402 680> 213 74<-130 75>
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 -50 0 2
+Refer: 90 122 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" z acutecmb
+EndChar

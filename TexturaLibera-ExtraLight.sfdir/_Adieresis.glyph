@@ -1,0 +1,12 @@
+StartChar: Adieresis
+Encoding: 196 196 132
+Width: 700
+Flags: W
+HStem: 23 54<95.4277 180.451> 323 54<243.607 297 357 384.493> 548 21<198 227 428 459> 573 54<241.263 301.421> 735 84
+VStem: 258 284 323 54<377.867 556.226>
+LayerCount: 2
+Fore
+Refer: 101 168 N 1 0 0 1 200 202 2
+Refer: 33 65 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" A dieresiscmb
+EndChar

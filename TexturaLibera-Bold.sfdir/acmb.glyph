@@ -1,0 +1,11 @@
+StartChar: acmb
+Encoding: 867 867 141
+Width: 0
+Flags: W
+HStem: 722 10<-205 -145 -205 -145>
+VStem: -182 64<545 580.5 648.5 658.5>
+AnchorPoint: "abvmark" -200 500 mark 0
+LayerCount: 2
+Fore
+Refer: 65 97 N 0.5 0 0 0.5 -300 500 2
+EndChar

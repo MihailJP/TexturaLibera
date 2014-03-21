@@ -1,0 +1,11 @@
+StartChar: cedillacmb
+Encoding: 807 807 358
+Width: 0
+Flags: W
+HStem: -202 54<-331.399 -220.04>
+VStem: -377 304
+AnchorPoint: "blwmark" -200 0 mark 0
+LayerCount: 2
+Fore
+Refer: 102 184 N 1 0 0 1 -400 0 2
+EndChar

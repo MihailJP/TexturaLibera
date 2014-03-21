@@ -1,0 +1,13 @@
+StartChar: pdotaccent
+Encoding: 7767 7767 685
+Width: 400
+Flags: W
+HStem: -177 21<73 104> 407 20<81 116 81 116 196 236 196 236> 533 84
+VStem: 73 54<-134 7 74 316 338 369> 158 84 273 54<116 316>
+CounterMasks: 1 1c
+LayerCount: 2
+Fore
+Refer: 269 729 N 1 0 0 1 0 0 2
+Refer: 80 112 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" p dotaccentcmb
+EndChar

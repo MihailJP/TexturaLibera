@@ -1,0 +1,36 @@
+StartChar: rrotunda
+Encoding: 42843 42843 96
+Width: 300
+Flags: W
+HStem: 417 20G<100 140> 417 20G<100 140>
+VStem: 13 274
+AnchorPoint: "blwmark" 150 0 basechar 0
+AnchorPoint: "abvmark" 150 500 basechar 0
+LayerCount: 2
+Back
+SplineSet
+250 50 m 25
+ 200 0 l 1
+ 100 200 l 25
+ 200 300 l 1
+ 100 400 l 1
+ 50 350 l 1049
+EndSplineSet
+Fore
+SplineSet
+270 87 m 1xa0
+ 287 70 l 1
+ 180 -37 l 1
+ 163 -20 l 1
+ 63 180 l 1
+ 163 280 l 1
+ 80 363 l 1
+ 30 313 l 1
+ 13 330 l 1
+ 120 437 l 1
+ 237 320 l 1
+ 137 220 l 1
+ 225 42 l 1
+ 270 87 l 1xa0
+EndSplineSet
+EndChar
