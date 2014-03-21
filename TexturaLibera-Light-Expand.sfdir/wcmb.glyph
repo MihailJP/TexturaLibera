@@ -1,0 +1,12 @@
+StartChar: wcmb
+Encoding: 61500 61500 764
+Width: 0
+GlyphClass: 4
+Flags: W
+HStem: 708.5 10<-372.5 -352.5 -372.5 -352.5 -252.5 -232.5 -252.5 -232.5 -107.25 -98.5>
+VStem: -378.5 37<550 672.5> -258.5 37<550 672.5> -168.5 37<716.283 750.366> -138.5 37<570 673>
+AnchorPoint: "abvmark" -240 500 mark 0
+LayerCount: 2
+Fore
+Refer: 87 119 N 0.5 0 0 0.5 -420 500 2
+EndChar

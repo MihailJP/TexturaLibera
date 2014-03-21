@@ -1,0 +1,38 @@
+StartChar: bracketwhiteright
+Encoding: 10215 10215 919
+Width: 480
+Flags: W
+HStem: -187 74<80 198 222 323> 663 74<80 198 222 323>
+VStem: 198 24<-113 663> 323 74<-113 663>
+LayerCount: 2
+Back
+SplineSet
+210 650 m 25
+ 210 -100 l 1049
+60 700 m 25
+ 360 700 l 25
+ 360 -150 l 25
+ 60 -150 l 1033
+EndSplineSet
+Fore
+SplineSet
+23 680 m 1
+ 80 737 l 1
+ 380 737 l 1
+ 397 720 l 1
+ 397 -130 l 1
+ 340 -187 l 1
+ 40 -187 l 1
+ 23 -170 l 1
+ 80 -113 l 1
+ 198 -113 l 1
+ 198 663 l 1
+ 40 663 l 1
+ 23 680 l 1
+222 -113 m 1
+ 323 -113 l 1
+ 323 663 l 1
+ 222 663 l 1
+ 222 -113 l 1
+EndSplineSet
+EndChar

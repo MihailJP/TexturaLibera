@@ -1,0 +1,35 @@
+StartChar: dotlessj
+Encoding: 567 567 98
+Width: 240
+Flags: W
+HStem: 417 20G<95 135> 417 20G<95 135>
+VStem: 83 74<-70 345>
+AnchorPoint: "abvmark" 120 500 basechar 0
+LayerCount: 2
+Back
+SplineSet
+145 350 m 25
+ 95 400 l 25
+ 45 350 l 1049
+120 375 m 1
+ 120 -90 l 9
+ 70 -140 l 1049
+EndSplineSet
+Fore
+SplineSet
+157 395 m 1xa0
+ 182 370 l 1
+ 157 345 l 1
+ 157 -70 l 1
+ 50 -177 l 1
+ 33 -160 l 1
+ 83 -110 l 1
+ 83 355 l 1
+ 75 363 l 1
+ 25 313 l 1
+ 8 330 l 1
+ 115 437 l 1
+ 140 412 l 1
+ 157 395 l 1xa0
+EndSplineSet
+EndChar

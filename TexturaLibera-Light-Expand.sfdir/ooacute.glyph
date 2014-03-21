@@ -1,0 +1,12 @@
+StartChar: ooacute
+Encoding: 61417 61417 671
+Width: 720
+Flags: W
+HStem: 417 20<240 280 240 280 480 520 480 520> 488 249
+VStem: 83 74<100 260> 323 74<100 300> 413 74<653.608 680> 563 74<140 300>
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 120 0 2
+Refer: 669 42831 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" o_o acutecmb
+EndChar

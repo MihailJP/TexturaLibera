@@ -1,0 +1,12 @@
+StartChar: Oslashacute
+Encoding: 510 510 620
+Width: 960
+Flags: W
+HStem: -37 74<361.499 561.553> 455 21<323 348> 562 75<551.067 627.466> 688 249
+VStem: 113 74<202.144 379.225> 348 24<64 170 230 463 526 571> 474 74<120 275 316 336 377 530> 593 74<853.608 880> 747 74<219.781 422.882>
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 300 200 2
+Refer: 182 216 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" Oslash acutecmb
+EndChar

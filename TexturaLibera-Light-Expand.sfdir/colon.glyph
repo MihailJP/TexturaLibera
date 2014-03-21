@@ -1,0 +1,27 @@
+StartChar: colon
+Encoding: 58 58 26
+Width: 360
+Flags: W
+VStem: 118 124
+LayerCount: 2
+Back
+SplineSet
+155 345 m 25
+ 205 295 l 1049
+155 50 m 25
+ 205 0 l 1049
+EndSplineSet
+Fore
+SplineSet
+118 30 m 1
+ 175 87 l 1
+ 242 20 l 1
+ 185 -37 l 1
+ 118 30 l 1
+118 325 m 1
+ 175 382 l 1
+ 242 315 l 1
+ 185 258 l 1
+ 118 325 l 1
+EndSplineSet
+EndChar

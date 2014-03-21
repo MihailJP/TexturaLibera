@@ -1,0 +1,43 @@
+StartChar: dotlessi
+Encoding: 305 305 97
+Width: 240
+Flags: W
+HStem: 417 20G<95 135> 417 20G<95 135>
+VStem: 83 74<55 345>
+AnchorPoint: "blwmark" 120 0 basechar 0
+AnchorPoint: "abvmark" 120 500 basechar 0
+LayerCount: 2
+Back
+SplineSet
+95 50 m 25
+ 145 0 l 25
+ 195 50 l 1049
+145 350 m 25
+ 95 400 l 25
+ 45 350 l 1049
+120 375 m 9
+ 120 25 l 1025
+EndSplineSet
+Fore
+SplineSet
+157 395 m 1xa0
+ 182 370 l 1
+ 157 345 l 1
+ 157 45 l 1
+ 165 37 l 1
+ 215 87 l 1
+ 232 70 l 1
+ 125 -37 l 1
+ 100 -12 l 1
+ 83 5 l 1
+ 58 30 l 1
+ 83 55 l 1
+ 83 355 l 1
+ 75 363 l 1
+ 25 313 l 1
+ 8 330 l 1
+ 115 437 l 1
+ 140 412 l 1
+ 157 395 l 1xa0
+EndSplineSet
+EndChar

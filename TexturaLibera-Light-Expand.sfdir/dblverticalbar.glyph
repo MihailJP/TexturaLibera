@@ -1,0 +1,10 @@
+StartChar: dblverticalbar
+Encoding: 8214 8214 900
+Width: 600
+HStem: -187 21<113 150 413 450>
+VStem: 113 74<-130 680> 413 74<-130 680>
+LayerCount: 2
+Fore
+Refer: 92 124 N 1 0 0 1 300 0 2
+Refer: 92 124 N 1 0 0 1 0 0 2
+EndChar

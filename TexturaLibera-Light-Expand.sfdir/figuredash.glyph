@@ -1,0 +1,23 @@
+StartChar: figuredash
+Encoding: 8210 8210 908
+Width: 480
+Flags: W
+HStem: 163 74<140 340>
+VStem: 83 314
+LayerCount: 2
+Back
+SplineSet
+120 200 m 25
+ 360 200 l 1049
+EndSplineSet
+Fore
+SplineSet
+83 180 m 1
+ 140 237 l 1
+ 380 237 l 1
+ 397 220 l 1
+ 340 163 l 1
+ 100 163 l 1
+ 83 180 l 1
+EndSplineSet
+EndChar

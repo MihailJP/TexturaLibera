@@ -66,3 +66,11 @@
 	font-weight: 700;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Textura Libera';
+	src: url('TexturaLibera-Light-Expanded.woff');
+	font-variant: normal;
+	font-stretch: expanded;
+	font-weight: 300;
+	font-style: normal;
+}

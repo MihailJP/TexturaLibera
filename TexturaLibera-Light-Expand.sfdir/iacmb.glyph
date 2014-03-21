@@ -1,0 +1,13 @@
+StartChar: iacmb
+Encoding: 59620 59620 540
+Width: 240
+Flags: W
+HStem: 417 20<95 135 95 135> 594 37<116.192 161.5> 708.5 10<105 175 105 175>
+VStem: 41.5 37<555 570> 83 74<55 345> 161.5 37<518.593 548 565 594 631 670.5>
+CounterMasks: 1 1c
+LayerCount: 2
+Fore
+Refer: 141 867 N 1 0 0 1 360 0 2
+Refer: 97 305 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" i acmb
+EndChar

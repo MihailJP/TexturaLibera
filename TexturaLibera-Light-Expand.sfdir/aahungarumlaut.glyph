@@ -1,0 +1,12 @@
+StartChar: aahungarumlaut
+Encoding: 61419 61419 386
+Width: 720
+Flags: W
+HStem: 188 74<232.385 323 472.385 563> 417 20<210 350 210 350 450 590 450 590> 488 249
+VStem: 83 74<110 140> 323 74<130 180 262 330 653.608 680> 503 74<653.608 680> 563 74<37.1868 96 130 188 262 341>
+LayerCount: 2
+Fore
+Refer: 267 733 N 1 0 0 1 120 0 2
+Refer: 336 42803 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" a_a hungarumlautcmb
+EndChar

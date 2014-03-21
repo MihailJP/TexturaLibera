@@ -1,0 +1,12 @@
+StartChar: Zdotaccent
+Encoding: 379 379 299
+Width: 840
+Flags: W
+HStem: 13 74<134.276 478.918> 263 74<461.836 593.243> 288 74<246.757 387.257> 513 74<304.757 647.179> 617 20<120 308 717 757> 718 124
+VStem: 358 124
+LayerCount: 2
+Fore
+Refer: 269 729 N 1 0 0 1 180 200 2
+Refer: 58 90 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" Z dotaccentcmb
+EndChar

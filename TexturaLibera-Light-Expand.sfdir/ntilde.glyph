@@ -1,0 +1,12 @@
+StartChar: ntilde
+Encoding: 241 241 174
+Width: 480
+Flags: W
+HStem: 417 20<95 135 95 135 270 310 270 310> 488 21<23 43> 513 74<212.438 365.936> 538 74<114.09 267.562> 617 20<437 457>
+VStem: 83 74<55 270 304 345> 323 74<55 328.03>
+LayerCount: 2
+Fore
+Refer: 168 732 N 1 0 0 1 0 0 2
+Refer: 78 110 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" n tildecmb
+EndChar

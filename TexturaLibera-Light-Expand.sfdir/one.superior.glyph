@@ -1,0 +1,10 @@
+StartChar: one.superior
+Encoding: 185 185 190
+Width: 360
+Flags: W
+HStem: 712.75 15<157.5 187.5 157.5 187.5>
+VStem: 152.25 55.5<460 647.5>
+LayerCount: 2
+Fore
+Refer: 17 49 N 0.75 0 0 0.75 0 400 2
+EndChar

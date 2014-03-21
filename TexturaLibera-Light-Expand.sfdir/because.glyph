@@ -1,0 +1,33 @@
+StartChar: because
+Encoding: 8757 8757 897
+Width: 720
+Flags: W
+LayerCount: 2
+Back
+SplineSet
+515 350 m 25
+ 565 300 l 1049
+155 350 m 25
+ 205 300 l 1049
+335 50 m 25
+ 385 0 l 1049
+EndSplineSet
+Fore
+SplineSet
+298 30 m 1
+ 355 87 l 1
+ 422 20 l 1
+ 365 -37 l 1
+ 298 30 l 1
+118 330 m 1
+ 175 387 l 1
+ 242 320 l 1
+ 185 263 l 1
+ 118 330 l 1
+478 330 m 1
+ 535 387 l 1
+ 602 320 l 1
+ 545 263 l 1
+ 478 330 l 1
+EndSplineSet
+EndChar

@@ -1,0 +1,13 @@
+StartChar: aringcircumflex
+Encoding: 58399 58399 372
+Width: 480
+Flags: W
+HStem: 188 74<232.385 323> 417 20<210 350 210 350> 488 74<228.729 352.482> 688 74<187.518 311.271> 788 249
+VStem: 83 74<110 140> 113 74<599.796 687.479> 233 74<944.416 980> 323 74<37.1868 96 130 188 262 341> 353 74<562.521 650.204>
+LayerCount: 2
+Fore
+Refer: 100 710 S 1 0 0 1 30 300 2
+Refer: 187 229 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" a ringcmb circumflexcmb
+Ligature2: "Glyph composition-1" aring circumflexcmb
+EndChar

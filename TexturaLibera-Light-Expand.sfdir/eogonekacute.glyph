@@ -1,0 +1,13 @@
+StartChar: eogonekacute
+Encoding: 58521 58521 459
+Width: 420
+Flags: W
+HStem: -237 274 417 20<240 290 240 290> 488 249
+VStem: 83 74<134 260> 113 254 293 74<653.608 680>
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 0 0 2
+Refer: 280 281 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" e ogonekcmb acutecmb
+Ligature2: "Glyph composition-1" eogonek acutecmb
+EndChar

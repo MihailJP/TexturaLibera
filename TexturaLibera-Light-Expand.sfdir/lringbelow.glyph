@@ -1,0 +1,14 @@
+StartChar: lringbelow
+Encoding: 58788 58788 571
+Width: 240
+Flags: W
+HStem: -312 74<78.7293 202.482> -112 74<37.518 161.271> 637 20<95 135>
+VStem: -37 74<-200.204 -112.521> 83 74<55 565> 203 74<-237.479 -149.796>
+CounterMasks: 1 1c
+AnchorPoint: "abvmark" 120 700 basechar 0
+LayerCount: 2
+Fore
+Refer: 576 805 N 1 0 0 1 360 0 2
+Refer: 76 108 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" l ringbelowcmb
+EndChar

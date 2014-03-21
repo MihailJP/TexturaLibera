@@ -1,0 +1,13 @@
+StartChar: Ymacronbreve
+Encoding: 58229 58229 829
+Width: 840
+Flags: W
+HStem: -187 74<126.534 474.64> -37 21<413 450> 113 74<174.073 228 252 322.644> 513 21<23 58> 538 74<194.815 228> 563 33<88 107.353> 563 49<252.792 281> 617 20<320.5 338 450 487 665 705> 713 74<410 670> 838 74<487.963 608.055> 967 20<420 457 690 727>
+VStem: 228 24<187 539> 353 74<270 520> 653 74<-60 186 220 545>
+LayerCount: 2
+Fore
+Refer: 265 728 N 1 0 0 1 300 350 2
+Refer: 827 562 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" Ymacron brevecmb
+Ligature2: "Glyph composition-1" Y macroncmb brevecmb
+EndChar

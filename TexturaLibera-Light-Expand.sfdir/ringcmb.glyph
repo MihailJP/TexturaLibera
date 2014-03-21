@@ -1,0 +1,11 @@
+StartChar: ringcmb
+Encoding: 778 778 185
+Width: 0
+Flags: W
+HStem: 488 74<-281.271 -157.518> 688 74<-322.482 -198.729>
+VStem: -397 74<599.796 687.479> -157 74<562.521 650.204>
+AnchorPoint: "abvmark" -240 500 mark 0
+LayerCount: 2
+Fore
+Refer: 184 730 N 1 0 0 1 -480 0 2
+EndChar
