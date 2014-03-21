@@ -1,0 +1,12 @@
+StartChar: wicmb
+Encoding: 59633 59633 805
+Width: 600
+Flags: W
+HStem: 407 20<81 116 81 116 281 316 281 316 466 506 466 506> 703.5 10<290.5 308 290.5 308> 771.5 10.5<291.5 307>
+VStem: 73 54<84 369> 273 54<84 369> 286.5 27<515.5 684.5> 473 54<116 375.922>
+LayerCount: 2
+Fore
+Refer: 143 869 N 1 0 0 1 500 0 2
+Refer: 784 -1 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" w icmb
+EndChar

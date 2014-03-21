@@ -1,0 +1,12 @@
+StartChar: Kdotaccent
+Encoding: 57704 57704 560
+Width: 700
+Flags: W
+HStem: -27 21<23 54 248 279> 23 54<95.0542 190.937> 523 21<23 54> 548 54<161.837 192> 573 25<83 97.9505 220.009 235> 607 20<266.5 278 371 402 551 591> 733 84
+VStem: 192 16<76 549> 298 54<66 231 238 534> 408 84 498 54<416 554> 523 54<47.2798 209>
+LayerCount: 2
+Fore
+Refer: 269 729 N 1 0 0 1 250 200 2
+Refer: 43 75 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" K dotaccentcmb
+EndChar

@@ -1,0 +1,13 @@
+StartChar: eogonekhungarumlaut
+Encoding: 58602 58602 468
+Width: 350
+Flags: W
+HStem: -227 254 407 20<196 236 196 236> 498 229
+VStem: 73 54<138 284> 98 54<-129 -91> 173 54<643.878 684> 323 54<643.878 684>
+LayerCount: 2
+Fore
+Refer: 267 733 N 1 0 0 1 0 0 2
+Refer: 280 281 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" e ogonekcmb hungarumlautcmb
+Ligature2: "Glyph composition-1" eogonek hungarumlautcmb
+EndChar

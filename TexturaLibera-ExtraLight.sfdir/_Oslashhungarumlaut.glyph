@@ -1,0 +1,12 @@
+StartChar: Oslashhungarumlaut
+Encoding: 60358 60358 622
+Width: 800
+Flags: W
+HStem: -27 54<302.421 467.684> 465 21<273 292> 573 54<398.211 439 447 522.652> 698 229
+VStem: 98 54<187.323 392.066> 292 16<70 181 219 473 523 580> 399 54<116 288 310 342 364 534> 423 54<843.878 884> 573 54<843.878 884> 626 54<205.273 438.689>
+LayerCount: 2
+Fore
+Refer: 267 733 N 1 0 0 1 250 200 2
+Refer: 182 216 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" Oslash hungarumlautcmb
+EndChar
