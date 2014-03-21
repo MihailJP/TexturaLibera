@@ -1,12 +1,15 @@
-.SUFFIXES: .sfdir .ttf .otf
+.SUFFIXES: .sfdir .ttf .otf .woff
 SRCFONTS = $(wildcard *.sfdir)
 TTFONTS = $(SRCFONTS:.sfdir=.ttf)
 OTFONTS = $(SRCFONTS:.sfdir=.otf)
-TARGETS = $(TTFONTS)
-DISTFILE = txlibera.zip
+WOFFONTS = $(SRCFONTS:.sfdir=.woff)
+TARGETS = $(TTFONTS) $(OTFONTS) $(WOFFONTS)
 DOCUMENTS = LICENSE README.md
+DISTTYPE = zip
 
-.PHONY: all clean dist ttf otf
+VERSION = 0.0.0
+
+.PHONY: all clean dist ttf otf woff
 
 all: $(TARGETS)
 
@@ -14,24 +17,53 @@ all: $(TARGETS)
 	./makefont.py $< $@
 .sfdir.otf:
 	./makefont.py $< $@
+.sfdir.woff:
+	./makefont.py $< $@
 
 ttf: $(TTFONTS)
 otf: $(OTFONTS)
+woff: $(WOFFONTS)
 
-dist: $(DISTFILE)
+dist: TexturaLibera-TTF-$(VERSION).$(DISTTYPE) TexturaLibera-OTF-$(VERSION).$(DISTTYPE) TexturaLibera-WOFF-$(VERSION).$(DISTTYPE)
 
-txlibera.zip: $(TARGETS) $(DOCUMENTS) 
+TexturaLibera-TTF-$(VERSION).zip: $(TTFONTS) $(DOCUMENTS)
 	rm -f $@; rm -rf txlibera
 	mkdir txlibera && cp $^ txlibera && zip -m9r $@ txlibera
-txlibera.tar.gz: $(TARGETS) $(DOCUMENTS) 
+TexturaLibera-TTF-$(VERSION).tar.gz: $(TTFONTS) $(DOCUMENTS)
 	rm -f $@; rm -rf txlibera
 	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | gzip -9 - > $@) && rm -rf txlibera
-txlibera.tar.bz2: $(TARGETS) $(DOCUMENTS) 
+TexturaLibera-TTF-$(VERSION).tar.bz2: $(TTFONTS) $(DOCUMENTS)
 	rm -f $@; rm -rf txlibera
 	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | bzip2 -z9 - > $@) && rm -rf txlibera
-txlibera.tar.xz: $(TARGETS) $(DOCUMENTS) 
+TexturaLibera-TTF-$(VERSION).tar.xz: $(TTFONTS) $(DOCUMENTS)
+	rm -f $@; rm -rf txlibera
+	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | xz -z9 - > $@) && rm -rf txlibera
+
+TexturaLibera-OTF-$(VERSION).zip: $(OTFONTS) $(DOCUMENTS)
+	rm -f $@; rm -rf txlibera
+	mkdir txlibera && cp $^ txlibera && zip -m9r $@ txlibera
+TexturaLibera-OTF-$(VERSION).tar.gz: $(OTFONTS) $(DOCUMENTS)
+	rm -f $@; rm -rf txlibera
+	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | gzip -9 - > $@) && rm -rf txlibera
+TexturaLibera-OTF-$(VERSION).tar.bz2: $(OTFONTS) $(DOCUMENTS)
+	rm -f $@; rm -rf txlibera
+	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | bzip2 -z9 - > $@) && rm -rf txlibera
+TexturaLibera-OTF-$(VERSION).tar.xz: $(OTFONTS) $(DOCUMENTS)
+	rm -f $@; rm -rf txlibera
+	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | xz -z9 - > $@) && rm -rf txlibera
+
+TexturaLibera-WOFF-$(VERSION).zip: $(WOFFONTS) $(DOCUMENTS) TexturaLibera.css
+	rm -f $@; rm -rf txlibera
+	mkdir txlibera && cp $^ txlibera && zip -m9r $@ txlibera
+TexturaLibera-WOFF-$(VERSION).tar.gz: $(WOFFONTS) $(DOCUMENTS) TexturaLibera.css
+	rm -f $@; rm -rf txlibera
+	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | gzip -9 - > $@) && rm -rf txlibera
+TexturaLibera-WOFF-$(VERSION).tar.bz2: $(WOFFONTS) $(DOCUMENTS) TexturaLibera.css
+	rm -f $@; rm -rf txlibera
+	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | bzip2 -z9 - > $@) && rm -rf txlibera
+TexturaLibera-WOFF-$(VERSION).tar.xz: $(WOFFONTS) $(DOCUMENTS) TexturaLibera.css
 	rm -f $@; rm -rf txlibera
 	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | xz -z9 - > $@) && rm -rf txlibera
 
 clean:
-	rm -f $(TTFONTS) $(OTFONTS) txlibera.zip txlibera.tar.*
+	rm -f $(TTFONTS) $(OTFONTS) $(WOFFONTS) TexturaLibera-TTF-* TexturaLibera-OTF-* TexturaLibera-WOFF-* 
