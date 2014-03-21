@@ -1,8 +1,8 @@
 SplineFontDB: 3.0
-FontName: TexturaLibera-Cond-Medium
-FullName: Textura Libera Condensed Medium
+FontName: TexturaLibera-Medium-Cond
+FullName: Textura Libera Medium Condensed
 FamilyName: Textura Libera
-Weight: Medium
+Weight: Medium Condensed
 Copyright: Copyright (c) 2014, MihailJP
 UComments: "2014-3-1: Created with FontForge (http://fontforge.org)" 
 Version: 001.000
@@ -19,8 +19,8 @@ FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1395066738
-ModificationTime: 1395218663
+CreationTime: 1395382767
+ModificationTime: 1395382955
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 3
