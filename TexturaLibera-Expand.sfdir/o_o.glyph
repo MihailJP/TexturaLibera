@@ -1,0 +1,58 @@
+StartChar: o_o
+Encoding: 42831 42831 669
+Width: 720
+Flags: W
+HStem: 426 20G<245 285 485 525> 426 20G<245 285 485 525>
+VStem: 74 92<99.5798 255> 314 92<99.5798 300.42> 554 92<145 300.42>
+CounterMasks: 1 38
+AnchorPoint: "blwmark" 360 0 basechar 0
+AnchorPoint: "abvmark" 360 500 basechar 0
+LayerCount: 2
+Back
+SplineSet
+480 400 m 25
+ 360 280 l 25
+ 360 120 l 25
+ 480 0 l 25
+ 600 120 l 25
+ 600 280 l 25
+ 480 400 l 25
+240 400 m 25
+ 120 280 l 25
+ 120 120 l 25
+ 240 0 l 25
+ 360 120 l 25
+ 360 280 l 25
+ 240 400 l 25
+EndSplineSet
+Fore
+SplineSet
+215 354 m 1x38
+ 166 305 l 1
+ 166 145 l 2
+ 166 92 236 75 265 46 c 1
+ 314 95 l 1
+ 314 255 l 2
+ 314 308 244 325 215 354 c 1x38
+74 255 m 1
+ 265 446 l 1
+ 385 326 l 1
+ 505 446 l 1xb8
+ 646 305 l 1
+ 646 145 l 1
+ 455 -46 l 1
+ 335 74 l 1
+ 215 -46 l 1
+ 74 95 l 1
+ 74 255 l 1
+406 145 m 2
+ 406 92 476 75 505 46 c 1
+ 554 95 l 1
+ 554 255 l 2
+ 554 308 484 325 455 354 c 1
+ 406 305 l 1
+ 406 145 l 2
+EndSplineSet
+LCarets2: 1 360 
+Ligature2: "Historic ligatures-1" o o
+EndChar

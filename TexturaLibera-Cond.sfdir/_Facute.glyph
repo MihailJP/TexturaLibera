@@ -1,0 +1,12 @@
+StartChar: Facute
+Encoding: 57584 57584 489
+Width: 560
+Flags: W
+HStem: -46 21<-5 35 175 215> 4 92<87.959 144.57> 254 92<371.5 427.5> 304 92<311 366> 479 92<373.828 417.996> 504 21<-5 35> 554 92<77.3594 138.281> 679 267
+VStem: 145 30<96 531> 214 92<78 304 352 517> 234 192
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 160 200 2
+Refer: 38 70 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" F acutecmb
+EndChar

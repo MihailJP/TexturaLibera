@@ -1,0 +1,27 @@
+StartChar: acute
+Encoding: 180 180 99
+Width: 480
+Flags: W
+HStem: 479 267
+VStem: 134 242
+LayerCount: 2
+Back
+SplineSet
+330 700 m 17
+ 330 600 180 525 180 525 c 1049
+EndSplineSet
+Fore
+SplineSet
+355 746 m 1
+ 376 725 l 1
+ 376 685 352 649 323 620 c 2
+ 253 549 l 2
+ 252 549 l 2
+ 208 506 155 479 155 479 c 2
+ 134 500 l 1
+ 205 571 l 1
+ 205 571 231 584 261 606 c 1
+ 274 626 284 650 284 675 c 1
+ 355 746 l 1
+EndSplineSet
+EndChar

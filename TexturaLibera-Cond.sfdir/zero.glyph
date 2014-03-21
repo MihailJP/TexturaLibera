@@ -1,0 +1,39 @@
+StartChar: zero
+Encoding: 48 48 16
+Width: 320
+Flags: W
+HStem: 426 20G<165 225> 426 20G<165 225>
+VStem: 34 92<75 295> 194 92<105 325>
+LayerCount: 2
+Back
+SplineSet
+160 400 m 1
+ 80 320 l 1
+ 80 40 l 25
+ 160 0 l 1
+ 240 80 l 1
+ 240 360 l 25
+ 160 400 l 1
+EndSplineSet
+Fore
+SplineSet
+135 354 m 1x30
+ 126 345 l 1
+ 126 75 l 1
+ 185 46 l 2
+ 185 46 192 53 194 55 c 2
+ 194 325 l 1
+ 135 354 l 1x30
+34 295 m 1
+ 185 446 l 1xb0
+ 265 406 l 1
+ 286 385 l 1
+ 286 105 l 1
+ 135 -46 l 1
+ 55 -6 l 1
+ 34 15 l 1
+ 34 295 l 1
+EndSplineSet
+Substitution2: "Subscript forms-1" zero.inferior
+Substitution2: "Superscript forms-1" zero.superior
+EndChar

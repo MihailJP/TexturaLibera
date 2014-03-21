@@ -1,0 +1,13 @@
+StartChar: edieresismacron
+Encoding: 58573 58573 457
+Width: 420
+Flags: W
+HStem: -46 21<185 235> 426 20<245 295 245 295> 494 152 704 92<115 365>
+VStem: 74 92<147 255>
+LayerCount: 2
+Fore
+Refer: 227 175 N 1 0 0 1 0 200 2
+Refer: 112 235 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" e dieresiscmb macroncmb
+Ligature2: "Glyph composition-1" edieresis macroncmb
+EndChar

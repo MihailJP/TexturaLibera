@@ -1,0 +1,12 @@
+StartChar: Pdotbelow
+Encoding: 57965 57965 682
+Width: 840
+Flags: W
+HStem: -196 152 -46 21<15 50 291 325> 4 92<120.289 224.423> 251 95<436 515.462> 504 21<15 54> 554 67<255.605 276> 554 92<115.988 198.032>
+VStem: 225 30<95 224 226 530> 344 92<85 242 346 515> 404 152 674 92<395 439>
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 720 0 2
+Refer: 48 80 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" P dotbelowcmb
+EndChar

@@ -1,0 +1,13 @@
+StartChar: avhungarumlaut
+Encoding: 60355 60355 416
+Width: 480
+Flags: W
+HStem: -46 21<95 135 275 315> 479 267 576 20<408.282 449>
+VStem: 34 92<85 165> 94 312 194 92<105 179 276 333> 314 92<427.782 498.189> 354 92<105 383.594>
+LayerCount: 2
+Fore
+Refer: 267 733 N 1 0 0 1 80 0 2
+Refer: 345 42809 N 1 0 0 1 0 0 3
+LCarets2: 1 0 
+Ligature2: "Glyph composition-1" a_v hungarumlautcmb
+EndChar

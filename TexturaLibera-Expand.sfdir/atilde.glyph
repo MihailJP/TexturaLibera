@@ -1,0 +1,12 @@
+StartChar: atilde
+Encoding: 227 227 173
+Width: 480
+Flags: W
+HStem: -46 21<165 205 345 385> 179 92<237.369 314> 426 20<215 355 215 355> 479 21<45 68> 504 92<247.551 390.675> 529 92<149.328 292.449>
+VStem: 314 92<46.1399 83 125 179 271 333>
+LayerCount: 2
+Fore
+Refer: 168 732 N 1 0 0 1 30 0 2
+Refer: 65 97 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" a tildecmb
+EndChar

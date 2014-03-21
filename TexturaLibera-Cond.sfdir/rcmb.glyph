@@ -1,0 +1,11 @@
+StartChar: rcmb
+Encoding: 876 876 150
+Width: 0
+Flags: W
+HStem: 713 10<-187.5 -167.5 -187.5 -167.5 -137.5 -117.5 -137.5 -117.5>
+VStem: -203 46<522.5 672.5>
+AnchorPoint: "abvmark" -160 500 mark 0
+LayerCount: 2
+Fore
+Refer: 82 114 N 0.5 0 0 0.5 -220 500 2
+EndChar

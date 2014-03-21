@@ -1,0 +1,11 @@
+StartChar: dcaron
+Encoding: 271 271 313
+Width: 720
+Flags: W
+HStem: -46 21<195 235> 404 302 426 20<245 285 245 285> 504 92<170.136 286.407>
+VStem: 74 92<99.5798 255> 314 92<145 255 397 474.342> 494 182
+LayerCount: 2
+Fore
+Refer: 12 44 N 1 0 0 1 420 600 2
+Refer: 68 100 N 1 0 0 1 0 0 2
+EndChar

@@ -1,0 +1,13 @@
+StartChar: togonek
+Encoding: 59118 59118 721
+Width: 390
+Flags: W
+HStem: -246 292 -46 21<165 205> 354 92<85 104 196 275> 576 20<155 195>
+VStem: 74 272 104 92<57.9004 354 446 525>
+AnchorPoint: "abvmark" 180 650 basechar 0
+LayerCount: 2
+Fore
+Refer: 283 731 N 1 0 0 1 -30 0 2
+Refer: 84 116 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" t ogonekcmb
+EndChar

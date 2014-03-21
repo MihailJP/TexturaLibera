@@ -1,0 +1,13 @@
+StartChar: Imacronacute
+Encoding: 57653 57653 535
+Width: 540
+Flags: W
+HStem: -46 21<15 50 291 325> 4 92<120.289 224.423> 504 21<15 54> 554 67<255.605 276> 554 92<115.988 198.032> 704 92<175 425> 829 267
+VStem: 194 242 225 30<95 530> 344 92<85 515>
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 60 350 2
+Refer: 234 298 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" Imacron acutecmb
+Ligature2: "Glyph composition-1" i macroncmb acutecmb
+EndChar

@@ -1,0 +1,34 @@
+StartChar: semicolon
+Encoding: 59 59 27
+Width: 360
+Flags: W
+HStem: -196 21G<75 115>
+VStem: 74 182
+LayerCount: 2
+Back
+SplineSet
+150 60 m 25
+ 210 0 l 1
+ 210 -60 l 25
+ 120 -150 l 1049
+150 350 m 25
+ 210 290 l 1049
+EndSplineSet
+Fore
+SplineSet
+104 325 m 1
+ 175 396 l 1
+ 256 315 l 1
+ 185 244 l 1
+ 104 325 l 1
+104 35 m 1
+ 175 106 l 1
+ 256 25 l 1
+ 256 -35 l 1
+ 95 -196 l 1
+ 74 -175 l 1
+ 164 -85 l 1
+ 164 -25 l 1
+ 104 35 l 1
+EndSplineSet
+EndChar

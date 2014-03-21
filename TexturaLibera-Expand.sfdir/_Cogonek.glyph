@@ -1,0 +1,13 @@
+StartChar: Cogonek
+Encoding: 57462 57462 431
+Width: 900
+Flags: W
+HStem: -246 292 -46 92<377.463 554.02> 446 21<315 345 315 345> 504 92<622.5 698.437> 526 20<515 555> 554 92<503.601 573.054>
+VStem: 104 92<207.533 373.047> 344 272 345 30<76 455 528 564> 464 92<125 475>
+AnchorPoint: "abvmark" 540 700 basechar 0
+LayerCount: 2
+Fore
+Refer: 283 731 S 1 0 0 1 240 0 2
+Refer: 35 67 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" C ogonekcmb
+EndChar

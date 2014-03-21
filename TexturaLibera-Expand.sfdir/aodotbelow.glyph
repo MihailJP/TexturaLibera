@@ -1,0 +1,13 @@
+StartChar: aodotbelow
+Encoding: 61429 61429 409
+Width: 720
+Flags: W
+HStem: -196 152 179 92<237.369 314> 426 20<215 355 215 355 485 525 485 525>
+VStem: 284 152 314 92<125 179 271 305> 554 92<145 300.42>
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 600 0 2
+Refer: 341 42805 N 1 0 0 1 0 0 3
+LCarets2: 1 0 
+Ligature2: "Glyph composition-1" a_o dotbelowcmb
+EndChar

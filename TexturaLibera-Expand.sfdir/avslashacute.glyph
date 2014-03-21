@@ -1,0 +1,12 @@
+StartChar: avslashacute
+Encoding: 60337 60337 878
+Width: 720
+Flags: W
+HStem: 179 92<237.369 314> 204 92<406 554> 426 20<215 355 215 355 630.5 651> 479 267
+VStem: 254 242 314 92<145 179 296 333> 494 92<438.293 499.5> 517 69<458.485 497> 554 92<145 204 296 345>
+LayerCount: 2
+Fore
+Refer: 138 769 S 1 0 0 1 600 0 2
+Refer: 861 42811 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" avslash acutecmb
+EndChar

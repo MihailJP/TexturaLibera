@@ -1,0 +1,12 @@
+StartChar: ethdotbelow
+Encoding: 58511 58511 447
+Width: 480
+Flags: W
+HStem: -196 152 426 20<245 285 245 285> 505 91<215 265>
+VStem: 74 92<99.5798 255> 164 152 314 92<145 255 397 474.342>
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 480 0 2
+Refer: 181 240 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" eth dotbelowcmb
+EndChar

@@ -1,0 +1,13 @@
+StartChar: ymacronacute
+Encoding: 59251 59251 832
+Width: 480
+Flags: W
+HStem: -246 92<240.899 297.5> -196 92<117.486 177.562> -46 21<195 235> 426 20<95 135 95 135 335 375 335 375> 504 92<115 365> 629 267
+VStem: 74 92<145 335> 134 242 314 92<-125 53 95 335>
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 0 150 2
+Refer: 828 563 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" ymacron acutecmb
+Ligature2: "Glyph composition-1" y macroncmb acutecmb
+EndChar

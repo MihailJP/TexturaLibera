@@ -1,0 +1,11 @@
+StartChar: hcmb
+Encoding: 874 874 148
+Width: 0
+Flags: W
+HStem: 477 10.5<-307.5 -287.5 -187.5 -167.5> 713 10<-222.5 -202.5 -222.5 -202.5> 825.5 10<-312.5 -292.744>
+VStem: -323 46<532.5 637.5 658.5 780> -203 46<532.5 660.985>
+AnchorPoint: "abvmark" -240 500 mark 0
+LayerCount: 2
+Fore
+Refer: 72 104 N 0.5 0 0 0.5 -360 500 2
+EndChar

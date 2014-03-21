@@ -1,0 +1,11 @@
+StartChar: ucmb
+Encoding: 871 871 145
+Width: 0
+Flags: W
+HStem: 713 10<-207.5 -187.5 -207.5 -187.5 -127.5 -107.5 -127.5 -107.5>
+VStem: -223 46<528.95 677.5> -143 46<537.5 677.5>
+AnchorPoint: "abvmark" -160 500 mark 0
+LayerCount: 2
+Fore
+Refer: 85 117 N 0.5 0 0 0.5 -240 500 2
+EndChar

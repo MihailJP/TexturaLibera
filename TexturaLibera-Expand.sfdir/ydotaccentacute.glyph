@@ -1,0 +1,14 @@
+StartChar: ydotaccentacute
+Encoding: 59268 59268 817
+Width: 480
+Flags: W
+HStem: -246 92<240.899 297.5> -196 92<117.486 177.562> -46 21<195 235> 426 20<95 135 95 135 335 375 335 375> 479 267 504 152
+VStem: 44 152 74 92<145 335> 254 242 314 92<-125 53 95 335>
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 120 0 2
+Refer: 269 729 N 1 0 0 1 -120 0 2
+Refer: 89 121 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" ydotaccent acutecmb
+Ligature2: "Glyph composition-1" y dotaccentcmb acutecmb
+EndChar
