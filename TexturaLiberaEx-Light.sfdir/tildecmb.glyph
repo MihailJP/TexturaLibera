@@ -2,7 +2,7 @@ StartChar: tildecmb
 Encoding: 771 771 169
 Width: 0
 Flags: W
-HStem: 488 21<-457 -437> 513 74<-267.562 -114.064> 538 74<-365.91 -212.438> 617 20<-43 -23>
+HStem: 498 21<-447 -433> 523 54<-271.418 -110.617> 548 54<-369.989 -208.582> 607 20<-47 -33>
 AnchorPoint: "abvmark" -240 500 mark 0
 LayerCount: 2
 Fore

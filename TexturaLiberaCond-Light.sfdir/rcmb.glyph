@@ -2,8 +2,8 @@ StartChar: rcmb
 Encoding: 876 876 150
 Width: 0
 Flags: W
-HStem: 708.5 10<-187.5 -170 -187.5 -170 -140 -120 -140 -120>
-VStem: -198.5 37<517.5 670>
+HStem: 703.5 10<-187 -172 -187 -172 -142 -122 -142 -122>
+VStem: -193.5 27<513 668 679 687>
 AnchorPoint: "abvmark" -160 500 mark 0
 LayerCount: 2
 Fore

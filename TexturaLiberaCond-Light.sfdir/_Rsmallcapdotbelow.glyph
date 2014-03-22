@@ -2,8 +2,8 @@ StartChar: Rsmallcapdotbelow
 Encoding: 61227 61227 856
 Width: 360
 Flags: W
-HStem: -182 104 417 20<65 100 65 100 160 204 160 204>
-VStem: 43 74<35 340> 128 104
+HStem: -167 74 407 20<66 96 66 96 156 200 156 200>
+VStem: 53 54<26 336 358 374> 143 74
 AnchorPoint: "abvmark" 160 500 basechar 0
 LayerCount: 2
 Fore

@@ -2,23 +2,23 @@ StartChar: bullet
 Encoding: 8226 8226 259
 Width: 300
 Flags: W
-HStem: 223 154
-VStem: 73 154
+HStem: 243 114
+VStem: 93 114
 LayerCount: 2
 Back
 SplineSet
-130 340 m 25
- 190 280 l 25
- 170 260 l 25
- 110 320 l 25
- 130 340 l 25
+135 330 m 25
+ 180 285 l 25
+ 165 270 l 25
+ 120 315 l 25
+ 135 330 l 25
 EndSplineSet
 Fore
 SplineSet
-150 377 m 1
- 227 300 l 1
- 150 223 l 1
- 73 300 l 1
- 150 377 l 1
+151 357 m 1
+ 207 301 l 1
+ 149 243 l 1
+ 93 299 l 1
+ 151 357 l 1
 EndSplineSet
 EndChar

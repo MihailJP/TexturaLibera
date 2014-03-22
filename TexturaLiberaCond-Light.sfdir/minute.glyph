@@ -2,8 +2,8 @@ StartChar: minute
 Encoding: 8242 8242 926
 Width: 240
 Flags: W
-HStem: 490 247
-VStem: 123 74<630.098 680>
+HStem: 500 227
+VStem: 133 54<624.119 684>
 LayerCount: 2
 Back
 SplineSet
@@ -12,14 +12,14 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-180 737 m 1
- 197 720 l 1
- 197 629 131 559 119 547 c 2
- 62 490 l 2
- 60 488 l 1
- 43 505 l 1
- 47 509 l 2
- 63 526 123 594 123 680 c 1
- 180 737 l 1
+176 727 m 1
+ 187 716 l 1
+ 187 625 121 554 109 542 c 2
+ 66 500 l 2
+ 64 498 l 1
+ 53 509 l 1
+ 57 514 l 2
+ 73 531 133 597 133 684 c 1
+ 176 727 l 1
 EndSplineSet
 EndChar

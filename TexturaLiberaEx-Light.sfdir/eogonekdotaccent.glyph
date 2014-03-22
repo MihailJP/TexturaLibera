@@ -2,8 +2,8 @@ StartChar: eogonekdotaccent
 Encoding: 58603 58603 452
 Width: 420
 Flags: W
-HStem: -237 274 417 20<240 290 240 290> 518 124
-VStem: 83 74<134 260> 113 254 178 124
+HStem: -227 254 407 20<236 286 236 286> 533 94
+VStem: 93 54<118 264> 123 54<-128 -106> 193 94
 LayerCount: 2
 Fore
 Refer: 269 729 S 1 0 0 1 0 0 2

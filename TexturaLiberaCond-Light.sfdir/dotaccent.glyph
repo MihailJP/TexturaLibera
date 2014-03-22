@@ -2,20 +2,20 @@ StartChar: dotaccent
 Encoding: 729 729 269
 Width: 320
 Flags: W
-HStem: 518 104
-VStem: 108 104
+HStem: 533 74
+VStem: 123 74
 LayerCount: 2
 Back
 SplineSet
-145 585 m 25
- 175 555 l 1049
+150 580 m 25
+ 170 560 l 1049
 EndSplineSet
 Fore
 SplineSet
-108 565 m 1
- 165 622 l 1
- 212 575 l 1
- 155 518 l 1
- 108 565 l 1
+123 564 m 1
+ 166 607 l 1
+ 197 576 l 1
+ 154 533 l 1
+ 123 564 l 1
 EndSplineSet
 EndChar

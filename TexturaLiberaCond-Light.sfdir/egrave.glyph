@@ -2,8 +2,8 @@ StartChar: egrave
 Encoding: 232 232 105
 Width: 280
 Flags: W
-HStem: 417 20<160 200 160 200> 513 224
-VStem: 43 74<100 140 174 300 650.188 680>
+HStem: 407 20<156 196 156 196> 523 204
+VStem: 53 54<96 136 158 304 646.34 684>
 LayerCount: 2
 Fore
 Refer: 64 96 S 1 0 0 1 -20 0 2

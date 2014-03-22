@@ -2,8 +2,8 @@ StartChar: c
 Encoding: 99 99 67
 Width: 420
 Flags: W
-HStem: 417 20G<240 280> 417 20G<240 280>
-VStem: 83 74<100 260>
+HStem: 407 20G<236 276> 407 20G<236 276>
+VStem: 93 54<104 264>
 AnchorPoint: "blwmark" 240 0 basechar 0
 AnchorPoint: "abvmark" 240 500 basechar 0
 LayerCount: 2
@@ -18,18 +18,18 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-397 300 m 1xa0
- 340 243 l 1
- 220 363 l 1
- 157 300 l 1
- 157 140 l 2
- 157 84 230 67 260 37 c 1
- 380 157 l 1
- 397 140 l 1
- 220 -37 l 1
- 83 100 l 1
- 83 260 l 1
- 260 437 l 1
- 397 300 l 1xa0
+387 296 m 1xa0
+ 344 253 l 1
+ 224 373 l 1
+ 147 296 l 1
+ 147 136 l 2
+ 147 75 224 59 256 27 c 1
+ 376 147 l 1
+ 387 136 l 1
+ 224 -27 l 1
+ 93 104 l 1
+ 93 264 l 1
+ 256 427 l 1
+ 387 296 l 1xa0
 EndSplineSet
 EndChar

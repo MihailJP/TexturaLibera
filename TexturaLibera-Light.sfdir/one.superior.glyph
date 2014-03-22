@@ -2,8 +2,8 @@ StartChar: one.superior
 Encoding: 185 185 190
 Width: 300
 Flags: W
-HStem: 712.75 15<131.25 161.25 131.25 161.25>
-VStem: 122.25 55.5<458.5 658.75>
+HStem: 705.25 15<128.25 158.25 128.25 158.25>
+VStem: 129.75 40.5<445.75 655.75>
 LayerCount: 2
 Fore
 Refer: 17 49 N 0.75 0 0 0.75 0 400 2

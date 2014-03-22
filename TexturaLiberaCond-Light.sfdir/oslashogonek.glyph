@@ -2,8 +2,8 @@ StartChar: oslashogonek
 Encoding: 58965 58965 604
 Width: 320
 Flags: W
-HStem: -237 274 417 20<160 200 160 200 280 317 280 317>
-VStem: 43 74<169 300> 63 74<-124 -80> 203 74<100 231>
+HStem: -227 254 407 20<156 195.692 156 195.692 276 307 276 307>
+VStem: 53 54<141 304> 73 54<-130 -76> 213 54<96 259>
 AnchorPoint: "abvmark" 160 500 basechar 0
 LayerCount: 2
 Fore

@@ -2,8 +2,8 @@ StartChar: ecaron
 Encoding: 283 283 281
 Width: 420
 Flags: W
-HStem: 417 20<240 290 240 290> 488 249
-VStem: 83 74<134 260> 203 74<545 579.945>
+HStem: 407 20<236 286 236 286> 498 229
+VStem: 93 54<118 264> 213 54<541 584.503>
 LayerCount: 2
 Fore
 Refer: 245 711 N 1 0 0 1 0 0 2

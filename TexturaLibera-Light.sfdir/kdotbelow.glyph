@@ -2,8 +2,8 @@ StartChar: kdotbelow
 Encoding: 7731 7731 563
 Width: 400
 Flags: W
-HStem: -182 114 437 20<280 320> 637 20<80 120>
-VStem: 63 74<45 206 249 580> 143 114 263 74<45 176 370 380>
+HStem: -167 84 422 20<281 316> 622 20<81 116>
+VStem: 73 54<41 205 235 584> 158 84 273 54<41 182 366 384>
 CounterMasks: 1 1c
 AnchorPoint: "abvmark" 200 700 basechar 0
 LayerCount: 2

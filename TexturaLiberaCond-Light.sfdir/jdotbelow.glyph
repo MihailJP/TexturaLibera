@@ -2,8 +2,8 @@ StartChar: jdotbelow
 Encoding: 58705 58705 549
 Width: 160
 Flags: W
-HStem: -332 104 417 20<65 100 65 100> 533 21<48 85>
-VStem: 28 104 43 74<-90 361>
+HStem: -317 74 407 20<66 96 66 96> 553 21<63 94>
+VStem: 43 74 53 54<-94 372>
 LayerCount: 2
 Fore
 Refer: 357 803 N 1 0 0 1 240 -150 2

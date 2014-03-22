@@ -2,8 +2,8 @@ StartChar: eogonekdotbelow
 Encoding: 58600 58600 454
 Width: 420
 Flags: W
-HStem: -382 124 -237 274 417 20<240 290 240 290>
-VStem: 83 74<134 260> 113 254 178 124
+HStem: -367 94 -227 254 407 20<236 286 236 286>
+VStem: 93 54<118 264> 123 54<-128 -106> 193 94
 LayerCount: 2
 Fore
 Refer: 357 803 N 1 0 0 1 480 -200 2

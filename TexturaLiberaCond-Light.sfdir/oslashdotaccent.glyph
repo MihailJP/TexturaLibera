@@ -2,8 +2,9 @@ StartChar: oslashdotaccent
 Encoding: 60366 60366 616
 Width: 320
 Flags: W
-HStem: 417 20<160 200 160 200 280 317 280 317> 518 104
-VStem: 43 74<169 300> 108 104 203 74<100 231>
+HStem: 407 20<156 195.692 156 195.692 276 307 276 307> 533 74
+VStem: 53 54<141 304> 123 74 213 54<96 259>
+CounterMasks: 1 38
 LayerCount: 2
 Fore
 Refer: 269 729 N 1 0 0 1 0 0 2

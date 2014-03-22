@@ -2,8 +2,8 @@ StartChar: edotbelow
 Encoding: 7865 7865 450
 Width: 420
 Flags: W
-HStem: -182 124 417 20<240 290 240 290>
-VStem: 83 74<134 260> 178 124
+HStem: -167 94 407 20<236 286 236 286>
+VStem: 93 54<118 264> 193 94
 AnchorPoint: "abvmark" 240 500 basechar 0
 LayerCount: 2
 Fore

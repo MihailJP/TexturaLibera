@@ -2,8 +2,8 @@ StartChar: ihookabove
 Encoding: 7881 7881 530
 Width: 160
 Flags: W
-HStem: 417 20<65 100 65 100> 463 274 563 21<-17 20>
-VStem: 43 74<39 361> 123 74<600 642>
+HStem: 407 20<66 96 66 96> 473 254 573 21<-7 24>
+VStem: 53 54<28 372> 133 54<596 651>
 LayerCount: 2
 Fore
 Refer: 381 777 N 1 0 0 1 240 0 2

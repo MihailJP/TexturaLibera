@@ -2,8 +2,8 @@ StartChar: Rsmallcapdotaccent
 Encoding: 61218 61218 855
 Width: 540
 Flags: W
-HStem: 417 20<95 135 95 135 240 296 240 296> 518 124
-VStem: 83 74<55 300 334 345> 178 124
+HStem: 407 20<96 136 96 136 236 292 236 292> 533 94
+VStem: 93 54<44 296 318 356> 193 94
 LayerCount: 2
 Fore
 Refer: 269 729 N 1 0 0 1 0 0 2

@@ -2,8 +2,8 @@ StartChar: bracketbottomright
 Encoding: 11813 11813 925
 Width: 360
 Flags: W
-HStem: -187 74<80 203>
-VStem: 203 74<-113 280>
+HStem: -177 54<76 213>
+VStem: 213 54<-123 284>
 LayerCount: 2
 Back
 SplineSet
@@ -13,15 +13,15 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-260 337 m 1
- 277 320 l 1
- 277 -130 l 1
- 220 -187 l 1
- 40 -187 l 1
- 23 -170 l 1
- 80 -113 l 1
- 203 -113 l 1
- 203 280 l 1
- 260 337 l 1
+256 327 m 1
+ 267 316 l 1
+ 267 -134 l 1
+ 224 -177 l 1
+ 44 -177 l 1
+ 33 -166 l 1
+ 76 -123 l 1
+ 213 -123 l 1
+ 213 284 l 1
+ 256 327 l 1
 EndSplineSet
 EndChar

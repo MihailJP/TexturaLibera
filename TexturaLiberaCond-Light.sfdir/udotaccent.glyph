@@ -2,8 +2,9 @@ StartChar: udotaccent
 Encoding: 59157 59157 739
 Width: 320
 Flags: W
-HStem: 417 20<65 100 65 100 225 260 225 260> 518 104
-VStem: 43 74<51.4784 365> 108 104 203 74<40 46 80 365>
+HStem: 407 20<66 96 66 96 226 256 226 256> 533 74
+VStem: 53 54<45.3073 374> 123 74 213 54<36 62 84 374>
+CounterMasks: 1 38
 LayerCount: 2
 Fore
 Refer: 269 729 N 1 0 0 1 0 0 2

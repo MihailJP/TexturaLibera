@@ -2,8 +2,8 @@ StartChar: lmacron
 Encoding: 58774 58774 572
 Width: 200
 Flags: W
-HStem: 637 20<80 120> 713 74<-5 205>
-VStem: -62 324 63 74<40 580>
+HStem: 622 20<81 116> 723 54<-9 209>
+VStem: -52 304 73 54<31 584>
 LayerCount: 2
 Fore
 Refer: 227 175 S 1 0 0 1 -100 200 2

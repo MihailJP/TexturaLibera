@@ -2,8 +2,9 @@ StartChar: kdotbelow
 Encoding: 7731 7731 563
 Width: 320
 Flags: W
-HStem: -182 104 437 20<225 260> 637 20<65 100>
-VStem: 43 74<40 216 253 585> 108 104 203 74<40 179 370 385>
+HStem: -167 74 422 20<226 256> 622 20<66 96>
+VStem: 53 54<36 213 237 589> 123 74 213 54<36 184 366 389>
+CounterMasks: 1 1c
 AnchorPoint: "abvmark" 160 700 basechar 0
 LayerCount: 2
 Fore

@@ -2,8 +2,8 @@ StartChar: barquillleft
 Encoding: 11808 11808 920
 Width: 360
 Flags: W
-HStem: -187 21G<83 120> 263 74<157 280>
-VStem: 83 74<-130 263 337 680>
+HStem: -177 21G<93 124> 273 54<147 284>
+VStem: 93 54<-134 273 327 684>
 LayerCount: 2
 Back
 SplineSet
@@ -14,18 +14,18 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-140 737 m 1
- 157 720 l 1
- 157 337 l 1
- 320 337 l 1
- 337 320 l 1
- 280 263 l 1
- 157 263 l 1
- 157 -130 l 1
- 100 -187 l 1
- 83 -170 l 1
- 83 280 l 1
- 83 680 l 1
- 140 737 l 1
+136 727 m 1
+ 147 716 l 1
+ 147 327 l 1
+ 316 327 l 1
+ 327 316 l 1
+ 284 273 l 1
+ 147 273 l 1
+ 147 -134 l 1
+ 104 -177 l 1
+ 93 -166 l 1
+ 93 284 l 1
+ 93 684 l 1
+ 136 727 l 1
 EndSplineSet
 EndChar

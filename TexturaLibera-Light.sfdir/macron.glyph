@@ -2,8 +2,8 @@ StartChar: macron
 Encoding: 175 175 227
 Width: 400
 Flags: W
-HStem: 513 74<95 305>
-VStem: 38 324
+HStem: 523 54<91 309>
+VStem: 48 304
 LayerCount: 2
 Back
 SplineSet
@@ -12,12 +12,12 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-38 530 m 1
- 95 587 l 1
- 345 587 l 1
- 362 570 l 1
- 305 513 l 1
- 55 513 l 1
- 38 530 l 1
+48 534 m 1
+ 91 577 l 1
+ 341 577 l 1
+ 352 566 l 1
+ 309 523 l 1
+ 59 523 l 1
+ 48 534 l 1
 EndSplineSet
 EndChar

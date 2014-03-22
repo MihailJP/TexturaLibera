@@ -2,8 +2,8 @@ StartChar: idotaccentacute
 Encoding: 60407 60407 528
 Width: 240
 Flags: W
-HStem: 417 20<95 135 95 135> 488 249 518 124
-VStem: -62 124 83 74<55 345> 293 74<653.608 680>
+HStem: 407 20<96 136 96 136> 498 229 533 94
+VStem: -47 94 93 54<44 356> 303 54<649.608 684>
 LayerCount: 2
 Fore
 Refer: 99 180 N 1 0 0 1 0 0 2

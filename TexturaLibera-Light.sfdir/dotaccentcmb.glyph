@@ -2,8 +2,8 @@ StartChar: dotaccentcmb
 Encoding: 775 775 270
 Width: 0
 Flags: W
-HStem: 518 114
-VStem: -257 114
+HStem: 533 84
+VStem: -242 84
 AnchorPoint: "abvmark" -200 500 mark 0
 LayerCount: 2
 Fore

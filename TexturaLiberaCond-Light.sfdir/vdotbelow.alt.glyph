@@ -2,8 +2,9 @@ StartChar: vdotbelow.alt
 Encoding: 65541 -1 783
 Width: 320
 Flags: W
-HStem: -182 104 417 20<65 100 65 100 210 250 210 250>
-VStem: 43 74<100 365> 108 104 203 74<100 350>
+HStem: -167 74 407 20<66 96 66 96 216 256 216 256>
+VStem: 53 54<96 374> 123 74 213 54<96 364>
+CounterMasks: 1 38
 AnchorPoint: "abvmark" 160 500 basechar 0
 LayerCount: 2
 Fore

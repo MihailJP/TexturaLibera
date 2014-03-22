@@ -2,8 +2,8 @@ StartChar: iogonek
 Encoding: 303 303 518
 Width: 160
 Flags: W
-HStem: -237 274 417 20<65 100 65 100> 533 21<48 85>
-VStem: -17 74<-124 -80> 43 74<39 361>
+HStem: -227 254 407 20<66 96 66 96> 553 21<63 94>
+VStem: -7 54<-130 -76> 53 54<28 372>
 LayerCount: 2
 Fore
 Refer: 283 731 N 1 0 0 1 -80 0 2

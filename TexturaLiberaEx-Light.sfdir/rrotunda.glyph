@@ -2,8 +2,8 @@ StartChar: rrotunda
 Encoding: 42843 42843 96
 Width: 360
 Flags: W
-HStem: 417 20G<120 164> 417 20G<120 164>
-VStem: 23 314
+HStem: 407 20G<116 160> 407 20G<116 160>
+VStem: 33 294
 AnchorPoint: "blwmark" 180 0 basechar 0
 AnchorPoint: "abvmark" 180 500 basechar 0
 LayerCount: 2
@@ -18,21 +18,21 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-320 97 m 1xa0
- 337 80 l 1
- 220 -37 l 1
- 203 -20 l 1
- 83 160 l 1
- 202 279 l 1
- 100 363 l 2
- 97 360 l 2
- 40 303 l 1
- 23 320 l 1
- 140 437 l 1
- 260 337 l 1
- 277 320 l 1
- 157 200 l 1
- 263 40 l 1
- 320 97 l 1xa0
+316 87 m 1xa0
+ 327 76 l 1
+ 224 -27 l 1
+ 213 -16 l 1
+ 93 164 l 1
+ 212 283 l 1
+ 104 373 l 2
+ 104 373 89 358 87 356 c 2
+ 44 313 l 1
+ 33 324 l 1
+ 136 427 l 1
+ 256 327 l 1
+ 267 316 l 1
+ 147 196 l 1
+ 258 29 l 1
+ 316 87 l 1xa0
 EndSplineSet
 EndChar

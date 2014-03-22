@@ -2,8 +2,8 @@ StartChar: ecmb
 Encoding: 868 868 142
 Width: 0
 Flags: W
-HStem: 708.5 10<-160 -140 -160 -140>
-VStem: -218.5 37<550 570 587 650>
+HStem: 703.5 10<-162 -142 -162 -142>
+VStem: -213.5 27<548 568 579 652>
 AnchorPoint: "abvmark" -160 500 mark 0
 LayerCount: 2
 Fore

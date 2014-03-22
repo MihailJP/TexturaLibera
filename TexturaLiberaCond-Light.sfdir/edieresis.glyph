@@ -2,8 +2,8 @@ StartChar: edieresis
 Encoding: 235 235 112
 Width: 280
 Flags: W
-HStem: 417 20<160 200 160 200> 528 104
-VStem: 28 264 43 74<100 140 174 300>
+HStem: 407 20<156 196 156 196> 543 74
+VStem: 43 234 53 54<96 136 158 304>
 LayerCount: 2
 Fore
 Refer: 101 168 N 1 0 0 1 0 0 2

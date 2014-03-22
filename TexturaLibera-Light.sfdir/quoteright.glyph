@@ -2,26 +2,26 @@ StartChar: quoteright
 Encoding: 8217 8217 255
 Width: 300
 Flags: W
-HStem: 413 214
-VStem: 71 133
+HStem: 448 159
+VStem: 88 99
 LayerCount: 2
 Back
 SplineSet
-127.5 590 m 25
- 167.5 550 l 1
- 167.5 510 l 25
- 107.5 450 l 1049
+130 580 m 25
+ 160 550 l 1
+ 160 520 l 25
+ 115 475 l 1049
 EndSplineSet
 Fore
 SplineSet
-91 570 m 1
- 147 627 l 1
- 204 570 l 1
- 204 530 l 1
- 88 413 l 1
- 71 430 l 1
- 131 490 l 1
- 131 530 l 1
- 91 570 l 1
+103 564 m 1
+ 146 607 l 1
+ 187 566 l 1
+ 187 536 l 1
+ 99 448 l 1
+ 88 459 l 1
+ 133 504 l 1
+ 133 534 l 1
+ 103 564 l 1
 EndSplineSet
 EndChar

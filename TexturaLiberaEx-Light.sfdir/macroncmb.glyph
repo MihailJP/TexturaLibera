@@ -2,7 +2,7 @@ StartChar: macroncmb
 Encoding: 772 772 240
 Width: 0
 Flags: W
-HStem: 513 74<-370 -110>
+HStem: 523 54<-374 -106>
 AnchorPoint: "abvmark" -240 500 mark 0
 LayerCount: 2
 Fore

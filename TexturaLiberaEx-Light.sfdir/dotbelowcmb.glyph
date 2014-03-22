@@ -3,21 +3,21 @@ Encoding: 803 803 357
 Width: 0
 VWidth: 400
 Flags: W
-HStem: -182 124
-VStem: -302 124
+HStem: -167 94
+VStem: -287 94
 AnchorPoint: "blwmark" -240 0 mark 0
 LayerCount: 2
 Back
 SplineSet
--265 -95 m 25
- -215 -145 l 1049
+-260 -100 m 25
+ -220 -140 l 1049
 EndSplineSet
 Fore
 SplineSet
--302 -115 m 1
- -245 -58 l 1
- -178 -125 l 1
- -235 -182 l 1
- -302 -115 l 1
+-287 -116 m 1
+ -244 -73 l 1
+ -193 -124 l 1
+ -236 -167 l 1
+ -287 -116 l 1
 EndSplineSet
 EndChar

@@ -2,8 +2,8 @@ StartChar: hdotbelow
 Encoding: 7717 7717 506
 Width: 400
 Flags: W
-HStem: -182 114 417 20<225 265 225 265>
-VStem: 63 74<40 295 329 585> 143 114 263 74<40 338.448>
+HStem: -167 84 407 20<221 261 221 261>
+VStem: 73 54<31 291 313 594> 158 84 273 54<31 341>
 CounterMasks: 1 38
 AnchorPoint: "abvmark" 200 700 basechar 0
 LayerCount: 2

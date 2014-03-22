@@ -2,8 +2,8 @@ StartChar: odotbelow
 Encoding: 7885 7885 606
 Width: 480
 Flags: W
-HStem: -182 124 417 20<240 280 240 280>
-VStem: 83 74<100 260> 178 124 323 74<140 300>
+HStem: -167 94 407 20<236 276 236 276>
+VStem: 93 54<104 264> 193 94 333 54<136 296>
 CounterMasks: 1 38
 AnchorPoint: "abvmark" 240 500 basechar 0
 LayerCount: 2

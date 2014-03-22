@@ -2,8 +2,8 @@ StartChar: jacute
 Encoding: 58707 58707 552
 Width: 160
 Flags: W
-HStem: 417 20<65 100 65 100> 488 249
-VStem: 43 74<-90 361> 103 74<637.523 680>
+HStem: 407 20<66 96 66 96> 498 229
+VStem: 53 54<-94 372> 113 54<634.624 684>
 LayerCount: 2
 Fore
 Refer: 99 180 N 1 0 0 1 -80 0 2

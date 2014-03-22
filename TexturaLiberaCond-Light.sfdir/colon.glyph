@@ -2,26 +2,26 @@ StartChar: colon
 Encoding: 58 58 26
 Width: 240
 Flags: W
-VStem: 68 104
+VStem: 83 74
 LayerCount: 2
 Back
 SplineSet
-105 345 m 25
- 135 315 l 1049
-105 30 m 25
- 135 0 l 1049
+110 340 m 25
+ 130 320 l 1049
+110 20 m 25
+ 130 0 l 1049
 EndSplineSet
 Fore
 SplineSet
-68 10 m 1
- 125 67 l 1
- 172 20 l 1
- 115 -37 l 1
- 68 10 l 1
-68 325 m 1
- 125 382 l 1
- 172 335 l 1
- 115 278 l 1
- 68 325 l 1
+83 4 m 1
+ 126 47 l 1
+ 157 16 l 1
+ 114 -27 l 1
+ 83 4 l 1
+83 324 m 1
+ 126 367 l 1
+ 157 336 l 1
+ 114 293 l 1
+ 83 324 l 1
 EndSplineSet
 EndChar

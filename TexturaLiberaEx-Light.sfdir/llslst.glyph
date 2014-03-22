@@ -2,8 +2,8 @@ StartChar: llslst
 Encoding: 11805 11805 905
 Width: 360
 Flags: W
-HStem: -187 324
-VStem: 23 314
+HStem: -177 304
+VStem: 33 294
 LayerCount: 2
 Back
 SplineSet
@@ -12,12 +12,12 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-40 -187 m 1
- 23 -170 l 1
- 263 80 l 1
- 320 137 l 1
- 337 120 l 1
- 97 -130 l 1
- 40 -187 l 1
+44 -177 m 1
+ 33 -166 l 1
+ 273 84 l 1
+ 316 127 l 1
+ 327 116 l 1
+ 87 -134 l 1
+ 44 -177 l 1
 EndSplineSet
 EndChar

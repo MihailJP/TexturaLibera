@@ -2,8 +2,8 @@ StartChar: zero.superior
 Encoding: 8304 8304 199
 Width: 360
 Flags: W
-HStem: 712.75 15<180 225 180 225>
-VStem: 62.25 55.5<466 595> 242.25 55.5<505 634>
+HStem: 705.25 15<177 222 177 222>
+VStem: 69.75 40.5<460.75 598> 249.75 40.5<502 639.25>
 LayerCount: 2
 Fore
 Refer: 16 48 N 0.75 0 0 0.75 0 400 2

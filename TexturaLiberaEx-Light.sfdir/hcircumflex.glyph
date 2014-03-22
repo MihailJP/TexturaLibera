@@ -2,8 +2,8 @@ StartChar: hcircumflex
 Encoding: 293 293 512
 Width: 480
 Flags: W
-HStem: 417 20<270 310 270 310> 688 249
-VStem: 83 74<55 270 304 570> 203 74<844.416 880> 323 74<55 328.03>
+HStem: 407 20<266 306 266 306> 698 229
+VStem: 93 54<44 266 288 581> 213 54<840.497 884> 333 54<44 326>
 CounterMasks: 1 38
 LayerCount: 2
 Fore

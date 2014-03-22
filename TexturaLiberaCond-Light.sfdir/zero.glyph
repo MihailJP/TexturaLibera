@@ -2,8 +2,8 @@ StartChar: zero
 Encoding: 48 48 16
 Width: 320
 Flags: W
-HStem: 417 20G<160 220> 417 20G<160 220>
-VStem: 43 74<68 300> 203 74<100 332>
+HStem: 407 20G<156 216> 407 20G<156 216>
+VStem: 53 54<61 304> 213 54<96 339>
 LayerCount: 2
 Back
 SplineSet
@@ -17,22 +17,22 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-140 363 m 1x30
- 117 340 l 1
- 117 68 l 1
- 180 37 l 2
- 180 37 200 57 203 60 c 2
- 203 332 l 1
- 140 363 l 1x30
-43 300 m 1
- 180 437 l 1xb0
- 260 397 l 1
- 277 380 l 1
- 277 100 l 1
- 140 -37 l 1
- 60 3 l 1
- 43 20 l 1
- 43 300 l 1
+144 373 m 1x30
+ 107 336 l 1
+ 107 61 l 1
+ 176 27 l 2
+ 176 27 209 60 213 64 c 2
+ 213 339 l 1
+ 144 373 l 1x30
+53 304 m 1
+ 176 427 l 1xb0
+ 256 387 l 1
+ 267 376 l 1
+ 267 96 l 1
+ 144 -27 l 1
+ 64 13 l 1
+ 53 24 l 1
+ 53 304 l 1
 EndSplineSet
 Substitution2: "Subscript forms-1" zero.inferior
 Substitution2: "Superscript forms-1" zero.superior

@@ -2,8 +2,8 @@ StartChar: togonek
 Encoding: 59118 59118 721
 Width: 259
 Flags: W
-HStem: -237 274 363 74<60 63 137 180> 567 20<100 137>
-VStem: 43 74<-124 -80> 63 74<37.972 363 437 530>
+HStem: -227 254 373 54<56 73 127 184> 557 20<96 127>
+VStem: 53 54<-130 -76> 73 54<32.437 373 427 534>
 AnchorPoint: "abvmark" 120 650 basechar 0
 LayerCount: 2
 Fore

@@ -2,8 +2,8 @@ StartChar: thorndotbelow
 Encoding: 59295 59295 841
 Width: 480
 Flags: W
-HStem: -187 21<83 120> -182 124 417 20<240 280 240 280>
-VStem: 83 74<-130 2 94 300 334 570> 238 124 323 74<140 300>
+HStem: -177 21<93 124> -167 94 407 20<236 276 236 276>
+VStem: 93 54<-134 16 82 296 318 581> 253 94 333 54<136 296>
 AnchorPoint: "abvmark" 240 700 basechar 0
 LayerCount: 2
 Fore

@@ -2,8 +2,9 @@ StartChar: oslashdotbelow
 Encoding: 60385 60385 608
 Width: 320
 Flags: W
-HStem: -182 104 417 20<160 200 160 200 280 317 280 317>
-VStem: 43 74<169 300> 108 104 203 74<100 231>
+HStem: -167 74 407 20<156 195.692 156 195.692 276 307 276 307>
+VStem: 53 54<141 304> 123 74 213 54<96 259>
+CounterMasks: 1 38
 AnchorPoint: "abvmark" 160 500 basechar 0
 LayerCount: 2
 Fore

@@ -2,8 +2,8 @@ StartChar: ogonekcmb
 Encoding: 808 808 359
 Width: 0
 Flags: W
-HStem: -237 274
-VStem: -312 74<-122 -95>
+HStem: -227 254
+VStem: -302 54<-129 -91>
 AnchorPoint: "blwmark" -200 0 mark 0
 LayerCount: 2
 Fore

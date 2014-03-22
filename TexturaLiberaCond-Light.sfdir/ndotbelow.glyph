@@ -2,8 +2,9 @@ StartChar: ndotbelow
 Encoding: 7751 7751 590
 Width: 320
 Flags: W
-HStem: -182 104 417 20<65 100 65 100 180 220 180 220>
-VStem: 43 74<35 320 354 365> 108 104 203 74<35 348.522>
+HStem: -167 74 407 20<66 96 66 96 176 216 176 216>
+VStem: 53 54<26 316 338 374> 123 74 213 54<26 354.693>
+CounterMasks: 1 38
 AnchorPoint: "abvmark" 160 500 basechar 0
 LayerCount: 2
 Fore

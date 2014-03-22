@@ -2,8 +2,8 @@ StartChar: cogonek
 Encoding: 58486 58486 432
 Width: 280
 Flags: W
-HStem: -237 274 417 20<160 200 160 200>
-VStem: 43 74<65.1574 300> 63 74<-124 -80>
+HStem: -227 254 407 20<156 196 156 196>
+VStem: 53 54<64 304> 73 54<-130 -76>
 AnchorPoint: "abvmark" 160 500 basechar 0
 LayerCount: 2
 Fore

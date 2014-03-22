@@ -32,14 +32,6 @@
 	font-weight: 300;
 	font-style: normal;
 }
-@font-face {
-	font-family: 'Textura Libera';
-	src: url('TexturaLibera-ExtraLight.woff');
-	font-variant: normal;
-	font-stretch: normal;
-	font-weight: 200;
-	font-style: normal;
-}
 
 @font-face {
 	font-family: 'Textura Libera Condensed';
@@ -55,14 +47,6 @@
 	font-variant: normal;
 	font-stretch: condensed;
 	font-weight: 300;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Textura Libera Condensed';
-	src: url('TexturaLiberaCond-ExtraLight.woff');
-	font-variant: normal;
-	font-stretch: condensed;
-	font-weight: 200;
 	font-style: normal;
 }
 
@@ -88,13 +72,5 @@
 	font-variant: normal;
 	font-stretch: expanded;
 	font-weight: 300;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Textura Libera Expanded';
-	src: url('TexturaLiberaEx-ExtraLight.woff');
-	font-variant: normal;
-	font-stretch: expanded;
-	font-weight: 200;
 	font-style: normal;
 }

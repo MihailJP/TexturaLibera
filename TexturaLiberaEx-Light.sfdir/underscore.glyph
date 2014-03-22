@@ -2,7 +2,7 @@ StartChar: underscore
 Encoding: 95 95 63
 Width: 840
 Flags: W
-HStem: -187 74<140 700>
+HStem: -177 54<136 704>
 LayerCount: 2
 Back
 SplineSet
@@ -11,12 +11,12 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-83 -170 m 1
- 140 -113 l 1
- 740 -113 l 1
- 757 -130 l 1
- 700 -187 l 1
- 100 -187 l 1
- 83 -170 l 1
+93 -166 m 1
+ 136 -123 l 1
+ 736 -123 l 1
+ 747 -134 l 1
+ 704 -177 l 1
+ 104 -177 l 1
+ 93 -166 l 1
 EndSplineSet
 EndChar

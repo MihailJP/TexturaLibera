@@ -2,8 +2,8 @@ StartChar: bdotaccent
 Encoding: 7683 7683 428
 Width: 400
 Flags: W
-HStem: 417 20<200 240 200 240> 718 114
-VStem: 63 74<80 320 354 585> 143 114 263 74<120 320>
+HStem: 407 20<196 236 196 236> 733 84
+VStem: 73 54<84 316 338 594> 158 84 273 54<116 316>
 CounterMasks: 1 38
 LayerCount: 2
 Fore

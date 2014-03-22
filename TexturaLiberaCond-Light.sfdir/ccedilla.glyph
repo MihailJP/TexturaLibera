@@ -2,8 +2,8 @@ StartChar: ccedilla
 Encoding: 231 231 130
 Width: 280
 Flags: W
-HStem: -212 74<61.6453 154.755> 417 20<160 200 160 200>
-VStem: 3 274 43 74<65.1574 300>
+HStem: -202 54<57.3158 155.777> 407 20<156 196 156 196>
+VStem: 13 254 53 54<64 304>
 AnchorPoint: "abvmark" 160 500 basechar 0
 LayerCount: 2
 Fore

@@ -2,8 +2,8 @@ StartChar: verticallinemod
 Encoding: 712 712 887
 Width: 480
 Flags: W
-HStem: 488 249
-VStem: 203 74<545 680>
+HStem: 498 229
+VStem: 213 54<541 684>
 LayerCount: 2
 Back
 SplineSet
@@ -12,12 +12,12 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-260 737 m 1
- 277 720 l 1
- 277 545 l 1
- 220 488 l 1
- 203 505 l 1
- 203 680 l 1
- 260 737 l 1
+256 727 m 1
+ 267 716 l 1
+ 267 541 l 1
+ 224 498 l 1
+ 213 509 l 1
+ 213 684 l 1
+ 256 727 l 1
 EndSplineSet
 EndChar

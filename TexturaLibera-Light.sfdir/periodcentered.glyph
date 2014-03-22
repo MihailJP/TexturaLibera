@@ -2,20 +2,20 @@ StartChar: periodcentered
 Encoding: 183 183 212
 Width: 300
 Flags: W
-HStem: 268 114
-VStem: 93 114
+HStem: 283 84
+VStem: 108 84
 LayerCount: 2
 Back
 SplineSet
-130 345 m 25
- 170 305 l 1049
+135 340 m 25
+ 165 310 l 1049
 EndSplineSet
 Fore
 SplineSet
-93 325 m 1
- 150 382 l 1
- 207 325 l 1
- 150 268 l 1
- 93 325 l 1
+108 324 m 1
+ 151 367 l 1
+ 192 326 l 1
+ 149 283 l 1
+ 108 324 l 1
 EndSplineSet
 EndChar

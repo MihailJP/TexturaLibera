@@ -2,8 +2,8 @@ StartChar: ccaron
 Encoding: 269 269 279
 Width: 280
 Flags: W
-HStem: 417 20<160 200 160 200> 488 249
-VStem: 43 74<65.1574 300> 123 74<545 596.373>
+HStem: 407 20<156 196 156 196> 498 229
+VStem: 53 54<64 304> 133 54<541 601.207>
 LayerCount: 2
 Fore
 Refer: 245 711 N 1 0 0 1 0 0 2

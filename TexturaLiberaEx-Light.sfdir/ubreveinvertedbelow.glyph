@@ -2,8 +2,8 @@ StartChar: ubreveinvertedbelow
 Encoding: 59175 59175 737
 Width: 480
 Flags: W
-HStem: -162 74<201.945 322.037> 417 20<95 135 95 135 335 375 335 375>
-VStem: 83 74<71.9701 345> 323 74<50 96 130 345>
+HStem: -152 54<197.858 325.576> 407 20<96 136 96 136 336 375.231 336 375.231>
+VStem: 93 54<74 356> 93 324 333 54<46 112 134 356>
 AnchorPoint: "abvmark" 240 500 basechar 0
 LayerCount: 2
 Fore

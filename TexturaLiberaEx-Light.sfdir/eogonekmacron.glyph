@@ -2,8 +2,8 @@ StartChar: eogonekmacron
 Encoding: 58556 58556 474
 Width: 420
 Flags: W
-HStem: -237 274 417 20<240 290 240 290> 513 74<110 370>
-VStem: 83 74<134 260> 113 254
+HStem: -227 254 407 20<236 286 236 286> 523 54<106 374>
+VStem: 93 54<118 264> 123 54<-128 -106>
 LayerCount: 2
 Fore
 Refer: 227 175 N 1 0 0 1 0 0 2

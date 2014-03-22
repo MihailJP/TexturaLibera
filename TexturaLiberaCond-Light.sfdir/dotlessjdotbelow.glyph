@@ -2,8 +2,8 @@ StartChar: dotlessjdotbelow
 Encoding: 65539 -1 550
 Width: 160
 Flags: W
-HStem: -332 104 417 20<65 100 65 100>
-VStem: 28 104 43 74<-90 361>
+HStem: -317 74 407 20<66 96 66 96>
+VStem: 43 74 53 54<-94 372>
 AnchorPoint: "abvmark" 80 500 basechar 0
 LayerCount: 2
 Fore

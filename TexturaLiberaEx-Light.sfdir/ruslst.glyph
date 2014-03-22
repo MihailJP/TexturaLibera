@@ -2,8 +2,8 @@ StartChar: ruslst
 Encoding: 11789 11789 903
 Width: 360
 Flags: W
-HStem: 413 324
-VStem: 23 314
+HStem: 423 304
+VStem: 33 294
 LayerCount: 2
 Back
 SplineSet
@@ -12,12 +12,12 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-40 413 m 1
- 23 430 l 1
- 263 680 l 1
- 320 737 l 1
- 337 720 l 1
- 97 470 l 1
- 40 413 l 1
+44 423 m 1
+ 33 434 l 1
+ 273 684 l 1
+ 316 727 l 1
+ 327 716 l 1
+ 87 466 l 1
+ 44 423 l 1
 EndSplineSet
 EndChar

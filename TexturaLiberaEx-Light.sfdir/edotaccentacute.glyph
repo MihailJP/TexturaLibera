@@ -2,8 +2,8 @@ StartChar: edotaccentacute
 Encoding: 58568 58568 464
 Width: 420
 Flags: W
-HStem: 417 20<240 290 240 290> 488 249 518 124
-VStem: 58 124 83 74<134 260> 413 74<653.608 680>
+HStem: 407 20<236 286 236 286> 498 229 533 94
+VStem: 73 94 93 54<118 264> 423 54<649.608 684>
 LayerCount: 2
 Fore
 Refer: 99 180 N 1 0 0 1 120 0 2

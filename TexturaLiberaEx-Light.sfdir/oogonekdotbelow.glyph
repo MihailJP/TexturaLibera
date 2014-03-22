@@ -2,8 +2,8 @@ StartChar: oogonekdotbelow
 Encoding: 58888 58888 618
 Width: 480
 Flags: W
-HStem: -382 124 -237 274 417 20<240 280 240 280>
-VStem: 83 74<100 260> 113 254 178 124 323 74<140 300>
+HStem: -367 94 -227 254 407 20<236 276 236 276>
+VStem: 93 54<104 264> 123 54<-128 -106> 193 94 333 54<136 296>
 AnchorPoint: "abvmark" 240 500 basechar 0
 LayerCount: 2
 Fore

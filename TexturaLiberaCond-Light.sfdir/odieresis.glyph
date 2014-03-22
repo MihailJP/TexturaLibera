@@ -2,8 +2,8 @@ StartChar: odieresis
 Encoding: 246 246 135
 Width: 320
 Flags: W
-HStem: 417 20<160 200 160 200> 528 104
-VStem: 28 264 43 74<65.1574 300> 203 74<100 334.843>
+HStem: 407 20<156 196 156 196> 543 74
+VStem: 43 234 53 54<64 304> 213 54<96 336>
 LayerCount: 2
 Fore
 Refer: 101 168 S 1 0 0 1 0 0 2

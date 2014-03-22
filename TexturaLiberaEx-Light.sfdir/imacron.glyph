@@ -2,8 +2,8 @@ StartChar: imacron
 Encoding: 299 299 235
 Width: 240
 Flags: W
-HStem: 417 20<95 135 95 135> 513 74<-10 250>
-VStem: 83 74<55 345>
+HStem: 407 20<96 136 96 136> 523 54<-14 254>
+VStem: 93 54<44 356>
 LayerCount: 2
 Fore
 Refer: 227 175 N 1 0 0 1 -120 0 2

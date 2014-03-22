@@ -2,8 +2,8 @@ StartChar: vdotaccent
 Encoding: 59212 59212 770
 Width: 400
 Flags: W
-HStem: 417 20<80 120 80 120 260 300 260 300> 518 114
-VStem: 63 74<120 360> 143 114 263 74<120 340>
+HStem: 407 20<81 116 81 116 266 306 266 306> 533 84
+VStem: 73 54<116 369> 158 84 273 54<116 354>
 CounterMasks: 1 38
 LayerCount: 2
 Fore

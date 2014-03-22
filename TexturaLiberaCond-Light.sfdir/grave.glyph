@@ -2,8 +2,8 @@ StartChar: grave
 Encoding: 96 96 64
 Width: 320
 Flags: W
-HStem: 513 224
-VStem: 63 74<650.188 680>
+HStem: 523 204
+VStem: 73 54<646.34 684>
 LayerCount: 2
 Back
 SplineSet
@@ -12,15 +12,15 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-120 737 m 1
- 137 720 l 1
- 137 683 154 652 174 629 c 0
- 206 601 240 587 240 587 c 2
- 257 570 l 1
- 200 513 l 1
- 200 513 159 530 125 564 c 2
- 108 581 l 2
- 84 605 63 638 63 680 c 1
- 120 737 l 1
+116 727 m 1
+ 127 716 l 1
+ 127 678 146 645 167 622 c 0
+ 200 592 236 577 236 577 c 2
+ 247 566 l 1
+ 204 523 l 1
+ 204 523 164 540 130 574 c 2
+ 118 585 l 2
+ 94 609 73 642 73 684 c 1
+ 116 727 l 1
 EndSplineSet
 EndChar

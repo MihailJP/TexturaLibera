@@ -1,8 +1,8 @@
 StartChar: dblverticalbar
 Encoding: 8214 8214 900
 Width: 500
-HStem: -187 21<88 125 338 375>
-VStem: 88 74<-130 680> 338 74<-130 680>
+HStem: -177 21<98 129 348 379>
+VStem: 98 54<-134 684> 348 54<-134 684>
 LayerCount: 2
 Fore
 Refer: 92 124 N 1 0 0 1 250 0 2

@@ -2,8 +2,8 @@ StartChar: dblparenleft
 Encoding: 11816 11816 914
 Width: 450
 Flags: W
-HStem: -187 21<172 200 372 400>
-VStem: 13 74<113.048 433.883> 213 74<113.048 433.883>
+HStem: -177 21<176 204 376 404>
+VStem: 23 54<106.235 442.734> 223 54<106.235 442.734>
 LayerCount: 2
 Fore
 Refer: 8 40 N 1 0 0 1 200 0 2
