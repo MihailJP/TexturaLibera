@@ -1,8 +1,8 @@
 SplineFontDB: 3.0
-FontName: TexturaLibera-ExLight-Expand
-FullName: Textura Libera ExtraLight Expanded
-FamilyName: Textura Libera
-Weight: ExtraLight Expanded
+FontName: TexturaLiberaEx-Medium
+FullName: Textura Libera Expanded Medium
+FamilyName: Textura Libera Expanded
+Weight: Medium
 Copyright: Copyright (c) 2014, MihailJP
 UComments: "2014-3-1: Created with FontForge (http://fontforge.org)" 
 Version: 001.000
@@ -19,14 +19,14 @@ FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1395477917
-ModificationTime: 1395481166
+CreationTime: 1395481438
+ModificationTime: 1395482811
 PfmFamily: 65
-TTFWeight: 200
+TTFWeight: 500
 TTFWidth: 7
 LineGap: 90
 VLineGap: 90
-Panose: 3 2 3 2 5 6 8 3 2 5
+Panose: 3 2 5 2 5 6 8 3 2 5
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0

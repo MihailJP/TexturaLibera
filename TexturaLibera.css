@@ -42,24 +42,24 @@
 }
 
 @font-face {
-	font-family: 'Textura Libera';
-	src: url('TexturaLibera-Cond.woff');
+	font-family: 'Textura Libera Condensed';
+	src: url('TexturaLiberaCond.woff');
 	font-variant: normal;
 	font-stretch: condensed;
 	font-weight: 500;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Textura Libera';
-	src: url('TexturaLibera-Light-Cond.woff');
+	font-family: 'Textura Libera Condensed';
+	src: url('TexturaLiberaCond-Light.woff');
 	font-variant: normal;
 	font-stretch: condensed;
 	font-weight: 300;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Textura Libera';
-	src: url('TexturaLibera-ExLight-Cond.woff');
+	font-family: 'Textura Libera Condensed';
+	src: url('TexturaLiberaCond-ExtraLight.woff');
 	font-variant: normal;
 	font-stretch: condensed;
 	font-weight: 200;
@@ -67,32 +67,32 @@
 }
 
 @font-face {
-	font-family: 'Textura Libera';
-	src: url('TexturaLibera-Expanded.woff');
+	font-family: 'Textura Libera Expanded';
+	src: url('TexturaLiberaEx.woff');
 	font-variant: normal;
 	font-stretch: expanded;
 	font-weight: 500;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Textura Libera';
-	src: url('TexturaLibera-Bold-Expanded.woff');
+	font-family: 'Textura Libera Expanded';
+	src: url('TexturaLiberaEx-Bold.woff');
 	font-variant: normal;
 	font-stretch: expanded;
 	font-weight: 700;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Textura Libera';
-	src: url('TexturaLibera-Light-Expanded.woff');
+	font-family: 'Textura Libera Expanded';
+	src: url('TexturaLiberaEx-Light.woff');
 	font-variant: normal;
 	font-stretch: expanded;
 	font-weight: 300;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Textura Libera';
-	src: url('TexturaLibera-ExLight-Expanded.woff');
+	font-family: 'Textura Libera Expanded';
+	src: url('TexturaLiberaEx-ExtraLight.woff');
 	font-variant: normal;
 	font-stretch: expanded;
 	font-weight: 200;
