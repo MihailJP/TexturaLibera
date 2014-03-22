@@ -1,8 +1,8 @@
 SplineFontDB: 3.0
-FontName: TexturaLibera-ExtraLight
-FullName: Textura Libera ExtraLight
+FontName: TexturaLibera-Light
+FullName: Textura Libera Light
 FamilyName: Textura Libera
-Weight: ExtraLight
+Weight: Light
 Copyright: Copyright (c) 2014, MihailJP
 UComments: "2014-3-1: Created with FontForge (http://fontforge.org)" 
 Version: 001.000
@@ -19,14 +19,14 @@ FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1395385658
-ModificationTime: 1395399157
+CreationTime: 1395483441
+ModificationTime: 1395483470
 PfmFamily: 65
-TTFWeight: 200
+TTFWeight: 300
 TTFWidth: 5
 LineGap: 90
 VLineGap: 90
-Panose: 3 2 3 2 4 6 8 3 2 5
+Panose: 3 2 4 2 4 6 8 3 2 5
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0

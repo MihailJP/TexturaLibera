@@ -26,9 +26,9 @@
 }
 @font-face {
 	font-family: 'Textura Libera';
-	src: url('TexturaLibera-ExtraLight.woff');
+	src: url('TexturaLibera-Light.woff');
 	font-variant: normal;
 	font-stretch: normal;
-	font-weight: 200;
+	font-weight: 300;
 	font-style: normal;
 }
