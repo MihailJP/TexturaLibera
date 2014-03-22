@@ -20,7 +20,7 @@ SplineSet
  360 280 l 25
  480 400 l 25
  600 320 l 1
- 360 80 l 1025
+ 360 80 l 25
 EndSplineSet
 Fore
 SplineSet
