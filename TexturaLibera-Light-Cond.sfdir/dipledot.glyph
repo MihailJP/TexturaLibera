@@ -1,0 +1,11 @@
+StartChar: dipledot
+Encoding: 8919 8919 936
+Width: 480
+Flags: W
+HStem: 243 104 517 20<80 132>
+VStem: 68 104
+LayerCount: 2
+Fore
+Refer: 30 62 N 1 0 0 1 0 0 2
+Refer: 212 183 N 1 0 0 1 0 -25 2
+EndChar

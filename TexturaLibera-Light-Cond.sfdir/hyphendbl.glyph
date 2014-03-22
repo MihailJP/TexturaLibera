@@ -1,0 +1,11 @@
+StartChar: hyphendbl
+Encoding: 11799 11799 910
+Width: 240
+Flags: W
+HStem: 113 99 263 99
+VStem: 43 154
+LayerCount: 2
+Fore
+Refer: 13 45 N 1 0 0 1 0 100 2
+Refer: 13 45 N 1 0 0 1 0 -50 2
+EndChar

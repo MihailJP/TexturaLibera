@@ -1,0 +1,13 @@
+StartChar: audotbelow
+Encoding: 61431 61431 412
+Width: 480
+Flags: W
+HStem: -182 104 417 20<140 240 140 240 385 420 385 420>
+VStem: 43 74<80 170> 188 104 203 74<80 188 263 342> 363 74<40 46 80 365>
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 400 0 2
+Refer: 344 42807 N 1 0 0 1 0 0 3
+LCarets2: 1 0 
+Ligature2: "Glyph composition-1" a_u dotbelowcmb
+EndChar

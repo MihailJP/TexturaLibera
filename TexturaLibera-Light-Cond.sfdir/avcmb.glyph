@@ -1,0 +1,12 @@
+StartChar: avcmb
+Encoding: 58414 58414 424
+Width: 320
+Flags: W
+HStem: 417 20<140 240 140 240> 708.5 10<132.5 150> 718.5 65<132.5 150 230 240.5>
+VStem: 43 74<80 170> 121.5 37<532.579 682.5> 181.5 37<712.01 752.354> 201.5 37<550 695.059> 203 74<40 46 80 188 263 342>
+LayerCount: 2
+Fore
+Refer: 152 878 N 1 0 0 1 340 0 2
+Refer: 65 97 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" a vcmb
+EndChar

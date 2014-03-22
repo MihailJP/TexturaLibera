@@ -1,0 +1,13 @@
+StartChar: scaron
+Encoding: 353 353 249
+Width: 320
+Flags: W
+HStem: 3 74<77.6651 122.572> 323 74<197.425 242.329> 417 20<160 197 160 197 280 317 280 317> 488 249
+VStem: 43 74<268 300> 123 74<545 596.373> 203 74<100 132>
+CounterMasks: 1 0e
+LayerCount: 2
+Fore
+Refer: 245 711 N 1 0 0 1 0 0 2
+Refer: 83 115 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" s caroncmb
+EndChar

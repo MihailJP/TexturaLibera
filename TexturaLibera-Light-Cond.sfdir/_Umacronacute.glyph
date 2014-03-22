@@ -1,0 +1,13 @@
+StartChar: Umacronacute
+Encoding: 58121 58121 752
+Width: 560
+Flags: W
+HStem: -37 74<232.896 328.782> 513 21<3 40> 538 74<232.798 291> 563 74<77.6875 178.134> 713 74<280 440> 838 249
+VStem: 63 74<133.566 389.75> 208 24<62 536> 223 274 283 74<120 530> 383 74<987.523 1030> 443 74<39 85 100.946 169.999 172 590>
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 200 350 2
+Refer: 238 362 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" Umacron acutecmb
+Ligature2: "Glyph composition-1" U macroncmb acutecmb
+EndChar

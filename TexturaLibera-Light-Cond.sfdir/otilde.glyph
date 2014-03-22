@@ -1,0 +1,12 @@
+StartChar: otilde
+Encoding: 245 245 175
+Width: 320
+Flags: W
+HStem: 417 20<160 200 160 200> 488 21<3 40> 513 74<148.422 242> 538 74<78 171.578> 617 20<280 317>
+VStem: 3 314 43 74<65.1574 300> 203 74<100 334.843>
+LayerCount: 2
+Fore
+Refer: 168 732 N 1 0 0 1 0 0 2
+Refer: 79 111 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" o tildecmb
+EndChar

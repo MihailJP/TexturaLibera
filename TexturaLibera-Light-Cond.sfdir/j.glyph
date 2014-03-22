@@ -1,0 +1,44 @@
+StartChar: j
+Encoding: 106 106 74
+Width: 160
+Flags: W
+HStem: 417 20G<65 100> 417 20G<65 100> 533 21G<48 85>
+VStem: 43 74<-90 361>
+LayerCount: 2
+Back
+SplineSet
+85 630 m 25
+ 115 600 l 25
+ 85 570 l 1049
+95 370 m 25
+ 65 400 l 25
+ 35 370 l 1049
+80 385 m 1
+ 80 -110 l 9
+ 50 -140 l 1049
+EndSplineSet
+Fore
+SplineSet
+48 610 m 1x30
+ 105 667 l 1
+ 152 620 l 1
+ 65 533 l 1
+ 48 550 l 1
+ 78 580 l 1
+ 48 610 l 1x30
+117 405 m 1
+ 132 390 l 1
+ 117 375 l 1
+ 117 -90 l 1
+ 30 -177 l 1
+ 13 -160 l 1
+ 43 -130 l 1
+ 43 361 l 1
+ 15 333 l 1
+ -2 350 l 1
+ 85 437 l 1xb0
+ 100 422 l 1
+ 117 405 l 1
+EndSplineSet
+Substitution2: "Dotless forms-1" dotlessj
+EndChar

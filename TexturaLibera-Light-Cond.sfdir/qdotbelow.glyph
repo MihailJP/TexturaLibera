@@ -1,0 +1,13 @@
+StartChar: qdotbelow
+Encoding: 59016 59016 692
+Width: 320
+Flags: W
+HStem: -187 21<203 240> -182 104 417 20<160 197 160 197 240 277 240 277>
+VStem: 43 74<100 300> 68 104 203 74<-130 26 60 343>
+AnchorPoint: "abvmark" 180 500 basechar 0
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 280 0 2
+Refer: 81 113 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" q dotbelowcmb
+EndChar

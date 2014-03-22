@@ -1,0 +1,12 @@
+StartChar: Obreve
+Encoding: 334 334 643
+Width: 640
+Flags: W
+HStem: -37 74<247.843 366.137> 455 21<203 228> 617 20<248 277 367 396.5> 688 74<333.653 402> 817 20<280 317 460 497>
+VStem: 63 74<177.994 400.525> 228 24<71 463 543 567> 243 254 303 74<120 530> 485 74<198.688 449.198>
+LayerCount: 2
+Fore
+Refer: 265 728 N 1 0 0 1 200 200 2
+Refer: 47 79 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" O brevecmb
+EndChar

@@ -1,0 +1,12 @@
+StartChar: Edieresis
+Encoding: 203 203 126
+Width: 600
+Flags: W
+HStem: -37 74<247.843 368.782> 455 21<203 228> 513 74<414 461.717> 517 20<340 377> 563 74<338.265 391.5> 728 104
+VStem: 63 74<177.994 400.525> 228 24<71 463 531 567> 228 264 303 74<120 313 357 480>
+LayerCount: 2
+Fore
+Refer: 101 168 S 1 0 0 1 200 200 2
+Refer: 37 69 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" E dieresiscmb
+EndChar

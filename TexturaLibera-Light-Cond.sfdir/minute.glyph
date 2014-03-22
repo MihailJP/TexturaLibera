@@ -1,0 +1,25 @@
+StartChar: minute
+Encoding: 8242 8242 926
+Width: 240
+Flags: W
+HStem: 490 247
+VStem: 123 74<630.098 680>
+LayerCount: 2
+Back
+SplineSet
+160 700 m 17
+ 160 600 80 525 80 525 c 1041
+EndSplineSet
+Fore
+SplineSet
+180 737 m 1
+ 197 720 l 1
+ 197 629 131 559 119 547 c 2
+ 62 490 l 2
+ 60 488 l 1
+ 43 505 l 1
+ 47 509 l 2
+ 63 526 123 594 123 680 c 1
+ 180 737 l 1
+EndSplineSet
+EndChar

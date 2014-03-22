@@ -1,0 +1,11 @@
+StartChar: lcaron
+Encoding: 318 318 292
+Width: 320
+Flags: W
+HStem: 463 179 637 20<65 100>
+VStem: 43 74<39 585> 160 118
+LayerCount: 2
+Fore
+Refer: 12 44 N 1 0 0 1 109 575 2
+Refer: 76 108 N 1 0 0 1 0 0 2
+EndChar

@@ -1,0 +1,11 @@
+StartChar: ij
+Encoding: 307 307 539
+Width: 320
+Flags: W
+HStem: 417 20<65 100 65 100 225 260 225 260> 533 21<48 85 208 245>
+VStem: 43 74<39 361> 203 74<-90 361>
+LayerCount: 2
+Fore
+Refer: 74 106 N 1 0 0 1 160 0 2
+Refer: 73 105 N 1 0 0 1 0 0 2
+EndChar

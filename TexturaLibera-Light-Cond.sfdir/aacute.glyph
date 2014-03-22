@@ -1,0 +1,12 @@
+StartChar: aacute
+Encoding: 225 225 163
+Width: 320
+Flags: W
+HStem: 417 20<140 240 140 240> 488 249
+VStem: 43 74<80 170> 203 74<40 46 80 188 263 342 637.523 680>
+LayerCount: 2
+Fore
+Refer: 138 769 N 1 0 0 1 340 0 2
+Refer: 65 97 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" a acutecmb
+EndChar

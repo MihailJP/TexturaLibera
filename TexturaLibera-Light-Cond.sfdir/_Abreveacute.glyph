@@ -1,0 +1,13 @@
+StartChar: Abreveacute
+Encoding: 7854 7854 377
+Width: 560
+Flags: W
+HStem: 538 21<143 180 318 354.31> 563 74<198.376 246> 688 74<333.653 402> 817 20<280 317 460 497> 838 249
+VStem: 243 74<383.737 557.139> 243 254 423 74<987.523 1030>
+LayerCount: 2
+Fore
+Refer: 138 769 N 1 0 0 1 560 350 2
+Refer: 272 258 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" A brevecmb acutecmb
+Ligature2: "Glyph composition-1" Abreve acutecmb
+EndChar

@@ -1,0 +1,45 @@
+StartChar: lbroken
+Encoding: 42823 42823 574
+Width: 280
+Flags: W
+HStem: 417 20G<200 237> 417 20G<200 237>
+VStem: 43 74<334 590> 163 74<39 346>
+LayerCount: 2
+Back
+SplineSet
+185 30 m 25
+ 215 0 l 25
+ 245 30 l 1049
+65 625 m 25
+ 95 595 l 1049
+80 610 m 1
+ 80 280 l 1
+ 200 400 l 1
+ 200 15 l 1025
+EndSplineSet
+Fore
+SplineSet
+28 605 m 1xb0
+ 85 662 l 1
+ 100 647 l 1
+ 117 630 l 1
+ 132 615 l 1
+ 117 600 l 1
+ 117 334 l 1
+ 220 437 l 1
+ 237 420 l 1
+ 237 39 l 1
+ 265 67 l 1
+ 282 50 l 1
+ 195 -37 l 1
+ 180 -22 l 1
+ 163 -5 l 1
+ 148 10 l 1
+ 163 25 l 1
+ 163 346 l 1
+ 60 243 l 1
+ 43 260 l 1
+ 43 590 l 1
+ 28 605 l 1xb0
+EndSplineSet
+EndChar

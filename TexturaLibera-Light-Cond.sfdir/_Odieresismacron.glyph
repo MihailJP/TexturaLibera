@@ -1,0 +1,13 @@
+StartChar: Odieresismacron
+Encoding: 554 554 657
+Width: 640
+Flags: W
+HStem: -37 74<247.843 366.137> 455 21<203 228> 617 20<248 277 367 396.5> 728 104 913 74<280 440>
+VStem: 63 74<177.994 400.525> 223 274 228 24<71 463 543 567> 228 264 303 74<120 530> 485 74<198.688 449.198>
+LayerCount: 2
+Fore
+Refer: 227 175 S 1 0 0 1 200 400 2
+Refer: 133 214 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" O dieresiscmb macroncmb
+Ligature2: "Glyph composition-1" Odieresis macroncmb
+EndChar

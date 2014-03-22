@@ -1,0 +1,11 @@
+StartChar: brevecmb
+Encoding: 774 774 266
+Width: 0
+Flags: W
+HStem: 488 74<-186.347 -118> 617 20<-240 -203 -60 -23>
+VStem: -277 254
+AnchorPoint: "abvmark" -160 500 mark 0
+LayerCount: 2
+Fore
+Refer: 265 728 N 1 0 0 1 -320 0 2
+EndChar

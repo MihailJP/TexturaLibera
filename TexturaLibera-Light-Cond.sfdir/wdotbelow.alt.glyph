@@ -1,0 +1,12 @@
+StartChar: wdotbelow.alt
+Encoding: 65543 -1 809
+Width: 480
+Flags: W
+HStem: -182 104 417 20<65 100 65 100 225 260 225 260 370 410 370 410>
+VStem: 43 74<65.1574 365> 188 104 203 74<65.1574 365> 363 74<100 371.766>
+AnchorPoint: "abvmark" 240 500 basechar 0
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 400 0 2
+Refer: 784 -1 N 1 0 0 1 0 0 2
+EndChar

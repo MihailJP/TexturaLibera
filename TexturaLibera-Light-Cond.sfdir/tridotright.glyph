@@ -1,0 +1,34 @@
+StartChar: tridotright
+Encoding: 4347 4347 895
+Width: 400
+Flags: W
+VStem: 68 304
+LayerCount: 2
+Back
+SplineSet
+305 190 m 25
+ 335 160 l 1049
+105 350 m 25
+ 135 320 l 1049
+105 30 m 25
+ 135 0 l 1049
+EndSplineSet
+Fore
+SplineSet
+68 10 m 1
+ 125 67 l 1
+ 172 20 l 1
+ 115 -37 l 1
+ 68 10 l 1
+68 330 m 1
+ 125 387 l 1
+ 172 340 l 1
+ 115 283 l 1
+ 68 330 l 1
+268 170 m 1
+ 325 227 l 1
+ 372 180 l 1
+ 315 123 l 1
+ 268 170 l 1
+EndSplineSet
+EndChar

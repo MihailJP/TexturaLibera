@@ -1,0 +1,12 @@
+StartChar: ddotbelow
+Encoding: 7693 7693 441
+Width: 320
+Flags: W
+HStem: -182 104 417 20<160 199.167 160 199.167> 513 74<122.755 176.437>
+VStem: 43 74<65.1574 300 574 626.5> 108 104 203 74<100 300 413 492.735>
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 320 0 2
+Refer: 68 100 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" d dotbelowcmb
+EndChar

@@ -1,0 +1,12 @@
+StartChar: rcaron
+Encoding: 345 345 311
+Width: 240
+Flags: W
+HStem: 417 20<65 100 65 100 160 200 160 200> 488 249
+VStem: 43 74<35 340> 83 74<545 596.373>
+LayerCount: 2
+Fore
+Refer: 245 711 N 1 0 0 1 -40 0 2
+Refer: 82 114 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" r caroncmb
+EndChar

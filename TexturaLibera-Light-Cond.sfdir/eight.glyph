@@ -1,0 +1,59 @@
+StartChar: eight
+Encoding: 56 56 24
+Width: 320
+Flags: W
+HStem: 617 20G<160 200>
+VStem: 43 74<65.1574 225 393 500> 203 74<100 257 425 534.843>
+LayerCount: 2
+Back
+SplineSet
+160 600 m 25
+ 80 520 l 25
+ 80 365 l 25
+ 160 325 l 25
+ 240 405 l 25
+ 240 520 l 25
+ 160 600 l 25
+160 325 m 25
+ 80 245 l 25
+ 80 80 l 25
+ 160 0 l 25
+ 240 80 l 25
+ 240 285 l 25
+ 160 325 l 25
+EndSplineSet
+Fore
+SplineSet
+140 563 m 1
+ 117 540 l 1
+ 117 393 l 1
+ 180 362 l 2
+ 180 362 200 382 203 385 c 2
+ 203 500 l 2
+ 203 534 158 545 140 563 c 1
+43 500 m 1
+ 180 637 l 1
+ 277 540 l 1
+ 277 425 l 1
+ 202 350 l 1
+ 260 322 l 1
+ 277 305 l 1
+ 277 100 l 1
+ 140 -37 l 1
+ 43 60 l 1
+ 43 225 l 1
+ 118 300 l 1
+ 60 328 l 1
+ 43 345 l 1
+ 43 500 l 1
+140 288 m 1
+ 117 265 l 1
+ 117 100 l 2
+ 117 66 162 55 180 37 c 1
+ 203 60 l 1
+ 203 257 l 1
+ 140 288 l 1
+EndSplineSet
+Substitution2: "Subscript forms-1" eight.inferior
+Substitution2: "Superscript forms-1" eight.superior
+EndChar

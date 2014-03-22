@@ -1,0 +1,12 @@
+StartChar: jhungarumlaut
+Encoding: 58722 58722 554
+Width: 160
+Flags: W
+HStem: 417 20<65 100 65 100> 488 249
+VStem: 43 74<-90 361 637.523 680> 163 74<637.523 680>
+LayerCount: 2
+Fore
+Refer: 267 733 N 1 0 0 1 -80 0 2
+Refer: 98 567 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" j hungarumlautcmb
+EndChar

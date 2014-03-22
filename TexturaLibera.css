@@ -49,6 +49,14 @@
 	font-weight: 500;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Textura Libera';
+	src: url('TexturaLibera-Light-Cond.woff');
+	font-variant: normal;
+	font-stretch: condensed;
+	font-weight: 300;
+	font-style: normal;
+}
 
 @font-face {
 	font-family: 'Textura Libera';

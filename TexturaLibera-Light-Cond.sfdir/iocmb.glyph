@@ -1,0 +1,12 @@
+StartChar: iocmb
+Encoding: 59621 59621 542
+Width: 160
+Flags: W
+HStem: 417 20<65 100 65 100> 708.5 10<80 100 80 100>
+VStem: 21.5 37<532.579 650> 43 74<39 361> 101.5 37<550 667.421>
+LayerCount: 2
+Fore
+Refer: 144 870 N 1 0 0 1 240 0 2
+Refer: 97 305 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" i ocmb
+EndChar

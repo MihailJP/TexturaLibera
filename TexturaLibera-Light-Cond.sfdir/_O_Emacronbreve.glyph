@@ -1,0 +1,13 @@
+StartChar: OEmacronbreve
+Encoding: 57952 57952 680
+Width: 1000
+Flags: W
+HStem: -37 74<227.843 346.137 647.843 768.782> 455 21<183 208 603 628> 513 74<814 861.717> 517 20<740 777> 563 74<738.265 791.5> 713 74<440 600> 838 74<493.653 562> 967 20<440 477 620 657>
+VStem: 43 74<177.994 400.525> 208 24<71 463 543 567> 283 74<120 530> 383 274 403 254 465 73<176.21 444.28> 628 24<71 463 531 567> 703 74<120 313 357 480>
+LayerCount: 2
+Fore
+Refer: 265 728 N 1 0 0 1 360 350 2
+Refer: 678 57949 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" OEmacron brevecmb
+Ligature2: "Glyph composition-1" OE macroncmb brevecmb
+EndChar

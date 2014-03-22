@@ -1,0 +1,33 @@
+StartChar: semicolon
+Encoding: 59 59 27
+Width: 240
+Flags: W
+VStem: 51 121
+LayerCount: 2
+Back
+SplineSet
+102.5 30 m 25
+ 132.5 0 l 1
+ 132.5 -30 l 25
+ 87.5 -75 l 1049
+105 345 m 25
+ 135 315 l 1049
+EndSplineSet
+Fore
+SplineSet
+68 325 m 1
+ 125 382 l 1
+ 172 335 l 1
+ 115 278 l 1
+ 68 325 l 1
+66 10 m 1
+ 122 67 l 1
+ 169 20 l 1
+ 169 -10 l 1
+ 68 -112 l 1
+ 51 -95 l 1
+ 96 -50 l 1
+ 96 -20 l 1
+ 66 10 l 1
+EndSplineSet
+EndChar

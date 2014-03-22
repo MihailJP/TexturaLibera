@@ -1,0 +1,12 @@
+StartChar: gacute
+Encoding: 501 501 496
+Width: 320
+Flags: W
+HStem: -187 74<78 126.5> 417 20<160 197 160 197 240 277 240 277> 488 249
+VStem: 43 74<65.1574 300> 203 74<-157.356 26 60 343 637.523 680>
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 20 0 2
+Refer: 71 103 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" g acutecmb
+EndChar

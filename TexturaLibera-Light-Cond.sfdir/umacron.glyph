@@ -1,0 +1,12 @@
+StartChar: umacron
+Encoding: 363 363 239
+Width: 320
+Flags: W
+HStem: 417 20<65 100 65 100 225 260 225 260> 513 74<80 240>
+VStem: 23 274 43 74<51.4784 365> 203 74<40 46 80 365>
+LayerCount: 2
+Fore
+Refer: 227 175 N 1 0 0 1 0 0 2
+Refer: 85 117 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" u macroncmb
+EndChar

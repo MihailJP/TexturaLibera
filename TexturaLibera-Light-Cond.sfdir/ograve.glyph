@@ -1,0 +1,12 @@
+StartChar: ograve
+Encoding: 242 242 157
+Width: 320
+Flags: W
+HStem: 417 20<160 200 160 200> 513 224
+VStem: 43 74<65.1574 300> 63 74<650.188 680> 203 74<100 334.843>
+LayerCount: 2
+Fore
+Refer: 137 768 N 1 0 0 1 320 0 2
+Refer: 79 111 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" o gravecmb
+EndChar
