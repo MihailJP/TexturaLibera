@@ -1,0 +1,12 @@
+StartChar: oucmb
+Encoding: 58950 58950 665
+Width: 320
+Flags: W
+HStem: 407 20<156 196 156 196> 703.5 10<113 128 113 128 193 208 193 208>
+VStem: 53 54<64 304> 106.5 27<522.654 687> 186.5 27<518 531 542 687> 213 54<96 336>
+LayerCount: 2
+Fore
+Refer: 145 871 N 1 0 0 1 320 0 2
+Refer: 79 111 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" o ucmb
+EndChar

@@ -1,0 +1,13 @@
+StartChar: jdotbelow
+Encoding: 58705 58705 549
+Width: 160
+Flags: W
+HStem: -317 74 407 20<66 96 66 96> 553 21<63 94>
+VStem: 43 74 53 54<-94 372>
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 240 -150 2
+Refer: 74 106 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" j dotbelowcmb
+Substitution2: "Dotless forms-1" dotlessjdotbelow
+EndChar

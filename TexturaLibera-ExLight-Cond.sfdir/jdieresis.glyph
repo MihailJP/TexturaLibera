@@ -1,0 +1,12 @@
+StartChar: jdieresis
+Encoding: 60387 60387 547
+Width: 160
+Flags: W
+HStem: 407 20<66 96 66 96> 543 74
+VStem: -37 234 53 54<-94 372>
+LayerCount: 2
+Fore
+Refer: 101 168 N 1 0 0 1 -80 0 2
+Refer: 98 567 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" j dieresiscmb
+EndChar

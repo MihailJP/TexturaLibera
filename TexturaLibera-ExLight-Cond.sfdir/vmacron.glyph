@@ -1,0 +1,11 @@
+StartChar: vmacron
+Encoding: 59213 59213 781
+Width: 320
+Flags: W
+HStem: 407 20<66 96 66 96 216 256 216 256> 523 54<76 244>
+VStem: 33 254 53 54<96 374> 213 54<96 364>
+LayerCount: 2
+Fore
+Refer: 227 175 N 1 0 0 1 0 0 2
+Refer: 782 -1 N 1 0 0 1 0 0 2
+EndChar

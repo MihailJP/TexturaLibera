@@ -1,0 +1,21 @@
+StartChar: fraction
+Encoding: 8260 8260 217
+Width: 560
+Flags: W
+LayerCount: 2
+Back
+SplineSet
+80 0 m 25
+ 480 700 l 1049
+EndSplineSet
+Fore
+SplineSet
+64 -27 m 1
+ 53 -16 l 1
+ 453 684 l 1
+ 496 727 l 1
+ 507 716 l 1
+ 107 16 l 1
+ 64 -27 l 1
+EndSplineSet
+EndChar

@@ -1,0 +1,13 @@
+StartChar: Udieresismacron
+Encoding: 469 469 754
+Width: 560
+Flags: W
+HStem: -27 54<228.901 332.615> 523 21<13 44> 548 54<228.987 307> 573 36<79 114.391> 573 54<77.8262 192.021> 743 74 923 54<276 444>
+VStem: 73 54<130.432 392.795> 212 16<48 550> 233 254 243 234 293 54<116 534> 453 54<31 101 104.674 165.999 168 594>
+LayerCount: 2
+Fore
+Refer: 227 175 N 1 0 0 1 200 400 2
+Refer: 128 220 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" U dieresiscmb macroncmb
+Ligature2: "Glyph composition-1" Udieresis macroncmb
+EndChar

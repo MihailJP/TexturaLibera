@@ -1,0 +1,11 @@
+StartChar: vdieresis
+Encoding: 59202 59202 772
+Width: 320
+Flags: W
+HStem: 407 20<66 96 66 96 216 256 216 256> 543 74
+VStem: 43 234 53 54<96 374> 213 54<96 364>
+LayerCount: 2
+Fore
+Refer: 101 168 N 1 0 0 1 0 0 2
+Refer: 782 -1 N 1 0 0 1 0 0 2
+EndChar

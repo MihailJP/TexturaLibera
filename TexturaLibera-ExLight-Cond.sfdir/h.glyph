@@ -1,0 +1,58 @@
+StartChar: h
+Encoding: 104 104 72
+Width: 320
+Flags: W
+HStem: 407 20G<176 216> 407 20G<176 216>
+VStem: 53 54<26 316 338 599> 213 54<26 354.693>
+AnchorPoint: "blwmark" 160 0 basechar 0
+AnchorPoint: "abvmark" 160 700 basechar 0
+LayerCount: 2
+Back
+SplineSet
+230 20 m 25
+ 250 0 l 1049
+70 20 m 25
+ 90 0 l 1049
+70 625 m 25
+ 90 605 l 1049
+80 615 m 9
+ 80 10 l 1049
+240 10 m 25
+ 240 340 l 25
+ 180 400 l 1
+ 80 300 l 1049
+EndSplineSet
+Fore
+SplineSet
+43 609 m 1xb0
+ 86 652 l 1
+ 96 642 l 1
+ 107 631 l 1
+ 117 621 l 1
+ 107 611 l 1
+ 107 338 l 1
+ 196 427 l 1
+ 267 356 l 1
+ 267 26 l 1
+ 277 16 l 1
+ 234 -27 l 1
+ 224 -17 l 1
+ 213 -6 l 1
+ 203 4 l 1
+ 213 14 l 1
+ 213 324 l 2
+ 213 351 178 359 164 373 c 1
+ 107 316 l 1
+ 107 26 l 1
+ 117 16 l 1
+ 74 -27 l 1
+ 64 -17 l 1
+ 53 -6 l 1
+ 43 4 l 1
+ 53 14 l 1
+ 53 284 l 1
+ 53 599 l 1
+ 43 609 l 1xb0
+EndSplineSet
+Substitution2: "Stylistic alternates-1" h.alt
+EndChar

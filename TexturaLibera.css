@@ -57,6 +57,14 @@
 	font-weight: 300;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Textura Libera';
+	src: url('TexturaLibera-ExLight-Cond.woff');
+	font-variant: normal;
+	font-stretch: condensed;
+	font-weight: 200;
+	font-style: normal;
+}
 
 @font-face {
 	font-family: 'Textura Libera';

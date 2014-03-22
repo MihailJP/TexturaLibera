@@ -1,0 +1,12 @@
+StartChar: wacute
+Encoding: 7811 7811 792
+Width: 480
+Flags: W
+HStem: 407 20<66 96 66 96 226 256 226 256 376 416 376 416> 498 229
+VStem: 53 54<64 374> 213 54<64 374> 273 54<634.624 684> 373 54<96 383.828>
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 80 0 2
+Refer: 784 -1 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" w acutecmb
+EndChar
