@@ -17,16 +17,16 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Textura Libera';
-	src: url('TexturaLibera-Cond.woff');
+	font-family: 'Textura Libera Condensed';
+	src: url('TexturaLiberaCond.woff');
 	font-variant: normal;
 	font-stretch: condensed;
 	font-weight: 500;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Textura Libera';
-	src: url('TexturaLibera-Expanded.woff');
+	font-family: 'Textura Libera Expanded';
+	src: url('TexturaLiberaEx.woff');
 	font-variant: normal;
 	font-stretch: expanded;
 	font-weight: 500;
