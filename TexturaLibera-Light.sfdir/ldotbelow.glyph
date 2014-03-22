@@ -2,8 +2,8 @@ StartChar: ldotbelow
 Encoding: 7735 7735 568
 Width: 200
 Flags: W
-HStem: -182 114 637 20<80 120>
-VStem: 43 114 63 74<40 580>
+HStem: -167 84 622 20<81 116>
+VStem: 58 84 73 54<31 584>
 AnchorPoint: "abvmark" 100 700 basechar 0
 LayerCount: 2
 Fore

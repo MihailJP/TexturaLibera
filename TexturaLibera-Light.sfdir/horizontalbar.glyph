@@ -2,7 +2,7 @@ StartChar: horizontalbar
 Encoding: 8213 8213 909
 Width: 700
 Flags: W
-HStem: 163 74<70 630>
+HStem: 173 54<66 634>
 LayerCount: 2
 Back
 SplineSet
@@ -11,12 +11,12 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-13 180 m 1
- 70 237 l 1
- 670 237 l 1
- 687 220 l 1
- 630 163 l 1
- 30 163 l 1
- 13 180 l 1
+23 184 m 1
+ 66 227 l 1
+ 666 227 l 1
+ 677 216 l 1
+ 634 173 l 1
+ 34 173 l 1
+ 23 184 l 1
 EndSplineSet
 EndChar

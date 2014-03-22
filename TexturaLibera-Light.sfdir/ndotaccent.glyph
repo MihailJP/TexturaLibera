@@ -2,8 +2,8 @@ StartChar: ndotaccent
 Encoding: 7749 7749 592
 Width: 400
 Flags: W
-HStem: 417 20<80 120 80 120 225 265 225 265> 518 114
-VStem: 63 74<40 295 329 360> 143 114 263 74<40 338.448>
+HStem: 407 20<81 116 81 116 221 261 221 261> 533 84
+VStem: 73 54<31 291 313 369> 158 84 273 54<31 341>
 CounterMasks: 1 38
 LayerCount: 2
 Fore

@@ -2,8 +2,8 @@ StartChar: ocaron
 Encoding: 466 466 639
 Width: 400
 Flags: W
-HStem: 417 20<200 240 200 240> 488 249
-VStem: 63 74<80 280> 163 74<545 585.984> 263 74<120 320>
+HStem: 407 20<196 236 196 236> 498 229
+VStem: 73 54<84 284> 173 54<541 590.844> 273 54<116 316>
 CounterMasks: 1 38
 LayerCount: 2
 Fore

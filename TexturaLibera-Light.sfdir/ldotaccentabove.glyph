@@ -2,8 +2,8 @@ StartChar: ldotaccentabove
 Encoding: 58782 58782 570
 Width: 200
 Flags: W
-HStem: 637 20<80 120> 718 114
-VStem: 43 114 63 74<40 580>
+HStem: 622 20<81 116> 733 84
+VStem: 58 84 73 54<31 584>
 LayerCount: 2
 Fore
 Refer: 269 729 N 1 0 0 1 -100 200 2

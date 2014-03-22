@@ -2,8 +2,8 @@ StartChar: dotlessiogonek
 Encoding: 65536 -1 519
 Width: 200
 Flags: W
-HStem: -237 274 417 20<80 120 80 120>
-VStem: -12 74<-122 -95> 63 74<40 360>
+HStem: -227 254 407 20<81 116 81 116>
+VStem: -2 54<-129 -91> 73 54<31 369>
 AnchorPoint: "abvmark" 100 500 basechar 0
 LayerCount: 2
 Fore

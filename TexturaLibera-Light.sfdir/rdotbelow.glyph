@@ -2,8 +2,8 @@ StartChar: rdotbelow
 Encoding: 7771 7771 697
 Width: 300
 Flags: W
-HStem: -182 114 417 20<80 120 80 120 200 240 200 240>
-VStem: 63 74<40 320 354 360> 93 114
+HStem: -167 84 407 20<81 116 81 116 196 236 196 236>
+VStem: 73 54<31 316 338 369> 108 84
 LayerCount: 2
 Fore
 Refer: 357 803 N 1 0 0 1 350 0 2

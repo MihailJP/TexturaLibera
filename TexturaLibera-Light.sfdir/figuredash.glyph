@@ -2,8 +2,8 @@ StartChar: figuredash
 Encoding: 8210 8210 908
 Width: 400
 Flags: W
-HStem: 163 74<120 280>
-VStem: 63 274
+HStem: 173 54<116 284>
+VStem: 73 254
 LayerCount: 2
 Back
 SplineSet
@@ -12,12 +12,12 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-63 180 m 1
- 120 237 l 1
- 320 237 l 1
- 337 220 l 1
- 280 163 l 1
- 80 163 l 1
- 63 180 l 1
+73 184 m 1
+ 116 227 l 1
+ 316 227 l 1
+ 327 216 l 1
+ 284 173 l 1
+ 84 173 l 1
+ 73 184 l 1
 EndSplineSet
 EndChar

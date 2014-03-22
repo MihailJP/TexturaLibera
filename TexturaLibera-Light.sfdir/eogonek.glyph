@@ -2,8 +2,8 @@ StartChar: eogonek
 Encoding: 281 281 280
 Width: 350
 Flags: W
-HStem: -237 274 417 20<200 240 200 240>
-VStem: 63 74<154 280> 88 74<-122 -95>
+HStem: -227 254 407 20<196 236 196 236>
+VStem: 73 54<138 284> 98 54<-129 -91>
 AnchorPoint: "abvmark" 200 500 basechar 0
 LayerCount: 2
 Fore

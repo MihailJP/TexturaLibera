@@ -2,8 +2,8 @@ StartChar: dblverticallineabovecmb
 Encoding: 782 782 889
 Width: 0
 Flags: W
-HStem: 488 249
-VStem: -337 74<545 680> -137 74<545 680>
+HStem: 498 229
+VStem: -327 54<541 684> -127 54<541 684>
 AnchorPoint: "abvmark" -200 500 mark 0
 LayerCount: 2
 Fore

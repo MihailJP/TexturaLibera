@@ -2,8 +2,8 @@ StartChar: jdieresis
 Encoding: 60387 60387 547
 Width: 200
 Flags: W
-HStem: 417 20<80 120 80 120> 518 114
-VStem: -57 314 63 74<-80 360>
+HStem: 407 20<81 116 81 116> 533 84
+VStem: -42 284 73 54<-84 369>
 LayerCount: 2
 Fore
 Refer: 101 168 N 1 0 0 1 -100 0 2

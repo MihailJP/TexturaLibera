@@ -2,8 +2,8 @@ StartChar: hookcmb
 Encoding: 777 777 381
 Width: 0
 Flags: W
-HStem: 463 274 538 21G<-312 -275>
-VStem: -337 274
+HStem: 473 254 548 21G<-302 -271>
+VStem: -127 54<616 650>
 AnchorPoint: "abvmark" -200 500 mark 0
 LayerCount: 2
 Back
@@ -17,20 +17,20 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
--220 463 m 1xa0
- -237 480 l 1
- -137 580 l 1
- -137 642 l 1
- -245 663 l 2
- -245 663 -261 647 -263 645 c 2
- -238 595 l 1
- -295 538 l 1x60
- -312 555 l 1
- -337 605 l 1
- -205 737 l 1
- -80 712 l 1
- -63 695 l 1
- -63 620 l 1
- -220 463 l 1xa0
+-216 473 m 1xa0
+ -227 484 l 1
+ -127 584 l 1
+ -127 650 l 1
+ -241 673 l 2
+ -241 673 -269 645 -273 641 c 1
+ -248 591 l 1
+ -291 548 l 1x60
+ -302 559 l 1
+ -327 609 l 1
+ -209 727 l 1
+ -84 702 l 1
+ -73 691 l 1
+ -73 616 l 1
+ -216 473 l 1xa0
 EndSplineSet
 EndChar

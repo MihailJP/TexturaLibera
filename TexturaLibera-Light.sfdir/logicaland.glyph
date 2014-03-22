@@ -2,7 +2,7 @@ StartChar: logicaland
 Encoding: 8743 8743 952
 Width: 600
 Flags: W
-HStem: 417 20G<300 337> 417 20G<300 337>
+HStem: 407 20G<296 327> 407 20G<296 327>
 LayerCount: 2
 Back
 SplineSet
@@ -12,16 +12,16 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-80 -37 m 1x80
- 63 -20 l 1
- 263 380 l 1
- 320 437 l 1
- 337 420 l 1
- 537 20 l 1
- 480 -37 l 1
- 463 -20 l 1
- 290 326 l 1
- 137 20 l 1
- 80 -37 l 1x80
+84 -27 m 1x80
+ 73 -16 l 1
+ 273 384 l 1
+ 316 427 l 1
+ 327 416 l 1
+ 527 16 l 1
+ 484 -27 l 1
+ 473 -16 l 1
+ 292 346 l 1
+ 127 16 l 1
+ 84 -27 l 1x80
 EndSplineSet
 EndChar

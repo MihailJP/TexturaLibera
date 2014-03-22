@@ -2,8 +2,8 @@ StartChar: brokenbar
 Encoding: 166 166 205
 Width: 250
 Flags: W
-HStem: -187 21G<88 125>
-VStem: 88 74<-130 180 370 680>
+HStem: -177 21G<98 129>
+VStem: 98 54<-134 184 366 684>
 LayerCount: 2
 Back
 SplineSet
@@ -14,19 +14,19 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-105 313 m 1
- 88 330 l 1
- 88 680 l 1
- 145 737 l 1
- 162 720 l 1
- 162 370 l 1
- 105 313 l 1
-105 -187 m 1
- 88 -170 l 1
- 88 180 l 1
- 145 237 l 1
- 162 220 l 1
- 162 -130 l 1
- 105 -187 l 1
+109 323 m 1
+ 98 334 l 1
+ 98 684 l 1
+ 141 727 l 1
+ 152 716 l 1
+ 152 366 l 1
+ 109 323 l 1
+109 -177 m 1
+ 98 -166 l 1
+ 98 184 l 1
+ 141 227 l 1
+ 152 216 l 1
+ 152 -134 l 1
+ 109 -177 l 1
 EndSplineSet
 EndChar
