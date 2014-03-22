@@ -4,10 +4,10 @@ TTFONTS = $(SRCFONTS:.sfdir=.ttf)
 OTFONTS = $(SRCFONTS:.sfdir=.otf)
 WOFFONTS = $(SRCFONTS:.sfdir=.woff)
 TARGETS = $(TTFONTS) $(OTFONTS) $(WOFFONTS)
-DOCUMENTS = LICENSE README.md TexturaLibera-Specimen.pdf
+DOCUMENTS = LICENSE NEWS README.md TexturaLibera-Specimen.pdf
 DISTTYPE = zip
 
-VERSION = 0.0.0
+VERSION = 0.1.0
 
 .PHONY: all clean dist ttf otf woff
 
