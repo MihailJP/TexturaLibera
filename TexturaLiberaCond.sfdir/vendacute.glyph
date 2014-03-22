@@ -1,0 +1,12 @@
+StartChar: vendacute
+Encoding: 60346 60346 883
+Width: 320
+Flags: W
+HStem: -196 21<35 75> 426 20<65 105 65 105 205 245 205 245> 479 267
+VStem: 34 92<-125 -77 -35 15 57 355> 74 192 194 92<175 356.953>
+LayerCount: 2
+Fore
+Refer: 99 180 N 1 0 0 1 0 0 2
+Refer: 876 42857 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" vend acutecmb
+EndChar

@@ -1,0 +1,23 @@
+StartChar: dotbelowcmb
+Encoding: 803 803 357
+Width: 0
+VWidth: 400
+Flags: W
+HStem: -196 152
+VStem: -316 152
+AnchorPoint: "blwmark" -240 0 mark 0
+LayerCount: 2
+Back
+SplineSet
+-270 -90 m 25
+ -210 -150 l 1049
+EndSplineSet
+Fore
+SplineSet
+-316 -115 m 1
+ -245 -44 l 1
+ -164 -125 l 1
+ -235 -196 l 1
+ -316 -115 l 1
+EndSplineSet
+EndChar

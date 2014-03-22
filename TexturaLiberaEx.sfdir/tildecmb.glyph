@@ -1,0 +1,10 @@
+StartChar: tildecmb
+Encoding: 771 771 169
+Width: 0
+Flags: W
+HStem: 479 21<-465 -442> 504 92<-262.449 -119.325> 529 92<-360.672 -217.551>
+AnchorPoint: "abvmark" -240 500 mark 0
+LayerCount: 2
+Fore
+Refer: 168 732 N 1 0 0 1 -480 0 2
+EndChar

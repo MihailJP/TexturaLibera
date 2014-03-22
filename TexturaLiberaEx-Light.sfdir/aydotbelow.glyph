@@ -1,0 +1,13 @@
+StartChar: aydotbelow
+Encoding: 61435 61435 417
+Width: 720
+Flags: W
+HStem: -367 94 -227 54<472.501 540.472> -177 54<347.874 425.576> 198 54<228.375 333> 407 20<206 346 206 346 576 616 576 616>
+VStem: 93 54<106 144> 313 94 333 54<136 198 252 350> 573 54<-134 82 104 356>
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 600 -200 2
+Refer: 346 42813 N 1 0 0 1 0 0 3
+LCarets2: 1 0 
+Ligature2: "Glyph composition-1" a_y dotbelowcmb
+EndChar

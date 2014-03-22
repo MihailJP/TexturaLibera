@@ -1,0 +1,23 @@
+StartChar: verticallinemod
+Encoding: 712 712 887
+Width: 480
+Flags: W
+HStem: 479 267
+VStem: 194 92<550 675>
+LayerCount: 2
+Back
+SplineSet
+240 700 m 9
+ 240 525 l 1025
+EndSplineSet
+Fore
+SplineSet
+265 746 m 1
+ 286 725 l 1
+ 286 550 l 1
+ 215 479 l 1
+ 194 500 l 1
+ 194 675 l 1
+ 265 746 l 1
+EndSplineSet
+EndChar

@@ -1,0 +1,13 @@
+StartChar: eogonekcircumflex
+Encoding: 58527 58527 469
+Width: 280
+Flags: W
+HStem: -246 292 426 20<165 205 165 205> 479 267
+VStem: 34 92<105 145 187 295> 54 212 114 92<634.392 675>
+LayerCount: 2
+Fore
+Refer: 100 710 N 1 0 0 1 0 0 2
+Refer: 280 281 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" e ogonekcmb circumflexcmb
+Ligature2: "Glyph composition-1" eogonek circumflexcmb
+EndChar

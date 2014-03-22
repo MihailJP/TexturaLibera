@@ -1,0 +1,10 @@
+StartChar: zero.superior
+Encoding: 8304 8304 199
+Width: 240
+Flags: W
+HStem: 719.5 15<123.75 168.75 123.75 168.75>
+VStem: 25.5 69<456.25 621.25> 145.5 69<478.75 643.75>
+LayerCount: 2
+Fore
+Refer: 16 48 N 0.75 0 0 0.75 0 400 2
+EndChar

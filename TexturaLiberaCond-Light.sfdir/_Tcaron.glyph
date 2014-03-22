@@ -1,0 +1,12 @@
+StartChar: Tcaron
+Encoding: 356 356 314
+Width: 560
+Flags: W
+HStem: -27 54<211.238 332.615> 460 20<212 228> 473 21<53 84> 573 54<165.982 230.912> 698 229
+VStem: 73 54<130.432 323.189> 212 16<70 450 473 480> 293 54<116 434 741 801.207>
+LayerCount: 2
+Fore
+Refer: 245 711 N 1 0 0 1 160 200 2
+Refer: 52 84 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" T caroncmb
+EndChar

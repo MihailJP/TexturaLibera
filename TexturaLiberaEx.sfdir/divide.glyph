@@ -1,0 +1,36 @@
+StartChar: divide
+Encoding: 247 247 224
+Width: 720
+Flags: W
+HStem: 254 92<145 575> 551 20G<335 375>
+LayerCount: 2
+Back
+SplineSet
+330 135 m 25
+ 390 75 l 1049
+120 300 m 25
+ 600 300 l 1049
+330 525 m 25
+ 390 465 l 1049
+EndSplineSet
+Fore
+SplineSet
+284 500 m 1
+ 355 571 l 1
+ 436 490 l 1
+ 365 419 l 1
+ 284 500 l 1
+74 275 m 1
+ 145 346 l 1
+ 625 346 l 1
+ 646 325 l 1
+ 575 254 l 1
+ 95 254 l 1
+ 74 275 l 1
+284 110 m 1
+ 355 181 l 1
+ 436 100 l 1
+ 365 29 l 1
+ 284 110 l 1
+EndSplineSet
+EndChar

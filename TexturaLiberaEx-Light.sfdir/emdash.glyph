@@ -1,0 +1,22 @@
+StartChar: emdash
+Encoding: 8212 8212 258
+Width: 720
+Flags: W
+HStem: 173 54<76 644>
+LayerCount: 2
+Back
+SplineSet
+60 200 m 25
+ 660 200 l 1049
+EndSplineSet
+Fore
+SplineSet
+33 184 m 1
+ 76 227 l 1
+ 676 227 l 1
+ 687 216 l 1
+ 644 173 l 1
+ 44 173 l 1
+ 33 184 l 1
+EndSplineSet
+EndChar

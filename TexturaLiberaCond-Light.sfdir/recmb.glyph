@@ -1,0 +1,12 @@
+StartChar: recmb
+Encoding: 59626 59626 701
+Width: 240
+Flags: W
+HStem: 407 20<66 96 66 96 156 196 156 196> 703.5 10<118 138 118 138>
+VStem: 53 54<26 336 358 374> 66.5 27<548 568 579 652>
+LayerCount: 2
+Fore
+Refer: 142 868 N 1 0 0 1 280 0 2
+Refer: 82 114 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" r ecmb
+EndChar

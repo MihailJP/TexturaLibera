@@ -1,0 +1,12 @@
+StartChar: Zcaron
+Encoding: 381 381 248
+Width: 840
+Flags: W
+HStem: 4 92<147.54 486.637> 254 92<475.848 588.05> 279 92<251.95 382.804> 504 92<296.452 633.291> 626 20<125 313 717 765> 679 267
+VStem: 254 332
+LayerCount: 2
+Fore
+Refer: 245 711 N 1 0 0 1 180 200 2
+Refer: 58 90 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" Z caroncmb
+EndChar

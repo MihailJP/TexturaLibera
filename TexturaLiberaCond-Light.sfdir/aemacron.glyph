@@ -1,0 +1,12 @@
+StartChar: aemacron
+Encoding: 483 483 404
+Width: 440
+Flags: W
+HStem: 203 54<159.334 213> 407 20<136 236 136 236 316 356 316 356> 523 54<156 324>
+VStem: 53 54<76 174> 113 254 213 54<84 136 158 203 257 304 305 336> 373 54<296 336>
+LayerCount: 2
+Fore
+Refer: 227 175 N 1 0 0 1 80 0 2
+Refer: 189 230 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" ae macroncmb
+EndChar

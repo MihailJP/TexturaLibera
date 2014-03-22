@@ -1,0 +1,22 @@
+StartChar: slash
+Encoding: 47 47 15
+Width: 400
+Flags: W
+HStem: -177 21G<13 44>
+LayerCount: 2
+Back
+SplineSet
+40 -150 m 25
+ 360 700 l 1049
+EndSplineSet
+Fore
+SplineSet
+24 -177 m 1
+ 13 -166 l 1
+ 333 684 l 1
+ 376 727 l 1
+ 387 716 l 1
+ 67 -134 l 1
+ 24 -177 l 1
+EndSplineSet
+EndChar

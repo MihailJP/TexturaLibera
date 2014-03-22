@@ -1,0 +1,12 @@
+StartChar: oslashbreve
+Encoding: 60399 60399 646
+Width: 320
+Flags: W
+HStem: 407 20<156 195.692 156 195.692 276 307 276 307> 498 54<127.587 203.799> 607 20<76 107 256 287>
+VStem: 53 54<141 304 574.939 591> 213 54<96 259>
+LayerCount: 2
+Fore
+Refer: 265 728 N 1 0 0 1 0 0 2
+Refer: 183 248 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" oslash brevecmb
+EndChar

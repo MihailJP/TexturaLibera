@@ -1,0 +1,14 @@
+StartChar: oslashdotaccentacute
+Encoding: 60413 60413 633
+Width: 480
+Flags: W
+HStem: 444 20<255 295 255 295 435 475 435 475> 461 303 476 208
+VStem: 16 208 56 128<174 245> 236 278 296 128<155 226>
+LayerCount: 2
+Fore
+Refer: 99 180 S 1 0 0 1 120 0 2
+Refer: 269 729 S 1 0 0 1 -120 0 2
+Refer: 183 248 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" oslash dotaccentcmb acutecmb
+Ligature2: "Glyph composition-1" oslashdotaccent acutecmb
+EndChar

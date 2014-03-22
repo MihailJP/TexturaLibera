@@ -1,0 +1,13 @@
+StartChar: wcircumflex
+Encoding: 373 373 798
+Width: 720
+Flags: W
+HStem: 407 20<96 136 96 136 336 375.231 336 375.231 556 596 556 596> 498 229
+VStem: 93 54<104 356> 333 54<104 356 640.497 684> 573 54<136 367.563>
+CounterMasks: 1 38
+LayerCount: 2
+Fore
+Refer: 100 710 N 1 0 0 1 120 0 2
+Refer: 784 -1 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" w circumflexcmb
+EndChar

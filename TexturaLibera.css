@@ -32,3 +32,45 @@
 	font-weight: 300;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Textura Libera Condensed';
+	src: url('TexturaLiberaCond.woff');
+	font-variant: normal;
+	font-stretch: condensed;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Textura Libera Condensed';
+	src: url('TexturaLiberaCond-Light.woff');
+	font-variant: normal;
+	font-stretch: condensed;
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Textura Libera Expanded';
+	src: url('TexturaLiberaEx.woff');
+	font-variant: normal;
+	font-stretch: expanded;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Textura Libera Expanded';
+	src: url('TexturaLiberaEx-Bold.woff');
+	font-variant: normal;
+	font-stretch: expanded;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Textura Libera Expanded';
+	src: url('TexturaLiberaEx-Light.woff');
+	font-variant: normal;
+	font-stretch: expanded;
+	font-weight: 300;
+	font-style: normal;
+}

@@ -1,0 +1,12 @@
+StartChar: igrave
+Encoding: 236 236 156
+Width: 240
+Flags: W
+HStem: 407 20<96 136 96 136> 523 204
+VStem: 3 54<656.816 684> 93 54<44 356>
+LayerCount: 2
+Fore
+Refer: 137 768 N 1 0 0 1 360 0 2
+Refer: 97 305 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" i gravecmb
+EndChar

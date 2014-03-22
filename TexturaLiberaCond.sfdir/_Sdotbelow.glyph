@@ -1,0 +1,12 @@
+StartChar: Sdotbelow
+Encoding: 7778 7778 714
+Width: 560
+Flags: W
+HStem: -196 132 4 92<110.155 261.867> 504 92<276.517 407.957> 626 20<165 265 457 525>
+VStem: 214 132 434 92<125 224>
+AnchorPoint: "abvmark" 280 700 basechar 0
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 440 0 2
+Refer: 51 83 N 1 0 0 1 0 0 2
+EndChar

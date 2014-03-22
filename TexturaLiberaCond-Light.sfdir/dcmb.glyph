@@ -1,0 +1,11 @@
+StartChar: dcmb
+Encoding: 873 873 147
+Width: 0
+Flags: W
+HStem: 703.5 10<-162 -142.263 -162 -142.263> 761.5 27<-182.622 -147.805>
+VStem: -213.5 27<532 652 789 810.401> -133.5 27<548 652 694.5 748.253>
+AnchorPoint: "abvmark" -160 500 mark 0
+LayerCount: 2
+Fore
+Refer: 68 100 N 0.5 0 0 0.5 -240 500 2
+EndChar

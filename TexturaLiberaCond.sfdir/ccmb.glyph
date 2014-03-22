@@ -1,0 +1,11 @@
+StartChar: ccmb
+Encoding: 872 872 146
+Width: 0
+Flags: W
+HStem: 713 10<-157.5 -137.5 -157.5 -137.5>
+VStem: -223 46<535.345 647.5>
+AnchorPoint: "abvmark" -160 500 mark 0
+LayerCount: 2
+Fore
+Refer: 67 99 N 0.5 0 0 0.5 -240 500 2
+EndChar

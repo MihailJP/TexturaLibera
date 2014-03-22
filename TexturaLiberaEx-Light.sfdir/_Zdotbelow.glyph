@@ -1,0 +1,13 @@
+StartChar: Zdotbelow
+Encoding: 7826 7826 837
+Width: 840
+Flags: W
+HStem: -167 94 23 54<126.355 453.922> 273 54<419.734 597.122> 298 54<242.878 366.023> 523 54<322.037 632.013> 607 20<116 304 720 747>
+VStem: 313 94
+AnchorPoint: "abvmark" 420 700 basechar 0
+LayerCount: 2
+Fore
+Refer: 357 803 N 1 0 0 1 600 0 2
+Refer: 58 90 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" Z dotbelowcmb
+EndChar

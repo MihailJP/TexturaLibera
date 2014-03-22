@@ -1,0 +1,12 @@
+StartChar: ibreve
+Encoding: 301 301 532
+Width: 160
+Flags: W
+HStem: -46 21<55 95> 426 20<65 105 65 105> 479 92<61.6383 126> 626 20<5 45 185 225>
+VStem: -46 272 34 92<47 353>
+LayerCount: 2
+Fore
+Refer: 265 728 N 1 0 0 1 -80 0 2
+Refer: 97 305 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" i brevecmb
+EndChar

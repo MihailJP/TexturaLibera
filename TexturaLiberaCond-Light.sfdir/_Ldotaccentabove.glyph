@@ -1,0 +1,12 @@
+StartChar: Ldotaccentabove
+Encoding: 57758 57758 569
+Width: 560
+Flags: W
+HStem: -27 21<13 44.5 272 404> 23 54<78.959 152 168 289.012> 523 21<13 44> 573 36<79 114.391> 573 54<77.8262 132.32> 733 74
+VStem: 152 16<77 549> 233 54<166 544> 283 74 413 54<151.754 267.382>
+LayerCount: 2
+Fore
+Refer: 269 729 N 1 0 0 1 160 200 2
+Refer: 44 76 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" L dotaccentcmb
+EndChar

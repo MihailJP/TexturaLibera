@@ -1,0 +1,12 @@
+StartChar: amacron
+Encoding: 257 257 231
+Width: 480
+Flags: W
+HStem: 198 54<228.375 333> 407 20<206 346 206 346> 523 54<136 404>
+VStem: 93 54<106 144> 333 54<27.2798 112 134 198 252 350>
+LayerCount: 2
+Fore
+Refer: 227 175 N 1 0 0 1 30 0 2
+Refer: 65 97 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" a macroncmb
+EndChar

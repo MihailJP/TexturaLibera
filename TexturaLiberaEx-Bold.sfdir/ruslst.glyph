@@ -1,0 +1,21 @@
+StartChar: ruslst
+Encoding: 11789 11789 903
+Width: 360
+Flags: W
+LayerCount: 2
+Back
+SplineSet
+60 450 m 25
+ 300 700 l 1049
+EndSplineSet
+Fore
+SplineSet
+25 386 m 1
+ -4 415 l 1
+ 236 665 l 1
+ 335 764 l 1
+ 364 735 l 1
+ 124 485 l 1
+ 25 386 l 1
+EndSplineSet
+EndChar

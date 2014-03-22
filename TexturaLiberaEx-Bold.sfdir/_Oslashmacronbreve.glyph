@@ -1,0 +1,13 @@
+StartChar: Oslashmacronbreve
+Encoding: 57939 57939 651
+Width: 960
+Flags: W
+HStem: -64 128<381.805 446 503 519> 644 20<369.699 415 543 606.5 851 895> 686 128<425 655> 811 128<503.258 622> 994 20<435 475 705 745>
+VStem: 86 128<219.048 365.204> 340 40<102 148 252 443 546 551> 447 128<135 237 307 344 414 515> 720 128<232.542 405.858>
+LayerCount: 2
+Fore
+Refer: 265 728 N 1 0 0 1 300 350 2
+Refer: 647 57938 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" Oslash macroncmb brevecmb
+Ligature2: "Glyph composition-1" Oslashmacron brevecmb
+EndChar

@@ -1,0 +1,11 @@
+StartChar: gravecmb
+Encoding: 768 768 137
+Width: 0
+Flags: W
+HStem: 523 204
+VStem: -247 54<646.34 684>
+AnchorPoint: "abvmark" -160 500 mark 0
+LayerCount: 2
+Fore
+Refer: 64 96 N 1 0 0 1 -320 0 2
+EndChar
