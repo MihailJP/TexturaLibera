@@ -1,0 +1,31 @@
+StartChar: kbar_longs
+Encoding: 59336 59336 962
+Width: 425
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+-125 -200 m 17
+ -125 -200 -88 -150 -50 -150 c 8
+ -19 -150 18 -200 50 -200 c 24
+ 78 -200 125 -150 125 -150 c 1
+ 125 550 l 1
+ 225 650 l 17
+ 225 650 256 600 300 600 c 24
+ 328 600 375 650 376 650 c 1033
+290 70 m 25
+ 360 0 l 1049
+225 275 m 1
+ 325 200 l 1
+ 325 35 l 1025
+125 200 m 1
+ 325 350 l 9
+ 325 390 l 1049
+290 425 m 25
+ 360 355 l 1049
+200 475 m 25
+ 25 475 l 1049
+EndSplineSet
+LCarets2: 1 225 
+Ligature2: "Historic ligatures-1" kbar longs
+EndChar

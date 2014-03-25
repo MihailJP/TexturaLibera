@@ -1,0 +1,18 @@
+StartChar: question
+Encoding: 63 63 31
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+100 450 m 25
+ 100 525 l 25
+ 175 600 l 25
+ 300 550 l 25
+ 300 400 l 25
+ 200 350 l 25
+ 200 210 l 1049
+165 70 m 25
+ 235 0 l 1049
+EndSplineSet
+EndChar

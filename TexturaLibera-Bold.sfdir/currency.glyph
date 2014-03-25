@@ -1,0 +1,24 @@
+StartChar: currency
+Encoding: 164 164 207
+Width: 500
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+450 0 m 29
+ 350 125 l 1053
+50 0 m 29
+ 150 125 l 1053
+450 600 m 29
+ 350 475 l 1053
+50 600 m 29
+ 150 475 l 1053
+225 500 m 29
+ 100 375 l 29
+ 100 200 l 29
+ 275 100 l 29
+ 400 225 l 29
+ 400 400 l 29
+ 225 500 l 29
+EndSplineSet
+EndChar

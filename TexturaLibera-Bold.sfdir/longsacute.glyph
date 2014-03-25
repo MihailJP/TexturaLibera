@@ -1,0 +1,10 @@
+StartChar: longsacute
+Encoding: 60335 60335 718
+Width: 300
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 99 180 N 1 0 0 1 -25 200 2
+Refer: 95 383 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar

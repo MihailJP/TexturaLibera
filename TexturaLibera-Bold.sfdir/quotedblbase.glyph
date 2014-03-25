@@ -1,0 +1,18 @@
+StartChar: quotedblbase
+Encoding: 8222 8222 253
+Width: 500
+VWidth: 450
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+320 70 m 29
+ 390 0 l 5
+ 390 -70 l 29
+ 285 -175 l 1053
+120 70 m 25
+ 190 0 l 1
+ 190 -70 l 25
+ 85 -175 l 1049
+EndSplineSet
+EndChar

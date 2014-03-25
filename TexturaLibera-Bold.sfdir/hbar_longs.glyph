@@ -1,0 +1,27 @@
+StartChar: hbar_longs
+Encoding: 59335 59335 963
+Width: 425
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+290 70 m 25
+ 360 0 l 1049
+325 35 m 25
+ 325 325 l 25
+ 250 400 l 1
+ 125 275 l 1049
+-125 -200 m 17
+ -125 -200 -88 -150 -50 -150 c 8
+ -19 -150 18 -200 50 -200 c 24
+ 78 -200 125 -150 125 -150 c 1
+ 125 550 l 1
+ 225 650 l 17
+ 225 650 256 600 300 600 c 24
+ 328 600 375 650 376 650 c 1033
+200 475 m 25
+ 25 475 l 1049
+EndSplineSet
+LCarets2: 1 225 
+Ligature2: "Historic ligatures-1" hbar longs
+EndChar

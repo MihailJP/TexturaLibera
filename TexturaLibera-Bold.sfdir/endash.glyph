@@ -1,0 +1,11 @@
+StartChar: endash
+Encoding: 8211 8211 257
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+50 200 m 25
+ 350 200 l 1049
+EndSplineSet
+EndChar

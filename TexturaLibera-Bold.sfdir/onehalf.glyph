@@ -1,0 +1,11 @@
+StartChar: onehalf
+Encoding: 189 189 219
+Width: 700
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 191 178 N 1 0 0 1 400 -400 2
+Refer: 190 185 N 1 0 0 1 0 0 2
+Refer: 217 8260 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar

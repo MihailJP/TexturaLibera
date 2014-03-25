@@ -1,0 +1,14 @@
+StartChar: bracketangleright
+Encoding: 9297 9297 931
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+75 675 m 21
+ 75 675 155.283203125 553.91796875 175 525 c 4
+ 220 459 350 250 350 250 c 5
+ 350 250 196 60 150 0 c 4
+ 133.083984375 -22.064453125 50 -150 50 -150 c 1037
+EndSplineSet
+EndChar

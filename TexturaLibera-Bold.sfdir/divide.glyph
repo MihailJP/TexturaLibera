@@ -1,0 +1,15 @@
+StartChar: divide
+Encoding: 247 247 224
+Width: 600
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+265 135 m 25
+ 335 65 l 1049
+100 300 m 25
+ 500 300 l 1049
+265 535 m 25
+ 335 465 l 1049
+EndSplineSet
+EndChar

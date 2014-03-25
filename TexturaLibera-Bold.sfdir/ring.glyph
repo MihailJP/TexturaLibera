@@ -1,0 +1,14 @@
+StartChar: ring
+Encoding: 730 730 184
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+100 650 m 4
+ 100 710 115 725 175 725 c 4
+ 250 725 300 675 300 600 c 4
+ 300 540 285 525 225 525 c 4
+ 150 525 100 575 100 650 c 4
+EndSplineSet
+EndChar

@@ -1,0 +1,26 @@
+StartChar: q_etfin
+Encoding: 59583 59583 966
+Width: 600
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+300 100 m 9
+ 200 0 l 25
+ 100 100 l 25
+ 100 300 l 25
+ 200 400 l 1
+ 200 400 222 360 250 360 c 24
+ 278 360 300 400 300 400 c 9
+ 300 -150 l 1049
+300 325 m 29
+ 375 400 l 5
+ 500 300 l 5
+ 350 150 l 5
+ 500 100 l 5
+ 500 0 l 5
+ 250 -200 l 1029
+EndSplineSet
+LCarets2: 1 300 
+Ligature2: "Ligatures-1" q etfin
+EndChar

@@ -1,0 +1,11 @@
+StartChar: asterism
+Encoding: 8258 8258 950
+Width: 900
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 10 42 N 1 0 0 1 400 -400 2
+Refer: 10 42 N 1 0 0 1 200 0 2
+Refer: 10 42 N 1 0 0 1 0 -400 2
+Colour: ffff
+EndChar

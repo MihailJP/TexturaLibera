@@ -1,0 +1,11 @@
+StartChar: yecmb
+Encoding: 59265 59265 833
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 142 868 N 1 0 0 1 400 0 2
+Refer: 89 121 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" y ecmb
+Colour: ffff
+EndChar
