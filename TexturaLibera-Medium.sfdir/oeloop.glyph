@@ -2,8 +2,8 @@ StartChar: oeloop
 Encoding: 42829 42829 867
 Width: 550
 Flags: MW
-AnchorPoint: "abvmark" 300 500 basechar 0
 AnchorPoint: "blwmark" 300 0 basechar 0
+AnchorPoint: "abvmark" 300 500 basechar 0
 LayerCount: 4
 Fore
 SplineSet
@@ -12,10 +12,12 @@ SplineSet
  400 400 l 25
  500 300 l 1
  300 100 l 25
- 200 0 l 1
- 100 100 l 25
+200 400 m 25
  100 300 l 25
+ 100 100 l 25
+ 200 0 l 25
+ 300 100 l 25
+ 300 300 l 25
  200 400 l 25
- 300 300 l 1041
 EndSplineSet
 EndChar

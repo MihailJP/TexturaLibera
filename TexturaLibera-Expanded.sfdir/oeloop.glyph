@@ -2,16 +2,16 @@ StartChar: oeloop
 Encoding: 42829 42829 867
 Width: 660
 Flags: MW
-AnchorPoint: "abvmark" 360 500 basechar 0
 AnchorPoint: "blwmark" 360 0 basechar 0
+AnchorPoint: "abvmark" 360 500 basechar 0
 LayerCount: 4
 Fore
 SplineSet
-360 80 m 9
- 360 280 l 1
- 480 400 l 25
- 600 320 l 1
- 360 80 l 9
+360 80 m 13
+ 360 280 l 29
+ 480 400 l 29
+ 600 320 l 5
+ 360 80 l 13
 240 400 m 25
  120 280 l 25
  120 120 l 25
