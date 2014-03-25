@@ -1,0 +1,21 @@
+StartChar: six
+Encoding: 54 54 22
+Width: 320
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+80 320 m 25
+ 160 400 l 25
+ 240 320 l 25
+ 240 80 l 25
+ 160 0 l 25
+ 80 80 l 1
+ 80 540 l 1
+ 140 600 l 25
+ 163 590 170 575 200 575 c 3
+ 222 575 225 590 241 600 c 1049
+EndSplineSet
+Substitution2: "Subscript forms-1" six.inferior
+Substitution2: "Superscript forms-1" six.superior
+EndChar

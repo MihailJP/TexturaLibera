@@ -1,0 +1,13 @@
+StartChar: barquillright
+Encoding: 11809 11809 921
+Width: 240
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+40 300 m 25
+ 160 300 l 1049
+160 700 m 25
+ 160 -150 l 1049
+EndSplineSet
+EndChar

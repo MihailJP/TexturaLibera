@@ -1,0 +1,14 @@
+StartChar: quotesinglbase
+Encoding: 8218 8218 256
+Width: 240
+VWidth: 450
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+100 40 m 29
+ 140 0 l 1
+ 140 -40 l 29
+ 80 -100 l 1053
+EndSplineSet
+EndChar

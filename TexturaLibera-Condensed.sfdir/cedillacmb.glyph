@@ -1,0 +1,10 @@
+StartChar: cedillacmb
+Encoding: 807 807 358
+Width: 0
+Flags: MW
+AnchorPoint: "blwmark" -160 0 mark 0
+LayerCount: 4
+Fore
+Refer: 102 184 N 1 0 0 1 -320 0 2
+Colour: ffff
+EndChar

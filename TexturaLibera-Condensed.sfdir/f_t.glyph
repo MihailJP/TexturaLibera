@@ -1,0 +1,24 @@
+StartChar: f_t
+Encoding: 61131 61131 326
+Width: 420
+GlyphClass: 3
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+-100 -200 m 17
+ -100 -200 -70 -150 -40 -150 c 8
+ -3 -150 3 -200 40 -200 c 24
+ 70 -200 100 -150 100 -150 c 1
+ 100 570 l 1
+ 180 650 l 1
+ 180 650 225 550 260 550 c 1
+ 260 40 l 1
+ 300 0 l 1
+ 380 80 l 1025
+40 400 m 25
+ 360 400 l 1049
+EndSplineSet
+LCarets2: 1 240 
+Ligature2: "Ligatures-1" f t
+EndChar

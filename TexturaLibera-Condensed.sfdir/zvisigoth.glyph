@@ -1,0 +1,21 @@
+StartChar: zvisigoth
+Encoding: 42851 42851 839
+Width: 280
+Flags: MW
+AnchorPoint: "abvmark" 160 500 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+240 320 m 9
+ 160 400 l 25
+ 80 320 l 1
+ 80 200 l 25
+ 160 150 l 29
+ 80 70 l 5
+ 200 0 l 1
+ 200 -150 l 1
+ 200 -150 162 -200 140 -200 c 0
+ 114 -200 97 -150 60 -150 c 16
+ 30 -150 0 -200 0 -200 c 1025
+EndSplineSet
+EndChar

@@ -1,0 +1,19 @@
+StartChar: j
+Encoding: 106 106 74
+Width: 160
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+80 640 m 25
+ 120 600 l 25
+ 80 560 l 1049
+100 360 m 25
+ 60 400 l 25
+ 20 360 l 1049
+80 380 m 1
+ 80 -110 l 9
+ 40 -150 l 1049
+EndSplineSet
+Substitution2: "Dotless forms-1" dotlessj
+EndChar

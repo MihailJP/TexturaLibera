@@ -1,0 +1,11 @@
+StartChar: rlslst
+Encoding: 11804 11804 904
+Width: 240
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+40 100 m 25
+ 200 -150 l 1049
+EndSplineSet
+EndChar
