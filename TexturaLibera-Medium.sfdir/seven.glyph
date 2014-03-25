@@ -1,0 +1,22 @@
+StartChar: seven
+Encoding: 55 55 23
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+175 -100 m 25
+ 225 -150 l 1049
+75 400 m 1
+ 75 400 137 350 225 350 c 3
+ 279 350 350 400 350 400 c 1
+ 350 400 200 276 200 0 c 3
+ 200 -32 200 -125 201 -125 c 1025
+100 125 m 25
+ 100 125 147 150 175 150 c 24
+ 219 150 206 125 250 125 c 24
+ 278 125 325 150 326 150 c 1049
+EndSplineSet
+Substitution2: "Subscript forms-1" seven.inferior
+Substitution2: "Superscript forms-1" seven.superior
+EndChar

@@ -1,0 +1,13 @@
+StartChar: barquillleft
+Encoding: 11808 11808 920
+Width: 300
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+250 300 m 25
+ 100 300 l 1049
+100 700 m 25
+ 100 -150 l 1049
+EndSplineSet
+EndChar

@@ -1,0 +1,15 @@
+StartChar: bracketquillright
+Encoding: 8262 8262 917
+Width: 300
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+50 300 m 25
+ 200 300 l 1049
+50 700 m 25
+ 200 700 l 25
+ 200 -150 l 25
+ 50 -150 l 1033
+EndSplineSet
+EndChar

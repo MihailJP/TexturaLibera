@@ -1,0 +1,11 @@
+StartChar: atilde
+Encoding: 227 227 173
+Width: 400
+Flags: M
+LayerCount: 4
+Fore
+Refer: 168 732 N 1 0 0 1 25 0 2
+Refer: 65 97 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" a tildecmb
+Colour: ffff
+EndChar

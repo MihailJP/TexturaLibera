@@ -1,0 +1,22 @@
+StartChar: psquirrel
+Encoding: 42837 42837 870
+Width: 500
+Flags: MW
+AnchorPoint: "abvmark" 300 500 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+200 300 m 25
+ 300 400 l 1
+ 400 300 l 25
+ 400 100 l 1
+ 300 0 l 1
+ 300 0 298 50 25 50 c 1
+ 25 50 75 156 75 200 c 3
+ 75 332 25 400 25 400 c 1033
+175 400 m 25
+ 225 350 l 1049
+200 375 m 1
+ 200 -150 l 1025
+EndSplineSet
+EndChar

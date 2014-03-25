@@ -1,0 +1,16 @@
+StartChar: braceleft
+Encoding: 123 123 91
+Width: 300
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+250 700 m 25
+ 150 600 l 1
+ 150 350 l 29
+ 50 250 l 29
+ 150 200 l 29
+ 150 -100 l 1
+ 250 -150 l 1049
+EndSplineSet
+EndChar

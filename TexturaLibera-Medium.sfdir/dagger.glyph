@@ -1,0 +1,19 @@
+StartChar: dagger
+Encoding: 8224 8224 262
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+50 400 m 29
+ 100 350 l 29
+ 300 400 l 29
+ 350 350 l 1053
+175 550 m 1
+ 175 550 188 459 190 400 c 24
+ 198 186 200 -150 200 -150 c 1
+ 200 -150 203 186 210 400 c 24
+ 213 478 225 600 225 600 c 9
+ 175 550 l 1
+EndSplineSet
+EndChar

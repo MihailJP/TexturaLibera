@@ -1,0 +1,17 @@
+StartChar: lozengedot
+Encoding: 8280 8280 899
+Width: 600
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+425 200 m 25
+ 475 150 l 1049
+275 50 m 25
+ 325 0 l 1049
+275 350 m 25
+ 325 300 l 1049
+125 200 m 25
+ 175 150 l 1049
+EndSplineSet
+EndChar

@@ -1,0 +1,11 @@
+StartChar: dotaccent
+Encoding: 729 729 269
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+175 600 m 25
+ 225 550 l 1049
+EndSplineSet
+EndChar

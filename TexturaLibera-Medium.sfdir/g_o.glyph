@@ -1,0 +1,29 @@
+StartChar: g_o
+Encoding: 61150 61150 500
+Width: 600
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+400 400 m 25
+ 300 300 l 25
+ 300 100 l 25
+ 400 0 l 25
+ 500 100 l 25
+ 500 300 l 25
+ 400 400 l 25
+50 -200 m 17
+ 50 -200 87 -150 125 -150 c 8
+ 156 -150 193 -200 225 -200 c 24
+ 253 -200 300 -150 300 -150 c 9
+ 300 400 l 1
+ 300 400 278 360 250 360 c 24
+ 222 360 200 400 200 400 c 1
+ 100 300 l 25
+ 100 100 l 25
+ 200 0 l 25
+ 300 100 l 1041
+EndSplineSet
+LCarets2: 1 300 
+Ligature2: "Historic ligatures-1" g o
+EndChar

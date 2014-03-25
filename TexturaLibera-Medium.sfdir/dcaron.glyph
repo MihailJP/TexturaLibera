@@ -1,0 +1,10 @@
+StartChar: dcaron
+Encoding: 271 271 313
+Width: 600
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 12 44 N 1 0 0 1 350 600 2
+Refer: 68 100 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar

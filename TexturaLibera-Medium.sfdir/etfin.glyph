@@ -1,0 +1,16 @@
+StartChar: etfin
+Encoding: 42859 42859 959
+Width: 350
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+50 325 m 25
+ 125 400 l 1
+ 250 300 l 1
+ 100 150 l 1
+ 250 100 l 1
+ 250 0 l 5
+ 0 -200 l 1025
+EndSplineSet
+EndChar
