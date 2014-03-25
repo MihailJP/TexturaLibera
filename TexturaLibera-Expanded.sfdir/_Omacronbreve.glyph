@@ -1,0 +1,12 @@
+StartChar: Omacronbreve
+Encoding: 57883 57883 649
+Width: 960
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 265 728 N 1 0 0 1 300 350 2
+Refer: 236 332 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" O macroncmb brevecmb
+Ligature2: "Glyph composition-1" Omacron brevecmb
+Colour: ffff
+EndChar

@@ -1,0 +1,33 @@
+StartChar: a_thorn
+Encoding: 61356 61356 347
+Width: 720
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+150 220 m 17
+ 120 310 l 1
+ 210 400 l 1
+ 360 375 l 1
+ 360 150 l 9
+ 210 0 l 1
+ 120 90 l 1
+ 120 160 l 1
+ 210 250 l 1
+ 210 250 232.928594192 225 300 225 c 3
+ 360 225 l 1033
+300 0 m 1
+ 300 0 355 60 390 60 c 0
+ 425 60 480 0 480 0 c 9
+ 600 120 l 1
+ 600 280 l 25
+ 480 400 l 1
+ 360 280 l 1049
+330 625 m 25
+ 390 565 l 1049
+360 595 m 1
+ 360 -150 l 1025
+EndSplineSet
+LCarets2: 1 360 
+Ligature2: "Historic ligatures-1" a thorn
+EndChar

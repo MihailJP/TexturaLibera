@@ -1,0 +1,17 @@
+StartChar: t
+Encoding: 116 116 84
+Width: 390
+Flags: MW
+AnchorPoint: "blwmark" 210 0 basechar 0
+AnchorPoint: "abvmark" 180 650 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+60 400 m 25
+ 300 400 l 1049
+150 550 m 1
+ 150 60 l 1
+ 210 0 l 1
+ 330 120 l 1025
+EndSplineSet
+EndChar

@@ -1,0 +1,25 @@
+StartChar: Rsmallcap
+Encoding: 640 640 854
+Width: 540
+Flags: MW
+AnchorPoint: "blwmark" 270 0 basechar 0
+AnchorPoint: "abvmark" 240 500 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+90 60 m 25
+ 150 0 l 1049
+90 400 m 25
+ 150 340 l 1049
+120 370 m 9
+ 120 30 l 1025
+480 60 m 25
+ 420 0 l 1
+ 420 0 399 85 360 125 c 24
+ 337 149 270 150 270 150 c 1025
+240 120 m 1
+ 420 300 l 1
+ 240 400 l 1
+ 120 280 l 1049
+EndSplineSet
+EndChar

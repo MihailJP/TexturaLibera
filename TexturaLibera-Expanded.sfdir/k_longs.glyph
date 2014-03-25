@@ -1,0 +1,29 @@
+StartChar: k_longs
+Encoding: 60334 60334 566
+Width: 510
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+-150 -200 m 17
+ -150 -200 -106 -150 -60 -150 c 8
+ -35 -150 33 -200 60 -200 c 24
+ 86 -200 150 -150 150 -150 c 1
+ 150 530 l 1
+ 270 650 l 17
+ 270 650 300 590 360 590 c 24
+ 388 590 450 650 451 650 c 1033
+360 60 m 25
+ 420 0 l 1049
+270 275 m 1
+ 390 200 l 1
+ 390 30 l 1025
+150 200 m 1
+ 390 350 l 9
+ 390 395 l 1049
+360 425 m 25
+ 420 365 l 1049
+EndSplineSet
+LCarets2: 1 270 
+Ligature2: "Historic ligatures-1" k longs
+EndChar

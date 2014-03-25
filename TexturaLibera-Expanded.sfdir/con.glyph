@@ -1,0 +1,16 @@
+StartChar: con
+Encoding: 42863 42863 890
+Width: 480
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+300 -150 m 25
+ 360 -90 l 1
+ 360 280 l 9
+ 240 400 l 1
+ 120 280 l 25
+ 120 120 l 25
+ 240 0 l 1049
+EndSplineSet
+EndChar

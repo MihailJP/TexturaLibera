@@ -1,0 +1,11 @@
+StartChar: fraction
+Encoding: 8260 8260 217
+Width: 840
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+120 0 m 25
+ 720 700 l 1049
+EndSplineSet
+EndChar

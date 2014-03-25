@@ -1,0 +1,11 @@
+StartChar: verticallinemod
+Encoding: 712 712 887
+Width: 480
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+240 700 m 9
+ 240 525 l 1025
+EndSplineSet
+EndChar

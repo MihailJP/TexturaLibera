@@ -1,0 +1,11 @@
+StartChar: horizontalbar
+Encoding: 8213 8213 909
+Width: 840
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+60 200 m 25
+ 780 200 l 1049
+EndSplineSet
+EndChar

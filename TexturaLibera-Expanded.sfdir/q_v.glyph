@@ -1,0 +1,25 @@
+StartChar: q_v
+Encoding: 60113 60113 967
+Width: 720
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+360 120 m 9
+ 240 0 l 25
+ 120 120 l 25
+ 120 280 l 25
+ 240 400 l 1
+ 240 400 264 352 300 352 c 24
+ 336 352 360 400 360 400 c 9
+ 360 -150 l 1049
+360 120 m 1
+ 480 0 l 25
+ 600 120 l 1
+ 600 370 l 17
+ 600 370 540 423 540 472 c 8
+ 540 521 604 550 606 550 c 1033
+EndSplineSet
+LCarets2: 1 360 
+Ligature2: "Ligatures-1" q v
+EndChar

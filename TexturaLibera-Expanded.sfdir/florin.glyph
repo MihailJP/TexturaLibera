@@ -1,0 +1,19 @@
+StartChar: florin
+Encoding: 402 402 260
+Width: 480
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+-150 -200 m 17
+ -150 -200 -106 -150 -60 -150 c 8
+ -9 -150 9 -200 60 -200 c 24
+ 100 -200 150 -150 150 -150 c 1
+ 270 530 l 1
+ 390 650 l 17
+ 390 650 438 590 480 590 c 24
+ 522 590 570 650 571 650 c 1033
+120 400 m 25
+ 420 400 l 1049
+EndSplineSet
+EndChar

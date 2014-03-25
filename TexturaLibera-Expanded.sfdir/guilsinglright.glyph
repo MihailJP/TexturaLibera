@@ -1,0 +1,14 @@
+StartChar: guilsinglright
+Encoding: 8250 8250 243
+Width: 360
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+90 325 m 17
+ 90 325 116.080078125 295.744140624 150 275 c 0
+ 264 207 300 200 300 200 c 1
+ 300 200 223 174 120 100 c 0
+ 94.849609375 81.732421875 60 50 60 50 c 1033
+EndSplineSet
+EndChar

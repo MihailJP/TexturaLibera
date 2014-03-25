@@ -1,0 +1,11 @@
+StartChar: icircumflex
+Encoding: 238 238 109
+Width: 240
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 100 710 N 1 0 0 1 -120 0 2
+Refer: 97 305 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" i circumflexcmb
+Colour: ffff
+EndChar

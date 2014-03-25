@@ -1,0 +1,11 @@
+StartChar: Kacute
+Encoding: 7728 7728 564
+Width: 840
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 99 180 N 1 0 0 1 300 200 2
+Refer: 43 75 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" K acutecmb
+Colour: ffff
+EndChar

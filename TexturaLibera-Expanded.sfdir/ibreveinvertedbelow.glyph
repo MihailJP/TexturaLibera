@@ -1,0 +1,12 @@
+StartChar: ibreveinvertedbelow
+Encoding: 58696 58696 523
+Width: 240
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 537 815 N 1 0 0 1 360 0 2
+Refer: 73 105 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" i breveinvertedbelowcmb
+Substitution2: "Dotless forms-1" dotlessibreveinvertedbelow
+Colour: ffff
+EndChar

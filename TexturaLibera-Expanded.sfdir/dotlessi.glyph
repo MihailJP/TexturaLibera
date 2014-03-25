@@ -1,0 +1,19 @@
+StartChar: dotlessi
+Encoding: 305 305 97
+Width: 240
+Flags: MW
+AnchorPoint: "blwmark" 120 0 basechar 0
+AnchorPoint: "abvmark" 120 500 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+90 60 m 25
+ 150 0 l 25
+ 210 60 l 1049
+150 340 m 25
+ 90 400 l 25
+ 30 340 l 1049
+120 370 m 9
+ 120 30 l 1025
+EndSplineSet
+EndChar

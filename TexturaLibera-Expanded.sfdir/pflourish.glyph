@@ -1,0 +1,22 @@
+StartChar: pflourish
+Encoding: 42835 42835 869
+Width: 600
+Flags: MW
+AnchorPoint: "abvmark" 360 500 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+240 280 m 25
+ 360 400 l 1
+ 480 280 l 25
+ 480 120 l 1
+ 360 0 l 1
+ 360 0 278 100 30 100 c 1
+ 30 100 90 44 90 0 c 3
+ 90 -132 30 -150 30 -150 c 1033
+210 400 m 25
+ 270 340 l 1049
+240 370 m 1
+ 240 -150 l 1025
+EndSplineSet
+EndChar

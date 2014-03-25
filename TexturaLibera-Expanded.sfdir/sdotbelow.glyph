@@ -1,0 +1,11 @@
+StartChar: sdotbelow
+Encoding: 7779 7779 715
+Width: 480
+Flags: MW
+AnchorPoint: "abvmark" 240 500 basechar 0
+LayerCount: 4
+Fore
+Refer: 357 803 N 1 0 0 1 480 0 2
+Refer: 83 115 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar

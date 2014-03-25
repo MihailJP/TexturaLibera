@@ -1,0 +1,14 @@
+StartChar: et
+Encoding: 8266 8266 960
+Width: 480
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+90 400 m 1
+ 90 400 164 350 270 350 c 3
+ 335 350 420 400 420 400 c 1
+ 420 400 180 176 180 -100 c 3
+ 180 -150 l 1025
+EndSplineSet
+EndChar

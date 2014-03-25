@@ -1,0 +1,20 @@
+StartChar: two
+Encoding: 50 50 18
+Width: 480
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+120 350 m 1
+ 180 400 l 1
+ 240 400 l 1
+ 360 350 l 1
+ 360 275 l 1
+ 120 75 l 25
+ 120 0 l 1
+ 120 0 196 50 300 50 c 3
+ 342 50 390 0 391 0 c 1025
+EndSplineSet
+Substitution2: "Subscript forms-1" two.inferior
+Substitution2: "Superscript forms-1" two.superior
+EndChar
