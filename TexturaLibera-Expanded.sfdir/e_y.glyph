@@ -8,11 +8,12 @@ Fore
 SplineSet
 360 120 m 9
  240 0 l 25
- 120 120 l 25
+ 120 80 l 25
  120 280 l 25
  240 400 l 25
- 360 280 l 1
- -40 -80 l 1025
+ 360 320 l 1
+ 360 320 l 1
+ 120 80 l 1025
 630 340 m 25
  570 400 l 1049
 300 -200 m 17
@@ -23,7 +24,7 @@ SplineSet
 600 120 m 9
  480 0 l 25
  360 120 l 1
- 360 280 l 1049
+ 360 320 l 1049
 EndSplineSet
 LCarets2: 1 360 
 Ligature2: "Historic ligatures-1" e y
