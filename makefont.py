@@ -14,39 +14,102 @@ penDegrees = (0, 45, 90, 135)
 
 WorkScale = 4.0
 
+FamilyName = "TexturaLibera"
+HumanReadableFamilyName = "Textura Libera"
+
+WeightDat = [
+	{'Name': 'Thin'      ,},
+	{'Name': 'ExtraLight',},
+	{'Name': 'Light'     ,},
+	{'Name': 'Book'      ,},
+	{'Name': 'Medium'    ,},
+	{'Name': 'Demi'      ,},
+	{'Name': 'Bold'      ,},
+	{'Name': 'ExtraBold' ,},
+	{'Name': 'Black'     ,},
+]
+
+WeightCode = None #yet. This will be set later.
+
+# Duplicate a layer
 def dupLayer(layer):
 	newLayer = fontforge.layer()
 	for contour in glyph.layers[layerID]:
 		newLayer += contour
 	return newLayer
 
+# Check arguments
 if len(argv) <= 2:
 	stderr.write("Usage: "+argv[0]+" out-font weight\n")
 	exit(1)
-elif not (0 < int(argv[1]) < 1000):
-	stderr.write("Weight must be more than 0 and less than 1000\n")
+try:
+	if not (0 < int(argv[2]) < 1000):
+		raise ValueError
+except ValueError:
+	stderr.write("Error: Weight must be more than 0 and less than 1000\n")
 	exit(2)
 
+# Load fonts
 BaseFont = fontforge.open(BaseFontFile)
 BoldFont = fontforge.open(BoldFontFile)
 
+# Set weight code
+if   int(argv[2]) < 150: WeightCode = 0 # Thin
+elif int(argv[2]) < 250: WeightCode = 1 # ExtraLight
+elif int(argv[2]) < 350: WeightCode = 2 # Light
+elif int(argv[2]) < 450: WeightCode = 3 # Book
+elif int(argv[2]) < 550: WeightCode = 4 # Medium
+elif int(argv[2]) < 650: WeightCode = 5 # DemiBold
+elif int(argv[2]) < 750: WeightCode = 6 # Bold
+elif int(argv[2]) < 850: WeightCode = 7 # ExtraBold
+else:                    WeightCode = 8 # Black
+
+# Interpolate
 Interpolated = BaseFont.interpolateFonts((float(argv[2]) - 500.0) / 200.0, BoldFontFile)
 
+# Set output font properties
+BaseFont.strokedfont = False
+BaseFont.fontname = FamilyName + "-" + WeightDat[WeightCode]['Name']
+BaseFont.familyname = HumanReadableFamilyName
+BaseFont.fullname = HumanReadableFamilyName + " " + WeightDat[WeightCode]['Name']
+BaseFont.weight = WeightDat[WeightCode]['Name']
+BaseFont.os2_weight = (WeightCode + 1) * 100
+BaseFont.os2_panose = (
+	BaseFont.os2_panose[0],
+	BaseFont.os2_panose[1],
+	WeightCode + 2,
+	BaseFont.os2_panose[3],
+	BaseFont.os2_panose[4],
+	BaseFont.os2_panose[5],
+	BaseFont.os2_panose[6],
+	BaseFont.os2_panose[7],
+	BaseFont.os2_panose[8],
+	BaseFont.os2_panose[9])
+
+# Stroke
 for glyph in Interpolated.glyphs():
 	if glyph.isWorthOutputting():
 		for layerID in range(1, 4):
 			if not glyph.layers[layerID].isEmpty():
 				layer = dupLayer(glyph.layers[layerID])
 				layer.transform(scale(WorkScale))
+				penScale = 0.8 if BaseFont[glyph.glyphname].color == 0x00ff00 else 1.0
 				layer.stroke(
 					"caligraphic",
-					float(argv[2]) / 5.0 * WorkScale,
-					float(argv[2]) * 0.06 * WorkScale,
-					rad(penDegrees[layerID]))
+					float(argv[2]) / 5.0 * WorkScale * penScale,
+					float(argv[2]) * 0.06 * WorkScale * penScale,
+					rad(penDegrees[layerID]),
+					("removeinternal",) if BaseFont[glyph.glyphname].color == 0xffff00 else (None,))
 				layer.transform(scale(1.0 / WorkScale))
 				glyph.layers[layerID] = layer
 		for layerID in range(2, 4):
 			if not glyph.layers[layerID].isEmpty():
 				glyph.layers[1] += dupLayer(glyph.layers[layerID])
+		glyph.removeOverlap()
+		glyph.round()
+		for layerID in range(1, 4):
+			BaseFont[glyph.glyphname].layers[layerID] = dupLayer(glyph.layers[1])
+		BaseFont[glyph.glyphname].autoHint()
 
-Interpolated.save(argv[1])
+# Save font
+BaseFont.save(argv[1])
