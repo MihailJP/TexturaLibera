@@ -39,8 +39,8 @@ def dupLayer(layer):
 	return newLayer
 
 # Check arguments
-if len(argv) <= 2:
-	stderr.write("Usage: "+argv[0]+" out-font weight\n")
+if len(argv) <= 3:
+	stderr.write("Usage: "+argv[0]+" out-font weight width\n")
 	exit(1)
 try:
 	if not (0 < int(argv[2]) < 1000):
@@ -48,10 +48,18 @@ try:
 except ValueError:
 	stderr.write("Error: Weight must be more than 0 and less than 1000\n")
 	exit(2)
+try:
+	if not (0.5 <= float(argv[3]) <= 2.0):
+		raise ValueError
+except ValueError:
+	stderr.write("Error: Width must be between 0.5 and 2.0\n")
+	exit(2)
 
 # Load fonts
 BaseFont = fontforge.open(BaseFontFile)
 BoldFont = fontforge.open(BoldFontFile)
+ExpandedFont = fontforge.open(ExpandedFontFile)
+CondensedFont = fontforge.open(CondensedFontFile)
 
 # Set weight code
 if   int(argv[2]) < 150: WeightCode = 0 # Thin
@@ -65,7 +73,29 @@ elif int(argv[2]) < 850: WeightCode = 7 # ExtraBold
 else:                    WeightCode = 8 # Black
 
 # Interpolate
-Interpolated = BaseFont.interpolateFonts((float(argv[2]) - 500.0) / 200.0, BoldFontFile)
+WeightInterpol = BaseFont.interpolateFonts((float(argv[2]) - 500.0) / 200.0, BoldFontFile)
+WidthInterpol = None # yet. See below
+if float(argv[3]) < 1.0: # Narrow
+	WidthInterpol = BaseFont.interpolateFonts((1.0 - float(argv[3])) * 5.0, CondensedFontFile)
+else: # Widen
+	WidthInterpol = BaseFont.interpolateFonts((float(argv[3]) - 1.0) * 5.0, ExpandedFontFile)
+MidInterpol = WeightInterpol.interpolateFonts(0.5, WidthInterpol.path)
+Interpolated = BaseFont.interpolateFonts(2.0, MidInterpol.path)
+WeightInterpol.close(); WeightInterpol = None
+WidthInterpol.close(); WidthInterpol = None
+MidInterpol.close(); MidInterpol = None
+
+# Change width of font
+for glyph in BaseFont.glyphs():
+	if glyph.isWorthOutputting():
+		glyph.transform(scale(float(argv[3]), 1.0), ("partialRefs",))
+(kernFirst, kernSecond, kernVal) = BaseFont.getKerningClass("Kerning-1")
+BaseFont.alterKerningClass(
+	"Kerning-1",
+	kernFirst,
+	kernSecond,
+	tuple(map(lambda x: int(round(float(x) * float(argv[3]))), kernVal))
+	)
 
 # Set output font properties
 BaseFont.strokedfont = False
