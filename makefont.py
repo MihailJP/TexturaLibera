@@ -1,6 +1,6 @@
 #!/usr/bin/env fontforge
 
-from sys import (argv, stderr, exit)
+from sys import (argv, stdout, stderr, exit)
 from math import radians as rad
 from psMat import scale
 import fontforge
@@ -12,7 +12,7 @@ CondensedFontFile = "TexturaLibera-Condensed.sfdir"
 
 penDegrees = (0, 45, 90, 135)
 
-WorkScale = 4.0
+WorkScale = 2.5
 
 FamilyName = "TexturaLibera"
 HumanReadableFamilyName = "Textura Libera"
@@ -144,6 +144,8 @@ BaseFont.os2_panose = (
 # Stroke
 for glyph in Interpolated.glyphs():
 	if glyph.isWorthOutputting():
+		stdout.write("\r" + (" " * 40) + "\r" + glyph.glyphname)
+		stdout.flush()
 		for layerID in range(1, 4):
 			if not glyph.layers[layerID].isEmpty():
 				layer = dupLayer(glyph.layers[layerID])
@@ -165,6 +167,8 @@ for glyph in Interpolated.glyphs():
 		for layerID in range(1, 4):
 			BaseFont[glyph.glyphname].layers[layerID] = dupLayer(glyph.layers[1])
 		BaseFont[glyph.glyphname].autoHint()
+stdout.write("\r" + (" " * 40) + "\rDone\n")
+stdout.flush()
 
 # Save font
 BaseFont.save(argv[1])
