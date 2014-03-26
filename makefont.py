@@ -18,18 +18,31 @@ FamilyName = "TexturaLibera"
 HumanReadableFamilyName = "Textura Libera"
 
 WeightDat = [
-	{'Name': 'Thin'      ,},
-	{'Name': 'ExtraLight',},
-	{'Name': 'Light'     ,},
-	{'Name': 'Book'      ,},
-	{'Name': 'Medium'    ,},
-	{'Name': 'Demi'      ,},
-	{'Name': 'Bold'      ,},
-	{'Name': 'ExtraBold' ,},
-	{'Name': 'Black'     ,},
+	{'Name': 'Thin'      , 'HumanReadableName': 'Thin'       , 'Abbr': 'Thin'   ,},
+	{'Name': 'ExtraLight', 'HumanReadableName': 'Extra-Light', 'Abbr': 'ExLight',},
+	{'Name': 'Light'     , 'HumanReadableName': 'Light'      , 'Abbr': 'Light'  ,},
+	{'Name': 'Book'      , 'HumanReadableName': 'Book'       , 'Abbr': 'Book'   ,},
+	{'Name': 'Medium'    , 'HumanReadableName': 'Medium'     , 'Abbr': 'Medium' ,},
+	{'Name': 'Demi'      , 'HumanReadableName': 'Demi-Bold'  , 'Abbr': 'Demi'   ,},
+	{'Name': 'Bold'      , 'HumanReadableName': 'Bold'       , 'Abbr': 'Bold'   ,},
+	{'Name': 'ExtraBold' , 'HumanReadableName': 'Extra-Bold' , 'Abbr': 'ExBold' ,},
+	{'Name': 'Black'     , 'HumanReadableName': 'Black'      , 'Abbr': 'Black'  ,},
+]
+
+WidthDat = [
+	{'Name': 'UC', 'HumanReadableName': 'Ultra-Condensed', 'Abbr': 'UCond'   , 'Panose': 2},
+	{'Name': 'XC', 'HumanReadableName': 'Extra-Condensed', 'Abbr': 'ExCond'  , 'Panose': 2},
+	{'Name': 'C' , 'HumanReadableName': 'Condensed'      , 'Abbr': 'Cond'    , 'Panose': 3},
+	{'Name': 'SC', 'HumanReadableName': 'Semi-Condensed' , 'Abbr': 'SemiCond', 'Panose': 3},
+	{'Name': ''  , 'HumanReadableName': ''               , 'Abbr': ''        , 'Panose': 4},
+	{'Name': 'SX', 'HumanReadableName': 'Semi-Expanded'  , 'Abbr': 'SemiEx'  , 'Panose': 5},
+	{'Name': 'X' , 'HumanReadableName': 'Expanded'       , 'Abbr': 'Expand'  , 'Panose': 5},
+	{'Name': 'XX', 'HumanReadableName': 'Extra-Expanded' , 'Abbr': 'ExEx'    , 'Panose': 6},
+	{'Name': 'UX', 'HumanReadableName': 'Ultra-Expanded' , 'Abbr': 'UEx'     , 'Panose': 6},
 ]
 
 WeightCode = None #yet. This will be set later.
+WidthCode = None #yet. This will be set later.
 
 # Duplicate a layer
 def dupLayer(layer):
@@ -72,6 +85,17 @@ elif int(argv[2]) < 750: WeightCode = 6 # Bold
 elif int(argv[2]) < 850: WeightCode = 7 # ExtraBold
 else:                    WeightCode = 8 # Black
 
+# Set width code
+if   float(argv[3]) < 0.5625: WidthCode = 0 # UltraCondensed
+elif float(argv[3]) < 0.6875: WidthCode = 1 # ExtraCondensed
+elif float(argv[3]) < 0.8125: WidthCode = 2 # Condensed
+elif float(argv[3]) < 0.9375: WidthCode = 3 # SemiCondensed
+elif float(argv[3]) < 1.0625: WidthCode = 4 # Medium
+elif float(argv[3]) < 1.1875: WidthCode = 5 # SemiExpanded
+elif float(argv[3]) < 1.3750: WidthCode = 6 # Expanded
+elif float(argv[3]) < 1.7500: WidthCode = 7 # ExtraExpanded
+else:                         WidthCode = 8 # UltraExpanded
+
 # Interpolate
 WeightInterpol = BaseFont.interpolateFonts((float(argv[2]) - 500.0) / 200.0, BoldFontFile)
 WidthInterpol = None # yet. See below
@@ -99,17 +123,18 @@ BaseFont.alterKerningClass(
 
 # Set output font properties
 BaseFont.strokedfont = False
-BaseFont.fontname = FamilyName + "-" + WeightDat[WeightCode]['Name']
-BaseFont.familyname = HumanReadableFamilyName
-BaseFont.fullname = HumanReadableFamilyName + " " + WeightDat[WeightCode]['Name']
-BaseFont.weight = WeightDat[WeightCode]['Name']
+BaseFont.fontname = FamilyName + WidthDat[WidthCode]['Name'] + "-" + WeightDat[WeightCode]['Name']
+BaseFont.familyname = HumanReadableFamilyName + " " + WidthDat[WidthCode]['HumanReadableName']
+BaseFont.fullname = HumanReadableFamilyName + " " + WidthDat[WidthCode]['Abbr'] + " "+ WeightDat[WeightCode]['Abbr']
+BaseFont.weight = WeightDat[WeightCode]['HumanReadableName']
 BaseFont.os2_weight = (WeightCode + 1) * 100
+BaseFont.os2_width = (WidthCode + 1)
 BaseFont.os2_panose = (
 	BaseFont.os2_panose[0],
 	BaseFont.os2_panose[1],
 	WeightCode + 2,
 	BaseFont.os2_panose[3],
-	BaseFont.os2_panose[4],
+	WidthDat[WidthCode]['Panose'],
 	BaseFont.os2_panose[5],
 	BaseFont.os2_panose[6],
 	BaseFont.os2_panose[7],
