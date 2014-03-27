@@ -1,0 +1,22 @@
+StartChar: X
+Encoding: 88 88 56
+Width: 480
+Flags: MW
+AnchorPoint: "abvmark" 240 700 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+80 275 m 25
+ 80 275 125 325 160 325 c 27
+ 223 325 257 300 320 300 c 27
+ 355 300 400 350 400 350 c 1049
+440 40 m 25
+ 400 0 l 17
+ 100 600 l 9
+ 60 560 l 1049
+40 40 m 25
+ 80 0 l 17
+ 380 600 l 9
+ 420 560 l 1049
+EndSplineSet
+EndChar

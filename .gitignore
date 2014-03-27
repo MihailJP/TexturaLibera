@@ -1,5 +1,6 @@
 *.ttf
 *.otf
 *.woff
+*.sfd
 *.zip
 *.tar.*

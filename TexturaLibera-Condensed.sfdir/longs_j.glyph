@@ -1,0 +1,25 @@
+StartChar: longs_j
+Encoding: 62715 62715 329
+Width: 360
+GlyphClass: 3
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+280 380 m 1
+ 280 -110 l 9
+ 240 -150 l 1049
+260 400 m 25
+ 300 360 l 1025
+-100 -200 m 1
+ -100 -200 -70 -150 -40 -150 c 8
+ -3 -150 3 -200 40 -200 c 24
+ 70 -200 100 -150 100 -150 c 1
+ 100 570 l 1
+ 180 650 l 1
+ 180 650 240 600 320 600 c 9
+ 280 560 l 1025
+EndSplineSet
+LCarets2: 1 240 
+Ligature2: "Ligatures-1" longs j
+EndChar

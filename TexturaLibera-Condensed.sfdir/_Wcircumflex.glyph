@@ -1,0 +1,11 @@
+StartChar: Wcircumflex
+Encoding: 372 372 797
+Width: 800
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 100 710 N 1 0 0 1 300 200 2
+Refer: 55 87 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" W circumflexcmb
+Colour: ffff
+EndChar

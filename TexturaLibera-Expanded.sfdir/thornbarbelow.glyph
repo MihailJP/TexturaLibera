@@ -1,0 +1,23 @@
+StartChar: thornbarbelow
+Encoding: 42855 42855 875
+Width: 480
+Flags: MW
+AnchorPoint: "abvmark" 240 700 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+240 -75 m 25
+ 30 -75 l 1049
+120 280 m 25
+ 240 400 l 1
+ 360 280 l 1
+ 360 60 l 1
+ 300 0 l 1
+ 300 0 247 100 150 100 c 0
+ 115 100 60 50 60 50 c 1025
+90 625 m 25
+ 150 565 l 1049
+120 595 m 1
+ 120 -150 l 1025
+EndSplineSet
+EndChar

@@ -1,0 +1,17 @@
+StartChar: proportion
+Encoding: 8759 8759 898
+Width: 600
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+425 350 m 25
+ 475 300 l 1049
+425 50 m 25
+ 475 0 l 1049
+125 350 m 25
+ 175 300 l 1049
+125 50 m 25
+ 175 0 l 1049
+EndSplineSet
+EndChar

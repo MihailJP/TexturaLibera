@@ -1,0 +1,33 @@
+StartChar: a_Rsmallcap
+Encoding: 61355 61355 857
+Width: 780
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+720 60 m 25
+ 660 0 l 1
+ 660 0 639 85 600 125 c 24
+ 577 149 510 150 510 150 c 1025
+480 120 m 1
+ 660 300 l 1
+ 480 400 l 1
+ 360 280 l 1049
+150 220 m 17
+ 120 310 l 1
+ 210 400 l 1
+ 360 375 l 1
+ 360 30 l 1
+ 390 0 l 1
+ 450 60 l 1049
+360 150 m 25
+ 210 0 l 1
+ 120 90 l 1
+ 120 160 l 1
+ 210 250 l 1
+ 210 250 232.928594192 225 300 225 c 3
+ 360 225 l 1033
+EndSplineSet
+LCarets2: 1 360 
+Ligature2: "Historic ligatures-1" a Rsmallcap
+EndChar

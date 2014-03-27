@@ -1,0 +1,15 @@
+StartChar: therefore
+Encoding: 8756 8756 896
+Width: 720
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+510 60 m 25
+ 570 0 l 1049
+330 350 m 25
+ 390 290 l 1049
+150 60 m 25
+ 210 0 l 1049
+EndSplineSet
+EndChar

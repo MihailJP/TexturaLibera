@@ -1,0 +1,11 @@
+StartChar: ubreve
+Encoding: 365 365 749
+Width: 320
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 265 728 N 1 0 0 1 0 0 2
+Refer: 85 117 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" u brevecmb
+Colour: ffff
+EndChar

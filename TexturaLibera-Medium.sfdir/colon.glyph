@@ -1,0 +1,13 @@
+StartChar: colon
+Encoding: 58 58 26
+Width: 300
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+125 350 m 29
+ 175 300 l 1053
+125 50 m 29
+ 175 0 l 1053
+EndSplineSet
+EndChar

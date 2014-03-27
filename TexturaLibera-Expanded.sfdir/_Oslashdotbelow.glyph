@@ -1,0 +1,12 @@
+StartChar: Oslashdotbelow
+Encoding: 60384 60384 607
+Width: 960
+Flags: MW
+AnchorPoint: "abvmark" 540 700 basechar 0
+LayerCount: 4
+Fore
+Refer: 357 803 N 1 0 0 1 720 0 2
+Refer: 182 216 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" Oslash dotbelowcmb
+Colour: ffff
+EndChar

@@ -1,12 +1,10 @@
 StartChar: wynn
 Encoding: 447 447 877
 Width: 400
-Flags: W
-HStem: -214 21G<45 85> 444 20G<80 120 215.294 255> 444 20G<80 120 215.294 255>
-VStem: 36 128<-115 -93 -35 35 93 330> 236 128<235 303.305>
+Flags: MW
 AnchorPoint: "abvmark" 200 500 basechar 0
-LayerCount: 2
-Back
+LayerCount: 4
+Fore
 SplineSet
 50 -50 m 9
  300 200 l 1
@@ -17,33 +15,5 @@ SplineSet
  135 330 l 1053
 100 365 m 5
  100 -150 l 1025
-EndSplineSet
-Fore
-SplineSet
-135 429 m 1xd8
- 164 400 l 1
- 168 396 l 1
- 235 464 l 1
- 364 335 l 1
- 364 235 l 1
- 164 35 l 1
- 164 -115 l 1
- 65 -214 l 1
- 36 -185 l 1
- 36 -93 l 1
- 15 -114 l 1
- -14 -85 l 1
- 36 -35 l 1
- 36 265 l 1
- 36 330 l 1
- 1 365 l 1
- 100 464 l 1
- 135 429 l 1xd8
-164 330 m 1
- 164 93 l 1
- 236 165 l 1
- 236 265 l 2
- 236 302 190 315 168 334 c 1
- 164 330 l 1
 EndSplineSet
 EndChar

@@ -1,13 +1,11 @@
 StartChar: a_u
 Encoding: 42807 42807 344
 Width: 600
-Flags: W
-HStem: -64 21G<120 160 320 360 470 510> 444 20G<190 310 480 520> 444 20G<190 310 480 520>
-VStem: 236 128<110 161 297 317> 436 128<90 330>
+Flags: MW
 AnchorPoint: "blwmark" 300 0 basechar 0
 AnchorPoint: "abvmark" 300 500 basechar 0
-LayerCount: 2
-Back
+LayerCount: 4
+Fore
 SplineSet
 300 125 m 9
  175 0 l 1
@@ -29,54 +27,6 @@ SplineSet
  175 400 l 1
  100 325 l 1
  125 250 l 1033
-EndSplineSet
-Fore
-SplineSet
-610 114 m 1xd8
- 639 85 l 1
- 490 -64 l 1
- 436 -10 l 1
- 436 32 l 1
- 340 -64 l 1
- 240 36 l 1
- 140 -64 l 1
- 36 40 l 1
- 36 140 l 1
- 86 190 l 1
- 61 215 l 1
- 36 290 l 1
- 210 464 l 1
- 335 439 l 1
- 364 410 l 1
- 364 260 l 1
- 364 160 l 1
- 364 110 l 1
- 410 64 l 1
- 436 90 l 1
- 436 330 l 1
- 401 365 l 1
- 500 464 l 1
- 535 429 l 1
- 564 400 l 1
- 599 365 l 1
- 564 330 l 1
- 564 160 l 1
- 564 68 l 1
- 610 114 l 1xd8
-236 90 m 1
- 236 161 l 1
- 215 161 l 2
- 192 161 176 165 164 170 c 1
- 164 110 l 1
- 210 64 l 1
- 236 90 l 1
-236 297 m 1
- 236 317 l 1
- 174 329 l 1
- 187 291 l 1
- 210 314 l 1
- 214 310 l 2
- 218 306 225 301 236 297 c 1
 EndSplineSet
 LCarets2: 1 300 
 Ligature2: "Historic ligatures-1" a u

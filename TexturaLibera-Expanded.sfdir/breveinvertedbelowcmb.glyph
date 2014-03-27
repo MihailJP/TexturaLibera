@@ -1,0 +1,14 @@
+StartChar: breveinvertedbelowcmb
+Encoding: 815 815 537
+Width: 0
+VWidth: 400
+Flags: MW
+AnchorPoint: "blwmark" -240 0 mark 0
+LayerCount: 4
+Fore
+SplineSet
+-90 -200 m 17
+ -90 -200 -107.5546875 -125 -240 -125 c 3
+ -294 -125 -360 -200 -360 -200 c 1033
+EndSplineSet
+EndChar

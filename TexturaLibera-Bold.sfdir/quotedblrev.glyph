@@ -1,40 +1,17 @@
 StartChar: quotedblrev
 Encoding: 8223 8223 929
 Width: 500
-Flags: W
-LayerCount: 2
-Back
+Flags: MW
+LayerCount: 4
+Layer: 3
 SplineSet
-180 620 m 25
- 110 550 l 1
- 110 480 l 25
- 215 375 l 1049
+180 620 m 29
+ 110 550 l 5
+ 110 480 l 29
+ 215 375 l 1053
 380 620 m 29
  310 550 l 5
  310 480 l 29
  415 375 l 1053
-EndSplineSet
-Fore
-SplineSet
-345 684 m 1
- 444 585 l 1
- 374 515 l 1
- 374 445 l 2
- 374 445 379 440 380 439 c 2
- 479 340 l 1
- 450 311 l 1
- 246 515 l 1
- 246 585 l 1
- 345 684 l 1
-145 684 m 1
- 244 585 l 1
- 174 515 l 1
- 174 445 l 2
- 174 445 179 440 180 439 c 2
- 279 340 l 1
- 250 311 l 1
- 46 515 l 1
- 46 585 l 1
- 145 684 l 1
 EndSplineSet
 EndChar

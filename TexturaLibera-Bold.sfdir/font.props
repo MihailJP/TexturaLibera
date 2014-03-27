@@ -5,22 +5,26 @@ FamilyName: Textura Libera
 Weight: Bold
 Copyright: Copyright (c) 2014, MihailJP
 UComments: "2014-3-1: Created with FontForge (http://fontforge.org)" 
-Version: 0.1.0
+Version: 001.000
+StrokeWidth: 120
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
 Ascent: 800
 Descent: 200
-LayerCount: 2
+LayerCount: 4
 Layer: 0 0 "+gMyXYgAA"  1
 Layer: 1 0 "+Uk2XYgAA"  0
+Layer: 2 0 "Vertical"  0
+Layer: 3 0 "Reverse"  0
+StrokedFont: 1
 XUID: [1021 562 -354799692 8803596]
 FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1395383308
-ModificationTime: 1395385069
+CreationTime: 1395757080
+ModificationTime: 1395758060
 PfmFamily: 65
 TTFWeight: 700
 TTFWidth: 5

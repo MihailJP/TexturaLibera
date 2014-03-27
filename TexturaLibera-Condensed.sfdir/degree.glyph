@@ -1,0 +1,14 @@
+StartChar: degree
+Encoding: 176 176 229
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+80 600 m 0
+ 80 660 132 725 180 725 c 0
+ 260 725 320 650 320 550 c 4
+ 320 490 268 425 220 425 c 0
+ 140 425 80 500 80 600 c 0
+EndSplineSet
+EndChar

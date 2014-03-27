@@ -1,0 +1,29 @@
+StartChar: c_h
+Encoding: 61883 61883 853
+Width: 520
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+240 320 m 9
+ 160 400 l 25
+ 80 320 l 25
+ 80 80 l 25
+ 160 0 l 25
+ 240 80 l 1041
+420 40 m 25
+ 460 0 l 1049
+260 40 m 25
+ 300 0 l 1049
+260 625 m 25
+ 300 585 l 1049
+280 605 m 9
+ 280 20 l 1049
+440 20 m 25
+ 440 340 l 25
+ 380 400 l 1
+ 280 300 l 1049
+EndSplineSet
+LCarets2: 1 240 
+Ligature2: "Ligatures-1" c h
+EndChar

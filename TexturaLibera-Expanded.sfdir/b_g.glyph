@@ -1,0 +1,26 @@
+StartChar: b_g
+Encoding: 61123 61123 350
+Width: 480
+GlyphClass: 3
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+120 595 m 9
+ 120 120 l 25
+ 240 0 l 1
+ 360 120 l 25
+ 360 280 l 1
+ 240 400 l 1
+ 120 280 l 1049
+60 -200 m 17
+ 60 -200 104 -150 150 -150 c 8
+ 175 -150 243 -200 270 -200 c 24
+ 296 -200 360 -150 360 -150 c 1
+ 360 120 l 1033
+90 625 m 25
+ 150 565 l 1049
+EndSplineSet
+LCarets2: 1 240 
+Ligature2: "Historic ligatures-1" b g
+EndChar

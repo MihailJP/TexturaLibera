@@ -1,0 +1,14 @@
+StartChar: ringbelow
+Encoding: 755 755 886
+Width: 480
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+120 -150 m 0
+ 120 -90 138 -75 210 -75 c 0
+ 300 -75 360 -125 360 -200 c 0
+ 360 -260 342 -275 270 -275 c 0
+ 180 -275 120 -225 120 -150 c 0
+EndSplineSet
+EndChar

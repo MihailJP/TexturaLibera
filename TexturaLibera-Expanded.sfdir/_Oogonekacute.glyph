@@ -1,0 +1,12 @@
+StartChar: Oogonekacute
+Encoding: 57868 57868 624
+Width: 960
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 99 180 N 1 0 0 1 300 200 2
+Refer: 601 490 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" O ogonekcmb acutecmb
+Ligature2: "Glyph composition-1" Oogonek acutecmb
+Colour: ffff
+EndChar

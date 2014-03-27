@@ -1,0 +1,21 @@
+StartChar: five
+Encoding: 53 53 21
+Width: 320
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+240 400 m 17
+ 240 400 202 350 180 350 c 0
+ 145 350 80 400 80 400 c 1
+ 80 125 l 1
+ 160 175 l 1
+ 240 95 l 1
+ 240 -120 l 17
+ 160 -200 l 1
+ 160 -200 130 -150 100 -150 c 24
+ 70 -150 40 -200 40 -200 c 1025
+EndSplineSet
+Substitution2: "Subscript forms-1" five.inferior
+Substitution2: "Superscript forms-1" five.superior
+EndChar

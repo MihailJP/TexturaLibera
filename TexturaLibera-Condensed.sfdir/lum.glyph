@@ -1,0 +1,22 @@
+StartChar: lum
+Encoding: 42866 42866 573
+Width: 340
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+180 225 m 1
+ 220 200 l 1
+ 220 200 220 139 220 100 c 27
+ 220 3 100 -150 100 -150 c 1025
+300 50 m 17
+ 300 50 285 0 240 0 c 3
+ 165 0 140 40 140 40 c 9
+ 100 0 l 25
+ 60 40 l 1025
+60 625 m 25
+ 100 585 l 1049
+80 605 m 9
+ 80 20 l 1049
+EndSplineSet
+EndChar

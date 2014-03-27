@@ -1,0 +1,11 @@
+StartChar: Bacute
+Encoding: 57412 57412 429
+Width: 560
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 138 769 N 1 0 0 1 480 200 2
+Refer: 34 66 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" B acutecmb
+Colour: ffff
+EndChar

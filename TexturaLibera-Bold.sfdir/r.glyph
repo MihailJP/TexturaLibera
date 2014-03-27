@@ -1,13 +1,11 @@
 StartChar: r
 Encoding: 114 114 82
 Width: 300
-Flags: W
-HStem: 444 20G<80 120 215.294 255> 444 20G<80 120 215.294 255>
-VStem: 36 128<70 330>
+Flags: MW
 AnchorPoint: "blwmark" 150 0 basechar 0
 AnchorPoint: "abvmark" 150 500 basechar 0
-LayerCount: 2
-Back
+LayerCount: 4
+Fore
 SplineSet
 250 350 m 25
  200 400 l 25
@@ -18,28 +16,5 @@ SplineSet
  135 330 l 1049
 100 365 m 9
  100 35 l 1025
-EndSplineSet
-Fore
-SplineSet
-135 429 m 1xa0
- 164 400 l 1
- 168 396 l 1
- 235 464 l 1
- 314 385 l 1
- 215 286 l 1
- 167 334 l 1
- 164 330 l 1
- 164 70 l 1
- 199 35 l 1
- 100 -64 l 1
- 65 -29 l 1
- 36 -0 l 1
- 1 35 l 1
- 36 70 l 1
- 36 265 l 1
- 36 330 l 1
- 1 365 l 1
- 100 464 l 1
- 135 429 l 1xa0
 EndSplineSet
 EndChar

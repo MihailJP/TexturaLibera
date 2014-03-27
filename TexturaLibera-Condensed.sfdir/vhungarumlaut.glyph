@@ -1,0 +1,10 @@
+StartChar: vhungarumlaut
+Encoding: 59211 59211 776
+Width: 320
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 267 733 N 1 0 0 1 0 0 2
+Refer: 782 -1 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar

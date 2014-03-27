@@ -1,0 +1,16 @@
+StartChar: hookcmb
+Encoding: 777 777 381
+Width: 0
+Flags: MW
+AnchorPoint: "abvmark" -200 500 mark 0
+LayerCount: 4
+Fore
+SplineSet
+-200 500 m 1
+ -100 600 l 1
+ -100 675 l 1
+ -225 700 l 25
+ -300 625 l 5
+ -275 575 l 1053
+EndSplineSet
+EndChar

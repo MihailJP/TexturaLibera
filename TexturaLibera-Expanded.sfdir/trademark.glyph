@@ -1,0 +1,11 @@
+StartChar: trademark
+Encoding: 8482 8482 261
+Width: 960
+VWidth: 900
+Flags: M
+LayerCount: 4
+Fore
+Refer: 45 77 N 0.5 0 0 0.5 420 400 2
+Refer: 52 84 N 0.5 0 0 0.5 0 400 2
+Colour: ffff
+EndChar

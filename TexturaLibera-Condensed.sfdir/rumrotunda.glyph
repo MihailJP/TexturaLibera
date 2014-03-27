@@ -1,0 +1,21 @@
+StartChar: rumrotunda
+Encoding: 42845 42845 705
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+240 225 m 1
+ 280 200 l 1
+ 280 200 280 139 280 100 c 27
+ 280 3 160 -150 160 -150 c 1025
+360 50 m 17
+ 360 50 345 0 300 0 c 3
+ 225 0 200 40 200 40 c 13
+ 160 0 l 5
+ 80 220 l 25
+ 160 300 l 1
+ 80 400 l 1
+ 40 360 l 1049
+EndSplineSet
+EndChar

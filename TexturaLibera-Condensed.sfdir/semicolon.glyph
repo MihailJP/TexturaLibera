@@ -1,0 +1,15 @@
+StartChar: semicolon
+Encoding: 59 59 27
+Width: 240
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+100 40 m 25
+ 140 0 l 1
+ 140 -40 l 25
+ 80 -100 l 1049
+100 350 m 25
+ 140 310 l 1049
+EndSplineSet
+EndChar

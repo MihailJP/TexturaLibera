@@ -1,0 +1,17 @@
+StartChar: quotedblright
+Encoding: 8221 8221 252
+Width: 600
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+390 610 m 25
+ 450 550 l 1
+ 450 490 l 25
+ 360 400 l 1049
+150 610 m 25
+ 210 550 l 1
+ 210 490 l 25
+ 120 400 l 1049
+EndSplineSet
+EndChar

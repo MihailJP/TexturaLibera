@@ -1,0 +1,15 @@
+StartChar: asterisk
+Encoding: 42 42 10
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+80 350 m 25
+ 320 500 l 1049
+200 600 m 25
+ 200 250 l 1049
+80 500 m 25
+ 320 350 l 1049
+EndSplineSet
+EndChar

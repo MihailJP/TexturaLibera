@@ -1,0 +1,18 @@
+StartChar: vend
+Encoding: 42857 42857 876
+Width: 400
+Flags: MW
+AnchorPoint: "abvmark" 200 500 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+50 -50 m 9
+ 300 200 l 1
+ 300 350 l 25
+ 250 400 l 1025
+75 400 m 25
+ 125 350 l 1049
+100 375 m 1
+ 100 -150 l 1025
+EndSplineSet
+EndChar

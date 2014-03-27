@@ -1,0 +1,23 @@
+StartChar: eth
+Encoding: 240 240 181
+Width: 320
+Flags: MW
+AnchorPoint: "blwmark" 160 0 basechar 0
+AnchorPoint: "abvmark" 200 700 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+250 640 m 1
+ 60 450 l 1025
+240 320 m 1
+ 160 400 l 25
+ 80 320 l 1
+ 80 80 l 25
+ 160 0 l 25
+ 240 80 l 1
+ 240 450 l 10
+ 240 500 195 550 160 550 c 0
+ 125 550 80 563 80 600 c 27
+ 80 623 100 630 113 650 c 1049
+EndSplineSet
+EndChar

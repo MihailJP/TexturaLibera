@@ -1,0 +1,11 @@
+StartChar: minute
+Encoding: 8242 8242 926
+Width: 360
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+240 700 m 17
+ 240 600 120 525 120 525 c 1041
+EndSplineSet
+EndChar

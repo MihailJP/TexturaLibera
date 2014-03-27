@@ -1,11 +1,9 @@
 StartChar: j
 Encoding: 106 106 74
 Width: 200
-Flags: W
-HStem: 444 20G<80 120> 444 20G<80 120> 466 21G<35 75>
-VStem: 36 128<-65 330>
-LayerCount: 2
-Back
+Flags: MW
+LayerCount: 4
+Fore
 SplineSet
 90 670 m 25
  160 600 l 25
@@ -16,30 +14,6 @@ SplineSet
 100 365 m 1
  100 -100 l 9
  30 -170 l 1049
-EndSplineSet
-Fore
-SplineSet
-135 429 m 1xb0
- 164 400 l 1
- 199 365 l 1
- 164 330 l 1
- 164 -65 l 1
- -5 -234 l 1
- -34 -205 l 1
- 36 -135 l 1
- 36 330 l 1
- 30 336 l 1
- -40 266 l 1
- -69 295 l 1
- 100 464 l 1
- 135 429 l 1xb0
-26 635 m 1
- 125 734 l 1
- 224 635 l 1
- 55 466 l 1
- 26 495 l 1
- 96 565 l 1
- 26 635 l 1
 EndSplineSet
 Substitution2: "Dotless forms-1" dotlessj
 EndChar

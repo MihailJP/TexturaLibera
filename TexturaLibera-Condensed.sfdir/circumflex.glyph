@@ -1,0 +1,12 @@
+StartChar: circumflex
+Encoding: 710 710 100
+Width: 320
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+240 525 m 25
+ 240 525 160 600 160 700 c 5
+ 160 550 80 525 80 525 c 1025
+EndSplineSet
+EndChar

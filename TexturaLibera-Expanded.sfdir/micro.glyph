@@ -1,0 +1,23 @@
+StartChar: micro
+Encoding: 181 181 209
+Width: 480
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+120 370 m 1
+ 120 -150 l 1025
+150 340 m 9
+ 90 400 l 1041
+450 60 m 9
+ 390 0 l 1
+ 360 30 l 17
+ 360 370 l 1025
+390 340 m 9
+ 330 400 l 1041
+60 0 m 1
+ 60 0 71.9384760968 25 150 25 c 3
+ 223 25 240 0 240 0 c 9
+ 360 120 l 1025
+EndSplineSet
+EndChar

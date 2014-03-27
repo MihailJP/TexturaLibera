@@ -1,0 +1,25 @@
+StartChar: ordfeminine
+Encoding: 170 170 210
+Width: 320
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+40 200 m 25
+ 280 200 l 1049
+100 580 m 17
+ 80 640 l 1
+ 140 700 l 1
+ 240 675 l 1
+ 240 320 l 1
+ 260 300 l 1
+ 300 340 l 1049
+240 400 m 25
+ 140 300 l 1
+ 80 360 l 1
+ 80 490 l 1
+ 140 550 l 1
+ 140 550 155 525 200 525 c 3
+ 215 525 240 525 240 525 c 1033
+EndSplineSet
+EndChar

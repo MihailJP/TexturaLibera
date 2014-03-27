@@ -1,0 +1,12 @@
+StartChar: aoacute
+Encoding: 61411 61411 410
+Width: 480
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 138 769 N 1 0 0 1 400 0 2
+Refer: 341 42805 N 1 0 0 1 0 0 3
+LCarets2: 1 0 
+Ligature2: "Glyph composition-1" a_o acutecmb
+Colour: ffff
+EndChar

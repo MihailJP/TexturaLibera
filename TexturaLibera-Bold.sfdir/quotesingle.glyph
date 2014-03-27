@@ -1,27 +1,13 @@
 StartChar: quotesingle
 Encoding: 39 39 7
 Width: 300
-Flags: W
-HStem: 679 20G<135 175>
-VStem: 21 233
-LayerCount: 2
-Back
+Flags: MW
+LayerCount: 4
+Fore
 SplineSet
 120 635 m 29
  190 565 l 5
  190 495 l 29
  85 390 l 1053
-EndSplineSet
-Fore
-SplineSet
-56 600 m 1
- 155 699 l 1
- 254 600 l 1
- 254 530 l 1
- 50 326 l 1
- 21 355 l 1
- 126 460 l 1
- 126 530 l 1
- 56 600 l 1
 EndSplineSet
 EndChar

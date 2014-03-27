@@ -1,10 +1,9 @@
 StartChar: refmark
 Encoding: 8251 8251 953
 Width: 600
-Flags: W
-HStem: 564 15G<115 155 305 345 515 555>
-LayerCount: 2
-Back
+Flags: MW
+LayerCount: 4
+Fore
 SplineSet
 500 500 m 25
  100 100 l 1049
@@ -18,41 +17,5 @@ SplineSet
  360 465 l 1049
 65 310 m 29
  135 240 l 1053
-EndSplineSet
-Fore
-SplineSet
-1 275 m 1
- 100 374 l 1
- 199 275 l 1
- 100 176 l 1
- 1 275 l 1
-226 500 m 1
- 325 599 l 1
- 424 500 l 1
- 325 401 l 1
- 226 500 l 1
-176 100 m 1
- 275 199 l 1
- 374 100 l 1
- 275 1 l 1
- 176 100 l 1
-401 325 m 1
- 500 424 l 1
- 599 325 l 1
- 500 226 l 1
- 401 325 l 1
-36 465 m 1
- 135 564 l 1
- 335 364 l 1
- 535 564 l 1
- 564 535 l 1
- 364 335 l 1
- 564 135 l 1
- 465 36 l 1
- 265 236 l 1
- 65 36 l 1
- 36 65 l 1
- 236 265 l 1
- 36 465 l 1
 EndSplineSet
 EndChar

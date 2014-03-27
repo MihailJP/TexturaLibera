@@ -1,0 +1,10 @@
+StartChar: Lcaron
+Encoding: 317 317 289
+Width: 560
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 12 44 N 1 0 0 1 320 550 2
+Refer: 44 76 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar

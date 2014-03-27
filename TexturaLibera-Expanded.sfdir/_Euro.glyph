@@ -1,0 +1,19 @@
+StartChar: Euro
+Encoding: 8364 8364 264
+Width: 660
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+60 225 m 25
+ 420 225 l 1049
+60 375 m 25
+ 480 375 l 1049
+570 525 m 9
+ 420 600 l 25
+ 180 360 l 25
+ 180 100 l 25
+ 420 0 l 25
+ 600 180 l 1041
+EndSplineSet
+EndChar

@@ -1,0 +1,10 @@
+StartChar: dblverticalbar
+Encoding: 8214 8214 900
+Width: 400
+Flags: M
+LayerCount: 4
+Fore
+Refer: 92 124 N 1 0 0 1 200 0 2
+Refer: 92 124 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar

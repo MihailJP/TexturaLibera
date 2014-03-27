@@ -1,0 +1,22 @@
+StartChar: i
+Encoding: 105 105 73
+Width: 200
+Flags: MW
+AnchorPoint: "blwmark" 100 0 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+100 650 m 25
+ 150 600 l 25
+ 100 550 l 1049
+75 50 m 25
+ 125 0 l 25
+ 175 50 l 1049
+125 350 m 25
+ 75 400 l 25
+ 25 350 l 1049
+100 375 m 9
+ 100 25 l 1025
+EndSplineSet
+Substitution2: "Dotless forms-1" dotlessi
+EndChar
