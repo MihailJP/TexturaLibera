@@ -21,9 +21,9 @@ SplineSet
  97 50 60 0 60 0 c 1033
 620 355 m 1
  660 325 l 1
- 660 60 l 1
- 720 0 l 9
- 780 60 l 1049
+ 660 50 l 1
+ 710 0 l 9
+ 760 50 l 1049
 EndSplineSet
 Layer: 2
 SplineSet
