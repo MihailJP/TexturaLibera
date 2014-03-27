@@ -14,7 +14,7 @@ VERSION = 0.2.0
 
 all: $(TARGETS)
 
-.recipe.sfd:
+.recipe.sfd: TexturaLibera-Medium.sfdir TexturaLibera-Bold.sfdir TexturaLibera-Condensed.sfdir TexturaLibera-Expanded.sfdir
 	sh $< $@
 .sfd.ttf:
 	./makefont.py $< $@
