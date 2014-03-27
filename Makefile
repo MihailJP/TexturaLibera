@@ -1,23 +1,26 @@
-.SUFFIXES: .sfdir .ttf .otf .woff
-SRCFONTS = $(wildcard *.sfdir)
-TTFONTS = $(SRCFONTS:.sfdir=.ttf)
-OTFONTS = $(SRCFONTS:.sfdir=.otf)
-WOFFONTS = $(SRCFONTS:.sfdir=.woff)
+.SUFFIXES: .recipe .sfd .ttf .otf .woff
+SRCFONTS = $(wildcard *.recipe)
+SFDFILES = $(SRCFONTS:.recipe=.sfd)
+TTFONTS = $(SRCFONTS:.recipe=.ttf)
+OTFONTS = $(SRCFONTS:.recipe=.otf)
+WOFFONTS = $(SRCFONTS:.recipe=.woff)
 TARGETS = $(TTFONTS) $(OTFONTS) $(WOFFONTS)
 DOCUMENTS = LICENSE NEWS README.md TexturaLibera-Specimen.pdf
 DISTTYPE = zip
 
-VERSION = 0.1.0
+VERSION = 0.2.0
 
 .PHONY: all clean dist ttf otf woff
 
 all: $(TARGETS)
 
-.sfdir.ttf:
+.recipe.sfd:
+	sh $< $@
+.sfd.ttf:
 	./makefont.py $< $@
-.sfdir.otf:
+.sfd.otf:
 	./makefont.py $< $@
-.sfdir.woff:
+.sfd.woff:
 	./makefont.py $< $@
 
 ttf: $(TTFONTS)
@@ -66,4 +69,4 @@ TexturaLibera-WOFF-$(VERSION).tar.xz: $(WOFFONTS) $(DOCUMENTS) TexturaLibera.css
 	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | xz -z9 - > $@) && rm -rf txlibera
 
 clean:
-	rm -f $(TTFONTS) $(OTFONTS) $(WOFFONTS) TexturaLibera-TTF-* TexturaLibera-OTF-* TexturaLibera-WOFF-* 
+	rm -f $(SFDFILES) $(TTFONTS) $(OTFONTS) $(WOFFONTS) TexturaLibera-TTF-* TexturaLibera-OTF-* TexturaLibera-WOFF-* 
