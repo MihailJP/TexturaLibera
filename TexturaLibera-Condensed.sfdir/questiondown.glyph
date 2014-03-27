@@ -12,7 +12,7 @@ SplineSet
  80 -30 l 25
  160 50 l 25
  160 200 l 1049
-180 360 m 25
- 140 400 l 1049
+185 350 m 25
+ 135 400 l 1049
 EndSplineSet
 EndChar

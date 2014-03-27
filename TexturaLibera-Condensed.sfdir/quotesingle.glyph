@@ -6,8 +6,8 @@ LayerCount: 4
 Fore
 SplineSet
 100 600 m 25
- 140 560 l 5
- 140 520 l 29
- 80 460 l 1053
+ 145 550 l 1
+ 145 500 l 25
+ 70 425 l 1049
 EndSplineSet
 EndChar

@@ -6,10 +6,10 @@ Flags: MW
 LayerCount: 4
 Fore
 SplineSet
-80 605 m 9
- 80 80 l 29
+80 600 m 9
+ 80 80 l 25
  160 0 l 1
- 240 80 l 29
+ 240 80 l 25
  240 320 l 1
  160 400 l 1
  80 320 l 1049
@@ -17,9 +17,9 @@ SplineSet
  40 -200 70 -150 100 -150 c 8
  137 -150 143 -200 180 -200 c 24
  210 -200 240 -150 240 -150 c 1
- 240 80 l 1037
-60 625 m 25
- 100 585 l 1049
+ 240 80 l 1033
+55 625 m 25
+ 105 575 l 1049
 EndSplineSet
 LCarets2: 1 160 
 Ligature2: "Historic ligatures-1" b g

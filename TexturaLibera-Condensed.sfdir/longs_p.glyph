@@ -23,7 +23,7 @@ SplineSet
  180 650 216 610 320 610 c 3
  348 610 381 650 381 650 c 9
  240 420 l 9
- 300 360 l 1025
+ 305 355 l 1025
 EndSplineSet
 LCarets2: 1 240 
 Ligature2: "Ligatures-1" longs p

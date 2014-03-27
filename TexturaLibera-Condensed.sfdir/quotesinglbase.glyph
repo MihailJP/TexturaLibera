@@ -6,9 +6,9 @@ Flags: MW
 LayerCount: 4
 Fore
 SplineSet
-100 40 m 29
+90 50 m 25
  140 0 l 1
- 140 -40 l 29
- 80 -100 l 1053
+ 140 -50 l 25
+ 65 -125 l 1049
 EndSplineSet
 EndChar
