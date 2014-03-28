@@ -10,7 +10,7 @@ DISTTYPE = zip
 
 VERSION = 0.2.0
 
-.PHONY: all clean dist ttf otf woff
+.PHONY: all clean dist ttf otf woff version
 
 all: $(TARGETS)
 
@@ -28,6 +28,9 @@ otf: $(OTFONTS)
 woff: $(WOFFONTS)
 
 dist: TexturaLibera-TTF-$(VERSION).$(DISTTYPE) TexturaLibera-OTF-$(VERSION).$(DISTTYPE) TexturaLibera-WOFF-$(VERSION).$(DISTTYPE)
+
+version:
+	for i in $(wildcard TexturaLibera-*.sfdir); do sed -i -e '/^Version:/c Version: $(VERSION)' $$i/font.props; done
 
 TexturaLibera.css:
 	./makecss.rb > $@
