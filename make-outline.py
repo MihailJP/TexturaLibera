@@ -68,10 +68,10 @@ except ValueError:
 	stderr.write("Error: Font width must be between 0.5 and 2.0\n")
 	exit(2)
 try:
-	if not (0.1 <= float(argv[4]) <= 0.5):
+	if not (0.1 <= float(argv[4]) <= 0.3):
 		raise ValueError
 except ValueError:
-	stderr.write("Error: Pen breadth ratio must be between 0.1 and 0.5\n")
+	stderr.write("Error: Pen breadth ratio must be between 0.1 and 0.3\n")
 	exit(2)
 
 # Load fonts
@@ -101,6 +101,11 @@ elif float(argv[3]) < 1.1875: WidthCode = 5 # SemiExpanded
 elif float(argv[3]) < 1.3750: WidthCode = 6 # Expanded
 elif float(argv[3]) < 1.7500: WidthCode = 7 # ExtraExpanded
 else:                         WidthCode = 8 # UltraExpanded
+
+# Pen breadth name
+if float(argv[4]) < 0.25:
+	FamilyName += "Tenuis"
+	HumanReadableFamilyName = " Tenuis"
 
 # Interpolate
 WeightInterpol = BaseFont.interpolateFonts((float(argv[2]) - 500.0) / 200.0 + 500.0 * (0.3 - float(argv[4])) / 150.0, BoldFontFile)
