@@ -14,7 +14,7 @@ SplineSet
  80 540 l 1
  140 600 l 25
  163 590 170 575 200 575 c 3
- 222 575 225 590 241 600 c 1049
+ 222 575 241 600 241 600 c 1033
 EndSplineSet
 Substitution2: "Subscript forms-1" six.inferior
 Substitution2: "Superscript forms-1" six.superior

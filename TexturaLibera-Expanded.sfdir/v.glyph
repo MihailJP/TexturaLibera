@@ -6,15 +6,15 @@ AnchorPoint: "blwmark" 240 0 basechar 0
 LayerCount: 4
 Fore
 SplineSet
-150 340 m 25
- 90 400 l 1049
-120 370 m 25
+145 350 m 25
+ 95 400 l 1049
+120 375 m 25
  120 120 l 1
  240 0 l 25
  360 120 l 1
  360 370 l 17
  360 370 300 423 300 472 c 8
- 300 521 364 550 366 550 c 1033
+ 300 512 364 550 364 550 c 1037
 EndSplineSet
 Substitution2: "Dotless forms-1" v.alt
 EndChar

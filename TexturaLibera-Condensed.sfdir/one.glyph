@@ -5,14 +5,14 @@ Flags: MW
 LayerCount: 4
 Fore
 SplineSet
-100 40 m 25
- 180 0 l 1
- 220 40 l 1049
-180 360 m 25
- 140 400 l 25
- 100 360 l 1049
-160 380 m 9
- 160 20 l 1025
+85 50 m 25
+ 185 0 l 1
+ 235 50 l 1049
+185 350 m 25
+ 135 400 l 25
+ 85 350 l 1049
+160 375 m 9
+ 160 25 l 1025
 EndSplineSet
 Substitution2: "Subscript forms-1" one.inferior
 Substitution2: "Superscript forms-1" one.superior

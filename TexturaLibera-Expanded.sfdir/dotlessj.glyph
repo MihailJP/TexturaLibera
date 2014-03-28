@@ -6,10 +6,10 @@ AnchorPoint: "abvmark" 120 500 basechar 0
 LayerCount: 4
 Fore
 SplineSet
-150 340 m 25
- 90 400 l 25
- 30 340 l 1049
-120 370 m 1
+145 350 m 25
+ 95 400 l 25
+ 45 350 l 1049
+120 375 m 1
  120 -90 l 9
  60 -150 l 1049
 EndSplineSet

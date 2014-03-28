@@ -14,7 +14,7 @@ VERSION = 0.2.0
 
 all: $(TARGETS)
 
-.recipe.sfd:
+.recipe.sfd: TexturaLibera-Medium.sfdir TexturaLibera-Bold.sfdir TexturaLibera-Condensed.sfdir TexturaLibera-Expanded.sfdir
 	sh $< $@
 .sfd.ttf:
 	./makefont.py $< $@
@@ -28,6 +28,9 @@ otf: $(OTFONTS)
 woff: $(WOFFONTS)
 
 dist: TexturaLibera-TTF-$(VERSION).$(DISTTYPE) TexturaLibera-OTF-$(VERSION).$(DISTTYPE) TexturaLibera-WOFF-$(VERSION).$(DISTTYPE)
+
+TexturaLibera.css:
+	./makecss.rb > $@
 
 TexturaLibera-TTF-$(VERSION).zip: $(TTFONTS) $(DOCUMENTS)
 	rm -f $@; rm -rf txlibera
@@ -69,4 +72,4 @@ TexturaLibera-WOFF-$(VERSION).tar.xz: $(WOFFONTS) $(DOCUMENTS) TexturaLibera.css
 	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | xz -z9 - > $@) && rm -rf txlibera
 
 clean:
-	rm -f $(SFDFILES) $(TTFONTS) $(OTFONTS) $(WOFFONTS) TexturaLibera-TTF-* TexturaLibera-OTF-* TexturaLibera-WOFF-* 
+	rm -f $(SFDFILES) $(TTFONTS) $(OTFONTS) $(WOFFONTS) TexturaLibera-TTF-* TexturaLibera-OTF-* TexturaLibera-WOFF-* TexturaLibera.css 

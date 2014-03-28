@@ -7,7 +7,7 @@ AnchorPoint: "blwmark" -160 0 mark 0
 LayerCount: 4
 Fore
 SplineSet
--180 -110 m 25
- -140 -150 l 1049
+-185 -100 m 25
+ -135 -150 l 1049
 EndSplineSet
 EndChar
