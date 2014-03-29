@@ -48,3 +48,17 @@ for weight in [100, 200, 300, 400, 500, 600, 700, 800, 900]
 	fontface("X", " Expanded", "expanded", weight)
 end
 print "\n"
+
+
+for weight in [100, 200, 300, 400, 500, 600, 700, 800, 900]
+	fontface("Tenuis", " Tenuis", "normal", weight)
+end
+print "\n"
+for weight in [100, 200, 300, 400, 500, 600]
+	fontface("TenuisC", " Tenuis Condensed", "condensed", weight)
+end
+print "\n"
+for weight in [100, 200, 300, 400, 500, 600, 700, 800, 900]
+	fontface("TenuisX", " Tenuis Expanded", "expanded", weight)
+end
+print "\n"
