@@ -1,0 +1,1 @@
+./make-outline.py $1 400 .8 .12 # Pen breadth ratio .125 causes hangup

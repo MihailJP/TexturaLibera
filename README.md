@@ -7,16 +7,34 @@ Weight and width variants included
 ----------------------------------
 
 * Normal width with family name _Textura Libera_ and `TexturaLibera`
-    * Light weight
-    * Medium weight
-    * Bold weight
+    * Thin weight (100)
+    * Extra-light weight (200)
+    * Light weight (300)
+    * Book weight (400)
+    * Medium weight (500)
+    * Demi-bold weight (600)
+    * Bold weight (700)
+    * Extra-bold weight (800)
+    * Black weight (900)
 * Condensed width with family name _Textura Libera Condensed_ and `TexturaLiberaCond`
-    * Light weight
-    * Medium weight
+    * Thin weight (100)
+    * Extra-light weight (200)
+    * Light weight (300)
+    * Book weight (400)
+    * Medium weight (500)
+    * Demi-bold weight (600)
 * Expanded width with family name _Textura Libera Expanded_ and `TexturaLiberaEx`
-    * Light weight
-    * Medium weight
-    * Bold weight
+    * Thin weight (100)
+    * Extra-light weight (200)
+    * Light weight (300)
+    * Book weight (400)
+    * Medium weight (500)
+    * Demi-bold weight (600)
+    * Bold weight (700)
+    * Extra-bold weight (800)
+    * Black weight (900)
+* _Textura Libera Tenuis_ / `TexturaLiberaTenuis` for use with large font size such as titles
+    * Normal, condensed and expanded width with weight variants
 
 Condensed bold font is not currently available.
 
