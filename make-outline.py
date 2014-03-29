@@ -52,20 +52,26 @@ def dupLayer(layer):
 	return newLayer
 
 # Check arguments
-if len(argv) <= 3:
-	stderr.write("Usage: "+argv[0]+" out-font weight width\n")
+if len(argv) <= 4:
+	stderr.write("Usage: "+argv[0]+" out-sfd font-weight font-width pen-breadth-ratio\n")
 	exit(1)
 try:
 	if not (0 < int(argv[2]) < 1000):
 		raise ValueError
 except ValueError:
-	stderr.write("Error: Weight must be more than 0 and less than 1000\n")
+	stderr.write("Error: Font weight must be more than 0 and less than 1000\n")
 	exit(2)
 try:
 	if not (0.5 <= float(argv[3]) <= 2.0):
 		raise ValueError
 except ValueError:
-	stderr.write("Error: Width must be between 0.5 and 2.0\n")
+	stderr.write("Error: Font width must be between 0.5 and 2.0\n")
+	exit(2)
+try:
+	if not (0.1 <= float(argv[4]) <= 0.3):
+		raise ValueError
+except ValueError:
+	stderr.write("Error: Pen breadth ratio must be between 0.1 and 0.3\n")
 	exit(2)
 
 # Load fonts
@@ -96,8 +102,13 @@ elif float(argv[3]) < 1.3750: WidthCode = 6 # Expanded
 elif float(argv[3]) < 1.7500: WidthCode = 7 # ExtraExpanded
 else:                         WidthCode = 8 # UltraExpanded
 
+# Pen breadth name
+if float(argv[4]) < 0.25:
+	FamilyName += "Tenuis"
+	HumanReadableFamilyName += " Tenuis"
+
 # Interpolate
-WeightInterpol = BaseFont.interpolateFonts((float(argv[2]) - 500.0) / 200.0, BoldFontFile)
+WeightInterpol = BaseFont.interpolateFonts((float(argv[2]) - 500.0) / 200.0 + 500.0 * (0.3 - float(argv[4])) / 150.0, BoldFontFile)
 WidthInterpol = None # yet. See below
 if float(argv[3]) < 1.0: # Narrow
 	WidthInterpol = BaseFont.interpolateFonts((1.0 - float(argv[3])) * 5.0, CondensedFontFile)
@@ -156,7 +167,7 @@ for glyph in Interpolated.glyphs():
 					layer.stroke(
 						"caligraphic",
 						float(argv[2]) / 5.0 * WorkScale * penScale,
-						float(argv[2]) * 0.06 * WorkScale * penScale,
+						float(argv[2]) / 5.0 * float(argv[4]) * WorkScale * penScale,
 						rad(penDegrees[layerID]),
 						("removeinternal",) if BaseFont[glyph.glyphname].color == 0xffff00 else (None,))
 					layer.transform(scale(1.0 / WorkScale))

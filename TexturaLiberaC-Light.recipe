@@ -1,1 +1,1 @@
-./make-outline.py $1 300 .8
+./make-outline.py $1 300 .8 .3
