@@ -45,7 +45,7 @@ Files contained in the package
 * Documentations
     * [Readme (this documentation)](README.md).
     * [License](LICENSE).
-    * [Version log](NEWS).
+    * [Version log](FONTLOG.txt).
 * [Font specimen](TexturaLibera-Specimen.pdf).
 * If this is WOFF package, also:
     * [Stylesheet for this font](TexturaLibera.css).
