@@ -23,6 +23,12 @@ submitting a pull request on GitHub.
 ChangeLog
 ---------
 
+29 Mar 2014 (MihailJP) Textura Libera version 0.2.0
+* IV Kal. Apr., MMDCCLXXVII A.U.C.
+* Now automatically generated from skeleton files
+* Added font variants
+* Change format of version log file
+
 22 Mar 2014 (MihailJP) Textura Libera version 0.1.0
 * XII Kal. Apr., MMDCCLXXVII A.U.C.
 * First release
