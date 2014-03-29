@@ -23,6 +23,10 @@ submitting a pull request on GitHub.
 ChangeLog
 ---------
 
+29 Mar 2014 (MihailJP) Textura Libera version 0.2.1
+* IV Kal. Apr., MMDCCLXXVII A.U.C.
+* Narrowed space (with advice from Ankh at the IRC channel ##fonts)
+
 29 Mar 2014 (MihailJP) Textura Libera version 0.2.0
 * IV Kal. Apr., MMDCCLXXVII A.U.C.
 * Now automatically generated from skeleton files
