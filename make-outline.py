@@ -105,7 +105,7 @@ else:                         WidthCode = 8 # UltraExpanded
 # Pen breadth name
 if float(argv[4]) < 0.25:
 	FamilyName += "Tenuis"
-	HumanReadableFamilyName = " Tenuis"
+	HumanReadableFamilyName += " Tenuis"
 
 # Interpolate
 WeightInterpol = BaseFont.interpolateFonts((float(argv[2]) - 500.0) / 200.0 + 500.0 * (0.3 - float(argv[4])) / 150.0, BoldFontFile)
