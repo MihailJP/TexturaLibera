@@ -5,7 +5,7 @@ TTFONTS = $(SRCFONTS:.recipe=.ttf)
 OTFONTS = $(SRCFONTS:.recipe=.otf)
 WOFFONTS = $(SRCFONTS:.recipe=.woff)
 TARGETS = $(TTFONTS) $(OTFONTS) $(WOFFONTS)
-DOCUMENTS = LICENSE NEWS README.md TexturaLibera-Specimen.pdf
+DOCUMENTS = FONTLOG.txt LICENSE README.md TexturaLibera-Specimen.pdf
 DISTTYPE = zip
 
 VERSION = 0.2.0
