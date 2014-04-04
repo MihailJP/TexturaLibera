@@ -1,0 +1,12 @@
+StartChar: Venddotbelow
+Encoding: 58342 58342 972
+Width: 560
+Flags: W
+AnchorPoint: "abvmark" 320 700 basechar 0
+LayerCount: 4
+Fore
+Refer: 357 803 N 1 0 0 1 520 0 2
+Refer: 971 42856 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" Vend dotbelowcmb
+Colour: ffff
+EndChar
