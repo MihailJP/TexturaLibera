@@ -8,7 +8,7 @@ TARGETS = $(TTFONTS) $(OTFONTS) $(WOFFONTS)
 DOCUMENTS = FONTLOG.txt LICENSE README.md TexturaLibera-Specimen.pdf
 DISTTYPE = zip
 
-VERSION = 0.2.1
+VERSION = 0.2.2
 
 .PHONY: all clean dist ttf otf woff version
 
