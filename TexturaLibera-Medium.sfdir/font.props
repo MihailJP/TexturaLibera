@@ -23,8 +23,8 @@ FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1396099005
-ModificationTime: 1396579315
+CreationTime: 1396579402
+ModificationTime: 1396603378
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -77,7 +77,7 @@ KernClass2: 27 9 "Kerning-1"
  266 I J L Igrave Iacute Icircumflex Idieresis Ibreve Iogonek Idotaccent IJ Jcircumflex Lacute Lcaron Lslash Ldotbelow Ihookabove Idotbelow Imacronacute Imacronbreve Ihungarumlaut Jdotbelow Jacute Jmacron Jdotaccent Jhungarumlaut Ldotaccentabove Jdieresis Idotaccentacute
  29 K Kacute Kdotbelow Kdotaccent
  89 M N Ntilde Nacute Ncaron Macute Mdotaccent Mdotbelow Ndotaccent Ndotbelow Mmacron Nmacron
- 29 P Pacute Pdotaccent Pdotbelow
+ 34 P Wynn Pacute Pdotaccent Pdotbelow
  22 Q Qdotaccent Qdotbelow
  57 S Sacute Scircumflex Scedilla Scaron Sdotaccent Sdotbelow
  53 T Togonek Tdotbelow Tdotaccent Tacute Tcedilla Tcaron

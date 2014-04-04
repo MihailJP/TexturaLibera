@@ -1,0 +1,28 @@
+StartChar: Wynn
+Encoding: 503 503 970
+Width: 840
+Flags: W
+AnchorPoint: "abvmark" 480 700 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+300 0 m 1
+ 720 420 l 1
+ 720 475 l 1
+ 450 600 l 1
+ 390 540 l 1
+ 390 -140 l 1
+ 330 -200 l 1
+ 330 -200 298 -150 180 -150 c 3
+ 97 -150 60 -200 60 -200 c 1033
+60 550 m 1
+ 60 550 101 600 149 600 c 3
+ 192 600 214 575 240 575 c 3
+ 274 575 300 600 301 600 c 1025
+EndSplineSet
+Layer: 2
+SplineSet
+240 550 m 1
+ 240 -125 l 1029
+EndSplineSet
+EndChar
