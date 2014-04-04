@@ -23,6 +23,12 @@ submitting a pull request on GitHub.
 ChangeLog
 ---------
 
+4 Apr 2014 (MihailJP) Textura Libera version 0.2.2
+* Prid. Non. Apr., MMDCCLXXVII A.U.C.
+* Correct encoding of lowercase wynn with acute
+* Add uppercase glyph Wynn and Vend
+* Add Turkish G with breve
+
 29 Mar 2014 (MihailJP) Textura Libera version 0.2.1
 * IV Kal. Apr., MMDCCLXXVII A.U.C.
 * Narrowed space (with advice from Ankh at the IRC channel ##fonts)
