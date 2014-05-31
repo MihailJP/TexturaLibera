@@ -1,0 +1,21 @@
+StartChar: dotcross
+Encoding: 8284 8284 954
+Width: 600
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+300 550 m 25
+ 300 50 l 1049
+50 300 m 25
+ 550 300 l 1049
+435 505 m 25
+ 505 435 l 1049
+435 165 m 25
+ 505 95 l 1049
+95 505 m 25
+ 165 435 l 1049
+95 165 m 25
+ 165 95 l 1049
+EndSplineSet
+EndChar

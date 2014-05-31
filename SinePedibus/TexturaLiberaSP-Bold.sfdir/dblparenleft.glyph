@@ -1,0 +1,10 @@
+StartChar: dblparenleft
+Encoding: 11816 11816 914
+Width: 450
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 8 40 N 1 0 0 1 200 0 2
+Refer: 8 40 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar

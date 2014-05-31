@@ -1,0 +1,24 @@
+StartChar: germandbls
+Encoding: 223 223 131
+Width: 500
+Flags: MW
+AnchorPoint: "abvmark" 300 750 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+150 400 m 1
+ 150 400 224 350 268 350 c 3
+ 342 350 350 400 350 400 c 1
+ 400 350 l 1
+ 250 200 l 1
+ 400 100 l 1
+ 400 -100 l 1
+ 400 -100 353 -150 325 -150 c 1
+ 259 -63 125 0 125 0 c 1025
+125 -200 m 1
+ 125 550 l 1
+ 225 650 l 17
+ 225 650 256 600 300 600 c 24
+ 328 600 375 650 376 650 c 1033
+EndSplineSet
+EndChar

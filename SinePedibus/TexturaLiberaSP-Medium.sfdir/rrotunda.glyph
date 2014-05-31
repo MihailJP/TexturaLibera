@@ -1,0 +1,16 @@
+StartChar: rrotunda
+Encoding: 42843 42843 96
+Width: 300
+Flags: MW
+AnchorPoint: "blwmark" 150 0 basechar 0
+AnchorPoint: "abvmark" 150 500 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+225 0 m 5
+ 100 200 l 25
+ 200 300 l 1
+ 100 400 l 1
+ 50 350 l 1049
+EndSplineSet
+EndChar

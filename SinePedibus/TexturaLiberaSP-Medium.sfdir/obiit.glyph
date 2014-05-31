@@ -1,0 +1,18 @@
+StartChar: obiit
+Encoding: 42827 42827 866
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+25 225 m 25
+ 375 225 l 1049
+200 400 m 25
+ 100 300 l 25
+ 100 100 l 25
+ 200 0 l 25
+ 300 100 l 25
+ 300 300 l 25
+ 200 400 l 25
+EndSplineSet
+EndChar

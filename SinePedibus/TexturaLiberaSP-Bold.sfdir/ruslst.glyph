@@ -1,0 +1,11 @@
+StartChar: ruslst
+Encoding: 11789 11789 903
+Width: 300
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+50 450 m 25
+ 250 700 l 1049
+EndSplineSet
+EndChar

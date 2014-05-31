@@ -1,0 +1,24 @@
+StartChar: longs_s
+Encoding: 62717 62717 710
+Width: 600
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+125 -150 m 1
+ 125 550 l 1
+ 225 650 l 17
+ 225 650 256 600 300 600 c 24
+ 328 600 375 650 376 650 c 1033
+525 350 m 1
+ 481 350 400 400 400 400 c 9
+ 300 300 l 1
+ 300 240 l 1
+ 500 160 l 1
+ 500 100 l 1
+ 400 0 l 17
+ 400 0 304 50 275 50 c 1025
+EndSplineSet
+LCarets2: 1 300 
+Ligature2: "Ligatures-1" longs s
+EndChar

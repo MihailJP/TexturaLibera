@@ -1,0 +1,11 @@
+StartChar: wdotbelow.alt
+Encoding: 65543 -1 809
+Width: 600
+Flags: MW
+AnchorPoint: "abvmark" 300 500 basechar 0
+LayerCount: 4
+Fore
+Refer: 357 803 N 1 0 0 1 500 0 2
+Refer: 784 -1 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar

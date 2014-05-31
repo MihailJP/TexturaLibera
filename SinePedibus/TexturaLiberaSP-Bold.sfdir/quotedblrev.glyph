@@ -1,0 +1,17 @@
+StartChar: quotedblrev
+Encoding: 8223 8223 929
+Width: 500
+Flags: MW
+LayerCount: 4
+Layer: 3
+SplineSet
+180 620 m 29
+ 110 550 l 5
+ 110 480 l 29
+ 215 375 l 1053
+380 620 m 29
+ 310 550 l 5
+ 310 480 l 29
+ 415 375 l 1053
+EndSplineSet
+EndChar

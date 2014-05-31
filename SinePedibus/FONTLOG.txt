@@ -1,0 +1,56 @@
+FONTLOG
+
+Textura Libera
+==============
+
+This file provides detailed information on the Textura Libera font family.
+This information should be distributed along with the Textura Libera fonts
+and any derivative works.
+
+
+Basic Font Information
+----------------------
+
+Textura Libera means "Free Textura" and is a free blackletter font family.
+
+Textura Libera development is currently hosted on:
+https://github.com/MihailJP/TexturaLibera
+
+Anyone can contribute to Textura Libera by forking the repository and
+submitting a pull request on GitHub.
+
+
+ChangeLog
+---------
+
+4 Apr 2014 (MihailJP) Textura Libera version 0.2.2
+* Prid. Non. Apr., MMDCCLXXVII A.U.C.
+* Correct encoding of lowercase wynn with acute
+* Add uppercase glyph Wynn and Vend
+* Add Turkish G with breve
+
+29 Mar 2014 (MihailJP) Textura Libera version 0.2.1
+* IV Kal. Apr., MMDCCLXXVII A.U.C.
+* Narrowed space (with advice from Ankh at the IRC channel ##fonts)
+
+29 Mar 2014 (MihailJP) Textura Libera version 0.2.0
+* IV Kal. Apr., MMDCCLXXVII A.U.C.
+* Now automatically generated from skeleton files
+* Added font variants
+* Change format of version log file
+
+22 Mar 2014 (MihailJP) Textura Libera version 0.1.0
+* XII Kal. Apr., MMDCCLXXVII A.U.C.
+* First release
+
+
+Acknowledgements
+----------------
+(Here is where contributors can be acknowledged. If you make modifications be
+sure to add your name (N), email (E), web-address (W) and description (D).
+This list is sorted by last name in alphabetical order.)
+
+N: MihailJP
+E: mihailjp@gmail.com
+W: https://github.com/MihailJP/
+D: Original author of Textura Libera

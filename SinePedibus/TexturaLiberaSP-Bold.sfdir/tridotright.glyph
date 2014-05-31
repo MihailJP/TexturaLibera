@@ -1,0 +1,15 @@
+StartChar: tridotright
+Encoding: 4347 4347 895
+Width: 500
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+365 210 m 25
+ 435 140 l 1049
+115 350 m 25
+ 185 280 l 1049
+115 70 m 25
+ 185 0 l 1049
+EndSplineSet
+EndChar

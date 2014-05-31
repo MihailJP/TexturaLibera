@@ -1,0 +1,12 @@
+StartChar: zdotbelow
+Encoding: 7827 7827 838
+Width: 350
+Flags: MW
+AnchorPoint: "abvmark" 150 500 basechar 0
+LayerCount: 4
+Fore
+Refer: 357 803 N 1 0 0 1 350 -200 2
+Refer: 90 122 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" z dotbelowcmb
+Colour: ffff
+EndChar

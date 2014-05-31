@@ -1,0 +1,14 @@
+StartChar: Ubracketleft
+Encoding: 11814 11814 912
+Width: 500
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+450 400 m 1
+ 300 400 l 26
+ 190 400 100 310 100 200 c 27
+ 100 90 190 0 300 0 c 26
+ 450 0 l 1025
+EndSplineSet
+EndChar

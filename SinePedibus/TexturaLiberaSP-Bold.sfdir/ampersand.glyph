@@ -1,0 +1,23 @@
+StartChar: ampersand
+Encoding: 38 38 6
+Width: 500
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+200 350 m 29
+ 400 350 l 1053
+450 100 m 1
+ 350 0 l 1
+ 300 50 l 1
+ 300 550 l 9
+ 200 600 l 1
+ 100 500 l 17
+ 100 400 l 5
+ 200 350 l 5
+ 100 250 l 29
+ 99 50 l 25
+ 200 0 l 25
+ 300 100 l 1041
+EndSplineSet
+EndChar

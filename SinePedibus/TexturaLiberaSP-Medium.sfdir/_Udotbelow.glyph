@@ -1,0 +1,13 @@
+StartChar: Udotbelow
+Encoding: 7908 7908 735
+Width: 700
+Flags: MW
+AnchorPoint: "abvmark" 450 700 basechar 0
+LayerCount: 4
+Fore
+Refer: 357 803 N 1 0 0 1 550 0 2
+Refer: 357 803 N 1 0 0 1 550 0 2
+Refer: 53 85 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" U dotbelowcmb
+Colour: ffff
+EndChar

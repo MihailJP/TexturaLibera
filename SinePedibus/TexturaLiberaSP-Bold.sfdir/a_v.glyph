@@ -1,0 +1,30 @@
+StartChar: a_v
+Encoding: 42809 42809 345
+Width: 600
+Flags: MW
+AnchorPoint: "blwmark" 300 0 basechar 0
+AnchorPoint: "abvmark" 300 500 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+300 125 m 9
+ 175 0 l 1
+ 100 75 l 1
+ 100 175 l 1
+ 175 250 l 1
+ 175 250 193.964297096 225 250 225 c 3
+ 269.004218286 225 300 225 300 225 c 1033
+505 550 m 25
+ 504 550 450 514 450 472 c 16
+ 450 423 500 375 500 375 c 25
+ 500 100 l 1
+ 400 0 l 25
+ 300 100 l 1
+ 300 375 l 17
+ 175 400 l 1
+ 100 325 l 1
+ 125 250 l 1033
+EndSplineSet
+LCarets2: 1 300 
+Ligature2: "Historic ligatures-1" a v
+EndChar

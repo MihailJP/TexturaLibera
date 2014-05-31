@@ -1,0 +1,20 @@
+StartChar: h
+Encoding: 104 104 72
+Width: 400
+Flags: MW
+AnchorPoint: "blwmark" 200 0 basechar 0
+AnchorPoint: "abvmark" 200 700 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+65 625 m 25
+ 135 555 l 1049
+100 590 m 9
+ 100 0 l 1049
+300 0 m 25
+ 300 325 l 25
+ 225 400 l 1
+ 100 275 l 1049
+EndSplineSet
+Substitution2: "Stylistic alternates-1" h.alt
+EndChar

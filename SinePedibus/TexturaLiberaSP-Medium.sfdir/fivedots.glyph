@@ -1,0 +1,19 @@
+StartChar: fivedots
+Encoding: 11821 11821 935
+Width: 600
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+275 200 m 25
+ 325 150 l 1049
+450 200 m 25
+ 500 150 l 1049
+275 25 m 25
+ 325 -25 l 1049
+275 375 m 25
+ 325 325 l 1049
+100 200 m 25
+ 150 150 l 1049
+EndSplineSet
+EndChar

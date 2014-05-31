@@ -1,0 +1,23 @@
+StartChar: dcroat
+Encoding: 273 273 319
+Width: 400
+Flags: MW
+AnchorPoint: "blwmark" 200 0 basechar 0
+AnchorPoint: "abvmark" 250 700 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+375 400 m 1
+ 50 75 l 1029
+300 300 m 1
+ 200 400 l 25
+ 100 300 l 1
+ 100 100 l 25
+ 200 0 l 25
+ 300 100 l 1
+ 300 450 l 10
+ 300 505 244 550 200 550 c 0
+ 156 550 100 556 100 600 c 27
+ 100 628 140 650 141 650 c 1049
+EndSplineSet
+EndChar

@@ -1,0 +1,21 @@
+StartChar: refmark
+Encoding: 8251 8251 953
+Width: 600
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+500 500 m 25
+ 100 100 l 1049
+100 500 m 25
+ 500 100 l 1049
+475 350 m 25
+ 525 300 l 1049
+250 125 m 25
+ 300 75 l 1049
+300 525 m 25
+ 350 475 l 1049
+75 300 m 25
+ 125 250 l 1049
+EndSplineSet
+EndChar

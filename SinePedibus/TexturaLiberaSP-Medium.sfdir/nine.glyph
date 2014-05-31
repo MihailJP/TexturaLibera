@@ -1,0 +1,20 @@
+StartChar: nine
+Encoding: 57 57 25
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+300 100 m 1
+ 200 0 l 1
+ 100 100 l 25
+ 100 300 l 25
+ 200 400 l 25
+ 300 300 l 1
+ 300 -100 l 9
+ 200 -200 l 25
+ 200 -200 144 -150 100 -150 c 1049
+EndSplineSet
+Substitution2: "Subscript forms-1" nine.inferior
+Substitution2: "Superscript forms-1" nine.superior
+EndChar

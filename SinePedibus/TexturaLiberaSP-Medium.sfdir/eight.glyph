@@ -1,0 +1,25 @@
+StartChar: eight
+Encoding: 56 56 24
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+200 600 m 25
+ 100 500 l 25
+ 100 375 l 29
+ 200 325 l 29
+ 300 425 l 29
+ 300 500 l 25
+ 200 600 l 25
+200 325 m 29
+ 100 225 l 29
+ 100 100 l 25
+ 200 0 l 25
+ 300 100 l 25
+ 300 275 l 29
+ 200 325 l 29
+EndSplineSet
+Substitution2: "Subscript forms-1" eight.inferior
+Substitution2: "Superscript forms-1" eight.superior
+EndChar

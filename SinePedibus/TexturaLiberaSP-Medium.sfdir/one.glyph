@@ -1,0 +1,16 @@
+StartChar: one
+Encoding: 49 49 17
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+225 350 m 25
+ 175 400 l 25
+ 125 350 l 1049
+200 375 m 9
+ 200 0 l 1025
+EndSplineSet
+Substitution2: "Subscript forms-1" one.inferior
+Substitution2: "Superscript forms-1" one.superior
+EndChar

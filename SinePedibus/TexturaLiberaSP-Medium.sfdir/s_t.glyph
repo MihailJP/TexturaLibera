@@ -1,0 +1,24 @@
+StartChar: s_t
+Encoding: 64262 64262 334
+Width: 700
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+75 50 m 25
+ 110 50 200 0 200 0 c 9
+ 300 100 l 1
+ 300 160 l 1
+ 100 240 l 1
+ 100 300 l 1
+ 200 400 l 17
+ 200 400 274.817238291 350 450 350 c 3
+ 591.127601836 350 625 400 625 400 c 1033
+500 550 m 1
+ 500 50 l 1
+ 550 0 l 1
+ 650 100 l 1025
+EndSplineSet
+LCarets2: 1 400 
+Ligature2: "Ligatures-1" s t
+EndChar

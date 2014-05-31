@@ -1,0 +1,11 @@
+StartChar: omacron
+Encoding: 333 333 237
+Width: 400
+Flags: M
+LayerCount: 4
+Fore
+Refer: 227 175 N 1 0 0 1 0 0 2
+Refer: 79 111 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" o macroncmb
+Colour: ffff
+EndChar

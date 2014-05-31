@@ -1,0 +1,11 @@
+StartChar: luslst
+Encoding: 11788 11788 902
+Width: 300
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+50 700 m 25
+ 250 450 l 1049
+EndSplineSet
+EndChar

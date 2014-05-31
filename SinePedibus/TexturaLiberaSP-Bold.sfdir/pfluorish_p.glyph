@@ -1,0 +1,29 @@
+StartChar: pfluorish_p
+Encoding: 61143 61143 879
+Width: 700
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+400 -150 m 1
+ 400 300 l 9
+ 500 400 l 1
+ 600 300 l 25
+ 600 100 l 1
+ 500 0 l 1
+ 500 0 466 50 375 50 c 0
+ 346 50 300 0 300 0 c 1
+ 300 0 232 100 25 100 c 1
+ 25 100 75 44 75 0 c 3
+ 75 -132 25 -150 25 -150 c 1033
+400 300 m 25
+ 300 400 l 1
+ 200 300 l 1049
+165 400 m 25
+ 235 330 l 1049
+200 365 m 1
+ 200 -150 l 1025
+EndSplineSet
+LCarets2: 1 400 
+Ligature2: "Ligatures-1" pflourish p
+EndChar

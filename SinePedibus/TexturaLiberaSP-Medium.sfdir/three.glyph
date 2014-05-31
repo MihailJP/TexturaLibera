@@ -1,0 +1,22 @@
+StartChar: three
+Encoding: 51 51 19
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+100 350 m 1
+ 150 400 l 1
+ 200 400 l 1
+ 275 350 l 1
+ 275 250 l 1
+ 175 150 l 1049
+100 -150 m 25
+ 144 -150 200 -200 200 -200 c 25
+ 300 -100 l 1
+ 300 100 l 9
+ 225 175 l 1049
+EndSplineSet
+Substitution2: "Subscript forms-1" three.inferior
+Substitution2: "Superscript forms-1" three.superior
+EndChar

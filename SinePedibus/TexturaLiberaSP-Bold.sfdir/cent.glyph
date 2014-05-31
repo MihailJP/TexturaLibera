@@ -1,0 +1,17 @@
+StartChar: cent
+Encoding: 162 162 202
+Width: 450
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+250 600 m 25
+ 250 -150 l 1049
+400 300 m 9
+ 250 400 l 25
+ 100 250 l 25
+ 100 100 l 25
+ 250 0 l 25
+ 400 100 l 1045
+EndSplineSet
+EndChar

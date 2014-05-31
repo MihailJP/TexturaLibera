@@ -1,0 +1,20 @@
+StartChar: vslash
+Encoding: 42847 42847 873
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+125 350 m 25
+ 75 400 l 1049
+100 375 m 25
+ 100 100 l 1
+ 200 0 l 25
+ 300 100 l 1
+ 300 375 l 25
+ 300 375 250 423 250 472 c 8
+ 250 514 304 550 305 550 c 1049
+225 350 m 25
+ 25 150 l 1049
+EndSplineSet
+EndChar

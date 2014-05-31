@@ -1,0 +1,16 @@
+StartChar: dotlessj
+Encoding: 567 567 98
+Width: 200
+Flags: MW
+AnchorPoint: "abvmark" 100 500 basechar 0
+LayerCount: 4
+Fore
+SplineSet
+135 330 m 25
+ 65 400 l 25
+ -5 330 l 1049
+100 365 m 1
+ 100 -100 l 9
+ 30 -170 l 1049
+EndSplineSet
+EndChar

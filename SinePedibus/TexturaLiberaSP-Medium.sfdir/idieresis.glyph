@@ -1,0 +1,11 @@
+StartChar: idieresis
+Encoding: 239 239 113
+Width: 200
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 101 168 N 1 0 0 1 -100 0 2
+Refer: 97 305 N 1 0 0 1 0 0 3
+Ligature2: "Glyph composition-1" i dieresiscmb
+Colour: ffff
+EndChar

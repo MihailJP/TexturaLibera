@@ -1,0 +1,1 @@
+./make-outline.py $1 800 1 .125 # Pen breadth .1 causes SEGV somewhy

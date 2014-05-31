@@ -1,0 +1,11 @@
+StartChar: Gdotaccent
+Encoding: 288 288 493
+Width: 750
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 269 729 N 1 0 0 1 250 200 2
+Refer: 39 71 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" G dotaccentcmb
+Colour: ffff
+EndChar

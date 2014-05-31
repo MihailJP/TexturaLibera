@@ -1,0 +1,25 @@
+StartChar: thornbar_longs
+Encoding: 59189 59189 885
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+200 475 m 25
+ 25 475 l 1049
+125 -150 m 1
+ 125 550 l 1
+ 225 650 l 17
+ 225 650 256 600 300 600 c 24
+ 328 600 375 650 376 650 c 1033
+50 0 m 1
+ 50 0 96 50 125 50 c 0
+ 154 50 200 0 200 0 c 9
+ 300 100 l 1
+ 300 300 l 25
+ 200 400 l 1
+ 100 300 l 1049
+EndSplineSet
+LCarets2: 1 200 
+Ligature2: "Historic ligatures-1" thornbar longs
+EndChar

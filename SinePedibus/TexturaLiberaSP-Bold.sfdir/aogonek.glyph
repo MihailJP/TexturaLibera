@@ -1,0 +1,12 @@
+StartChar: aogonek
+Encoding: 261 261 282
+Width: 400
+Flags: MW
+AnchorPoint: "abvmark" 225 500 basechar 0
+LayerCount: 4
+Fore
+Refer: 283 731 N 1 0 0 1 100 0 2
+Refer: 65 97 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" a ogonekcmb
+Colour: ffff
+EndChar

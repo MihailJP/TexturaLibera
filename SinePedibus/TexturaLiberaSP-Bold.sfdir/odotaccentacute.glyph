@@ -1,0 +1,13 @@
+StartChar: odotaccentacute
+Encoding: 60409 60409 629
+Width: 400
+Flags: MW
+LayerCount: 4
+Fore
+Refer: 99 180 N 1 0 0 1 100 0 2
+Refer: 269 729 N 1 0 0 1 -100 0 2
+Refer: 79 111 N 1 0 0 1 0 0 2
+Ligature2: "Glyph composition-1" o dotaccentcmb acutecmb
+Ligature2: "Glyph composition-1" odotaccent acutecmb
+Colour: ffff
+EndChar

@@ -1,0 +1,24 @@
+StartChar: q_rrotunda
+Encoding: 59571 59571 965
+Width: 600
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+300 100 m 9
+ 200 0 l 25
+ 100 100 l 25
+ 100 300 l 25
+ 200 400 l 1
+ 200 400 222 360 250 360 c 24
+ 278 360 300 400 300 400 c 9
+ 300 -150 l 1049
+525 0 m 1
+ 400 200 l 25
+ 500 300 l 1
+ 400 400 l 1
+ 350 350 l 1049
+EndSplineSet
+LCarets2: 1 350 
+Ligature2: "Ligatures-1" q rrotunda
+EndChar

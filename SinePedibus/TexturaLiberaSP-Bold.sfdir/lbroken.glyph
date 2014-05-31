@@ -1,0 +1,15 @@
+StartChar: lbroken
+Encoding: 42823 42823 574
+Width: 350
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+65 625 m 25
+ 135 555 l 1049
+100 590 m 1
+ 100 250 l 1
+ 250 400 l 1
+ 250 0 l 1025
+EndSplineSet
+EndChar

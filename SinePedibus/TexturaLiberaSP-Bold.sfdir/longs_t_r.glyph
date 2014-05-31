@@ -1,0 +1,26 @@
+StartChar: longs_t_r
+Encoding: 60330 60330 713
+Width: 700
+Flags: MW
+LayerCount: 4
+Fore
+SplineSet
+650 350 m 25
+ 600 400 l 25
+ 500 300 l 1049
+500 365 m 9
+ 500 0 l 1025
+125 -150 m 1
+ 125 550 l 1
+ 225 650 l 1
+ 225 650 281 550 325 550 c 1
+ 325 50 l 1
+ 375 0 l 1
+ 475 100 l 1025
+250 400 m 1
+ 465 400 l 25
+ 535 330 l 1025
+EndSplineSet
+LCarets2: 2 300 500 
+Ligature2: "Ligatures-1" longs t r
+EndChar
