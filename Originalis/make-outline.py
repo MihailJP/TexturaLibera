@@ -1,21 +1,23 @@
 #!/usr/bin/env fontforge
 
-from sys import (argv, stdout, stderr, exit)
+from sys import (argv, stdout, stderr, exit, path)
 from math import radians as rad
 from psMat import scale
+from os import getcwd, chdir
 import fontforge
 
-BaseFontFile      = "TexturaLibera-Medium.sfdir"
-BoldFontFile      = "TexturaLibera-Bold.sfdir"
-ExpandedFontFile  = "TexturaLibera-Expanded.sfdir"
-CondensedFontFile = "TexturaLibera-Condensed.sfdir"
+path[0:0] = [getcwd()]
+
+from OutlineParams import \
+	BaseFontFile, BoldFontFile, ExpandedFontFile, CondensedFontFile, \
+	FamilyName, HumanReadableLongFamilyName, HumanReadableFamilyName, \
+	FamilyNameSuffix, HumanReadableLongFamilyNameSuffix, \
+	HumanReadableFamilyNameSuffix
+
 
 penDegrees = (0, 45, 90, 135)
 
 WorkScales = [1.0, 1.25, 1.6, 2.0, 2.5, 3.2, 4.0, 6.4, 8.0]
-
-FamilyName = "TexturaLibera"
-HumanReadableFamilyName = "Textura Libera"
 
 WeightDat = [
 	{'Name': 'Thin'      , 'HumanReadableName': 'Thin'       , 'Abbr': 'Thin'   ,},
@@ -77,8 +79,8 @@ except ValueError:
 # Load fonts
 BaseFont = fontforge.open(BaseFontFile)
 BoldFont = fontforge.open(BoldFontFile)
-ExpandedFont = fontforge.open(ExpandedFontFile)
-CondensedFont = fontforge.open(CondensedFontFile)
+ExpandedFont = fontforge.open(ExpandedFontFile) if ExpandedFontFile is not None else None
+CondensedFont = fontforge.open(CondensedFontFile) if CondensedFontFile is not None else None
 
 # Set weight code
 if   int(argv[2]) < 150: WeightCode = 0 # Thin
@@ -105,37 +107,47 @@ else:                         WidthCode = 8 # UltraExpanded
 # Pen breadth name
 if float(argv[4]) < 0.25:
 	FamilyName += "Tenuis"
+	HumanReadableLongFamilyName += " Tenuis"
 	HumanReadableFamilyName += " Tenuis"
+
+FamilyName += FamilyNameSuffix
+HumanReadableLongFamilyName += HumanReadableLongFamilyNameSuffix
+HumanReadableFamilyName += HumanReadableFamilyNameSuffix
 
 # Interpolate
 WeightInterpol = BaseFont.interpolateFonts((float(argv[2]) - 500.0) / 200.0 + 500.0 * (0.3 - float(argv[4])) / 150.0, BoldFontFile)
-WidthInterpol = None # yet. See below
-if float(argv[3]) < 1.0: # Narrow
-	WidthInterpol = BaseFont.interpolateFonts((1.0 - float(argv[3])) * 5.0, CondensedFontFile)
-else: # Widen
-	WidthInterpol = BaseFont.interpolateFonts((float(argv[3]) - 1.0) * 5.0, ExpandedFontFile)
-MidInterpol = WeightInterpol.interpolateFonts(0.5, WidthInterpol.path)
-Interpolated = BaseFont.interpolateFonts(2.0, MidInterpol.path)
-WeightInterpol.close(); WeightInterpol = None
-WidthInterpol.close(); WidthInterpol = None
-MidInterpol.close(); MidInterpol = None
+Interpolated = None # yet. See below
+if (ExpandedFont is not None) and (CondensedFont is not None):
+	WidthInterpol = None # yet. See below
+	if float(argv[3]) < 1.0: # Narrow
+		WidthInterpol = BaseFont.interpolateFonts((1.0 - float(argv[3])) * 5.0, CondensedFontFile)
+	else: # Widen
+		WidthInterpol = BaseFont.interpolateFonts((float(argv[3]) - 1.0) * 5.0, ExpandedFontFile)
+	MidInterpol = WeightInterpol.interpolateFonts(0.5, WidthInterpol.path)
+	Interpolated = BaseFont.interpolateFonts(2.0, MidInterpol.path)
+	WeightInterpol.close(); WeightInterpol = None
+	WidthInterpol.close(); WidthInterpol = None
+	MidInterpol.close(); MidInterpol = None
+else:
+	Interpolated = WeightInterpol; WeightInterpol = None
 
-# Change width of font
-for glyph in BaseFont.glyphs():
-	if glyph.isWorthOutputting():
-		glyph.transform(scale(float(argv[3]), 1.0), ("partialRefs",))
-(kernFirst, kernSecond, kernVal) = BaseFont.getKerningClass("Kerning-1")
-BaseFont.alterKerningClass(
-	"Kerning-1",
-	kernFirst,
-	kernSecond,
-	tuple(map(lambda x: int(round(float(x) * float(argv[3]))), kernVal))
-	)
+# Change width of font (if able to interpolate)
+if (ExpandedFont is not None) and (CondensedFont is not None):
+	for glyph in BaseFont.glyphs():
+		if glyph.isWorthOutputting():
+			glyph.transform(scale(float(argv[3]), 1.0), ("partialRefs",))
+	(kernFirst, kernSecond, kernVal) = BaseFont.getKerningClass("Kerning-1")
+	BaseFont.alterKerningClass(
+		"Kerning-1",
+		kernFirst,
+		kernSecond,
+		tuple(map(lambda x: int(round(float(x) * float(argv[3]))), kernVal))
+		)
 
 # Set output font properties
 BaseFont.strokedfont = False
 BaseFont.fontname = FamilyName + WidthDat[WidthCode]['Name'] + "-" + WeightDat[WeightCode]['Name']
-BaseFont.familyname = HumanReadableFamilyName + WidthDat[WidthCode]['HumanReadableName']
+BaseFont.familyname = HumanReadableLongFamilyName + WidthDat[WidthCode]['HumanReadableName']
 BaseFont.fullname = HumanReadableFamilyName + WidthDat[WidthCode]['Abbr'] + " " + WeightDat[WeightCode]['Abbr']
 BaseFont.weight = WeightDat[WeightCode]['HumanReadableName']
 BaseFont.os2_weight = (WeightCode + 1) * 100

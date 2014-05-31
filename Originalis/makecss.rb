@@ -14,6 +14,7 @@ print <<FINIS
 FINIS
 
 def fontface(widthSymbol, widthTxt, widthProp, weight)
+	require "#{Dir::pwd}/cssparam.rb"
 	weightName = {
 		100 => 'Thin',
 		200 => 'ExtraLight',
@@ -26,8 +27,8 @@ def fontface(widthSymbol, widthTxt, widthProp, weight)
 		900 => 'Black'}
 	print <<FINIS
 @font-face {
-	font-family: 'Textura Libera#{widthTxt}';
-	src: url('TexturaLibera#{widthSymbol}-#{weightName[weight]}.woff');
+	font-family: '#{FontFamilyName}#{widthTxt}#{FontFamilySuffix}';
+	src: url('#{FontFilePrefix}#{widthSymbol}#{FontFileSuffix}-#{weightName[weight]}.woff');
 	font-variant: normal;
 	font-stretch: #{widthProp};
 	font-weight: #{weight};
@@ -36,29 +37,31 @@ def fontface(widthSymbol, widthTxt, widthProp, weight)
 FINIS
 end
 
-for weight in [100, 200, 300, 400, 500, 600, 700, 800, 900]
+require "#{Dir::pwd}/cssparam.rb"
+
+for weight in WeightsOfNormalWidth
 	fontface("", "", "normal", weight)
 end
 print "\n"
-for weight in [100, 200, 300, 400, 500, 600]
+for weight in WeightsOfCondensedWidth
 	fontface("C", " Condensed", "condensed", weight)
 end
 print "\n"
-for weight in [100, 200, 300, 400, 500, 600, 700, 800, 900]
+for weight in WeightsOfExpandedWidth
 	fontface("X", " Expanded", "expanded", weight)
 end
 print "\n"
 
 
-for weight in [100, 200, 300, 400, 500, 600, 700, 800, 900]
+for weight in WeightsOfNormalWidth
 	fontface("Tenuis", " Tenuis", "normal", weight)
 end
 print "\n"
-for weight in [100, 200, 300, 400, 500, 600]
+for weight in WeightsOfCondensedWidth
 	fontface("TenuisC", " Tenuis Condensed", "condensed", weight)
 end
 print "\n"
-for weight in [100, 200, 300, 400, 500, 600, 700, 800, 900]
+for weight in WeightsOfExpandedWidth
 	fontface("TenuisX", " Tenuis Expanded", "expanded", weight)
 end
 print "\n"

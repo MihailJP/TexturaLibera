@@ -2,6 +2,7 @@
 *.otf
 *.woff
 *.sfd
+*.pyc
 TexturaLibera.css
 *.zip
 *.tar.*
