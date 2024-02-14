@@ -2,7 +2,7 @@
 
 from sys import (argv, stdout, stderr, exit)
 from math import radians as rad
-from psMat import scale
+from psMat import scale, rotate
 import fontforge
 
 BaseFontFile      = "TexturaLibera-Medium.sfdir"
@@ -47,8 +47,26 @@ WidthCode = None #yet. This will be set later.
 # Duplicate a layer
 def dupLayer(layer):
 	newLayer = fontforge.layer()
-	for contour in glyph.layers[layerID]:
+	for contour in layer:
 		newLayer += contour
+	return newLayer
+
+# Break strokes
+def breakStrokes(layer):
+	newLayer = fontforge.layer()
+	for contour in layer:
+		newContour = fontforge.contour()
+		for point in contour:
+			if point.on_curve and (not newContour.isEmpty()):
+				newContour += point
+				newContour.closed = False
+				newLayer += newContour
+				newContour = fontforge.contour()
+			newContour += point
+		if contour.closed:
+			newContour += contour[0]
+			newContour.closed = False
+			newLayer += newContour
 	return newLayer
 
 # Check arguments
@@ -157,11 +175,14 @@ for glyph in Interpolated.glyphs():
 	if glyph.isWorthOutputting():
 		stdout.write("\r" + (" " * 40) + "\r" + glyph.glyphname)
 		stdout.flush()
+		glyph.transform(rotate(rad(45)))
+		glyph.addExtrema()
+		glyph.transform(rotate(rad(-45)))
 		glyph.round()
 		for layerID in range(1, 4):
 			if not glyph.layers[layerID].isEmpty():
 				for WorkScale in WorkScales:
-					layer = dupLayer(glyph.layers[layerID])
+					layer = breakStrokes(glyph.layers[layerID]) if layerID != 2 and BaseFont[glyph.glyphname].color != 0xffff00 else dupLayer(glyph.layers[layerID])
 					layer.transform(scale(WorkScale))
 					penScale = 0.8 if BaseFont[glyph.glyphname].color == 0x00ff00 else 1.0
 					layer.stroke(
@@ -169,7 +190,10 @@ for glyph in Interpolated.glyphs():
 						float(argv[2]) / 5.0 * WorkScale * penScale,
 						float(argv[2]) / 5.0 * float(argv[4]) * WorkScale * penScale,
 						rad(penDegrees[layerID]),
-						("removeinternal",) if BaseFont[glyph.glyphname].color == 0xffff00 else (None,))
+						removeinternal = (BaseFont[glyph.glyphname].color == 0xffff00),
+						extrema = False,
+						simplify = False,
+						removeoverlap = "contour")
 					layer.transform(scale(1.0 / WorkScale))
 					allClosed = True
 					for contour in layer:
@@ -182,11 +206,9 @@ for glyph in Interpolated.glyphs():
 		for layerID in range(2, 4):
 			if not glyph.layers[layerID].isEmpty():
 				glyph.layers[1] += dupLayer(glyph.layers[layerID])
-		glyph.round()
-		glyph.removeOverlap()
-		glyph.round()
-		for layerID in range(1, 4):
-			BaseFont[glyph.glyphname].layers[layerID] = dupLayer(glyph.layers[1])
+		BaseFont[glyph.glyphname].layers[1] = dupLayer(glyph.layers[1])
+		for layerID in range(2, 4):
+			BaseFont[glyph.glyphname].layers[layerID] = fontforge.layer()
 stdout.write("\r" + (" " * 40) + "\rDone\n")
 stdout.flush()
 

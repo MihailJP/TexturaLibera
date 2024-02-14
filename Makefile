@@ -1,10 +1,8 @@
-.SUFFIXES: .recipe .sfd .ttf .otf .woff
-SRCFONTS = $(wildcard *.recipe)
-SFDFILES = $(SRCFONTS:.recipe=.sfd)
-TTFONTS = $(SRCFONTS:.recipe=.ttf)
-OTFONTS = $(SRCFONTS:.recipe=.otf)
-WOFFONTS = $(SRCFONTS:.recipe=.woff)
-TARGETS = $(TTFONTS) $(OTFONTS) $(WOFFONTS)
+.SUFFIXES: .recipe .sfd .ttf .otf .woff .ufo
+STROKEFONTS = TexturaLibera-Medium.sfdir TexturaLibera-Bold.sfdir TexturaLibera-Condensed.sfdir TexturaLibera-Expanded.sfdir
+SFDFILES = TexturaLibera-ExtraLight.sfd TexturaLibera-Light.sfd TexturaLibera-Minimum.sfd TexturaLibera-Book.sfd TexturaLibera-Maximum.sfd
+UFOS = $(SFDFILES:.sfd=.ufo)
+TARGETS = variable_ttf/TexturaLibera.ttf
 DOCUMENTS = FONTLOG.txt LICENSE README.md TexturaLibera-Specimen.pdf
 DISTTYPE = zip
 
@@ -14,18 +12,25 @@ VERSION = 0.2.2
 
 all: $(TARGETS)
 
-.recipe.sfd: TexturaLibera-Medium.sfdir TexturaLibera-Bold.sfdir TexturaLibera-Condensed.sfdir TexturaLibera-Expanded.sfdir
-	sh $< $@
-.sfd.ttf:
-	./makefont.py $< $@
-.sfd.otf:
-	./makefont.py $< $@
-.sfd.woff:
-	./makefont.py $< $@
+TexturaLibera-ExtraLight.sfd: $(STROKEFONTS)
+	./make-outline.py $@ 200 1 .3
+TexturaLibera-Light.sfd: $(STROKEFONTS)
+	./make-outline.py $@ 300 1 .3
+TexturaLibera-Minimum.sfd: TexturaLibera-ExtraLight.sfd TexturaLibera-Light.sfd
+	./interpolate.py $@ $^ -1.99
+TexturaLibera-Book.sfd: TexturaLibera-ExtraLight.sfd TexturaLibera-Light.sfd
+	./interpolate.py $@ $^ 2
+TexturaLibera-Maximum.sfd: TexturaLibera-ExtraLight.sfd TexturaLibera-Light.sfd
+	./interpolate.py $@ $^ 8
 
-ttf: $(TTFONTS)
-otf: $(OTFONTS)
-woff: $(WOFFONTS)
+.sfd.ufo:
+	./makefont.py $< $@ && sed -i~ -f fix_features.sed $@/features.fea
+
+TexturaLibera.designspace: TexturaLibera-Book.ufo TexturaLibera-Minimum.ufo TexturaLibera-Maximum.ufo
+	./make_designspace.py $@ $^
+
+variable_ttf/TexturaLibera.ttf: TexturaLibera.designspace
+	fontmake -m $< -o variable
 
 dist: TexturaLibera-TTF-$(VERSION).$(DISTTYPE) TexturaLibera-OTF-$(VERSION).$(DISTTYPE) TexturaLibera-WOFF-$(VERSION).$(DISTTYPE)
 
@@ -75,4 +80,5 @@ TexturaLibera-WOFF-$(VERSION).tar.xz: $(WOFFONTS) $(DOCUMENTS) TexturaLibera.css
 	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | xz -z9 - > $@) && rm -rf txlibera
 
 clean:
-	rm -f $(SFDFILES) $(TTFONTS) $(OTFONTS) $(WOFFONTS) TexturaLibera-TTF-* TexturaLibera-OTF-* TexturaLibera-WOFF-* TexturaLibera.css 
+	rm -f $(SFDFILES) TexturaLibera.designspace TexturaLibera-TTF-* TexturaLibera-OTF-* TexturaLibera-WOFF-* TexturaLibera.css
+	rm -rf $(UFOS) variable_ttf

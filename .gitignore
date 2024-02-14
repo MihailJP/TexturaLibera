@@ -2,6 +2,8 @@
 *.otf
 *.woff
 *.sfd
+*.ufo
+*.designspace
 TexturaLibera.css
 *.zip
 *.tar.*
