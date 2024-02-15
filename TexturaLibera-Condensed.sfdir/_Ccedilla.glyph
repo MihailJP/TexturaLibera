@@ -6,7 +6,7 @@ AnchorPoint: "abvmark" 360 700 basechar 0
 LayerCount: 4
 Fore
 Refer: 102 184 N 1 0 0 1 160 0 2
-Refer: 35 67 N 1 0 0 1 0 0 2
+Refer: 35 67 N 1 0 0 1 0 0 3
 Ligature2: "Glyph composition-1" C cedillacmb
 Colour: ffff
 EndChar

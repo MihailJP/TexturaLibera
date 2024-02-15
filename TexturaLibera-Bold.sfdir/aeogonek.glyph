@@ -6,7 +6,7 @@ AnchorPoint: "abvmark" 300 500 basechar 0
 LayerCount: 4
 Fore
 Refer: 283 731 N 1 0 0 1 100 0 2
-Refer: 189 230 N 1 0 0 1 0 0 2
+Refer: 189 230 N 1 0 0 1 0 0 3
 Ligature2: "Glyph composition-1" ae ogonekcmb
 Colour: ffff
 EndChar

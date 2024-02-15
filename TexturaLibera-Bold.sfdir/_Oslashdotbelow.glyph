@@ -6,7 +6,7 @@ AnchorPoint: "abvmark" 450 700 basechar 0
 LayerCount: 4
 Fore
 Refer: 357 803 N 1 0 0 1 600 0 2
-Refer: 182 216 N 1 0 0 1 0 0 2
+Refer: 182 216 N 1 0 0 1 0 0 3
 Ligature2: "Glyph composition-1" Oslash dotbelowcmb
 Colour: ffff
 EndChar
