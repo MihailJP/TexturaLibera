@@ -192,7 +192,7 @@ for glyph in Interpolated.glyphs():
 						rad(penDegrees[layerID]),
 						removeinternal = (BaseFont[glyph.glyphname].color == 0xffff00),
 						extrema = False,
-						simplify = False,
+						simplify = (glyph.glyphname == "FleuronCenter"),
 						removeoverlap = "contour")
 					layer.transform(scale(1.0 / WorkScale))
 					allClosed = True

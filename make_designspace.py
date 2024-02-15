@@ -21,86 +21,80 @@ a1.name = "Weight"
 a1.tag = "wght"
 doc.addAxis(a1)
 
+a2 = AxisDescriptor()
+a2.maximum = 200
+a2.minimum = 50
+a2.default = 100
+a2.name = "Width"
+a2.tag = "wdth"
+doc.addAxis(a2)
+
 #---------
 # masters
 #---------
 
-s0 = SourceDescriptor()
-s0.path = argv[2]
-s0.name = "master.TexturaLibera.Book.0"
-s0.familyName = familyName
-s0.styleName = "Book"
-s0.location = dict(Weight=400)
-s0.copyLib = True
-s0.copyInfo = True
-s0.copyGroups = True
-s0.copyFeatures = True
-doc.addSource(s0)
+sourceList = [
+	("Book",              argv[ 2],  400, 100),
+	("Minimum",           argv[ 3],    1, 100),
+	("Maximum",           argv[ 4], 1000, 100),
+	("Book Expanded",     argv[ 5],  400, 200),
+	("Minimum Expanded",  argv[ 6],    1, 200),
+	("Maximum Expanded",  argv[ 7], 1000, 200),
+	("Book Condensed",    argv[ 8],  400,  50),
+	("Minimum Condensed", argv[ 9],    1,  50),
+	("Maximum Condensed", argv[10], 1000,  50),
+]
 
-s1 = SourceDescriptor()
-s1.path = argv[3]
-s1.name = "master.TexturaLibera.Minimum.0"
-s1.familyName = familyName
-s1.styleName = "Minimum"
-s1.location = dict(Weight=1)
-doc.addSource(s1)
-
-s2 = SourceDescriptor()
-s2.path = argv[4]
-s2.name = "master.TexturaLibera.Maximum.0"
-s2.familyName = familyName
-s2.styleName = "Maximum"
-s2.location = dict(Weight=1000)
-doc.addSource(s2)
+for source in sourceList:
+	s0 = SourceDescriptor()
+	s0.path = source[1]
+	s0.name = "master.TexturaLibera." + source[0].replace(" ", "") + ".0"
+	s0.familyName = familyName
+	s0.styleName = source[0]
+	s0.location = dict(Weight=source[2], Width=source[3])
+	if source[2] == a1.default and source[3] == a2.default:
+		s0.copyLib = True
+		s0.copyInfo = True
+		s0.copyGroups = True
+		s0.copyFeatures = True
+	doc.addSource(s0)
 
 #----------
 # instances
 #----------
 
-i1 = InstanceDescriptor()
-i1.styleName = "Thin"
-i1.designLocation = dict(Weight=100)
-doc.addInstance(i1)
+weightList = [
+	(100, "Thin"),
+	(200, "Extra Light"),
+	(300, "Light"),
+	(400, None),
+	(500, "Medium"),
+	(600, "DemiBold"),
+	(700, "Bold"),
+	(800, "Extra Bold"),
+	(900, "Black"),
+]
+widthList = [
+	(100,   None),
+	( 87.5, "Semi Condensed"),
+	( 75,   "Condensed"),
+	( 62.5, "Extra Condensed"),
+	( 50,   "Ultra Condensed"),
+	(112.5, "Semi Expanded"),
+	(125,   "Expanded"),
+	(150,   "Extra Expanded"),
+	(200,   "Ultra Expanded"),
+]
 
-i2 = InstanceDescriptor()
-i2.styleName = "Extra Light"
-i2.designLocation = dict(Weight=200)
-doc.addInstance(i2)
-
-i3 = InstanceDescriptor()
-i3.styleName = "Light"
-i3.designLocation = dict(Weight=300)
-doc.addInstance(i3)
-
-i4 = InstanceDescriptor()
-i4.styleName = "Regular"
-i4.designLocation = dict(Weight=400)
-doc.addInstance(i4)
-
-i5 = InstanceDescriptor()
-i5.styleName = "Medium"
-i5.designLocation = dict(Weight=500)
-doc.addInstance(i5)
-
-i6 = InstanceDescriptor()
-i6.styleName = "DemiBold"
-i6.designLocation = dict(Weight=600)
-doc.addInstance(i6)
-
-i7 = InstanceDescriptor()
-i7.styleName = "Bold"
-i7.designLocation = dict(Weight=700)
-doc.addInstance(i7)
-
-i8 = InstanceDescriptor()
-i8.styleName = "Extra Bold"
-i8.designLocation = dict(Weight=800)
-doc.addInstance(i8)
-
-i9 = InstanceDescriptor()
-i9.styleName = "Black"
-i9.designLocation = dict(Weight=900)
-doc.addInstance(i9)
+for width in widthList:
+	for weight in weightList:
+		i1 = InstanceDescriptor()
+		styleNameList = [i for i in [width[1], weight[1]] if i is not None]
+		i1.styleName = " ".join(styleNameList)
+		if i1.styleName == "":
+			i1.styleName = "Regular"
+		i1.designLocation = dict(Weight=weight[0], Width=width[0])
+		doc.addInstance(i1)
 
 
 #--------

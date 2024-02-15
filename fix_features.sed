@@ -1,4 +1,4 @@
-/^lookup Removedotfromiandj/,/^} Removedotfromiandj;/ c\
+/^lookup .*Removedotfromiandj/,/^} .*Removedotfromiandj;/ c\
 lookup dotlessforms {\
   lookupflag 0;\
     sub \\i  by \\dotlessi;\
@@ -23,3 +23,4 @@ lookup Removedotfromiandj {\
 	\\vcmb \\xcmb \\wcmb ];\
     sub @cc3_match_1' lookup dotlessforms @cc3_match_2';\
 } Removedotfromiandj;
+s/lookup .*Removedotfromiandj;/lookup Removedotfromiandj;/
