@@ -61,7 +61,8 @@ TexturaLibera-MaximumCondensed.sfd: TexturaLibera-ExtraLightCondensed.sfd Textur
 
 .sfd.ufo:
 	./makefont.py $< $@ && sed -i~ -f fix_features.sed $@/features.fea
-	sed -i~ -e "/<key>openTypeNameVersion<\/key>/ { n; s/<string>.*<\/string>/<string>$$(grep "^Version: " $< | sed -e "s/^Version: //")<\/string>/; }" $@/fontinfo.plist
+	sed -i~ -E -e "/<key>openTypeNameVersion<\/key>/ { n; s/<string>.*<\/string>/<string>$$(grep "^Version: " $< | sed -e "s/^Version: //")<\/string>/; }" \
+	-e "/Textura ?Libera/ s/[- ]Book//" -e "s/Book/Regular/" $@/fontinfo.plist
 
 TexturaLibera-Book.ufo: TexturaLibera-Book.sfd TexturaLibera-Book1.ufo
 	./makefont.py $< $@ && sed -i~ -f fix_features.sed $@/features.fea && cp TexturaLibera-Book1.ufo/fontinfo.plist $@/fontinfo.plist
