@@ -1,5 +1,5 @@
 .SUFFIXES: .recipe .sfd .ttf .otf .woff .ufo
-STROKEFONTS = TexturaLibera-Medium.sfdir TexturaLibera-Bold.sfdir TexturaLibera-Condensed.sfdir TexturaLibera-Expanded.sfdir
+STROKEFONTS = TexturaLibera-Medium.sfdir TexturaLibera-Bold.sfdir
 SFDFILES = TexturaLibera-ExtraLight.sfd TexturaLibera-Light.sfd \
            TexturaLibera-Book.sfd TexturaLibera-Minimum.sfd TexturaLibera-Maximum.sfd \
            TexturaLibera-ExtraLight1.sfd TexturaLibera-Light1.sfd \

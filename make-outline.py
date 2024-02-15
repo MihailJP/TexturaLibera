@@ -7,8 +7,6 @@ import fontforge
 
 BaseFontFile      = "TexturaLibera-Medium.sfdir"
 BoldFontFile      = "TexturaLibera-Bold.sfdir"
-ExpandedFontFile  = "TexturaLibera-Expanded.sfdir"
-CondensedFontFile = "TexturaLibera-Condensed.sfdir"
 
 penDegrees = (0, 45, 90, 135)
 
@@ -29,20 +27,7 @@ WeightDat = [
 	{'Name': 'Black'     , 'HumanReadableName': 'Black'      , 'Abbr': 'Black'  ,},
 ]
 
-WidthDat = [
-	{'Name': 'UC', 'HumanReadableName': ' Ultra-Condensed', 'Abbr': ' UCond'   , 'Panose': 2},
-	{'Name': 'XC', 'HumanReadableName': ' Extra-Condensed', 'Abbr': ' ExCond'  , 'Panose': 2},
-	{'Name': 'C' , 'HumanReadableName': ' Condensed'      , 'Abbr': ' Cond'    , 'Panose': 3},
-	{'Name': 'SC', 'HumanReadableName': ' Semi-Condensed' , 'Abbr': ' SemiCond', 'Panose': 3},
-	{'Name': ''  , 'HumanReadableName': ''                , 'Abbr': ''         , 'Panose': 4},
-	{'Name': 'SX', 'HumanReadableName': ' Semi-Expanded'  , 'Abbr': ' SemiEx'  , 'Panose': 5},
-	{'Name': 'X' , 'HumanReadableName': ' Expanded'       , 'Abbr': ' Expand'  , 'Panose': 5},
-	{'Name': 'XX', 'HumanReadableName': ' Extra-Expanded' , 'Abbr': ' ExEx'    , 'Panose': 6},
-	{'Name': 'UX', 'HumanReadableName': ' Ultra-Expanded' , 'Abbr': ' UEx'     , 'Panose': 6},
-]
-
 WeightCode = None #yet. This will be set later.
-WidthCode = None #yet. This will be set later.
 
 # Duplicate a layer
 def dupLayer(layer):
@@ -71,19 +56,13 @@ def breakStrokes(layer):
 
 # Check arguments
 if len(argv) <= 4:
-	stderr.write("Usage: "+argv[0]+" out-sfd font-weight font-width pen-breadth-ratio\n")
+	stderr.write("Usage: "+argv[0]+" out-sfd font-weight reserved pen-breadth-ratio\n")
 	exit(1)
 try:
 	if not (0 < int(argv[2]) < 1000):
 		raise ValueError
 except ValueError:
 	stderr.write("Error: Font weight must be more than 0 and less than 1000\n")
-	exit(2)
-try:
-	if not (0.5 <= float(argv[3]) <= 2.0):
-		raise ValueError
-except ValueError:
-	stderr.write("Error: Font width must be between 0.5 and 2.0\n")
 	exit(2)
 try:
 	if not (0.1 <= float(argv[4]) <= 0.3):
@@ -95,8 +74,6 @@ except ValueError:
 # Load fonts
 BaseFont = fontforge.open(BaseFontFile)
 BoldFont = fontforge.open(BoldFontFile)
-ExpandedFont = fontforge.open(ExpandedFontFile)
-CondensedFont = fontforge.open(CondensedFontFile)
 
 # Set weight code
 if   int(argv[2]) < 150: WeightCode = 0 # Thin
@@ -109,61 +86,27 @@ elif int(argv[2]) < 750: WeightCode = 6 # Bold
 elif int(argv[2]) < 850: WeightCode = 7 # ExtraBold
 else:                    WeightCode = 8 # Black
 
-# Set width code
-if   float(argv[3]) < 0.5625: WidthCode = 0 # UltraCondensed
-elif float(argv[3]) < 0.6875: WidthCode = 1 # ExtraCondensed
-elif float(argv[3]) < 0.8125: WidthCode = 2 # Condensed
-elif float(argv[3]) < 0.9375: WidthCode = 3 # SemiCondensed
-elif float(argv[3]) < 1.0625: WidthCode = 4 # Medium
-elif float(argv[3]) < 1.1875: WidthCode = 5 # SemiExpanded
-elif float(argv[3]) < 1.3750: WidthCode = 6 # Expanded
-elif float(argv[3]) < 1.7500: WidthCode = 7 # ExtraExpanded
-else:                         WidthCode = 8 # UltraExpanded
-
 # Pen breadth name
 if float(argv[4]) < 0.25:
 	FamilyName += "Tenuis"
 	HumanReadableFamilyName += " Tenuis"
 
 # Interpolate
-WeightInterpol = BaseFont.interpolateFonts((float(argv[2]) - 500.0) / 200.0 + 500.0 * (0.3 - float(argv[4])) / 150.0, BoldFontFile)
-WidthInterpol = None # yet. See below
-if float(argv[3]) < 1.0: # Narrow
-	WidthInterpol = BaseFont.interpolateFonts((1.0 - float(argv[3])) * 5.0, CondensedFontFile)
-else: # Widen
-	WidthInterpol = BaseFont.interpolateFonts((float(argv[3]) - 1.0) * 5.0, ExpandedFontFile)
-MidInterpol = WeightInterpol.interpolateFonts(0.5, WidthInterpol.path)
-Interpolated = BaseFont.interpolateFonts(2.0, MidInterpol.path)
-WeightInterpol.close(); WeightInterpol = None
-WidthInterpol.close(); WidthInterpol = None
-MidInterpol.close(); MidInterpol = None
-
-# Change width of font
-for glyph in BaseFont.glyphs():
-	if glyph.isWorthOutputting():
-		glyph.transform(scale(float(argv[3]), 1.0), ("partialRefs",))
-(kernFirst, kernSecond, kernVal) = BaseFont.getKerningClass("Kerning-1")
-BaseFont.alterKerningClass(
-	"Kerning-1",
-	kernFirst,
-	kernSecond,
-	tuple(map(lambda x: int(round(float(x) * float(argv[3]))), kernVal))
-	)
+Interpolated = BaseFont.interpolateFonts((float(argv[2]) - 500.0) / 200.0 + 500.0 * (0.3 - float(argv[4])) / 150.0, BoldFontFile)
 
 # Set output font properties
 BaseFont.strokedfont = False
-BaseFont.fontname = FamilyName + WidthDat[WidthCode]['Name'] + "-" + WeightDat[WeightCode]['Name']
-BaseFont.familyname = HumanReadableFamilyName + WidthDat[WidthCode]['HumanReadableName']
-BaseFont.fullname = HumanReadableFamilyName + WidthDat[WidthCode]['Abbr'] + " " + WeightDat[WeightCode]['Abbr']
+BaseFont.fontname = FamilyName + "-" + WeightDat[WeightCode]['Name']
+BaseFont.familyname = HumanReadableFamilyName
+BaseFont.fullname = HumanReadableFamilyName + " " + WeightDat[WeightCode]['Abbr']
 BaseFont.weight = WeightDat[WeightCode]['HumanReadableName']
 BaseFont.os2_weight = (WeightCode + 1) * 100
-BaseFont.os2_width = (WidthCode + 1)
 BaseFont.os2_panose = (
 	BaseFont.os2_panose[0],
 	BaseFont.os2_panose[1],
 	WeightCode + 2,
 	BaseFont.os2_panose[3],
-	WidthDat[WidthCode]['Panose'],
+	BaseFont.os2_panose[4],
 	BaseFont.os2_panose[5],
 	BaseFont.os2_panose[6],
 	BaseFont.os2_panose[7],
