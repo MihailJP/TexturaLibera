@@ -23,24 +23,29 @@ submitting a pull request on GitHub.
 ChangeLog
 ---------
 
+15 Feb 2024 (MihailJP) Textura Libera version 0.2.3
+* XVI Kal. Mar., MMDCCLXXVII A.U.C.
+* Fix bold glyph 'k'
+* Fix width
+
 4 Apr 2014 (MihailJP) Textura Libera version 0.2.2
-* Prid. Non. Apr., MMDCCLXXVII A.U.C.
+* Prid. Non. Apr., MMDCCLXVII A.U.C.
 * Correct encoding of lowercase wynn with acute
 * Add uppercase glyph Wynn and Vend
 * Add Turkish G with breve
 
 29 Mar 2014 (MihailJP) Textura Libera version 0.2.1
-* IV Kal. Apr., MMDCCLXXVII A.U.C.
+* IV Kal. Apr., MMDCCLXVII A.U.C.
 * Narrowed space (with advice from Ankh at the IRC channel ##fonts)
 
 29 Mar 2014 (MihailJP) Textura Libera version 0.2.0
-* IV Kal. Apr., MMDCCLXXVII A.U.C.
+* IV Kal. Apr., MMDCCLXVII A.U.C.
 * Now automatically generated from skeleton files
 * Added font variants
 * Change format of version log file
 
 22 Mar 2014 (MihailJP) Textura Libera version 0.1.0
-* XII Kal. Apr., MMDCCLXXVII A.U.C.
+* XII Kal. Apr., MMDCCLXVII A.U.C.
 * First release
 
 
