@@ -9,7 +9,7 @@ SFDFILES = TexturaLibera-ExtraLight.sfd TexturaLibera-Light.sfd \
            TexturaLibera-BookCondensed.sfd TexturaLibera-ExtraLightCondensed.sfd TexturaLibera-LightCondensed.sfd \
            TexturaLibera-MinimumCondensed.sfd TexturaLibera-MaximumCondensed.sfd
 UFOS = $(SFDFILES:.sfd=.ufo)
-TARGETS = variable_ttf/TexturaLibera-VF.ttf
+TARGETS = TexturaLibera.ttf
 DOCUMENTS = FONTLOG.txt LICENSE README.md
 DISTTYPE = zip
 
@@ -69,8 +69,8 @@ TexturaLibera-Book.ufo: TexturaLibera-Book.sfd TexturaLibera-Book1.ufo
 TexturaLibera.designspace: TexturaLibera-Book.ufo TexturaLibera-Minimum.ufo TexturaLibera-Maximum.ufo TexturaLibera-BookExpanded.ufo TexturaLibera-MinimumExpanded.ufo TexturaLibera-MaximumExpanded.ufo TexturaLibera-BookCondensed.ufo TexturaLibera-MinimumCondensed.ufo TexturaLibera-MaximumCondensed.ufo
 	./make_designspace.py $@ $^
 
-variable_ttf/TexturaLibera-VF.ttf: TexturaLibera.designspace
-	fontmake -m $< -o variable
+TexturaLibera.ttf: TexturaLibera.designspace
+	fontmake -m $< -o variable --output-path $@
 
 dist: TexturaLibera-Variabilis-$(VERSION).$(DISTTYPE)
 
@@ -91,5 +91,5 @@ TexturaLibera-Variabilis-$(VERSION).tar.xz: $(TARGETS) $(DOCUMENTS)
 	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | xz -z9 - > $@) && rm -rf txlibera
 
 clean:
-	rm -f $(SFDFILES) TexturaLibera.designspace TexturaLibera-Variabilis-*
-	rm -rf $(UFOS) variable_ttf
+	rm -f $(SFDFILES) TexturaLibera.designspace TexturaLibera-Variabilis-* $(TARGETS)
+	rm -rf $(UFOS)
