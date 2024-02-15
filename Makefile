@@ -8,11 +8,11 @@ SFDFILES = TexturaLibera-ExtraLight.sfd TexturaLibera-Light.sfd \
            TexturaLibera-BookCondensed.sfd TexturaLibera-ExtraLightCondensed.sfd TexturaLibera-LightCondensed.sfd \
            TexturaLibera-MinimumCondensed.sfd TexturaLibera-MaximumCondensed.sfd
 UFOS = $(SFDFILES:.sfd=.ufo)
-TARGETS = variable_ttf/TexturaLibera.ttf
+TARGETS = variable_ttf/TexturaLibera-VF.ttf
 DOCUMENTS = FONTLOG.txt LICENSE README.md TexturaLibera-Specimen.pdf
 DISTTYPE = zip
 
-VERSION = 0.2.2
+VERSION = 1.0.0
 
 .PHONY: all clean dist ttf otf woff version
 
@@ -62,56 +62,27 @@ TexturaLibera-MaximumCondensed.sfd: TexturaLibera-ExtraLightCondensed.sfd Textur
 TexturaLibera.designspace: TexturaLibera-Book.ufo TexturaLibera-Minimum.ufo TexturaLibera-Maximum.ufo TexturaLibera-BookExpanded.ufo TexturaLibera-MinimumExpanded.ufo TexturaLibera-MaximumExpanded.ufo TexturaLibera-BookCondensed.ufo TexturaLibera-MinimumCondensed.ufo TexturaLibera-MaximumCondensed.ufo
 	./make_designspace.py $@ $^
 
-variable_ttf/TexturaLibera.ttf: TexturaLibera.designspace
+variable_ttf/TexturaLibera-VF.ttf: TexturaLibera.designspace
 	fontmake -m $< -o variable
 
-dist: TexturaLibera-TTF-$(VERSION).$(DISTTYPE) TexturaLibera-OTF-$(VERSION).$(DISTTYPE) TexturaLibera-WOFF-$(VERSION).$(DISTTYPE)
+dist: TexturaLibera-Variabilis-$(VERSION).$(DISTTYPE)
 
 version:
 	for i in $(wildcard TexturaLibera-*.sfdir); do sed -i -e '/^Version:/c Version: $(VERSION)' $$i/font.props; done
 
-TexturaLibera.css:
-	./makecss.rb > $@
-
-TexturaLibera-TTF-$(VERSION).zip: $(TTFONTS) $(DOCUMENTS)
+TexturaLibera-Variabilis-$(VERSION).zip: $(TARGETS) $(DOCUMENTS)
 	rm -f $@; rm -rf txlibera
 	mkdir txlibera && cp $^ txlibera && zip -m9r $@ txlibera
-TexturaLibera-TTF-$(VERSION).tar.gz: $(TTFONTS) $(DOCUMENTS)
+TexturaLibera-Variabilis-$(VERSION).tar.gz: $(TARGETS) $(DOCUMENTS)
 	rm -f $@; rm -rf txlibera
 	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | gzip -9 - > $@) && rm -rf txlibera
-TexturaLibera-TTF-$(VERSION).tar.bz2: $(TTFONTS) $(DOCUMENTS)
+TexturaLibera-Variabilis-$(VERSION).tar.bz2: $(TARGETS) $(DOCUMENTS)
 	rm -f $@; rm -rf txlibera
 	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | bzip2 -z9 - > $@) && rm -rf txlibera
-TexturaLibera-TTF-$(VERSION).tar.xz: $(TTFONTS) $(DOCUMENTS)
-	rm -f $@; rm -rf txlibera
-	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | xz -z9 - > $@) && rm -rf txlibera
-
-TexturaLibera-OTF-$(VERSION).zip: $(OTFONTS) $(DOCUMENTS)
-	rm -f $@; rm -rf txlibera
-	mkdir txlibera && cp $^ txlibera && zip -m9r $@ txlibera
-TexturaLibera-OTF-$(VERSION).tar.gz: $(OTFONTS) $(DOCUMENTS)
-	rm -f $@; rm -rf txlibera
-	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | gzip -9 - > $@) && rm -rf txlibera
-TexturaLibera-OTF-$(VERSION).tar.bz2: $(OTFONTS) $(DOCUMENTS)
-	rm -f $@; rm -rf txlibera
-	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | bzip2 -z9 - > $@) && rm -rf txlibera
-TexturaLibera-OTF-$(VERSION).tar.xz: $(OTFONTS) $(DOCUMENTS)
-	rm -f $@; rm -rf txlibera
-	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | xz -z9 - > $@) && rm -rf txlibera
-
-TexturaLibera-WOFF-$(VERSION).zip: $(WOFFONTS) $(DOCUMENTS) TexturaLibera.css
-	rm -f $@; rm -rf txlibera
-	mkdir txlibera && cp $^ txlibera && zip -m9r $@ txlibera
-TexturaLibera-WOFF-$(VERSION).tar.gz: $(WOFFONTS) $(DOCUMENTS) TexturaLibera.css
-	rm -f $@; rm -rf txlibera
-	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | gzip -9 - > $@) && rm -rf txlibera
-TexturaLibera-WOFF-$(VERSION).tar.bz2: $(WOFFONTS) $(DOCUMENTS) TexturaLibera.css
-	rm -f $@; rm -rf txlibera
-	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | bzip2 -z9 - > $@) && rm -rf txlibera
-TexturaLibera-WOFF-$(VERSION).tar.xz: $(WOFFONTS) $(DOCUMENTS) TexturaLibera.css
+TexturaLibera-Variabilis-$(VERSION).tar.xz: $(TARGETS) $(DOCUMENTS)
 	rm -f $@; rm -rf txlibera
 	mkdir txlibera && cp $^ txlibera && (tar cO txlibera | xz -z9 - > $@) && rm -rf txlibera
 
 clean:
-	rm -f $(SFDFILES) TexturaLibera.designspace TexturaLibera-TTF-* TexturaLibera-OTF-* TexturaLibera-WOFF-* TexturaLibera.css
+	rm -f $(SFDFILES) TexturaLibera.designspace TexturaLibera-Variabilis-*
 	rm -rf $(UFOS) variable_ttf
