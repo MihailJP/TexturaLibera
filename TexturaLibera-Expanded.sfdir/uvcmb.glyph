@@ -5,7 +5,7 @@ Flags: MW
 LayerCount: 4
 Fore
 Refer: 152 878 N 1 0 0 1 480 0 2
-Refer: 85 117 N 1 0 0 1 0 0 2
+Refer: 85 117 N 1 0 0 1 0 0 3
 Ligature2: "Glyph composition-1" u vcmb
 Colour: ffff
 EndChar
