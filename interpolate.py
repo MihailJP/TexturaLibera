@@ -10,5 +10,4 @@ for lookup in font1.gsub_lookups:
 for lookup in font1.gpos_lookups:
     font.importLookups(font1, lookup)
 font.encoding = "UnicodeBmp"
-font.familyname = font1.familyname
 font.save(argv[1])

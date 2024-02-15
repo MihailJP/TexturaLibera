@@ -7,7 +7,7 @@ from fontTools.designspaceLib import DesignSpaceDocument, AxisDescriptor, Source
 root = os.getcwd()
 doc = DesignSpaceDocument()
 
-familyName = "Textura Libera Variabilis"
+familyName = "Textura Libera"
 
 #------
 # axes
@@ -34,13 +34,13 @@ doc.addAxis(a2)
 #---------
 
 sourceList = [
-	("Book",              argv[ 2],  400, 100),
+	("Regular",           argv[ 2],  400, 100),
 	("Minimum",           argv[ 3],    1, 100),
 	("Maximum",           argv[ 4], 1000, 100),
-	("Book Expanded",     argv[ 5],  400, 200),
+	("Expanded",          argv[ 5],  400, 200),
 	("Minimum Expanded",  argv[ 6],    1, 200),
 	("Maximum Expanded",  argv[ 7], 1000, 200),
-	("Book Condensed",    argv[ 8],  400,  50),
+	("Condensed",         argv[ 8],  400,  50),
 	("Minimum Condensed", argv[ 9],    1,  50),
 	("Maximum Condensed", argv[10], 1000,  50),
 ]

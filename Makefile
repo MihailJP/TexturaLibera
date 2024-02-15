@@ -2,6 +2,7 @@
 STROKEFONTS = TexturaLibera-Medium.sfdir TexturaLibera-Bold.sfdir
 SFDFILES = TexturaLibera-ExtraLight.sfd TexturaLibera-Light.sfd \
            TexturaLibera-Book.sfd TexturaLibera-Minimum.sfd TexturaLibera-Maximum.sfd \
+           TexturaLibera-Book1.sfd \
            TexturaLibera-ExtraLight1.sfd TexturaLibera-Light1.sfd \
            TexturaLibera-BookExpanded.sfd TexturaLibera-ExtraLightExpanded.sfd TexturaLibera-LightExpanded.sfd \
            TexturaLibera-MinimumExpanded.sfd TexturaLibera-MaximumExpanded.sfd\
@@ -22,6 +23,8 @@ TexturaLibera-ExtraLight.sfd: $(STROKEFONTS)
 	./make-outline.py $@ 200 1 .3
 TexturaLibera-Light.sfd: $(STROKEFONTS)
 	./make-outline.py $@ 300 1 .3
+TexturaLibera-Book1.sfd: $(STROKEFONTS)
+	./make-outline.py $@ 400 1 .3
 
 TexturaLibera-ExtraLight1.sfd: TexturaLibera-ExtraLight.sfd TexturaLibera-Light.sfd
 	./interpolate.py $@ $^ -1
@@ -58,6 +61,10 @@ TexturaLibera-MaximumCondensed.sfd: TexturaLibera-ExtraLightCondensed.sfd Textur
 
 .sfd.ufo:
 	./makefont.py $< $@ && sed -i~ -f fix_features.sed $@/features.fea
+	sed -i~ -e "/<key>openTypeNameVersion<\/key>/ { n; s/<string>.*<\/string>/<string>$$(grep "^Version: " $< | sed -e "s/^Version: //")<\/string>/; }" $@/fontinfo.plist
+
+TexturaLibera-Book.ufo: TexturaLibera-Book.sfd TexturaLibera-Book1.ufo
+	./makefont.py $< $@ && sed -i~ -f fix_features.sed $@/features.fea && cp TexturaLibera-Book1.ufo/fontinfo.plist $@/fontinfo.plist
 
 TexturaLibera.designspace: TexturaLibera-Book.ufo TexturaLibera-Minimum.ufo TexturaLibera-Maximum.ufo TexturaLibera-BookExpanded.ufo TexturaLibera-MinimumExpanded.ufo TexturaLibera-MaximumExpanded.ufo TexturaLibera-BookCondensed.ufo TexturaLibera-MinimumCondensed.ufo TexturaLibera-MaximumCondensed.ufo
 	./make_designspace.py $@ $^
@@ -68,7 +75,7 @@ variable_ttf/TexturaLibera-VF.ttf: TexturaLibera.designspace
 dist: TexturaLibera-Variabilis-$(VERSION).$(DISTTYPE)
 
 version:
-	for i in $(wildcard TexturaLibera-*.sfdir); do sed -i -e '/^Version:/c Version: $(VERSION)' $$i/font.props; done
+	for i in $(wildcard TexturaLibera-*.sfdir); do sed -i~ -e '/^Version:/ s/^Version:.*$$/Version: $(VERSION)/' $$i/font.props; done
 
 TexturaLibera-Variabilis-$(VERSION).zip: $(TARGETS) $(DOCUMENTS)
 	rm -f $@; rm -rf txlibera
