@@ -9,7 +9,7 @@ SFDFILES = TexturaLibera-ExtraLight.sfd TexturaLibera-Light.sfd \
            TexturaLibera-MinimumCondensed.sfd TexturaLibera-MaximumCondensed.sfd
 UFOS = $(SFDFILES:.sfd=.ufo)
 TARGETS = variable_ttf/TexturaLibera-VF.ttf
-DOCUMENTS = FONTLOG.txt LICENSE README.md TexturaLibera-Specimen.pdf
+DOCUMENTS = FONTLOG.txt LICENSE README.md
 DISTTYPE = zip
 
 VERSION = 1.0.0
