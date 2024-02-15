@@ -13,7 +13,7 @@ TARGETS = TexturaLibera.ttf
 DOCUMENTS = FONTLOG.txt LICENSE README.md
 DISTTYPE = zip
 
-VERSION = 1.0.0
+VERSION = 1.0.1
 
 .PHONY: all clean dist ttf otf woff version
 
